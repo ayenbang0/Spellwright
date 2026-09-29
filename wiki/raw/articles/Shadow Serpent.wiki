@@ -1,0 +1,7 @@
+<!-- title: Shadow Serpent | updated: 2026-01-22T22:19:12Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Shadow_Serpent.png|desc=Winding serpentine spell|type=Spell Projectiles|rarity=Normal|mana_cost1=11|mana_cost2=15|mana_cost3=19|dmg1=30 (DPS)|dmg2=60 (DPS)|dmg3=120 (DPS)|misc_a_1=Sends a Shadow Serpent with a length of 6 meters|misc_a_2=Sends a Shadow Serpent with a length of 12 meters|misc_a_3=Sends a Shadow Serpent with a length of 24 meters}}The '''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, travels slowly in the direction cast, passing through all enemies and walls.
+
+'''Description:''' The curved movement may be slow, but it increases the hitting chance, with a body capable of dealing damage with each body segment, the Shadow Serpent is favored by many mages.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Rare]]

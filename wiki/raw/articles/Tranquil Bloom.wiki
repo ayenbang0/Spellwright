@@ -1,0 +1,5 @@
+<!-- title: Tranquil Bloom | updated: 2024-05-18T13:43:14Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell InfoBox|image=Tranquil_Bloom.png|type=Spell Passive|rarity=Normal|misc_a_1=MP Regen of the wand +3/s|misc_a_2=MP Regen of the wand +6/s|misc_a_3=MP Regen of the wand +12/s}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Passive. When placed in wand, it increases the wand's mana regen.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Passive]]
+[[Category:Rarity: Normal]]

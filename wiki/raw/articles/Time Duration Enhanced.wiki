@@ -1,0 +1,5 @@
+<!-- title: Time Duration Enhanced | updated: 2024-05-18T13:22:18Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Time_Duration_Enhanced.png|type=Spell Boost|rarity=Normal|spell_duration1=+2s|spell_duration2=+3.5s|spell_duration3=+6s}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It increases the time the affected spell lasts. It extends flight time for projectiles like [[Magic Bullet]] or [[Shadow Serpent]] and lengthens charge time for spells like [[Condensed Water Bubble]].
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

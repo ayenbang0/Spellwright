@@ -1,0 +1,13 @@
+<!-- title: Mimicry Cube | updated: 2024-05-18T13:24:28Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Mimicry_Cube.png|type=Spell Boost|rarity=Rare|misc_a_1=Imitates the next spell, maximumly duplicating its level 1 effect|misc_a_2=Imitates the next spell, maximumly duplicating its level 2 effect|misc_b_3=Imitates the next spell, maximumly duplicating its level 3 effect}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It copies the spell to the right. The level copied depends on the level of the {{PAGENAME}} and the level of the copied spell.
+
+'''Examples'''
+
+* Mimicry Cube > Accelerator results in Accelerator > Accelerator
+* Mimicry Cube > Accelerator+ results in Accelerator > Accelerator+
+* Mimicry Cube+ > Accelerator results in Accelerator > Accelerator
+* Mimicry Cube+ > Accelerator+ results in Accelerator+ > Accelerator+
+
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Rare]]

@@ -1,0 +1,7 @@
+<!-- title: Echo | updated: 2024-12-03T00:40:12Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Echo.png|type=Spell Boost|rarity=Rare|misc_a_1=When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 80%, with a shortest interval of 0.3 seconds|misc_a_2=When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 65%, with a shortest interval of 0.2 seconds|misc_a_3=When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 50%, with a shortest interval of 0.1 seconds}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. If the spell on the left hits an enemy, it fires the spell on the right at a reduced mana cost.
+
+'''Description:''' Casting this set of spells does not code the MP for spells on the right.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Rare]]

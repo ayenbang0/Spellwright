@@ -1,0 +1,5 @@
+<!-- title: Chain of Lightning | updated: 2024-05-18T13:07:48Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Chain_of_Lightning.png|type=Spell Boost|rarity=Rare|misc_a_1=Connects spells cast simultaneously and deal 9 damage to objects along the path|misc_a_2=Connects spells cast simultaneously and deal 18 damage to objects along the path|misc_a_3=Connects spells cast simultaneously and deal 36 damage to objects along the path}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It causes lightning arcs between projectiles that damage enemies.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Rare]]

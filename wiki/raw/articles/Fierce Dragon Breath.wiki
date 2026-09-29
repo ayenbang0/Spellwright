@@ -1,0 +1,8 @@
+<!-- title: Fierce Dragon Breath | updated: 2024-11-08T22:43:44Z | cats: Category:Continuous Casting, Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Fierce_Dragon_Breath.png|type=Spell Projectiles|rarity=Rare|mana_cost1=Duration x16|mana_cost2=Duration x22|mana_cost3=Duration x28|dmg1=80 (DPS), Per Second +30%|dmg2=160 (DPS), Per Second +40%|dmg3=320 (DPS), Per Second +50%|duration1=3 seconds|duration2=3 seconds|duration3=3 seconds|scatter1=60°|scatter2=60°|scatter3=60°|misc_a_1=Continuous Casting|misc_a_2=Continuous Casting|misc_a_3=Continuous Casting}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it breathes fire in a cone from the player continuously pushing the player back.
+
+'''Description:''' Mages used to carry the fire traps from the ruins in their hands, and eventually learning this spell. When casting Blazing Breath, there is no slowdown, but it continuously generates recoil during the casting.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Rare]]
+[[Category:Continuous Casting]]

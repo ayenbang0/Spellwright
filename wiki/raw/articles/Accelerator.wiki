@@ -1,0 +1,5 @@
+<!-- title: Accelerator | updated: 2024-12-03T00:22:33Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Accelerator.png|type=Spell Boost|rarity=Normal|spell_flight_speed1=+3|spell_flight_speed2=+6|spell_flight_speed3=+12}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It increases the speed of the spells it modifies.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

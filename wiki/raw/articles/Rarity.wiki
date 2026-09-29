@@ -1,0 +1,14 @@
+<!-- title: Rarity | updated: 2025-03-11T13:07:07Z | cats:  -->
+==Function==
+
+The Rarity of an [[Spells|Spell]] or [[Relics|Relic]] determines how it can be acquired.
+===Spells===
+
+*All Spells can be obtained through Chest, Side Rooms, Starting Wand(s) and Shops
+*The exceptions are: 
+**Epic Spells can not be obtained in a Shop or the Starting Wand(s)
+**Unique Spells can only be obtained under special conditions:
+***[[Enchanting Coin]] can be obtained by defeating the coin spider which spawns by destroying objects in Chapter 2. It is not guaranteed spawn every run.
+***All others are obtained by dropping any spell near [[Carrion Eater]].
+
+* Without Nightmare Mode, the chance to get an epic spell in a Spell room without any Spell Focus upgrades from [[Lilian]] is 1%. With Spell Focus, each spell has a 0.66% chance to be Epic. With Spell Focus+, each spell has a 0.5% chance to be Epic. Nightmare Modes 1 and 2 increase the chance by a factor of 1.5, while Nightmare Mode 3 doubles the chance, increasing it by a factor of 2.

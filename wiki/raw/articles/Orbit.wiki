@@ -1,0 +1,14 @@
+<!-- title: Orbit | updated: 2025-03-19T07:55:11Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Orbit.png|type=Spell Boost|rarity=Normal|spell_duration1=+4|spell_duration2=+7|spell_duration3=+11|spell_flight_speed2=+5|spell_flight_speed3=+10|misc_a_1=Orbit Effect Radius 3m|misc_b_1=Spell rotates around the caster|misc_a_2=Orbit Effect Radius 4m|misc_b_2=Spell rotates around the caster|misc_a_3=Orbit Effect Radius 5m|misc_b_3=Spell rotates around the caster}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It causes the affected spells to orbit around the player in a counterclockwise direction, and typically does not negate spell recoil.
+
+'''Description:''' Trajectory enhancements. These enhancements will override previous projectile trajectories.
+
+== Interactions ==
+
+* [[Arcane Explosion]]: Fires in a regular clockwise pattern, approximately 15 to 30 degrees.
+* [[Fierce Dragon Breath]]: Does not provide spell recoil during casting.
+* [[Thunderstorm]]: Places the spell next to the caster in a random location between 0 and 360 degrees.
+
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

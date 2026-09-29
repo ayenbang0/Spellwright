@@ -1,0 +1,5 @@
+<!-- title: Range Enhanced | updated: 2025-01-04T00:48:04Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Range_Enhanced.png|type=Spell Boost|rarity=Normal|spell_effect_radius1=+30%|spell_effect_radius2=+60%|spell_effect_radius3=+120%}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. it increases the area of effect of the spells it modifies. 
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

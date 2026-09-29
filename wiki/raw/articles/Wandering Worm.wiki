@@ -1,0 +1,7 @@
+<!-- title: Wandering Worm | updated: 2024-07-24T05:25:30Z | cats:  -->
+[[File:Wandering Worm.png|left|thumb]]
+
+== Stats ==
+HP: 650
+
+A very aggressive giant worm that performsrapid charging attacks.

@@ -1,0 +1,38 @@
+<!-- title: Split | updated: 2024-12-27T20:25:29Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Split.png|type=Spell Boost|rarity=Normal|mp_cost1=x150%|mp_cost2=x150%|mp_cost3=x150%|misc_a_1=Splits into 3 spells upon the completion of the spell, each dealing 33% damage|misc_a_2=Splits into 5 spells upon the completion of the spell, each dealing 33% damage|misc_a_3=Splits into 8 spells upon the completion of the spell, each dealing 33% damage}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It splits a single cast into multiple casts for a slight increase in MP Cost but a damage per spell decrease. The Mana Cost to damage ratio improves as the Spell Level increases.
+
+When applied to passive spells like [[Bi'an Flying Sword]], [[Rune Hammer]] and [[Prism Core]] they be always in the split state, doing 33% of the original damage, which is especially detrimental for [[Bi'an Flying Sword]] which will not receive any extra copies.
+
+{| class="fandom-table"
+|+Split Examples
+!Level
+!MP Cost
+! Projectiles
+!Projectile Damage
+!Overall Damage
+!Damage:MP Cost
+|-
+|1
+|150%
+|3
+|33%
+|200%
+|1.67
+|-
+|2
+|150%
+|5
+|33%
+|267%
+|2.11
+|-
+|3
+|150%
+| 8
+|33%
+|367%
+|2.78
+|}
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

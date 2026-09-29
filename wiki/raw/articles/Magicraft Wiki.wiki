@@ -1,0 +1,41 @@
+<!-- title: Magicraft Wiki | updated: 2025-06-25T14:33:39Z | cats: Category:Enviroment, Category:Items, Category:Magicraft Wiki, Category:User Creations -->
+<mainpage-leftcolumn-start />
+<div style="text-align: center; font-size: x-large; padding: 1em;">'''Welcome to the {{SITENAME}}!'''</div>
+
+Magicraft is a Roguelike game that uses a variety of spells to match unimaginable spell effects, and the construction of ultra-high degrees of freedom cannot even be exhausted by developers.
+
+== Important Information ==
+Due to some misconceptions: This wiki is not official and fan-made. Still if you see  content that does not match the criteria below you can report this in the wiki section of the official [https://discord.gg/Twdt4jnJ Discord Server].
+
+You dont need an account for posting/editing content. Note: You can still get banned via IP-address of this wiki or fandom. Please only publish content if it meets the following criteria:
+
+# Must be in English
+# Must be in the right page and in correct format(If you dont know the correct format or you are unsure feel free to ask the mods or in discord)
+# Must be correct information about magicraft
+# Does not contain offensive content
+
+If you find missing information we would be really thankfull if you add it! If you dont want or cant do it please report it so we can add it.
+
+== Pages ==
+
+* [[Achievements]]
+* [[Curses]]
+* [[Monsters & Bosses]]
+* [[NPCs]]
+* [[Potions]]
+* [[Relics]]
+* [[Spells]]
+* [[Wands]]
+* [[Builds]]
+* [[Rooms]]
+* [[Currency]]
+* [[Leah|Sets]]
+
+=== Other languages ===
+
+* [https://magicraft.fandom.com/ja/wiki/Magicraft_Wiki Japanese]
+
+[[Category:{{SITENAME}}]]
+[[Category:Items]]
+[[Category:Enviroment]]
+[[Category:User Creations]]

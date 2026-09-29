@@ -1,0 +1,5 @@
+<!-- title: Troll Serum | updated: 2024-05-18T13:23:36Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Troll_Serum.png|type=Spell Boost|rarity=Normal|misc_a_1=Summoned creatures have +40% HP|misc_b_1=Summoned creatures restore +2.5 HP per second|misc_a_2=Summoned creatures have +80% HP|misc_b_2=Summoned creatures restore +5 HP per second|misc_a_3=Summoned creatures have +160% HP|misc_b_3=Summoned creatures restore +10 HP per second}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It increases the HP and HP regen of affected summons.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

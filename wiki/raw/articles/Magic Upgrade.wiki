@@ -1,0 +1,2 @@
+<!-- title: Magic Upgrade | updated: 2024-11-23T14:57:08Z | cats:  -->
+{{Spell InfoBox|title=Magic Upgrade|desc=Boosts the first spell on both sides by 1 level, without exceeding the level cap|type=Spell Boost|rarity=Epic}}

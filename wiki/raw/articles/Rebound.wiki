@@ -1,0 +1,5 @@
+<!-- title: Rebound | updated: 2024-05-18T13:15:29Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Rebound.png|type=Spell Boost|rarity=Normal|spell_rebound_count1=+2|spell_rebound_count2=+4|spell_rebound_count3=+8|misc_a_1=Duration of each rebound +1|misc_a_2=Duration of each rebound +1|misc_a_3=Duration of each rebound +1}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It increases number of times that a spell can bounce off objects and increases the Spell Duration for each bounce.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

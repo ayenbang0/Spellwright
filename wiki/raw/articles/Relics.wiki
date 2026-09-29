@@ -1,0 +1,635 @@
+<!-- title: Relics | updated: 2025-07-08T23:55:31Z | cats:  -->
+'Relics' are items gained from [[Relic Rooms]] (and random chest drops) that grant you special powers. Relics are the opposite of [[Curses]], though some can still have negative effects. Like [[Spells]], Relics are lost on [[Death]]. However, unlike [[Spells]], Relics are entirely passive & cannot be dropped or removed. Relics can, however, be upgraded or re-rolled by [[Potions]] or other Relics.
+
+If you defeat the boss of a level without taking any HP damage (you can still lose shields), the game will open another room before proceeding with Crimsom Relics. You will have the chance to get 3 special Epic Relics, each one at the cost of decreasing your maximum HP by an amount .
+
+While playing on Nightmare 2, there is a 1% chance for a relic to be Epic. On Nightmare 3, this chance is 1.6%.
+
+== The Current Relic List ==
+{| class="sortable fandom-table"
+!Relic Name
+!Icon
+!Rarity
+!Max Level
+!Effect
+|-
+|Knight's Boots
+|[[File:Icon Adamant Boots.png|center|frameless]]
+|Rare
+|1
+|Grants immunity to ground spikes
+Grants immunity to Venom
+
+'''Note:''' Part of the [[Relics#The Current Series List|Knight Series]]
+|-
+|Beast Fangs
+|[[File:Icon Beast Fangs.png|center|frameless]]
+|Normal
+|5
+|Increases all DMG dealt by 20/35/50/65/80%. Note, does NOT appear to affect poison stacks, such as those from a [[Venom Crystal]]
+|-
+|Black Mark
+|[[File:Icon Black Mark.png|center|frameless]]
+|Rare
+|1
+|One random item in the shop is now free
+|-
+|Blade of Fury
+|[[File:Icon Blade of Fury.png|center|frameless]]
+|Normal
+|5
+|Increases CRIT DMG from 200% to 250/300/350/400/450%
+|-
+|Blood Key
+|[[File:Icon Blood Key.png|center|frameless]]
+|Epic
+|1
+|After defeating a boss, a Scarlet Relic room will appear.
+'''Note:''' Costs -25 Health from Scarlet Relic room.
+
+'''Note:''' Only works on final chapter boss.
+|-
+|Blood-thirsty Gaze
+|[[File:Icon Bloodthirsty Gaze.png|center|frameless]]
+|Normal
+|5
+|Upon killing an enemy, there is a 20% chance to restore 1 HP
+|-
+|Casket of Souls 
+|[[File:Icon Casket of Souls.png|center|frameless]]
+|Normal
+|3
+|Upon killing an enemy, there is a 30% chance to summon a tracking soul, dealing 65 DMG
+Note: Part of the [[Relics#The Current Series List|Soul Bone Series]]
+|-
+|Close Observation
+|[[File:Icon Close Observation.png|center|frameless]]
+|Normal
+|2
+|Displays enemy HP bars / (Lv2) numbers.
+|-
+|Cloud Piercer
+|[[File:Icon Cloud Piercer.png|center|frameless]]
+|Normal
+|1
+|Spells can penetrate walls
+|-
+|Crimson Anklet
+|[[File:Icon Crimson Anklet.png|center|frameless]]
+|Rare
+|1
+|Reduces Movement Speed to 70%
+Accelerates to 140% if not taking DMG within 8 sec
+|-
+|Pros-pector's Goblet
+|[[File:Icon Cup of Avarice.png|center|frameless]]
+|Rare
+|1
+|Each time entering a new area, gains an additional 5% of current coins, up to 10
+'''Note:''' Part of the [[Relics#The Current Series List|Gold Rush Series]].
+|-
+|Dashing Ear
+|[[File:Icon Dashing Ear.png|center|frameless]]
+|Normal
+|1
+|Upon taking DMG, Movement Speed instantly increases by 160%, and becomes invincible, lasting for 0.8 seconds
+|-
+|Demon Mask
+|[[File:Icon Demon Mask.png|center|frameless]]
+|Normal
+|5
+|Increases the CRIT Rate of all DMG types by 10/18/26/34/42%
+|-
+|Demon-bone Tail
+|[[File:Icon Demonbone Tail.png|center|frameless]]
+|Normal
+|1
+|Generates a magic bullet that follows you around upon enemy death
+|-
+|Drill
+|[[File:Drilll.png|center|frameless]]
+|Epic
+|5
+| +1/2/3/4/5 slots per wand
+|-
+|Dusty Treasure
+|[[File:Icon Dusty Treasure.png|center|frameless]]
+|Normal
+|10
+|Randomly upgrades one relic. If no relic can be upgraded, receive a common relic
+|-
+|Electrified Crown
+|[[File:Icon Electrified Crown.png|center|frameless]]
+|Normal
+|5
+|Deals 10% of all enemie's max HP (0.2% for bosses) + 30 DMG to all enemies upon taking DMG
+|-
+|Elven Ears
+|[[File:Icon Elven Ears.png|center|frameless]]
+|Normal
+|1
+|Casting spells no longer reduces Movement Speed
+|-
+|Ember-heart
+|[[File:Icon Emberheart.png|center|frameless]]
+|Normal
+|10
+|Deals 16 DMG per sec to enemies within 3 meters
+|-
+|Endless Chest
+|[[File:Icon Endless Chest.png|center|frameless]]
+|Rare
+|1
+|When opening a chest, there is a 30% chance to generate another chest
+|-
+|Endless Elixir
+|[[File:Icon Endless Elixir.png|center|frameless]]
+|Rare
+|1
+|Each potion use has a 30% chance to obtain a new potion
+|-
+|Finite Gloves
+|[[File:Icon Finite Gloves.png|center|frameless]]
+|Rare
+|1
+|Cause detonation at regular intervals, killing half of the non-boss enemies on the field
+|-
+|Fortune Earrings
+|[[File:Icon Fortune Earrings.png|center|frameless]]
+|Normal
+|2
+|Relic option +1/2
+|-
+|Four-Leaf Clover
+|[[File:Icon Four-Leaf Clover.png|center|frameless]]
+|Normal
+|5
+|There is a 11/22/33/44/55% chance to dodge attacks
+|-
+|Guardian Sprite
+|[[File:Icon Guardian Sprite.png|center|frameless]]
+|Normal
+|5
+|Summons 3/6/9/12/15 sprite(s) to intercept enemy spells
+|-
+|Healing Belt
+|[[File:Icon Healing Belt.png|center|frameless]]
+|Normal
+|5
+|Each Potion use increases Max HP by 3 and Max MP by 2
+|-
+|Hexa-gonal Die
+|[[File:Icon Hexagonal Die.png|center|frameless]]
+|Normal
+|5
+|Gains 1/2/3/4/5 chance(s) to refresh relics each time a relic is obtained
+|-
+|Hourglass of Time
+|[[File:Icon Hourglass of Time.png|center|frameless]]
+|Epic
+|2
+|Upon death gains one chance to revive Restores 50/80% of max HP upon reviving.
+This relic disappears after use
+
+'''Note''': Costs -35 Health the Scarlet Relic room.
+|-
+|Hunter's Talisman
+|[[File:Icon Hunters Talisman.png|center|frameless]]
+|Rare
+|2
+|Improves visibility
+|-
+|Knight's Breast-plate
+|[[File:Icon Knights Breastplate.png|center|frameless]]
+|Rare
+|1
+|Reduces DMG taken by 25%
+'''Note:''' Part of the [[Relics#The Current Series List|Knight Series]].
+|-
+|Knight's Helm
+|[[File:Icon Knights Helm.png|center|frameless]]
+|Rare
+|2
+|Reduces Indiscriminate DMG taken to 1/0.1%
+'''Note:''' Part of the [[Relics#The Current Series List|Knight Series]].
+|-
+|Lucky Bunny Ear
+|[[File:Icon Lucky Bunny Ear.png|center|frameless]]
+|Rare
+|3
+|Spell options +1
+|-
+|Magician's Robe
+|[[File:Icon Magicians Robes.png|center|frameless]]
+|Rare
+|3
+|Remote control your wand, allowing casting spells up to 5 meters away
+Spell effect radius: -30%
+|-
+|Magni-fying Glass
+|[[File:Icon Magnifying Glass.png|center|frameless]]
+|Normal
+|5
+|Expands the effect radius of spells and relics by 20%
+|-
+|Mask of the Hexer
+|[[File:Icon Mask of the Hexer.png|center|frameless]]
+|Rare
+|3
+|For each curse you own, increases all DMG dealt by 10%/15%
+|-
+|Mer-chant's Bauble
+|[[File:Icon Merchants Bauble.png|center|frameless]]
+|Epic
+|1
+|When encountering a shop or crafting room, a special room will always appear
+|-
+|Merlin's Beard
+|[[File:Icon Merlins Beard.png|center|frameless]]
+|Epic
+|1
+|Summon unit limit x2, which cannot be applied to wand spirit or summoning tome.
+'''Note:''' Part of the [[Relics#The Current Series List|Merlin series]].
+|-
+|Merlin's Boots
+|[[File:Icon Merlins Boots.png|center|frameless]]
+|Normal
+|5
+|Restores 4 MP upon enemy death
+'''Note:''' Part of the [[Relics#The Current Series List|Merlin series]].
+|-
+|Merlin's Hat
+|[[File:Icon Merlins Hat.png|center|frameless]]
+|Normal
+|5
+|Max MP +30
+'''Note:''' Part of the [[Relics#The Current Series List|Merlin series]].
+|-
+|Merlin's Robe
+|[[File:Icon Merlins Robe.png|center|frameless]]
+|Normal
+|3
+|MP Regeneration +2/4/6/s
+'''Note:''' Part of the [[Relics#The Current Series List|Merlin series]].
+|-
+|Mirror of Vision
+|[[File:Icon Mirror of Vision.png|center|frameless]]
+|Unique
+|3
+|Permanent flight
+Wand limit +1/2/3
+
+All wands automatically equip Wand Spirit(+)
+|-
+|Octagonal Die
+|[[File:Icon Octagonal Die.png|center|frameless]]
+|Epic
+|2
+|Gains 1 chance(s) to refresh spells each time a spell is obtained.
+'''Note''': Costs -66 Health from the Scarlet Relic room.
+|-
+|Pandora's Box
+|[[File:Icon Pandoras Box.png|center|frameless]]
+|Rare
+|3
+|Upon entering a room, the first 1/2/3 slots of spells in the inventory will be reforged
+|-
+|Tree Spirit Pendant
+|[[File:Icon Pendant of Vitality.png|center|frameless]]
+|Rare
+|3
+|Slowly restores HP to 30 when below 30
+'''Note:''' Part of the [[Relics#The Current Series List|Tree Spirit Series]].
+|-
+|Pros-pector's Gloves
+|[[File:Icon Prospectors Gloves.png|center|frameless]]
+|Normal
+|3
+|Upon killing an enemy, there is a 8/16/24% chance to drop coins
+'''Note:''' Part of the [[Relics#The Current Series List|Gold Rush Series]].
+|-
+|Pros-pector's Pickaxe
+|[[File:Icon Prospectors Pickaxe.png|center|frameless]]
+|Normal
+|5
+|Increases DMG dealt by 1/2/3/4/5% for every 3/4/5/6/7 coins you own
+'''Note:''' Part of the [[Relics#The Current Series List|Gold Rush Series]].
+|-
+|Pros-pector's Vest
+|[[File:Icon Prospectors Vest.png|center|frameless]]
+|Epic
+|1
+|Restores equivalent HP when picking up coins.
+'''Note''': Costs -32 Health from the Scarlet Relic room.
+
+'''Note:''' Part of the [[Relics#The Current Series List|Gold Rush Series]].
+|-
+|Rageful Eye
+|[[File:Icon Rageful Eye.png|center|frameless]]
+|Normal
+|3
+|For every 2 missing HP, increases all DMG dealt by 1%
+|-
+|Ranger's Boots
+|[[File:Icon Rangers Boots.png|center|frameless]]
+|Normal
+|1
+|Grants immunity to slow effects ( except those caused by spells)
+Movement Speed +1
+|-
+|Reaper Mask
+|[[File:Icon Reaper Mask.png|center|frameless]]
+|Rare
+|1
+|There is a 1% chance to kill a non-boss unit
+|-
+|Replica Gloves
+|[[File:Icon Replica Gloves.png|center|frameless]]
+|Epic
+|2
+|Upon casting a spell, there is a 25/45% chance to duplicate the spell in a random direction.
+'''Note''': Costs -28 Health from the Scarlet Relic room.
+|-
+|Resilient Physique
+|[[File:Icon Resilient Physique.png|center|frameless]]
+|Rare
+|1
+|Increases all DMG dealt by 100%
+Increases all DMG taken by 70%
+|-
+|Rogue Cloak
+|[[File:Icon Rogue Cloak.png|center|frameless]]
+|Rare
+|2
+|Grants invisibility if not attacking for 5 sec
+Attack breaks invisibility
+
+'''Note:''' Author can still see you.
+|-
+|Seed of Greed
+|[[File:Icon Seed of Greed.png|center|frameless]]
+|Normal
+|1
+|Absorbs all HP
+After absorbing 70HP, grows and increases Max HP by 50
+
+'''Note:''' Can be rerolled by relic potion after Max HP increase with no downside.
+|-
+|Silver Compass
+|[[File:Icon Silver Compass.png|center|frameless]]
+|Epic
+|1
+|The next room is guaranteed to have a chest or a statue.
+'''Note''': Costs -68 Health from the Scarlet Relic room.
+|-
+|Silver Key
+|[[File:Icon Silver Key.png|center|frameless]]
+|Epic
+|1
+|Grants access to all chests and doors.
+'''Note''': Costs -58 Health from the Scarlet Relic room.
+|-
+|Soulbone Armor
+|[[File:Icon Soulbone Armor.png|center|frameless]]
+|Normal
+|5
+|Upon killing an enemy, there is a 20% chance to generate a shield
+'''Note:''' Part of the [[Relics#The Current Series List|Soul Bone Series]]. 
+|-
+|Soulbone Crown
+|[[File:Icon Soulbone Crown.png|center|frameless]]
+|Normal
+|2
+|Gains 1 temporary shield points upon killing 3 enemies
+'''Note:''' Part of the [[Relics#The Current Series List|Soul Bone Series]].
+|-
+|Soulbone Mantle
+|[[File:Icon Soulbone Mantle.png|center|frameless]]
+|Epic
+|1
+|Gains 20 shield points
+Gains 1 shield points for every 3 enemies killed
+
+'''Note''': Costs -99 Health from the Scarlet Relic room.
+
+'''Note:''' Part of the [[Relics#The Current Series List|Soul Bone Series]].
+|-
+|Sprite Wings
+|[[File:Icon Sprite Wings.png|center|frameless]]
+|Epic
+|1
+|Allows you to fly.
+'''Note''': Costs -42 Health from the Scarlet Relic room. Makes you immune to all pit traps, but not poison fields.
+|-
+|Stagnant Droplet
+|[[File:Icon Stagnant Droplet.png|center|frameless]]
+|Rare
+|1
+|Slows down enemy projectiles within 3 meters
+|-
+|Talisman of Focus
+|[[File:Icon Talisman of Focus.png|center|frameless]]
+|Rare
+|1
+|Reduces spell cooldowns, casting intervals, and scatter ba up to 60% when stationary
+|-
+|Titan's Pauldrons
+|[[File:Icon Titans Pauldrons.png|center|frameless]]
+|Normal
+|3
+|Max HP +20
+Body Size +15%
+Recoil -33%
+|-
+|Treant Circlet
+|[[File:Icon Treant Circlet.png|center|frameless]]
+|Rare
+|5
+|Gains 15 temporary shield points upon entering a door
+'''Note:''' Part of the [[Relics#The Current Series List|Tree Spirit Series]].
+|-
+|Treant Robe
+|[[File:Icon Treant Robe.png|center|frameless]]
+|Normal
+|5
+|Restores 5 HP upon entering a door
+'''Note:''' Part of the [[Relics#The Current Series List|Tree Spirit Series]]. 
+|-
+|Treant Shoulder-guards
+|[[File:Icon Treant Shoulderguards.png|center|frameless]]
+|Normal
+|5
+|Gains 3/6/9/12/15 shield points upon entering a door
+'''Note:''' Part of the [[Relics#The Current Series List|Tree Spirit Series]].
+|-
+|Wand Lens
+|[[File:Icon Wand Lens.png|center|frameless]]
+|Normal
+|3
+|Spell knockback +50%
+|-
+|Wild Tentacles
+|[[File:Icon Wild Tentacles.png|center|frameless]]
+|Normal
+|5
+|Increases Movement Speed by 1,5
+|-
+|Reboot Key
+|[[File:Reboot_key.png|center|frameless]]
+|Epic
+|1
+|Reroll your spells, wands, relics and curses. The item disappears afterwards.
+'''Note:''' This Item can only appear once in a map, and will bring you to the start of the zone. Rarity is matched, so it may be a good idea to pick up any cheap epics before choosing this item. Be aware, the game does not save until after you have completed your first choice room.
+|-
+|Explorer's Hat
+|[[File:Explorer's_hat.png|center|frameless|100x100px]]
+|Epic
+|1
+|Normal levels have one more door
+|-
+|Infusion Hand Seal
+|[[File:Infusion_hand_seal.png|center|frameless|100x100px]]
+|Normal
+|5
+|Increases all wand's secondary slot charge efficiency by 20%
+|-
+|Colorful Cloak
+|[[File:Colorful_cloak.png|center|frameless|100x100px]]
+|Rare
+|1
+|Spells receive random elemental effects
+|-
+|Ward Charm
+|[[File:Ward_charm.png|center|frameless|100x100px]]
+|Epic
+|1
+|Each Time you enter a room, there's a 33% chance to randomly remove one curse
+|-
+|Invisible Wings
+|[[File:Invisible_wings.png|center|frameless|100x100px]]
+|Rare
+|1
+|When taking damage, gain flight and increase Movement Speed by 30%. Till you enter the next door
+|-
+|Berseker 
+|[[File:Berserker.png|center|frameless|100x100px]]
+|Rare
+|1
+|Increases all DMG by 50% when HP is below 50%
+|-
+|Cardiotonic
+|[[File:Cardiotonic.png|center|frameless|100x100px]]
+|Rare
+|3
+|"Life room revenue increases by 30%"
+'''Note:''' Increases max health pickups behind the "HP Boost" doors.
+|-
+|Summoning Wealth Bell
+|[[File:WealthBell.png|center|frameless|100x100px]]
+|Rare
+|3
+|"Gold coin house revenue increases by 30%"
+'''Note:''' Increases gold pouch drops behind the "Coins" doors.
+|-
+|Coolant 
+|[[File:Coolant.png|center|frameless]]
+|Normal
+|5
+|Reduces relic active skill cooldown by 25%
+|-
+|Swordsman Cloak
+|[[File:Swordsman_cloak.png|center|frameless|100x100px]]
+|Unique
+|3
+|Press Space Bar to sprint, Invincible while sprinting and can use held wand once for free during sprint, Cooldown: 2 seconds
+Evil Slayer Sword MP Cost x90%
+|-
+|Bi'an
+|[[File:Bi'an.png|center|frameless|100x100px]]
+|Unique
+|3
+|Press Space Bar to use sword return. Recall all Bi'an flying swords, dealing damage to enemies along their returned path. Cooldown: 5s
+|-
+|Reaper 
+|[[File:Reaper skill.png|center|frameless|100x100px]]
+|Unique
+|2
+|Poison stacks applied x2/3
+Spells in the inventory will automatically be crafted upon entering a new room if they can be crafted
+'''Note:''' "inventory" only refers to the backpack. Will not combine Spell Prototype with other Spells
+|-
+|Original Shape
+|[[File:Originalshape.png|center|frameless]]
+|Unique
+|2
+|Press Space Bar to perform a Butt Slam toward the cursor location, Upon landing, deals damage equal to 50% of each target's Max HP (10% for bosses) within 3 meters. Cooldown: 10 seconds.
+If the Butt Slam kills any enemy, the cooldown is reset.
+|-
+|Druid's Horn
+|[[File:Druidshorn.png|center|frameless]]
+|Unique
+|5
+|Deal 10/20/30/40/50% of players max hp as damage per second to enemies and heal allies for 5/10/15/20/25% of players max hp per second. Both within 3/3.5/4/4.5/5 meters.
+|-
+|Bird beak mask
+|[[File:Birdbeakmask.png|center|frameless]]
+|Unique
+|2
+|Potion limit +1
+Every time you complete 2 battles? you get a bottle of potion
+Drinking potions will restore 5 health points
+|-
+|Mystical Artifact
+|[[File:Mystical artifact.png|thumb]]
+|
+| -
+|Each level gives 1 max hp!
+Acquired when gaining a common/rare/epic relic with all other common/rare/epic relics already in possession at max rank.
+|}
+
+== The Current Series List ==
+{| class="fandom-table"
+|+
+!Series Name
+!Series Effect
+!Series Parts
+|-
+|Knight Series
+|Invincible for 8 seconds every time you enter a room
+|
+*Knight's Boots
+*Knight's Breastplate
+* Knight's Helm
+|-
+|Soul Bone Series
+|When entering a room, convert 20% of temporary shields into regular shields
+|
+* Casket of Souls
+* Soulbone Armor
+* Soulbone Mantle
+* Soulbone Crown
+|-
+|Gold Rush Series
+|All units that touch the player immediately become 1 coin (except for bosses)
+|
+* Pros-pector's Gloves
+* Pros-pector's Pickaxe
+* Pros-pector's Vest
+* Pros-pector's Goblet
+|-
+|Merlin Series
+|Max mp +300
+|
+* Merlin's Beard
+* Merlin's Boots
+* Merlin's Hat
+* Merlin's Robe
+|-
+|Tree Spirit Series
+|Max hp +100
+|
+* Tree Spirit Pendant
+* Treant Shoulderguards
+* Treant Robe
+* Treant Circlet
+|}

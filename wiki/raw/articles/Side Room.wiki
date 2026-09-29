@@ -1,0 +1,21 @@
+<!-- title: Side Room | updated: 2024-03-07T09:24:01Z | cats:  -->
+Side Rooms are rarely-encountered areas that adjoin both normal and non-combat rooms. Siderooms in combat areas are usually locked and require a [[Key]], or other special circumstances. Some [[Relics]] & effects can guarantee certain Side Rooms.
+
+==Combat Area Side Rooms==
+These rooms are always locked or sealed in some way, and generally either require a key or a special event to open. Most 'Combat Area' Side Rooms are puzzles, assault courses, or otherwise challenges to the player. Combat Area Side Rooms are the most common form of Side Room you will encounter.  These include:
+
+* Rooms full of [[Chests|Cursed Chests]].
+* Spinning Fire Wheel Rooms
+* Assault Courses
+* Dark Room Assault Courses
+* Puzzle Button Rooms
+* Memory Sequence Rooms
+
+== Shop & WitchWorks Side Rooms ==
+Sometimes the [[Shop]] and [[WitchWorks]] contain various Side Rooms, which can appear on the left or right of the main area. These include:
+
+* The [[Potion Shop]].
+* The [[Rune Circle]].
+
+== Boss Area Side Rooms ==
+The rarest and most dangerous Side Rooms are the secret [[Blood Rooms]] that only adjoin certain (randomly chosen) Bosses. These can only be accessed by defeating the bosses without taking damage. At the current time, these are the only known [[Magicraft Wiki|Boss Monster]] side rooms.

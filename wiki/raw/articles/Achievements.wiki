@@ -1,0 +1,67 @@
+<!-- title: Achievements | updated: 2024-11-02T06:52:55Z | cats:  -->
+{| class="fandom-table" width="100%"
+!'''Icon'''
+!'''Name'''
+!'''Description'''
+|-
+|[[File:Magicraft-achievements-0.jpg|center|frameless|50x50px]]
+|Magicraft
+|launch !
+|-
+|[[File:Magicraft-achievements-3.jpg|center|frameless|50x50px]]
+|Kingdom come
+|having 15 [[curses]] at the same time
+|-
+|[[File:Magicraft-achievements-2.jpg|center|frameless|50x50px]]
+|Bingo
+|get a two star [[Spells|spell]]
+|-
+|[[File:Magicraft-achievements-2.jpg|center|frameless|50x50px]]
+|SSR!
+|get an epic [[Spells|spell]]
+|-
+|[[File:Magicraft-achievements-4.jpg|center|frameless|50x50px]]
+|What's this?
+|get a special spell
+|-
+|[[File:Magicraft-achievements-2.jpg|center|frameless|50x50px]]
+|Is that all?
+|finish easy mode
+|-
+|[[File:Magicraft-achievements-2.jpg|center|frameless|50x50px]]
+|Is that all?
+|finish normal mode
+|-
+|[[File:Magicraft-achievements-2.jpg|center|frameless|50x50px]]
+|Is that all?+
+|finish hard mode
+|-
+|[[File:Magicraft-achievements-2.jpg|center|frameless|50x50px]]
+|Is that all????
+|finish nightmare mode
+|-
+|[[File:Magicraft-achievements-2.jpg|center|frameless|50x50px]]
+|Is that all?????
+|finish nightmare2 mode
+|-
+|[[File:Magicraft-achievements-2.jpg|center|frameless|50x50px]]
+|Is that all??????
+|finish nightmare3 mode
+|-
+|[[File:Magicraft-achievements-2.jpg|center|frameless|50x50px]]
+|Small target
+|holds 1000 coins
+|-
+|[[File:Magicraft-achievements-2.jpg|center|frameless|50x50px]]
+|Dominant firepower theory
+|dps reach 100,000
+|-
+|[[File:Magicraft-achievements-3.jpg|center|frameless|50x50px]]
+|Try and die
+|die from indiscriminate damage spell
+|-
+|[[File:Magicraft-achievements-1.jpg|center|frameless|50x50px]]
+|There's still time to cry
+|you kill the [[author]]
+|-
+|}

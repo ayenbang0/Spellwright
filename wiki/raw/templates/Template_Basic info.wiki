@@ -1,0 +1,185 @@
+<!-- title: Template:Basic info | updated: 2024-01-11T15:42:52Z | cats:  -->
+= Basic Info =
+{| class="fandom-table"
+!
+===== '''Rarity''' =====
+|{{{Rarity}}}
+!
+===== '''Type''' =====
+|{{{Type}}}
+|-
+!
+===== '''Damage''' =====
+|{{{Damage}}}
+!
+===== '''Penetration''' =====
+|{{{Spell Penetration}}}
+|-
+!
+===== '''Number of Shots''' =====
+|{{{Number of Shots}}}
+!
+===== '''Passive Effects''' =====
+|{{{Passive Effects}}}
+|-
+!
+===== '''Mana Cost''' =====
+|{{{Mana Cost}}}
+!
+===== '''Scatter''' =====
+|{{{Scatter}}}
+|-
+!
+===== '''Effect Radius''' =====
+|{{{Effect Radius}}}
+!
+===== '''Crit Rate''' =====
+|{{{Crit Rate}}}
+|-
+!'''Duration'''
+|{{{Duration}}}
+!'''Health'''
+|{{{Health}}}
+|-
+!'''Summon Limit'''
+|{{{Summon Limit}}}
+!'''Extra Information'''
+|{{{Extra Information}}}
+|}
+
+<noinclude>
+<templatedata>
+{
+	"params": {
+		"Type": {
+			"type": "content",
+			"suggestedvalues": [
+				"Projectile",
+				"Summoning",
+				"Enhancement",
+				"Passive"
+			],
+			"autovalue": "Projectile",
+			"required": true,
+			"suggested": true,
+			"description": "What type of spell this is, and how it interacts with other spells."
+		},
+		"Rarity": {
+			"type": "content",
+			"suggestedvalues": [
+				"Common/Common+/Common++",
+				"Rare/Rare+/Rare++",
+				"Epic"
+			],
+			"required": true,
+			"suggested": true,
+			"description": "The Rarity of the spell, and how often it comes up",
+			"autovalue": "Common/Common+/Common++"
+		},
+		"Damage": {
+			"type": "number",
+			"description": "How much damage each shot does.",
+			"autovalue": "0/1/2",
+			"suggested": true
+		},
+		"Number of Shots": {
+			"description": "How many shots the spell has on it by default",
+			"type": "content",
+			"autovalue": "1/1/1",
+			"suggested": true
+		},
+		"Passive Effects": {
+			"description": "What effects does the spell impart just by being attached to the wand",
+			"example": "None/Enemies take 50% more damage for 4 sec/Enemies take 100% more damage for 8 sec",
+			"type": "content",
+			"autovalue": "None/None/None",
+			"suggested": true
+		},
+		"Mana Cost": {
+			"description": "How much mana it costs to cast the spell by default",
+			"type": "content",
+			"autovalue": "3/4/5",
+			"suggested": true
+		},
+		"Spell Penetration": {
+			"description": "How many enemies and objects can the spell pass through on its own.",
+			"type": "content",
+			"autovalue": "0/0/0",
+			"suggested": true
+		},
+		"Effect Radius": {
+			"description": "How large of an effect is the spell by default",
+			"type": "content",
+			"autovalue": "0.0m",
+			"suggested": true
+		},
+		"Crit Rate": {
+			"description": "what percentage of the time does the spell critical hit by default",
+			"type": "content",
+			"autovalue": "0%",
+			"suggested": true
+		},
+		"Extra Information": {
+			"description": "What else does this spell do?",
+			"example": "Can Fly. Can't go through walls.",
+			"type": "content",
+			"autovalue": "Can Fly. Can't go through walls.",
+			"required": true
+		},
+		"Scatter": {
+			"description": "What degree of scatter does the spell have",
+			"type": "content",
+			"autovalue": "0°",
+			"suggested": true
+		},
+		"Duration": {
+			"description": "How long does this last by default or modify the duration of other spells",
+			"example": "2s, 3.5s, x75% +1",
+			"type": "content",
+			"autovalue": "0s",
+			"suggested": true
+		},
+		"Health": {
+			"description": "How much health does this have by default or how much it modifies the health of a spell",
+			"example": "25, +40%",
+			"type": "content",
+			"autovalue": "0",
+			"suggested": true
+		},
+		"Summon Limit": {
+			"description": "How much of a summon can you have?",
+			"type": "content",
+			"autovalue": "0",
+			"suggested": true
+		},
+		"Testpattern 1": {
+			"type": "unbalanced-wikitext",
+			"default": "hello",
+			"suggested": true,
+			"autovalue": "fhj"
+		},
+		"Testpattern 2": {},
+		"Testpattern 3": {}
+	},
+	"paramOrder": [
+		"Type",
+		"Rarity",
+		"Damage",
+		"Number of Shots",
+		"Passive Effects",
+		"Mana Cost",
+		"Spell Penetration",
+		"Effect Radius",
+		"Crit Rate",
+		"Extra Information",
+		"Scatter",
+		"Duration",
+		"Health",
+		"Summon Limit",
+		"Testpattern 1",
+		"Testpattern 2",
+		"Testpattern 3"
+	]
+}
+</templatedata>
+</noinclude>

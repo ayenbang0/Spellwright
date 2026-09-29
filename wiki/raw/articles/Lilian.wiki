@@ -1,0 +1,88 @@
+<!-- title: Lilian | updated: 2024-11-23T02:10:14Z | cats:  -->
+[[File:Lilian.png|center|frameless|150x150px]]
+'''By consuming Chaotic Core, she can help you activate more spells and relics.'''
+{| class="fandom-table"
+|+
+!Activatable options
+!Activation effect
+!Specific projects
+!The consumption of Chaotic Core
+|-
+!Spell Focus
+|When picking up a spell, choose
+from aselection of 3
+|
+|1
+|-
+! colspan="1" rowspan="3" |Elemental Spell Pack
+| colspan="1" rowspan="3" |Discover the following spells in the
+adventure after activation
+|[[High-pressure Stream]]
+| colspan="1" rowspan="3" |1
+|-
+|[[Core of Thunder]]
+|-
+|[[Core of Flame]]
+|-
+! colspan="1" rowspan="3" |Supply Pack
+| colspan="1" rowspan="3" |Discover the following spells in the
+adventure after activation
+|[[Evil Slayer Sword]]
+| colspan="1" rowspan="3" |1
+|-
+|[[Boomerang Blade]]
+|-
+|[[Capacity Expansion Stone]]
+|-
+! colspan="1" rowspan="4" |Triggered Spell Pack
+| colspan="1" rowspan="4" |Discover the following spells in the
+adventure after activaton
+|[[Duet]]
+| colspan="1" rowspan="4" |1
+|-
+|[[Dazzling Fireworks]]
+|-
+|[[Serial]]
+|-
+|[[Echo]]
+|-
+! colspan="1" rowspan="2" |Relic Pack
+| colspan="1" rowspan="2" |Discover the following relics in the
+adventure after activation
+|Lucky Bunny Ear
+| colspan="1" rowspan="2" |2
+|-
+|Octagonal Die
+|-
+! colspan="1" rowspan="3" |Channeling Spell Pack
+| colspan="1" rowspan="3" |Discover the following spells in the
+adventure after activation
+|[[Shining Star Arrow]]
+| colspan="1" rowspan="3" |3
+|-
+|[[Condensed Water Bubble]]
+|-
+|[[Fierce Dragon Breath|Flerce Dragon Breath]]
+|-
+! colspan="1" rowspan="4" |Master Summoner Pack
+| colspan="1" rowspan="4" |Discover the following spells in the
+adventure after activation
+|[[Cadaver Explosion]]
+| colspan="1" rowspan="4" |4
+|-
+|[[Indomitability]]
+|-
+|[[Essence of Soul]]
+|-
+|[[Fusion Summon]]
+|-
+! colspan="1" rowspan="3" |Inspiration Pack
+| colspan="1" rowspan="3" |Discover the following spells in the
+adventure after activation
+|[[Reflection]]
+| colspan="1" rowspan="3" |3
+|-
+|[[Sword of Judgement|Sword of Judgment]]
+|-
+|[[Arcane Barrier]]
+|}

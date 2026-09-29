@@ -1,0 +1,9 @@
+<!-- title: Rock 'n' Ball | updated: 2026-01-22T21:13:04Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Rock_'n'_Ball.png|desc=Stones that dispel enemy spells|type=Spell Projectiles|rarity=Normal|mana_cost1=15|mana_cost2=19|mana_cost3=25|dmg1=45|dmg2=80|dmg3=142|crit_rate1=30%|crit_rate2=50%|crit_rate3=80%|misc_a_1=The Rock'n'Ball can withstand 40 damage|misc_a_2=The Rock'n'Ball can withstand 80 damage|misc_a_3=The Rock'n'Ball can withstand 120 damage}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, a boulder rolls out towards the target.
+
+'''Description:''' Crushes the target with the power of the rock, the huge size can withstand enemy projectiles, but this is not a golf ball, do not leave it into the hole.
+
+Will leave trails with elemental attachment on the ground.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Normal]]

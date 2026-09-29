@@ -1,0 +1,778 @@
+[
+ {
+  "name": "Damaged Excaliwood Wand",
+  "MP": "80",
+  "Cast Interval": "0.15",
+  "MP Regen": "10/s",
+  "CD": "0.5",
+  "passive": "Scatter: +5°"
+ },
+ {
+  "name": "Arcane Staff",
+  "MP": "45",
+  "Cast Interval": "0.15",
+  "MP Regen": "11/s",
+  "CD": "0.5",
+  "passive": "Scatter:+10°"
+ },
+ {
+  "name": "Staff of Conjuring",
+  "MP": "80",
+  "Cast Interval": "0.5",
+  "MP Regen": "8/s",
+  "CD": "1",
+  "passive": ""
+ },
+ {
+  "name": "Swiftcaster Wand",
+  "MP": "50",
+  "Cast Interval": "0.5",
+  "MP Regen": "10/s",
+  "CD": "0.5",
+  "passive": ""
+ },
+ {
+  "name": "Ethereal Wand",
+  "MP": "60",
+  "Cast Interval": "0.15",
+  "MP Regen": "6/s",
+  "CD": "1",
+  "passive": "Scatter:+5°"
+ },
+ {
+  "name": "Elderwood Cane",
+  "MP": "90",
+  "Cast Interval": "0.25",
+  "MP Regen": "10",
+  "CD": "0.5",
+  "passive": ""
+ },
+ {
+  "name": "Toy Blade",
+  "MP": "70",
+  "Cast Interval": "0.15",
+  "MP Regen": "11",
+  "CD": "0.4",
+  "passive": ""
+ },
+ {
+  "name": "Microcosmic Embrace",
+  "MP": "60",
+  "Cast Interval": "0.13",
+  "MP Regen": "9",
+  "CD": "0.33",
+  "passive": "MP consumption for all wands x80%."
+ },
+ {
+  "name": "Steadfast Will",
+  "MP": "80",
+  "Cast Interval": "0.15",
+  "MP Regen": "12",
+  "CD": "0.65",
+  "passive": ""
+ },
+ {
+  "name": "Featherweight Wand",
+  "MP": "40",
+  "Cast Interval": "0.08",
+  "MP Regen": "11",
+  "CD": "0.3",
+  "passive": "Scatter: +10°\nPost Slot: The wand charge 3 energy for every spell cast."
+ },
+ {
+  "name": "Harmonic Resonance",
+  "MP": "70",
+  "Cast Interval": "0.5",
+  "MP Regen": "11",
+  "CD": "0.5",
+  "passive": "Scatter:+80°\nSimultaneous Firing: 5"
+ },
+ {
+  "name": "Natural Convergence",
+  "MP": "90",
+  "Cast Interval": "0.11",
+  "MP Regen": "10",
+  "CD": "0.66",
+  "passive": "MP regeneration for all wands +3/s."
+ },
+ {
+  "name": "Wooden Stick",
+  "MP": "100",
+  "Cast Interval": "0.3",
+  "MP Regen": "12",
+  "CD": "0.3",
+  "passive": ""
+ },
+ {
+  "name": "Tuning Fork",
+  "MP": "50",
+  "Cast Interval": "0.18",
+  "MP Regen": "11",
+  "CD": "0.55",
+  "passive": ""
+ },
+ {
+  "name": "Novice's Grimoire",
+  "MP": "70",
+  "Cast Interval": "1",
+  "MP Regen": "12",
+  "CD": "1",
+  "passive": "Scatter: +6°\nMP consumption for summoning spells x90%."
+ },
+ {
+  "name": "Guiding Fable",
+  "MP": "70",
+  "Cast Interval": "0.2",
+  "MP Regen": "10",
+  "CD": "0.5",
+  "passive": ""
+ },
+ {
+  "name": "Old Wand",
+  "MP": "130",
+  "Cast Interval": "0.14",
+  "MP Regen": "9",
+  "CD": "0.5",
+  "passive": ""
+ },
+ {
+  "name": "777",
+  "MP": "77",
+  "Cast Interval": "0.17",
+  "MP Regen": "7",
+  "CD": "0.17",
+  "passive": "Scatter: +7°\nPost Slot: The wand charge 1.7 energy for every enemy hit."
+ },
+ {
+  "name": "Time Stasis",
+  "MP": "75",
+  "Cast Interval": "0.15",
+  "MP Regen": "10",
+  "CD": "0.55",
+  "passive": "Scatter: +8°\nPost Slot: charge 2 energy for every meter"
+ },
+ {
+  "name": "New Wand",
+  "MP": "90",
+  "Cast Interval": "0.16",
+  "MP Regen": "11",
+  "CD": "0.45",
+  "passive": ""
+ },
+ {
+  "name": "Elder's Grip",
+  "MP": "120",
+  "Cast Interval": "0.3",
+  "MP Regen": "12",
+  "CD": "0.6",
+  "passive": ""
+ },
+ {
+  "name": "Frenzy Enchanter",
+  "MP": "50",
+  "Cast Interval": "0.15",
+  "MP Regen": "13",
+  "CD": "0.15",
+  "passive": "Scatter: +9°\nPost Slot: The wand charge 4 energy for every spell cast."
+ },
+ {
+  "name": "Viscous Fang",
+  "MP": "50",
+  "Cast Interval": "0.1",
+  "MP Regen": "12",
+  "CD": "0.6",
+  "passive": "Scatter: +3°"
+ },
+ {
+  "name": "Venomous Bite",
+  "MP": "50",
+  "Cast Interval": "0.1",
+  "MP Regen": "12",
+  "CD": "0.4",
+  "passive": "MP Cost: x80%"
+ },
+ {
+  "name": "Arc of Justice",
+  "MP": "60",
+  "Cast Interval": "0.17",
+  "MP Regen": "13",
+  "CD": "0.27",
+  "passive": ""
+ },
+ {
+  "name": "Tricolor Scepter",
+  "MP": "70",
+  "Cast Interval": "0.15",
+  "MP Regen": "11",
+  "CD": "0.5",
+  "passive": "Scatter: +3°\nSpells cast with this wand may undergo random base color changes."
+ },
+ {
+  "name": "Defiant Nature",
+  "MP": "80",
+  "Cast Interval": "0.14",
+  "MP Regen": "15",
+  "CD": "0.14",
+  "passive": "Scatter: -360°\nSpells are always cast in reverse."
+ },
+ {
+  "name": "Shamanic Dagger",
+  "MP": "120",
+  "Cast Interval": "0.12",
+  "MP Regen": "8",
+  "CD": "0.24",
+  "passive": "MP Cost: x70%\nFinal DMG: x70%"
+ },
+ {
+  "name": "Shattered Scepter",
+  "MP": "80",
+  "Cast Interval": "0.05",
+  "MP Regen": "12",
+  "CD": "0.55",
+  "passive": "Scatter: +4°"
+ },
+ {
+  "name": "Rusty Blaster",
+  "MP": "80",
+  "Cast Interval": "0.2",
+  "MP Regen": "12",
+  "CD": "0.8",
+  "passive": "Scatter: +10°\nFinal DMG:x120%\nPost Slot: The wand charge 20 energy for every 45 damage above."
+ },
+ {
+  "name": "Energy Reservoir",
+  "MP": "120",
+  "Cast Interval": "0.12",
+  "MP Regen": "14",
+  "CD": "0.12",
+  "passive": "Scatter: +30°\nPost Slot: The wand charge 4 energy for every"
+ },
+ {
+  "name": "Trident",
+  "MP": "130",
+  "Cast Interval": "0.3",
+  "MP Regen": "13",
+  "CD": "0.3",
+  "passive": "Scatter: +13°\nSimultaneous Firing:3"
+ },
+ {
+  "name": "Soul-Devouring Orb",
+  "MP": "50",
+  "Cast Interval": "0.5",
+  "MP Regen": "11",
+  "CD": "0.5",
+  "passive": "Scatter:+8°\nSimultaneous Firing:3\nPost Slot: The wand charge 30 energy for every enemy killed."
+ },
+ {
+  "name": "Legacy of Ancestors",
+  "MP": "90",
+  "Cast Interval": "0.2",
+  "MP Regen": "11",
+  "CD": "0.5",
+  "passive": "Post Slot: Charge 15 energy for every second"
+ },
+ {
+  "name": "Vow of Honor",
+  "MP": "100",
+  "Cast Interval": "0.18",
+  "MP Regen": "11",
+  "CD": "0.5",
+  "passive": "Scatter: +10°\nPost Slot: Charge 33 energy every time the character takes damage."
+ },
+ {
+  "name": "Radiant Bouquet",
+  "MP": "80",
+  "Cast Interval": "0.12",
+  "MP Regen": "14",
+  "CD": "0.35",
+  "passive": "Scatter:+60°\nSpells cast with this wand may undergo random color changes."
+ },
+ {
+  "name": "Conch Whistle",
+  "MP": "100",
+  "Cast Interval": "0.2",
+  "MP Regen": "10",
+  "CD": "0.6",
+  "passive": "Post Slot: charge 3 energy for every metermoved.\nWhile holding this wand, character Movement Speed is increased by 20%."
+ },
+ {
+  "name": "Sacrificial Dagger",
+  "MP": "130",
+  "Cast Interval": "0.12",
+  "MP Regen": "13",
+  "CD": "0.65",
+  "passive": "This wand reduces self-inflicted DMG to 1%"
+ },
+ {
+  "name": "Energizer Wand",
+  "MP": "70",
+  "Cast Interval": "0.1",
+  "MP Regen": "13",
+  "CD": "0.3",
+  "passive": "Scatter: +5°\nBoosts DMG by 50% when MP consumption is"
+ },
+ {
+  "name": "Deed Witness",
+  "MP": "100",
+  "Cast Interval": "0.2",
+  "MP Regen": "15",
+  "CD": "0.55",
+  "passive": "Expands spell effect radius for all wands by 50%"
+ },
+ {
+  "name": "Swiftshot Staff",
+  "MP": "120",
+  "Cast Interval": "0.12",
+  "MP Regen": "14",
+  "CD": "0.12",
+  "passive": "Scatter: +12°\nWhen holding this wand, mp regen x20%\nWhen not holding this wand, mp regen x150%"
+ },
+ {
+  "name": "Legion Banner",
+  "MP": "130",
+  "Cast Interval": "0.12",
+  "MP Regen": "12",
+  "CD": "1",
+  "passive": "CRIT Rate:+15%\nPost Slot: The wand charge 6 energy for every"
+ },
+ {
+  "name": "Expanding Container",
+  "MP": "130",
+  "Cast Interval": "0.2",
+  "MP Regen": "13",
+  "CD": "0.4",
+  "passive": "Scatter: +6°\nSimultaneous Casting: 2\n\nMax MP for all wands: x130%"
+ },
+ {
+  "name": "Double Flute",
+  "MP": "100",
+  "Cast Interval": "0.1",
+  "MP Regen": "14",
+  "CD": "1",
+  "passive": "Scatter:+20°\nPost Slot: The wand charge 2.2 energy for every enemy hit."
+ },
+ {
+  "name": "Trichord Lute",
+  "MP": "105",
+  "Cast Interval": "0.15",
+  "MP Regen": "14",
+  "CD": "0.55",
+  "passive": "Simultaneous Firing: 3"
+ },
+ {
+  "name": "Sorcerer's Oath",
+  "MP": "120",
+  "Cast Interval": "0.12",
+  "MP Regen": "11",
+  "CD": "0.55",
+  "passive": "Scatter: +15°\nMP regeneration for all wands +5/s."
+ },
+ {
+  "name": "Restless Heart",
+  "MP": "100",
+  "Cast Interval": "0.05",
+  "MP Regen": "14",
+  "CD": "0.6",
+  "passive": "Spells cast by this wand produce reversed recoil."
+ },
+ {
+  "name": "Witch's Broomstick",
+  "MP": "140",
+  "Cast Interval": "0.18",
+  "MP Regen": "15",
+  "CD": "0.4",
+  "passive": "Scatter: +11°\nAllows character to fly while holding this"
+ },
+ {
+  "name": "Tome of Endless",
+  "MP": "85",
+  "Cast Interval": "0.1",
+  "MP Regen": "13",
+  "CD": "0.3",
+  "passive": ""
+ },
+ {
+  "name": "Heavy Impact",
+  "MP": "120",
+  "Cast Interval": "0.15",
+  "MP Regen": "12",
+  "CD": "0.28",
+  "passive": ""
+ },
+ {
+  "name": "Sigil of Temperance",
+  "MP": "90",
+  "Cast Interval": "0.1",
+  "MP Regen": "12",
+  "CD": "0.4",
+  "passive": "Scatter: +10°"
+ },
+ {
+  "name": "Twin-headed Wand",
+  "MP": "80",
+  "Cast Interval": "0.3",
+  "MP Regen": "13",
+  "CD": "0.4",
+  "passive": ""
+ },
+ {
+  "name": "Swift Spellblade",
+  "MP": "110",
+  "Cast Interval": "0.12",
+  "MP Regen": "14",
+  "CD": "0.5",
+  "passive": "Scatter: +90°\nWhile holding this wand, character Movement Speed is increased by 40%."
+ },
+ {
+  "name": "Book of Tranquility",
+  "MP": "100",
+  "Cast Interval": "0.1",
+  "MP Regen": "10",
+  "CD": "0.5",
+  "passive": "Post Slot: Charge 20 energy for every second stood still.\nSpells cast by this wand have no recoil while standing."
+ },
+ {
+  "name": "Handy Wand",
+  "MP": "80",
+  "Cast Interval": "0.1",
+  "MP Regen": "12",
+  "CD": "0.5",
+  "passive": "Post Slot: The wand charge 3 energy for every spell cast."
+ },
+ {
+  "name": "Ripple Wand",
+  "MP": "60",
+  "Cast Interval": "0.12",
+  "MP Regen": "20",
+  "CD": "0.25",
+  "passive": "Scatter: +30°\nMP Cost: x150%\nSpells have a 5% chance of immediately replenishing MP upon casting"
+ },
+ {
+  "name": "Portable Library",
+  "MP": "150",
+  "Cast Interval": "1.5",
+  "MP Regen": "15",
+  "CD": "1.5",
+  "passive": "Scatter: +3°"
+ },
+ {
+  "name": "Wand of Convergence",
+  "MP": "100",
+  "Cast Interval": "0.1",
+  "MP Regen": "14",
+  "CD": "0.36",
+  "passive": "Scatter: +5°\nSimultaneous Firing:2"
+ },
+ {
+  "name": "Warlock's Satchel",
+  "MP": "0",
+  "Cast Interval": "0",
+  "MP Regen": "0",
+  "CD": "0",
+  "passive": ""
+ },
+ {
+  "name": "Aquaflow Staff",
+  "MP": "110",
+  "Cast Interval": "0.05",
+  "MP Regen": "16",
+  "CD": "0.05",
+  "passive": "Scatter: +140°"
+ },
+ {
+  "name": "Star Strider",
+  "MP": "200",
+  "Cast Interval": "0.8",
+  "MP Regen": "13",
+  "CD": "0.8",
+  "passive": ""
+ },
+ {
+  "name": "Festive Wand",
+  "MP": "65",
+  "Cast Interval": "0.3",
+  "MP Regen": "17",
+  "CD": "0.15",
+  "passive": "Scatter: +10°\nPost Slot: The wand charge 20 energy for every enemy killed."
+ },
+ {
+  "name": "Granny's Needle",
+  "MP": "90",
+  "Cast Interval": "0.15",
+  "MP Regen": "16",
+  "CD": "0.6",
+  "passive": ""
+ },
+ {
+  "name": "Voltage Stone",
+  "MP": "120",
+  "Cast Interval": "0.22",
+  "MP Regen": "15",
+  "CD": "0.4",
+  "passive": "MP Cost: x110%\n。Post Slot: The wand charge 22 energy for every 45 damage above."
+ },
+ {
+  "name": "Magic Conductor",
+  "MP": "99",
+  "Cast Interval": "0.12",
+  "MP Regen": "9",
+  "CD": "0.3",
+  "passive": ""
+ },
+ {
+  "name": "Stellar Horn",
+  "MP": "170",
+  "Cast Interval": "0.1",
+  "MP Regen": "16",
+  "CD": "1",
+  "passive": ""
+ },
+ {
+  "name": "Serpentine Waltz",
+  "MP": "120",
+  "Cast Interval": "0.12",
+  "MP Regen": "16",
+  "CD": "0.6",
+  "passive": ""
+ },
+ {
+  "name": "Asteroid",
+  "MP": "140",
+  "Cast Interval": "0.3",
+  "MP Regen": "16",
+  "CD": "0.4",
+  "passive": "Scatter:+15°\nMP Cost: x90%"
+ },
+ {
+  "name": "Energized Orb",
+  "MP": "250",
+  "Cast Interval": "0",
+  "MP Regen": "20",
+  "CD": "0",
+  "passive": "Allows the use of MP from this wand when MP when MP from other wands is insufficient."
+ },
+ {
+  "name": "Restless Fey",
+  "MP": "180",
+  "Cast Interval": "0.1",
+  "MP Regen": "17",
+  "CD": "0.25",
+  "passive": "Scatter: +15°\nWhen holding this wand, mp regen x30%\nWhen not holding this wand, mp regen x180%"
+ },
+ {
+  "name": "Mind Blade",
+  "MP": "140",
+  "Cast Interval": "0.27",
+  "MP Regen": "18",
+  "CD": "0.4",
+  "passive": ""
+ },
+ {
+  "name": "Plague Bearer",
+  "MP": "200",
+  "Cast Interval": "1.5",
+  "MP Regen": "20",
+  "CD": "1.5",
+  "passive": ""
+ },
+ {
+  "name": "Dormant Whisker",
+  "MP": "155",
+  "Cast Interval": "0.15",
+  "MP Regen": "16",
+  "CD": "0.4",
+  "passive": "Scatter:+12°\nPost Slot: The wand charge 90 energy forevery enemy killed."
+ },
+ {
+  "name": "Siegemaker",
+  "MP": "220",
+  "Cast Interval": "0.2",
+  "MP Regen": "16",
+  "CD": "1.2",
+  "passive": "Scatter: +2°\nSimultaneous Firing: 3\nMP Cost:x130%"
+ },
+ {
+  "name": "Frozen Touch",
+  "MP": "160",
+  "Cast Interval": "0.15",
+  "MP Regen": "17",
+  "CD": "0.55",
+  "passive": "Scatter: +10°\nSimultaneous Firing:2"
+ },
+ {
+  "name": "Kingdom's Guardian",
+  "MP": "140",
+  "Cast Interval": "0.26",
+  "MP Regen": "17",
+  "CD": "0.4",
+  "passive": "Scatter: +35°\nPost Slot: Charge 35 energy for every second"
+ },
+ {
+  "name": "Dark Young",
+  "MP": "110",
+  "Cast Interval": "0.3",
+  "MP Regen": "19",
+  "CD": "0.9",
+  "passive": "Scatter:+135°"
+ },
+ {
+  "name": "Archmage's Wand",
+  "MP": "150",
+  "Cast Interval": "0.12",
+  "MP Regen": "18",
+  "CD": "0.8",
+  "passive": "Scatter: +20°"
+ },
+ {
+  "name": "Shapeshifter",
+  "MP": "180",
+  "Cast Interval": "0.1",
+  "MP Regen": "17",
+  "CD": "1",
+  "passive": "Scatter:+40°\nCRIT Rate: +70%\n\nFinal DMG: x70%"
+ },
+ {
+  "name": "Rainbow Electroweb",
+  "MP": "120",
+  "Cast Interval": "0.18",
+  "MP Regen": "16",
+  "CD": "0.2",
+  "passive": "Scatter: +25°\nMP Cost: x90%"
+ },
+ {
+  "name": "Collector's Staff",
+  "MP": "0",
+  "Cast Interval": "0",
+  "MP Regen": "0",
+  "CD": "0",
+  "passive": ""
+ },
+ {
+  "name": "The Heirless",
+  "MP": "180",
+  "Cast Interval": "0.1",
+  "MP Regen": "21",
+  "CD": "0.55",
+  "passive": ""
+ },
+ {
+  "name": "The Shadeless",
+  "MP": "200",
+  "Cast Interval": "0.28",
+  "MP Regen": "17",
+  "CD": "0.4",
+  "passive": "Post Slot: charge 5 energy for every meter"
+ },
+ {
+  "name": "The Lightless",
+  "MP": "200",
+  "Cast Interval": "0.23",
+  "MP Regen": "20",
+  "CD": "0.55",
+  "passive": "Scatter: +140°\nMP Cost: x70%\nPost Slot: The wand charge 3.3 energy for every enemy hit."
+ },
+ {
+  "name": "The Formless",
+  "MP": "190",
+  "Cast Interval": "0.08",
+  "MP Regen": "20",
+  "CD": "0.3",
+  "passive": "MP Cost: x90%\nPost Slot: Charge 100 energy every time the character takes damage."
+ },
+ {
+  "name": "The Featureless",
+  "MP": "230",
+  "Cast Interval": "0.42",
+  "MP Regen": "21",
+  "CD": "0.23",
+  "passive": ""
+ },
+ {
+  "name": "The Faultless",
+  "MP": "210",
+  "Cast Interval": "0.33",
+  "MP Regen": "21",
+  "CD": "0.33",
+  "passive": "Post Slot: The wand charge 130 energy forevery enemy killed."
+ },
+ {
+  "name": "The Boundless",
+  "MP": "240",
+  "Cast Interval": "0.4",
+  "MP Regen": "22",
+  "CD": "0.68",
+  "passive": ""
+ },
+ {
+  "name": "The Sourceless",
+  "MP": "300",
+  "Cast Interval": "0.25",
+  "MP Regen": "1",
+  "CD": "0.25",
+  "passive": "Scatter: +120°\nSimultaneous Casting: 3"
+ },
+ {
+  "name": "The Wordless",
+  "MP": "200",
+  "Cast Interval": "0.2",
+  "MP Regen": "8",
+  "CD": "1.5",
+  "passive": "MP Cost: x120%\"Post Slot: Charge 66 energy for every second"
+ },
+ {
+  "name": "The Nameless",
+  "MP": "160",
+  "Cast Interval": "0.5",
+  "MP Regen": "22",
+  "CD": "0.5",
+  "passive": ""
+ },
+ {
+  "name": "Wand of Focus",
+  "MP": "280",
+  "Cast Interval": "0.15",
+  "MP Regen": "19",
+  "CD": "0.6",
+  "passive": "Final DMG: x120%\nWhen holding this wand, mp regen x150%\nWhen not holding this wand, mp regen x50%"
+ },
+ {
+  "name": "Omen of Doom",
+  "MP": "350",
+  "Cast Interval": "0.05",
+  "MP Regen": "20",
+  "CD": "1",
+  "passive": "Scatter: +90°\nPost Slot: charge 7.5 energy for every meter moved."
+ },
+ {
+  "name": "Clearwater Resonance",
+  "MP": "200",
+  "Cast Interval": "0.1",
+  "MP Regen": "23",
+  "CD": "0.45",
+  "passive": "Scatter: -45°\nMP Cost:x30%\nFinal DMG:x30%\nPost Slot: The wand charge 1.5 energy for every spell cast."
+ },
+ {
+  "name": "Shard of Time",
+  "MP": "222",
+  "Cast Interval": "0.22",
+  "MP Regen": "22",
+  "CD": "0.22",
+  "passive": "Scatter: +22°\nMP regeneration for all wands +8/s."
+ },
+ {
+  "name": "Stellar Drift",
+  "MP": "240",
+  "Cast Interval": "0.3",
+  "MP Regen": "23",
+  "CD": "0.3",
+  "passive": "Scatter: +90°\nSimultaneous Firing:5\nMP Cost:x200%\nCRIT Rate:+20%"
+ },
+ {
+  "name": "Quadruple Staff",
+  "MP": "150",
+  "Cast Interval": "0.06",
+  "MP Regen": "18",
+  "CD": "0.3",
+  "passive": "MP Cost: x150%\nFinal Damage: x50%\nSpells cast by this wand are quadrupled and fired in four directions."
+ }
+]

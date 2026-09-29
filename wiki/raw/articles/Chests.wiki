@@ -1,0 +1,17 @@
+<!-- title: Chests | updated: 2024-12-28T14:27:22Z | cats:  -->
+[[File:Chest Behind Spike Wall.png|thumb|A chest that can only be reached by flying or trickery]]
+Lost Chests are scattered around the world outside the camp. Often simply in plain sight, but other times hidden behind walls or over spike pits. They can also appear in Side Rooms, such as the Cursed Chest Room. Chests come in a variety of forms, and most require some sort of sacrifice to unlock.
+
+== Chest Types ==
+
+=== Cursed Chests ===
+Require the hero to accept [[Curses]] in order to open the chest. The hero can usually tell which curse they will have to accept before they open it, though some Curses and effects can render them unreadable.  Cursed Chests often appear in [[Side Room|Side Rooms]], where many can appear at once.
+
+=== Locked Chests ===
+The most common type; locked chests require a key to open, and are usually in plain sight.[[File:Capture.png|thumb|An unlocked chest hidden between two rows of trees (one of which was destroyed).]]
+
+=== Spike Chests ===
+Spike Chests are another common type of chest, and require a sacrifice of health (10 hp) to open. They can kill the player.
+
+=== Unlocked Chests ===
+A rare type that, when it appears, is almost always hidden.

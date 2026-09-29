@@ -1,0 +1,7 @@
+<!-- title: Core of Flame | updated: 2024-08-01T08:08:47Z | cats:  -->
+
+{{Spell InfoBox|image=3111.png|type=Spell Boost|rarity=Epic|misc_a_1=It increases the ignition buff for projectiles or summoners, lasting for 2 seconds and dealing 220 damage per sec.}}
+
+'''[[Core of Flame]]''' is a [[Epic]] [[Spells|Spell]] of Type: Spell Boost. It increases the ignition buff for projectiles or summoners, lasting for 2 seconds and dealing 220 damage per sec.
+
+'''Description:''' When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target.

@@ -1,0 +1,19 @@
+<!-- title: Template:Spell info | updated: 2024-02-27T07:31:52Z | cats:  -->
+<onlyinclude>{| class="fandom-table"
+! colspan=4 | {{{Icone}}} {{{Name}}}
+|-
+!'''Rarity'''
+|{{{Rarity}}}
+!'''Type'''
+|{{{Type}}}
+|-
+!'''Damage'''
+|{{{Damage}}}
+!'''Mana Cost'''
+|{{{Mana Cost}}}
+|-
+!'''Extra Information'''
+| colspan=3 |  {{#if:{{{Number of Shots|}}}|'''Number of Shots''': {{{Number of Shots}}} </br>|}}{{#if:{{{Effect Radius|}}}|'''Effect Radius''': {{{Effect Radius}}} </br>|}}{{#if:{{{Crit Rate|}}}|'''Crit Rate''': {{{Crit Rate}}} </br>|}}{{#if:{{{Penetration|}}}|'''Penetration''': {{{Penetration}}} </br>|}}{{#if:{{{Scatter|}}}|'''Scatter''': {{{Scatter}}} </br>|}}{{#if:{{{Duration|}}}|'''Duration''': {{{Duration}}} </br>|}}{{#if:{{{Health|}}}|'''Health''': {{{Health}}} </br>|}}{{#if:{{{Summon Limit|}}}|'''Summon Limit''': {{{Summon Limit}}} </br>|}}{{#if:{{{Passive Effects|}}}|'''Passive Effects''': {{{Passive Effects}}} </br>|}}{{#if:{{{Extra Information|}}}|'''Extra Information''': {{{Extra Information}}} </br>|}}
+|}</onlyinclude>
+
+{{Spell_info|Icone=|Name=Thunderstorm|Type=Projectile|Rarity=Common/Common+/Common++|Damage=22 DPS/44 DPS/88 DPS|Passive Effects=Thunder can be conducted 3 times/Spell damage x130% if only one enemy unit is hit; Thunder can be conducted 5 times/Spell damage x160% if only one enemy unit is hit; Thunder can be conducted 7 times|Mana Cost=33/43/56|Effect Radius=2.8m/3m/3.2m|Extra Information=Doesnt move|Duration=5s}}

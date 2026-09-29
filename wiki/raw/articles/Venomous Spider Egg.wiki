@@ -1,0 +1,7 @@
+<!-- title: Venomous Spider Egg | updated: 2024-07-24T05:28:48Z | cats:  -->
+[[File:Poisonous Spider's Egg.png|left|thumb]]
+
+== Stats ==
+HP: 1,500
+
+The eggs of a giant venomous spider,capable of using various poisonous attacks.

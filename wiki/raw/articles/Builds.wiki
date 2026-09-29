@@ -1,0 +1,76 @@
+<!-- title: Builds | updated: 2025-09-16T20:21:39Z | cats:  -->
+The following builds are provided by the community, and pulled from other locations as they are made available. The builds are sorted by the minimum number of slots used. Base DPS range is the approximate range of damage, using the maximum DPS, as well as the DPS when the wand is low on mana. This is applied to a training dummy on the testing grounds, using the original set with a Standardization wand. Please remember that all builds can be further enhanced by adding more/stronger spells and effects, and that these builds are the baseline before any further modifiers are added. Effects/Notes are for any special notes to understand or further enhance the build.
+
+== Build Ideas ==
+{| class="fandom-table"
+|+
+!'#' of Slots
+!Spell Parts
+!Base DPS Range
+!Effects/Notes
+|-
+|2
+|[[Shadow Serpent + Track]]
+|120-150
+|
+|-
+|2
+|[[Arcane Nova]] + [[Mana Absorption]]
+|3 Dummies: 400-1300+
+|This requires two epics, but generates mana and has massive fire rate. Combos powerfully with almost anything, especially [[Automatic Navigate]], [[Venom Crystal]], [[Echo]] + area of effect spell such as [[Arcane Explosion]] or [[Black Hole]].
+|-
+|3
+|[[Track]] + [[Fuse]] + [[Lightning Dash]]
+|120-357
+|
+|-
+|3
+|[[Shadow Serpent]] + [[Echo]] + [[Mana Absorption]]
+|400-520
+|
+|-
+|3
+|[[Autonomous Grimoire]] + [[Energy Saving Mode]] + [[Mana Absorption]]
+|5800-6000
+|
+|-
+|4
+|[[Shadow Serpent]] + [[Track]] + [[Echo]] + [[Mana Absorption]]
+|3000-3150
+|
+|-
+|5
+|[[Frost Crystal]] or [[Slime Crystal]] + [[Autonomous Grimoire]] + [[Butterfly]] + [[Serial]] + [[Hand of the Cthulhu]]
+|340
+|The damage isn't particularly impressive but it's a convenient way to spread slow or frost effects to all enemies. You don't need to hold the wand after summoning the Grimoires. Relatively easy to assemble.
+|-
+|5
+|[[Venom Crystal]] + [[Umbilical Cord]] + [[Laser]] + [[Dazzling Fireworks|Fireworks]] + [[Pillar of Light|Pillar Of Light]] 
+|1 Dummy: 1100-3700<p>2 Dummies: 5000-11700
+|
+|-
+|5
+|[[Resonance Rune]] + [[Orbit]] + [[Umbilical Cord]] + [[Pillar of Light]]
+|200-205
+|Damage induced by umbilical cord. Forms an incomplete shield around caster. Pillars match caster movement. Benefits from small effect radius.
+|-
+|6
+|[[Track]] + [[Frost Crystal]] + [[Multi-Shot]] + [[Arcane Nova]]  + [[Multi-Shot]] + [[Boomerang Blade]]
+|1 Dummy: 350-1700<p>3 Dummies: 900-3300
+|
+|-
+|6
+|[[Automatic Navigate]] + [[Arcane Nova]] + [[Arcane Nova]] + [[Mana Absorption]] + [[Echo]] + [[Black Hole]]
+|3 Dummies: 10,000
+|[[Mimicry Cube]] may substitute for an Arcane Nova. Combos well with [[Frost Crystal]], [[Slime Crystal]], and/or multiple [[Range Enhanced]].
+|-
+|6
+|[[Venom Crystal]] + [[Autonomous Grimoire]]*3  + [[Fuse]] + [[Black Hole]]
+|3 Dummies: 5500-8400
+|Stack of three Autonomous Grimoire. Trying to stack a fourth Autonomous Grimoire is likely to crash the game. [[Mimicry Cube]] may substitute for one Autonomous Grimoire. 
+|-
+|6
+|[[Venom Crystal]] + [[Autonomous Grimoire]]*3 + [[Reflection]] + [[Laser]]
+|3 Dummies: 5400-13700
+|Stack of three Autonomous Grimoire. Trying to stack a fourth Autonomous Grimoire is likely to crash the game. [[Mimicry Cube]] may substitute for one Autonomous Grimoire. 
+|}

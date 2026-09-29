@@ -1,0 +1,438 @@
+{
+  "_designScaled": [
+    "bloodthirsty_gaze",
+    "casket_of_souls",
+    "electrified_crown",
+    "ember_heart",
+    "healing_belt",
+    "lucky_bunny_ear",
+    "magicians_robe",
+    "magnifying_glass",
+    "merlins_boots",
+    "merlins_hat",
+    "octagonal_die",
+    "tree_spirit_pendant",
+    "rageful_eye",
+    "rogue_cloak",
+    "soulbone_armor",
+    "soulbone_crown",
+    "titans_pauldrons",
+    "treant_circlet",
+    "treant_robe",
+    "wand_lens",
+    "wild_tentacles",
+    "infusion_hand_seal",
+    "cardiotonic",
+    "summoning_wealth_bell",
+    "coolant",
+    "swordsman_cloak",
+    "bian",
+    "original_shape",
+    "bird_beak_mask"
+  ],
+  "knights_boots": [
+    "You ignore floor spikes and cannot be poisoned."
+  ],
+  "beast_fangs": [
+    "+20% damage dealt.",
+    "+35% damage dealt.",
+    "+50% damage dealt.",
+    "+65% damage dealt.",
+    "+80% damage dealt."
+  ],
+  "black_mark": [
+    "One random shop offer costs nothing."
+  ],
+  "blade_of_fury": [
+    "Critical hits deal 250% damage instead of 200%.",
+    "Critical hits deal 300% damage instead of 200%.",
+    "Critical hits deal 350% damage instead of 200%.",
+    "Critical hits deal 400% damage instead of 200%.",
+    "Critical hits deal 450% damage instead of 200%."
+  ],
+  "blood_key": [
+    "Beating the final boss of a chapter opens an extra blood-price relic chamber."
+  ],
+  "bloodthirsty_gaze": [
+    "Kills have a 20% chance to heal 1 HP.",
+    "Kills have a 25% chance to heal 1 HP.",
+    "Kills have a 30% chance to heal 1 HP.",
+    "Kills have a 35% chance to heal 1 HP.",
+    "Kills have a 40% chance to heal 1 HP."
+  ],
+  "casket_of_souls": [
+    "Kills have a 30% chance to release a homing wisp that deals 65 damage.",
+    "Kills have a 30% chance to release a homing wisp that deals 100 damage.",
+    "Kills have a 30% chance to release a homing wisp that deals 135 damage."
+  ],
+  "close_observation": [
+    "Enemies show health bars.",
+    "Enemies show health bars with exact values."
+  ],
+  "cloud_piercer": [
+    "Your spells pass through walls."
+  ],
+  "crimson_anklet": [
+    "Move speed drops to 70%, but rises to 140% after 8 s without taking damage."
+  ],
+  "prospectors_goblet": [
+    "Entering a new area grants 5% interest on your coins (max 10)."
+  ],
+  "dashing_ear": [
+    "When hit, gain +160% move speed and invulnerability for 0.8 s."
+  ],
+  "demon_mask": [
+    "+10% critical chance on all damage.",
+    "+18% critical chance on all damage.",
+    "+26% critical chance on all damage.",
+    "+34% critical chance on all damage.",
+    "+42% critical chance on all damage."
+  ],
+  "demonbone_tail": [
+    "Each enemy death spawns a magic orb that trails behind you."
+  ],
+  "drill": [
+    "Every wand gains +1 slot.",
+    "Every wand gains +2 slots.",
+    "Every wand gains +3 slots.",
+    "Every wand gains +4 slots.",
+    "Every wand gains +5 slots."
+  ],
+  "dusty_treasure": [
+    "Upgrades a random relic; if none can improve, grants a common relic instead.",
+    "Upgrades a random relic; if none can improve, grants a common relic instead.",
+    "Upgrades a random relic; if none can improve, grants a common relic instead.",
+    "Upgrades a random relic; if none can improve, grants a common relic instead.",
+    "Upgrades a random relic; if none can improve, grants a common relic instead.",
+    "Upgrades a random relic; if none can improve, grants a common relic instead.",
+    "Upgrades a random relic; if none can improve, grants a common relic instead.",
+    "Upgrades a random relic; if none can improve, grants a common relic instead.",
+    "Upgrades a random relic; if none can improve, grants a common relic instead.",
+    "Upgrades a random relic; if none can improve, grants a common relic instead."
+  ],
+  "electrified_crown": [
+    "When hit, shock every enemy for 10% of its max HP (0.2% vs bosses) + 30 damage.",
+    "When hit, shock every enemy for 10% of its max HP (0.2% vs bosses) + 45 damage.",
+    "When hit, shock every enemy for 10% of its max HP (0.2% vs bosses) + 60 damage.",
+    "When hit, shock every enemy for 10% of its max HP (0.2% vs bosses) + 75 damage.",
+    "When hit, shock every enemy for 10% of its max HP (0.2% vs bosses) + 90 damage."
+  ],
+  "elven_ears": [
+    "Casting no longer slows your movement."
+  ],
+  "ember_heart": [
+    "Scorch enemies within 3 m for 16 damage per second.",
+    "Scorch enemies within 3 m for 32 damage per second.",
+    "Scorch enemies within 3 m for 48 damage per second.",
+    "Scorch enemies within 3 m for 64 damage per second.",
+    "Scorch enemies within 3 m for 80 damage per second.",
+    "Scorch enemies within 3 m for 96 damage per second.",
+    "Scorch enemies within 3 m for 112 damage per second.",
+    "Scorch enemies within 3 m for 128 damage per second.",
+    "Scorch enemies within 3 m for 144 damage per second.",
+    "Scorch enemies within 3 m for 160 damage per second."
+  ],
+  "endless_chest": [
+    "Opening a chest has a 30% chance to produce another chest."
+  ],
+  "endless_elixir": [
+    "Drinking a potion has a 30% chance to grant a fresh potion."
+  ],
+  "finite_gloves": [
+    "Periodically unleashes a blast that slays half of all non-boss enemies present."
+  ],
+  "fortune_earrings": [
+    "+1 choice when offered relics.",
+    "+2 choices when offered relics."
+  ],
+  "four_leaf_clover": [
+    "11% chance to evade incoming attacks.",
+    "22% chance to evade incoming attacks.",
+    "33% chance to evade incoming attacks.",
+    "44% chance to evade incoming attacks.",
+    "55% chance to evade incoming attacks."
+  ],
+  "guardian_sprite": [
+    "3 orbiting guardians block enemy projectiles.",
+    "6 orbiting guardians block enemy projectiles.",
+    "9 orbiting guardians block enemy projectiles.",
+    "12 orbiting guardians block enemy projectiles.",
+    "15 orbiting guardians block enemy projectiles."
+  ],
+  "healing_belt": [
+    "Each potion you drink grants +3 max HP and +2 max MP.",
+    "Each potion you drink grants +6 max HP and +4 max MP.",
+    "Each potion you drink grants +9 max HP and +6 max MP.",
+    "Each potion you drink grants +12 max HP and +8 max MP.",
+    "Each potion you drink grants +15 max HP and +10 max MP."
+  ],
+  "hexagonal_die": [
+    "Gain 1 reroll for each relic offer.",
+    "Gain 2 rerolls for each relic offer.",
+    "Gain 3 rerolls for each relic offer.",
+    "Gain 4 rerolls for each relic offer.",
+    "Gain 5 rerolls for each relic offer."
+  ],
+  "hourglass_of_time": [
+    "Once, cheat death and return with 50% max HP. Consumed on use.",
+    "Once, cheat death and return with 80% max HP. Consumed on use."
+  ],
+  "hunters_talisman": [
+    "Widens your field of view.",
+    "Widens your field of view."
+  ],
+  "knights_breastplate": [
+    "Take 25% less damage."
+  ],
+  "knights_helm": [
+    "Damage from blasts that hurt everyone is cut to 1% against you.",
+    "Damage from blasts that hurt everyone is cut to 0.1% against you."
+  ],
+  "lucky_bunny_ear": [
+    "+1 choice when offered spells.",
+    "+2 choices when offered spells.",
+    "+3 choices when offered spells."
+  ],
+  "magicians_robe": [
+    "Cast from a point up to 5 m away from you; spell area -30%.",
+    "Cast from a point up to 7 m away from you; spell area -30%.",
+    "Cast from a point up to 9 m away from you; spell area -30%."
+  ],
+  "magnifying_glass": [
+    "Spell and relic areas +20%.",
+    "Spell and relic areas +40%.",
+    "Spell and relic areas +60%.",
+    "Spell and relic areas +80%.",
+    "Spell and relic areas +100%."
+  ],
+  "mask_of_the_hexer": [
+    "+10% damage dealt per curse you carry.",
+    "+15% damage dealt per curse you carry.",
+    "+15% damage dealt per curse you carry."
+  ],
+  "merchants_bauble": [
+    "Shops and crafting rooms are always accompanied by a bonus room."
+  ],
+  "merlins_beard": [
+    "Doubles your summon cap (not counting {spell:wand_spirit} or tome summons)."
+  ],
+  "merlins_boots": [
+    "Recover 4 MP whenever an enemy dies.",
+    "Recover 8 MP whenever an enemy dies.",
+    "Recover 12 MP whenever an enemy dies.",
+    "Recover 16 MP whenever an enemy dies.",
+    "Recover 20 MP whenever an enemy dies."
+  ],
+  "merlins_hat": [
+    "+30 max MP.",
+    "+60 max MP.",
+    "+90 max MP.",
+    "+120 max MP.",
+    "+150 max MP."
+  ],
+  "merlins_robe": [
+    "+2 MP regeneration per second.",
+    "+4 MP regeneration per second.",
+    "+6 MP regeneration per second."
+  ],
+  "mirror_of_vision": [
+    "You fly permanently. +1 wand capacity; every wand carries an empowered {spell:wand_spirit}.",
+    "You fly permanently. +2 wand capacity; every wand carries an empowered {spell:wand_spirit}.",
+    "You fly permanently. +3 wand capacity; every wand carries an empowered {spell:wand_spirit}."
+  ],
+  "octagonal_die": [
+    "Gain 1 reroll for each spell offer.",
+    "Gain 2 rerolls for each spell offer."
+  ],
+  "pandoras_box": [
+    "Entering a room reforges the first backpack spell slot.",
+    "Entering a room reforges the first 2 backpack spell slots.",
+    "Entering a room reforges the first 3 backpack spell slots."
+  ],
+  "tree_spirit_pendant": [
+    "While under 30 HP, slowly regenerate up to 30.",
+    "While under 45 HP, slowly regenerate up to 45.",
+    "While under 60 HP, slowly regenerate up to 60."
+  ],
+  "prospectors_gloves": [
+    "Kills have an 8% chance to drop coins.",
+    "Kills have a 16% chance to drop coins.",
+    "Kills have a 24% chance to drop coins."
+  ],
+  "prospectors_pickaxe": [
+    "+1% damage dealt for every 3 coins held.",
+    "+2% damage dealt for every 4 coins held.",
+    "+3% damage dealt for every 5 coins held.",
+    "+4% damage dealt for every 6 coins held.",
+    "+5% damage dealt for every 7 coins held."
+  ],
+  "prospectors_vest": [
+    "Picking up coins heals you by the same amount."
+  ],
+  "rageful_eye": [
+    "+1% damage dealt for every 2 HP you are missing.",
+    "+1.5% damage dealt for every 2 HP you are missing.",
+    "+2% damage dealt for every 2 HP you are missing."
+  ],
+  "rangers_boots": [
+    "Immune to non-spell slows. +1 move speed."
+  ],
+  "reaper_mask": [
+    "Hits have a 1% chance to instantly slay a non-boss foe."
+  ],
+  "replica_gloves": [
+    "Casts have a 25% chance to fire an extra copy in a random direction.",
+    "Casts have a 45% chance to fire an extra copy in a random direction."
+  ],
+  "resilient_physique": [
+    "Deal 100% more damage, but take 70% more damage."
+  ],
+  "rogue_cloak": [
+    "Turn invisible after 5 s without attacking; attacking reveals you.",
+    "Turn invisible after 3 s without attacking; attacking reveals you."
+  ],
+  "seed_of_greed": [
+    "Drains all healing you receive; after soaking up 70 HP it blooms for +50 max HP."
+  ],
+  "silver_compass": [
+    "The next room always holds a chest or a statue."
+  ],
+  "silver_key": [
+    "Every chest and door opens for you."
+  ],
+  "soulbone_armor": [
+    "Kills have a 20% chance to grant a shield point.",
+    "Kills have a 25% chance to grant a shield point.",
+    "Kills have a 30% chance to grant a shield point.",
+    "Kills have a 35% chance to grant a shield point.",
+    "Kills have a 40% chance to grant a shield point."
+  ],
+  "soulbone_crown": [
+    "Every 3 kills grant 1 temporary shield point.",
+    "Every 3 kills grant 2 temporary shield points."
+  ],
+  "soulbone_mantle": [
+    "+20 shield points, plus 1 more for every 3 kills."
+  ],
+  "sprite_wings": [
+    "You can fly over pits and hazards on the ground."
+  ],
+  "stagnant_droplet": [
+    "Enemy projectiles within 3 m move slower."
+  ],
+  "talisman_of_focus": [
+    "Standing still cuts cooldowns, cast delay and spread by up to 60%."
+  ],
+  "titans_pauldrons": [
+    "+20 max HP, +15% body size, -33% recoil.",
+    "+40 max HP, +15% body size, -33% recoil.",
+    "+60 max HP, +15% body size, -33% recoil."
+  ],
+  "treant_circlet": [
+    "Passing through a door grants 15 temporary shield points.",
+    "Passing through a door grants 30 temporary shield points.",
+    "Passing through a door grants 45 temporary shield points.",
+    "Passing through a door grants 60 temporary shield points.",
+    "Passing through a door grants 75 temporary shield points."
+  ],
+  "treant_robe": [
+    "Passing through a door heals 5 HP.",
+    "Passing through a door heals 10 HP.",
+    "Passing through a door heals 15 HP.",
+    "Passing through a door heals 20 HP.",
+    "Passing through a door heals 25 HP."
+  ],
+  "treant_shoulderguards": [
+    "Passing through a door grants 3 shield points.",
+    "Passing through a door grants 6 shield points.",
+    "Passing through a door grants 9 shield points.",
+    "Passing through a door grants 12 shield points.",
+    "Passing through a door grants 15 shield points."
+  ],
+  "wand_lens": [
+    "Spell knockback +50%.",
+    "Spell knockback +100%.",
+    "Spell knockback +150%."
+  ],
+  "wild_tentacles": [
+    "+1.5 move speed.",
+    "+2 move speed.",
+    "+2.5 move speed.",
+    "+3 move speed.",
+    "+3.5 move speed."
+  ],
+  "reboot_key": [
+    "Rerolls every spell, wand, relic and curse you own, then crumbles."
+  ],
+  "explorers_hat": [
+    "Standard floors offer one extra door."
+  ],
+  "infusion_hand_seal": [
+    "Post-slot charging on every wand +20%.",
+    "Post-slot charging on every wand +40%.",
+    "Post-slot charging on every wand +60%.",
+    "Post-slot charging on every wand +80%.",
+    "Post-slot charging on every wand +100%."
+  ],
+  "colorful_cloak": [
+    "Your spells gain random elemental effects."
+  ],
+  "ward_charm": [
+    "Entering a room has a 33% chance to lift a random curse."
+  ],
+  "invisible_wings": [
+    "When hit, take flight with +30% move speed until you pass the next door."
+  ],
+  "berserker": [
+    "+50% damage dealt while below 50% HP."
+  ],
+  "cardiotonic": [
+    "Vitality room rewards +30%.",
+    "Vitality room rewards +60%.",
+    "Vitality room rewards +90%."
+  ],
+  "summoning_wealth_bell": [
+    "Treasury room rewards +30%.",
+    "Treasury room rewards +60%.",
+    "Treasury room rewards +90%."
+  ],
+  "coolant": [
+    "Active relic cooldowns -25%.",
+    "Active relic cooldowns -35%.",
+    "Active relic cooldowns -45%.",
+    "Active relic cooldowns -55%.",
+    "Active relic cooldowns -65%."
+  ],
+  "swordsman_cloak": [
+    "Space: invulnerable dash that grants one free cast of your held wand (2 s cooldown). {spell:evil_slayer_sword} costs 90% MP.",
+    "Space: invulnerable dash that grants one free cast of your held wand (2 s cooldown). {spell:evil_slayer_sword} costs 80% MP.",
+    "Space: invulnerable dash that grants one free cast of your held wand (2 s cooldown). {spell:evil_slayer_sword} costs 70% MP."
+  ],
+  "bian": [
+    "Space: call back every {spell:bian_flying_sword}, cutting enemies along the way (5 s cooldown).",
+    "Space: call back every {spell:bian_flying_sword}, cutting enemies along the way (4 s cooldown).",
+    "Space: call back every {spell:bian_flying_sword}, cutting enemies along the way (3 s cooldown)."
+  ],
+  "reaper": [
+    "Poison stacks you apply x2. Entering a room auto-combines craftable backpack spells.",
+    "Poison stacks you apply x3. Entering a room auto-combines craftable backpack spells."
+  ],
+  "original_shape": [
+    "Space: leap to the cursor and crash down, dealing 50% max HP (10% vs bosses) within 3 m. 10 s cooldown, reset on a kill.",
+    "Space: leap to the cursor and crash down, dealing 75% max HP (15% vs bosses) within 3 m. 10 s cooldown, reset on a kill."
+  ],
+  "druids_horn": [
+    "Within 3 m, deal 10% of your max HP per second to foes and heal allies 5% of it.",
+    "Within 3.5 m, deal 20% of your max HP per second to foes and heal allies 10% of it.",
+    "Within 4 m, deal 30% of your max HP per second to foes and heal allies 15% of it.",
+    "Within 4.5 m, deal 40% of your max HP per second to foes and heal allies 20% of it.",
+    "Within 5 m, deal 50% of your max HP per second to foes and heal allies 25% of it."
+  ],
+  "bird_beak_mask": [
+    "+1 potion capacity; earn a potion every 2 fights. Potions heal 5 HP.",
+    "+2 potion capacity; earn a potion every 2 fights. Potions heal 10 HP."
+  ],
+  "mystical_artifact": [
+    "+{lv} max HP. Replaces relic rewards once your other relics are fully upgraded."
+  ]
+}

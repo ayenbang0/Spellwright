@@ -1,0 +1,6 @@
+<!-- title: Reaper Set | updated: 2024-11-14T08:13:28Z | cats:  -->
+Reaper Set: It can double the number of venom layers (1.0 version cancels the upper limit of venom layers) and automatically synthesize spells that can be synthesized in the backpack every time you enter the door.
+[[File:Reaper Set.png|thumb]]
+Use the Venom Crystal to stack venom layers to 1500 to unlock the set.
+
+This is a crossover from Backpack Battles.

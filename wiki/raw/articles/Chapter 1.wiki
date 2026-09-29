@@ -1,0 +1,23 @@
+<!-- title: Chapter 1 | updated: 2024-03-04T18:16:55Z | cats:  -->
+== How to get Access ==
+
+* Walk through the start portal at the camp (the place where you initially spawn in).
+
+== Enemies ==
+(Placeholder)
+
+== Elites/Bosses ==
+[[Chaotic Wreckage]]
+
+[[Deceiver]]
+
+[[Giant Spider]]
+
+[[Irate Eye]]
+
+[[Venomous Spider Egg]]
+
+[[Wandering Worm]]
+
+== Trivia ==
+(Placeholder)

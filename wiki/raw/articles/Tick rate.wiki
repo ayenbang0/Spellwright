@@ -1,0 +1,50 @@
+<!-- title: Tick rate | updated: 2024-12-05T22:10:16Z | cats:  -->
+Spells that can deal damage multiple times can only hit as often as their tick rate allows.  
+
+Here is how often each spell can hit per second:
+{| class="fandom-table"
+|+
+!Spell
+!Hits/sec
+!Extra info
+|-
+|[[Skull of the Cthulhu]]
+|3 
+|Can be improved with [[Parasite]], [[Fusion Summon]]
+|-
+|[[Lightning Dash]]
+|3
+|Can hit faster if re-entering hit-box
+|-
+|[[Boomerang Blade]]
+|3
+|Can hit faster if re-entering hit-box
+|-
+|[[Thunderstorm]]
+|4
+|
+|-
+|[[Black Hole]]
+|4
+|
+|-
+|[[Shadow Serpent]]
+|4
+|
+|-
+|[[Ray of Disintegration]]
+|20
+|
+|-
+|[[Fierce Dragon Breath]]
+|22
+|
+|-
+|[[High-pressure Stream]]
+|30
+|
+|}
+
+'''Penetration'''
+
+[[Penetration]] allows other spells to hit a target multiple times, but the spell needs to re-enter the enemy hit-box to be able to hit the same target again. [[Lightning Dash]] and [[Boomerang Blade]] are special in that they have penetration, but can also hit the same target multiple times without leaving their hit-box. However the tick-rate when doing so is relatively slow at only 3 hits per second. What you can do is exploit the "leave the hit-box to hit again" mechanic by either [[Track|Tracking]] the edge of the enemy hit-box or increasing their speed with [[Accelerator]] making them shake in and out of the enemy hit-boxes rapidly.

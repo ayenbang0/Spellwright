@@ -1,0 +1,64 @@
+<!-- title: Duet | updated: 2025-05-03T13:37:44Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Duet.png|type=Spell Boost|rarity=Normal|misc_a_1=Casts the spell on the right at the completion of the spell on the left|misc_b_1=The spell on the right inherits 30% of the damage from the spell on the left|misc_a_2=Casts the spell on the right at the completion of the spell on the left|misc_b_2=The spell on the right inherits 60% of the damage from the spell on the left|misc_a_3=Casts the spell on the right at the completion of the spell on the left|misc_b_3=The spell on the right inherits 120% of the damage from the spell on the left}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. The right spell becomes more powerful based on the damage of the left spell.
+
+Even though the spell description does not mention it, the damage bonus from Duet applies to all spells inside the payload of duet, except those separated by another [[Trigger spells|Trigger spell.]] 
+
+Example 1:
+
+Wand with simultaneous casting 1
+
+[[Meteor]] + [[Duet]] + [[Volley]] + [[Magic Bullet]] + [[Laser]]
+
+The duet damage bonus will apply to both the magic bullet and the laser. 
+
+Example 2:
+
+Wand with simultaneous casting 2
+
+[[Meteor]] + [[Duet]] + [[Magic Bullet]] + [[Dazzling Fireworks]] + [[Laser]] + [[Butterfly]] + [[Rainbow]]
+
+The duet damage bonus is applied to the magic bullet and rainbow but not to laser and butterfly, because those are inside of [[Trigger spells|trigger spell]] payload.
+
+'''DPS spells and Duet''': When applying the duet damage to spells that do damage over time (those that have "DPS" in brackets) the Duet damage bonus is added to the overall damage per second. This means you will be hitting the enemy for dps divided by the [[Tick rate]] of the spell for each tick. 
+
+Exception to this rule is [[Skull of the Cthulhu]] which gains x1.75 Duet damage on all its ticks.
+
+Lightning dash does damage multiple times but does not have a DPS tag, so it benefits normally from the duet damage boost.
+
+Here is table of how Duet will affect various spells:
+{| class="fandom-table"
+|+
+!Spell
+!Duet damage will be 
+multiplied by this number
+|-
+|Any spell without (dps) tag
+|1
+|-
+|[[Boomerang Blade]]
+|1
+|-
+|[[Lightning Dash]]
+|1
+|-
+|[[Skull of the Cthulhu]]
+|1.7
+|-
+|[[Thunderstorm]], [[Black Hole]], [[Shadow Serpent]]
+|0.25
+|-
+|[[Ray of Disintegration]]
+|0.05
+|-
+|[[Fierce Dragon Breath]]
+|0.045
+|-
+|[[High-pressure Stream]]
+|0.033
+|}
+
+
+You can find more about how damage bonus from Duet is calculated here: [[Damage Calculation]]
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

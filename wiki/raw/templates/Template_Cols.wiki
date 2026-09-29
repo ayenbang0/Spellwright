@@ -1,0 +1,3 @@
+<!-- title: Template:Cols | updated: 2024-01-05T20:39:19Z | cats: Category:General wiki templates -->
+<includeonly><div style="column-count: {{{1}}};">{{{2}}}</div></includeonly><noinclude>
+{{documentation}}</noinclude>

@@ -1,0 +1,4 @@
+<!-- title: Category:Blog posts | updated: 2024-01-05T20:39:19Z | cats: Category:Community -->
+This is an automatically generated list of blog posts
+
+[[Category:Community]]

@@ -1,0 +1,7 @@
+<!-- title: Pillar of Light | updated: 2024-11-17T17:26:38Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Summon -->
+{{Spell InfoBox|image=Pillar_of_Light.png|type=Spell Summon|rarity=Normal|mana_cost1=40|mana_cost2=52|mana_cost3=67|hp1=30|hp2=30|hp3=30|number_of_shots1=3|number_of_shots2=4|number_of_shots3=6|summon_limit1=24|summon_limit2=24|summon_limit3=24|misc_a_2=Deals damage to enemies encountered with equal to 40% of their maximum HP|misc_a_3=Deals damage to enemies encountered with equal to 80% of their maximum HP}}'''{{PAGENAME}}''' is a [[Rarity|Common]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Summon. When the default spell is cast, a 3-pillar wall forms in front of the player blocking projectiles and damaging enemies that touch it.
+
+'''Description:''' The divine light brings a sense of security, withstanding projectiles from enemies and applying elemental effects to surrounding enemies.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Summon]]
+[[Category:Rarity: Rare]]

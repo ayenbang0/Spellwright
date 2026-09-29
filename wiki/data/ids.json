@@ -1,0 +1,1463 @@
+{
+ "spells": [
+  {
+   "id": "magic_bullet",
+   "wikiName": "Magic Bullet",
+   "type": "Projectiles"
+  },
+  {
+   "id": "rock_n_ball",
+   "wikiName": "Rock 'n' Ball",
+   "type": "Projectiles"
+  },
+  {
+   "id": "butterfly",
+   "wikiName": "Butterfly",
+   "type": "Projectiles"
+  },
+  {
+   "id": "laser",
+   "wikiName": "Laser",
+   "type": "Projectiles"
+  },
+  {
+   "id": "fuse",
+   "wikiName": "Fuse",
+   "type": "Projectiles"
+  },
+  {
+   "id": "floating_wisp",
+   "wikiName": "Floating Wisp",
+   "type": "Projectiles"
+  },
+  {
+   "id": "black_hole",
+   "wikiName": "Black Hole",
+   "type": "Projectiles"
+  },
+  {
+   "id": "arcane_explosion",
+   "wikiName": "Arcane Explosion",
+   "type": "Projectiles"
+  },
+  {
+   "id": "shadow_serpent",
+   "wikiName": "Shadow Serpent",
+   "type": "Projectiles"
+  },
+  {
+   "id": "ray_of_disintegration",
+   "wikiName": "Ray of Disintegration",
+   "type": "Projectiles"
+  },
+  {
+   "id": "deceptive_mine",
+   "wikiName": "Deceptive Mine",
+   "type": "Projectiles"
+  },
+  {
+   "id": "meteor",
+   "wikiName": "Meteor",
+   "type": "Projectiles"
+  },
+  {
+   "id": "rainbow",
+   "wikiName": "Rainbow",
+   "type": "Projectiles"
+  },
+  {
+   "id": "arcane_nova",
+   "wikiName": "Arcane Nova",
+   "type": "Projectiles"
+  },
+  {
+   "id": "lightning_dash",
+   "wikiName": "Lightning Dash",
+   "type": "Projectiles"
+  },
+  {
+   "id": "adava_keravda",
+   "wikiName": "Adava Keravda",
+   "type": "Projectiles"
+  },
+  {
+   "id": "thunderstorm",
+   "wikiName": "Thunderstorm",
+   "type": "Projectiles"
+  },
+  {
+   "id": "high_pressure_stream",
+   "wikiName": "High-pressure Stream",
+   "type": "Projectiles"
+  },
+  {
+   "id": "enchanting_coin",
+   "wikiName": "Enchanting Coin",
+   "type": "Projectiles"
+  },
+  {
+   "id": "evil_slayer_sword",
+   "wikiName": "Evil Slayer Sword",
+   "type": "Projectiles"
+  },
+  {
+   "id": "boomerang_blade",
+   "wikiName": "Boomerang Blade",
+   "type": "Projectiles"
+  },
+  {
+   "id": "sword_of_judgement",
+   "wikiName": "Sword of Judgement",
+   "type": "Projectiles"
+  },
+  {
+   "id": "condensed_water_bubble",
+   "wikiName": "Condensed Water Bubble",
+   "type": "Projectiles"
+  },
+  {
+   "id": "fierce_dragon_breath",
+   "wikiName": "Fierce Dragon Breath",
+   "type": "Projectiles"
+  },
+  {
+   "id": "shining_star_arrow",
+   "wikiName": "Shining Star Arrow",
+   "type": "Projectiles"
+  },
+  {
+   "id": "pop",
+   "wikiName": "Pop",
+   "type": "Summon"
+  },
+  {
+   "id": "skull_of_the_cthulhu",
+   "wikiName": "Skull of the Cthulhu",
+   "type": "Summon"
+  },
+  {
+   "id": "hand_of_the_cthulhu",
+   "wikiName": "Hand of the Cthulhu",
+   "type": "Summon"
+  },
+  {
+   "id": "pillar_of_light",
+   "wikiName": "Pillar of Light",
+   "type": "Summon"
+  },
+  {
+   "id": "autonomous_grimoire",
+   "wikiName": "Autonomous Grimoire",
+   "type": "Summon"
+  },
+  {
+   "id": "volley",
+   "wikiName": "Volley",
+   "type": "Boost"
+  },
+  {
+   "id": "multi_shot",
+   "wikiName": "Multi-Shot",
+   "type": "Boost"
+  },
+  {
+   "id": "over_scatter",
+   "wikiName": "Over Scatter",
+   "type": "Boost"
+  },
+  {
+   "id": "slime_crystal",
+   "wikiName": "Slime Crystal",
+   "type": "Boost"
+  },
+  {
+   "id": "venom_crystal",
+   "wikiName": "Venom Crystal",
+   "type": "Boost"
+  },
+  {
+   "id": "penetration",
+   "wikiName": "Penetration",
+   "type": "Boost"
+  },
+  {
+   "id": "chain_of_lightning",
+   "wikiName": "Chain of Lightning",
+   "type": "Boost"
+  },
+  {
+   "id": "hover",
+   "wikiName": "Hover",
+   "type": "Boost"
+  },
+  {
+   "id": "orbit",
+   "wikiName": "Orbit",
+   "type": "Boost"
+  },
+  {
+   "id": "track",
+   "wikiName": "Track",
+   "type": "Boost"
+  },
+  {
+   "id": "automatic_navigate",
+   "wikiName": "Automatic Navigate",
+   "type": "Boost"
+  },
+  {
+   "id": "rebound",
+   "wikiName": "Rebound",
+   "type": "Boost"
+  },
+  {
+   "id": "split",
+   "wikiName": "Split",
+   "type": "Boost"
+  },
+  {
+   "id": "frost_crystal",
+   "wikiName": "Frost Crystal",
+   "type": "Boost"
+  },
+  {
+   "id": "parasite",
+   "wikiName": "Parasite",
+   "type": "Boost"
+  },
+  {
+   "id": "core_of_thunder",
+   "wikiName": "Core of Thunder",
+   "type": "Boost"
+  },
+  {
+   "id": "dmg_enhanced",
+   "wikiName": "DMG Enhanced",
+   "type": "Boost"
+  },
+  {
+   "id": "time_duration_enhanced",
+   "wikiName": "Time Duration Enhanced",
+   "type": "Boost"
+  },
+  {
+   "id": "energy_saving_mode",
+   "wikiName": "Energy Saving Mode",
+   "type": "Boost"
+  },
+  {
+   "id": "precise_shot",
+   "wikiName": "Precise Shot",
+   "type": "Boost"
+  },
+  {
+   "id": "accelerator",
+   "wikiName": "Accelerator",
+   "type": "Boost"
+  },
+  {
+   "id": "range_enhanced",
+   "wikiName": "Range Enhanced",
+   "type": "Boost"
+  },
+  {
+   "id": "troll_serum",
+   "wikiName": "Troll Serum",
+   "type": "Boost"
+  },
+  {
+   "id": "mimicry_cube",
+   "wikiName": "Mimicry Cube",
+   "type": "Boost"
+  },
+  {
+   "id": "umbilical_cord",
+   "wikiName": "Umbilical Cord",
+   "type": "Boost"
+  },
+  {
+   "id": "core_of_flame",
+   "wikiName": "Core of Flame",
+   "type": "Boost"
+  },
+  {
+   "id": "strong_traction",
+   "wikiName": "Strong Traction",
+   "type": "Boost"
+  },
+  {
+   "id": "fusion_summon",
+   "wikiName": "Fusion Summon",
+   "type": "Boost"
+  },
+  {
+   "id": "cadaver_explosion",
+   "wikiName": "Cadaver Explosion",
+   "type": "Boost"
+  },
+  {
+   "id": "essence_of_soul",
+   "wikiName": "Essence of Soul",
+   "type": "Boost"
+  },
+  {
+   "id": "reflection",
+   "wikiName": "Reflection",
+   "type": "Boost"
+  },
+  {
+   "id": "indomitability",
+   "wikiName": "Indomitability",
+   "type": "Boost"
+  },
+  {
+   "id": "duet",
+   "wikiName": "Duet",
+   "type": "Boost"
+  },
+  {
+   "id": "dazzling_fireworks",
+   "wikiName": "Dazzling Fireworks",
+   "type": "Boost"
+  },
+  {
+   "id": "serial",
+   "wikiName": "Serial",
+   "type": "Boost"
+  },
+  {
+   "id": "echo",
+   "wikiName": "Echo",
+   "type": "Boost"
+  },
+  {
+   "id": "magic_reservoir",
+   "wikiName": "Magic Reservoir",
+   "type": "Passive"
+  },
+  {
+   "id": "tranquil_bloom",
+   "wikiName": "Tranquil Bloom",
+   "type": "Passive"
+  },
+  {
+   "id": "charge_mode",
+   "wikiName": "Charge Mode",
+   "type": "Passive"
+  },
+  {
+   "id": "wand_spirit",
+   "wikiName": "Wand Spirit",
+   "type": "Passive"
+  },
+  {
+   "id": "forced_cooldown",
+   "wikiName": "Forced Cooldown",
+   "type": "Passive"
+  },
+  {
+   "id": "capacity_expansion_stone",
+   "wikiName": "Capacity Expansion Stone",
+   "type": "Passive"
+  },
+  {
+   "id": "resonance_rune",
+   "wikiName": "Resonance Rune",
+   "type": "Passive"
+  },
+  {
+   "id": "arcane_barrier",
+   "wikiName": "Arcane Barrier",
+   "type": "Passive"
+  },
+  {
+   "id": "bings_arrow",
+   "wikiName": "Bing's Arrow",
+   "type": "Projectiles"
+  },
+  {
+   "id": "bian_flying_sword",
+   "wikiName": "Bi'an Flying Sword",
+   "type": "Passive"
+  },
+  {
+   "id": "area_boost",
+   "wikiName": "Area Boost",
+   "type": "Passive"
+  },
+  {
+   "id": "mana_absorption",
+   "wikiName": "Mana Absorption",
+   "type": "Projectiles"
+  },
+  {
+   "id": "magic_upgrade",
+   "wikiName": "Magic Upgrade",
+   "type": "Boost"
+  },
+  {
+   "id": "enlarge_spell",
+   "wikiName": "Enlarge Spell",
+   "type": "Boost"
+  },
+  {
+   "id": "fall",
+   "wikiName": "Fall",
+   "type": "Boost"
+  },
+  {
+   "id": "magic_vine",
+   "wikiName": "Magic Vine",
+   "type": "Passive"
+  },
+  {
+   "id": "spell_prototype",
+   "wikiName": "Spell Prototype",
+   "type": "Passive"
+  }
+ ],
+ "wands": [
+  {
+   "id": "damaged_excaliwood_wand",
+   "wikiName": "Damaged Excaliwood Wand"
+  },
+  {
+   "id": "arcane_staff",
+   "wikiName": "Arcane Staff"
+  },
+  {
+   "id": "staff_of_conjuring",
+   "wikiName": "Staff of Conjuring"
+  },
+  {
+   "id": "swiftcaster_wand",
+   "wikiName": "Swiftcaster Wand"
+  },
+  {
+   "id": "ethereal_wand",
+   "wikiName": "Ethereal Wand"
+  },
+  {
+   "id": "elderwood_cane",
+   "wikiName": "Elderwood Cane"
+  },
+  {
+   "id": "toy_blade",
+   "wikiName": "Toy Blade"
+  },
+  {
+   "id": "microcosmic_embrace",
+   "wikiName": "Microcosmic Embrace"
+  },
+  {
+   "id": "steadfast_will",
+   "wikiName": "Steadfast Will"
+  },
+  {
+   "id": "featherweight_wand",
+   "wikiName": "Featherweight Wand"
+  },
+  {
+   "id": "harmonic_resonance",
+   "wikiName": "Harmonic Resonance"
+  },
+  {
+   "id": "natural_convergence",
+   "wikiName": "Natural Convergence"
+  },
+  {
+   "id": "wooden_stick",
+   "wikiName": "Wooden Stick"
+  },
+  {
+   "id": "tuning_fork",
+   "wikiName": "Tuning Fork"
+  },
+  {
+   "id": "novices_grimoire",
+   "wikiName": "Novice's Grimoire"
+  },
+  {
+   "id": "guiding_fable",
+   "wikiName": "Guiding Fable"
+  },
+  {
+   "id": "old_wand",
+   "wikiName": "Old Wand"
+  },
+  {
+   "id": "777",
+   "wikiName": "777"
+  },
+  {
+   "id": "time_stasis",
+   "wikiName": "Time Stasis"
+  },
+  {
+   "id": "new_wand",
+   "wikiName": "New Wand"
+  },
+  {
+   "id": "elders_grip",
+   "wikiName": "Elder's Grip"
+  },
+  {
+   "id": "frenzy_enchanter",
+   "wikiName": "Frenzy Enchanter"
+  },
+  {
+   "id": "viscous_fang",
+   "wikiName": "Viscous Fang"
+  },
+  {
+   "id": "venomous_bite",
+   "wikiName": "Venomous Bite"
+  },
+  {
+   "id": "arc_of_justice",
+   "wikiName": "Arc of Justice"
+  },
+  {
+   "id": "tricolor_scepter",
+   "wikiName": "Tricolor Scepter"
+  },
+  {
+   "id": "defiant_nature",
+   "wikiName": "Defiant Nature"
+  },
+  {
+   "id": "shamanic_dagger",
+   "wikiName": "Shamanic Dagger"
+  },
+  {
+   "id": "shattered_scepter",
+   "wikiName": "Shattered Scepter"
+  },
+  {
+   "id": "rusty_blaster",
+   "wikiName": "Rusty Blaster"
+  },
+  {
+   "id": "energy_reservoir",
+   "wikiName": "Energy Reservoir"
+  },
+  {
+   "id": "trident",
+   "wikiName": "Trident"
+  },
+  {
+   "id": "soul_devouring_orb",
+   "wikiName": "Soul-Devouring Orb"
+  },
+  {
+   "id": "legacy_of_ancestors",
+   "wikiName": "Legacy of Ancestors"
+  },
+  {
+   "id": "vow_of_honor",
+   "wikiName": "Vow of Honor"
+  },
+  {
+   "id": "radiant_bouquet",
+   "wikiName": "Radiant Bouquet"
+  },
+  {
+   "id": "conch_whistle",
+   "wikiName": "Conch Whistle"
+  },
+  {
+   "id": "sacrificial_dagger",
+   "wikiName": "Sacrificial Dagger"
+  },
+  {
+   "id": "energizer_wand",
+   "wikiName": "Energizer Wand"
+  },
+  {
+   "id": "deed_witness",
+   "wikiName": "Deed Witness"
+  },
+  {
+   "id": "swiftshot_staff",
+   "wikiName": "Swiftshot Staff"
+  },
+  {
+   "id": "legion_banner",
+   "wikiName": "Legion Banner"
+  },
+  {
+   "id": "expanding_container",
+   "wikiName": "Expanding Container"
+  },
+  {
+   "id": "double_flute",
+   "wikiName": "Double Flute"
+  },
+  {
+   "id": "trichord_lute",
+   "wikiName": "Trichord Lute"
+  },
+  {
+   "id": "sorcerers_oath",
+   "wikiName": "Sorcerer's Oath"
+  },
+  {
+   "id": "restless_heart",
+   "wikiName": "Restless Heart"
+  },
+  {
+   "id": "witchs_broomstick",
+   "wikiName": "Witch's Broomstick"
+  },
+  {
+   "id": "tome_of_endless",
+   "wikiName": "Tome of Endless"
+  },
+  {
+   "id": "heavy_impact",
+   "wikiName": "Heavy Impact"
+  },
+  {
+   "id": "sigil_of_temperance",
+   "wikiName": "Sigil of Temperance"
+  },
+  {
+   "id": "twin_headed_wand",
+   "wikiName": "Twin-headed Wand"
+  },
+  {
+   "id": "swift_spellblade",
+   "wikiName": "Swift Spellblade"
+  },
+  {
+   "id": "book_of_tranquility",
+   "wikiName": "Book of Tranquility"
+  },
+  {
+   "id": "handy_wand",
+   "wikiName": "Handy Wand"
+  },
+  {
+   "id": "ripple_wand",
+   "wikiName": "Ripple Wand"
+  },
+  {
+   "id": "portable_library",
+   "wikiName": "Portable Library"
+  },
+  {
+   "id": "wand_of_convergence",
+   "wikiName": "Wand of Convergence"
+  },
+  {
+   "id": "warlocks_satchel",
+   "wikiName": "Warlock's Satchel"
+  },
+  {
+   "id": "aquaflow_staff",
+   "wikiName": "Aquaflow Staff"
+  },
+  {
+   "id": "star_strider",
+   "wikiName": "Star Strider"
+  },
+  {
+   "id": "festive_wand",
+   "wikiName": "Festive Wand"
+  },
+  {
+   "id": "grannys_needle",
+   "wikiName": "Granny's Needle"
+  },
+  {
+   "id": "voltage_stone",
+   "wikiName": "Voltage Stone"
+  },
+  {
+   "id": "magic_conductor",
+   "wikiName": "Magic Conductor"
+  },
+  {
+   "id": "stellar_horn",
+   "wikiName": "Stellar Horn"
+  },
+  {
+   "id": "serpentine_waltz",
+   "wikiName": "Serpentine Waltz"
+  },
+  {
+   "id": "asteroid",
+   "wikiName": "Asteroid"
+  },
+  {
+   "id": "energized_orb",
+   "wikiName": "Energized Orb"
+  },
+  {
+   "id": "restless_fey",
+   "wikiName": "Restless Fey"
+  },
+  {
+   "id": "mind_blade",
+   "wikiName": "Mind Blade"
+  },
+  {
+   "id": "plague_bearer",
+   "wikiName": "Plague Bearer"
+  },
+  {
+   "id": "dormant_whisker",
+   "wikiName": "Dormant Whisker"
+  },
+  {
+   "id": "siegemaker",
+   "wikiName": "Siegemaker"
+  },
+  {
+   "id": "frozen_touch",
+   "wikiName": "Frozen Touch"
+  },
+  {
+   "id": "kingdoms_guardian",
+   "wikiName": "Kingdom's Guardian"
+  },
+  {
+   "id": "dark_young",
+   "wikiName": "Dark Young"
+  },
+  {
+   "id": "archmages_wand",
+   "wikiName": "Archmage's Wand"
+  },
+  {
+   "id": "shapeshifter",
+   "wikiName": "Shapeshifter"
+  },
+  {
+   "id": "rainbow_electroweb",
+   "wikiName": "Rainbow Electroweb"
+  },
+  {
+   "id": "collectors_staff",
+   "wikiName": "Collector's Staff"
+  },
+  {
+   "id": "the_heirless",
+   "wikiName": "The Heirless"
+  },
+  {
+   "id": "the_shadeless",
+   "wikiName": "The Shadeless"
+  },
+  {
+   "id": "the_lightless",
+   "wikiName": "The Lightless"
+  },
+  {
+   "id": "the_formless",
+   "wikiName": "The Formless"
+  },
+  {
+   "id": "the_featureless",
+   "wikiName": "The Featureless"
+  },
+  {
+   "id": "the_faultless",
+   "wikiName": "The Faultless"
+  },
+  {
+   "id": "the_boundless",
+   "wikiName": "The Boundless"
+  },
+  {
+   "id": "the_sourceless",
+   "wikiName": "The Sourceless"
+  },
+  {
+   "id": "the_wordless",
+   "wikiName": "The Wordless"
+  },
+  {
+   "id": "the_nameless",
+   "wikiName": "The Nameless"
+  },
+  {
+   "id": "wand_of_focus",
+   "wikiName": "Wand of Focus"
+  },
+  {
+   "id": "omen_of_doom",
+   "wikiName": "Omen of Doom"
+  },
+  {
+   "id": "clearwater_resonance",
+   "wikiName": "Clearwater Resonance"
+  },
+  {
+   "id": "shard_of_time",
+   "wikiName": "Shard of Time"
+  },
+  {
+   "id": "stellar_drift",
+   "wikiName": "Stellar Drift"
+  },
+  {
+   "id": "quadruple_staff",
+   "wikiName": "Quadruple Staff"
+  }
+ ],
+ "relics": [
+  {
+   "id": "knights_boots",
+   "wikiName": "Knight's Boots"
+  },
+  {
+   "id": "beast_fangs",
+   "wikiName": "Beast Fangs"
+  },
+  {
+   "id": "black_mark",
+   "wikiName": "Black Mark"
+  },
+  {
+   "id": "blade_of_fury",
+   "wikiName": "Blade of Fury"
+  },
+  {
+   "id": "blood_key",
+   "wikiName": "Blood Key"
+  },
+  {
+   "id": "bloodthirsty_gaze",
+   "wikiName": "Bloodthirsty Gaze"
+  },
+  {
+   "id": "casket_of_souls",
+   "wikiName": "Casket of Souls"
+  },
+  {
+   "id": "close_observation",
+   "wikiName": "Close Observation"
+  },
+  {
+   "id": "cloud_piercer",
+   "wikiName": "Cloud Piercer"
+  },
+  {
+   "id": "crimson_anklet",
+   "wikiName": "Crimson Anklet"
+  },
+  {
+   "id": "prospectors_goblet",
+   "wikiName": "Prospector's Goblet"
+  },
+  {
+   "id": "dashing_ear",
+   "wikiName": "Dashing Ear"
+  },
+  {
+   "id": "demon_mask",
+   "wikiName": "Demon Mask"
+  },
+  {
+   "id": "demonbone_tail",
+   "wikiName": "Demonbone Tail"
+  },
+  {
+   "id": "drill",
+   "wikiName": "Drill"
+  },
+  {
+   "id": "dusty_treasure",
+   "wikiName": "Dusty Treasure"
+  },
+  {
+   "id": "electrified_crown",
+   "wikiName": "Electrified Crown"
+  },
+  {
+   "id": "elven_ears",
+   "wikiName": "Elven Ears"
+  },
+  {
+   "id": "ember_heart",
+   "wikiName": "Ember-heart"
+  },
+  {
+   "id": "endless_chest",
+   "wikiName": "Endless Chest"
+  },
+  {
+   "id": "endless_elixir",
+   "wikiName": "Endless Elixir"
+  },
+  {
+   "id": "finite_gloves",
+   "wikiName": "Finite Gloves"
+  },
+  {
+   "id": "fortune_earrings",
+   "wikiName": "Fortune Earrings"
+  },
+  {
+   "id": "four_leaf_clover",
+   "wikiName": "Four-Leaf Clover"
+  },
+  {
+   "id": "guardian_sprite",
+   "wikiName": "Guardian Sprite"
+  },
+  {
+   "id": "healing_belt",
+   "wikiName": "Healing Belt"
+  },
+  {
+   "id": "hexagonal_die",
+   "wikiName": "Hexagonal Die"
+  },
+  {
+   "id": "hourglass_of_time",
+   "wikiName": "Hourglass of Time"
+  },
+  {
+   "id": "hunters_talisman",
+   "wikiName": "Hunter's Talisman"
+  },
+  {
+   "id": "knights_breastplate",
+   "wikiName": "Knight's Breastplate"
+  },
+  {
+   "id": "knights_helm",
+   "wikiName": "Knight's Helm"
+  },
+  {
+   "id": "lucky_bunny_ear",
+   "wikiName": "Lucky Bunny Ear"
+  },
+  {
+   "id": "magicians_robe",
+   "wikiName": "Magician's Robe"
+  },
+  {
+   "id": "magnifying_glass",
+   "wikiName": "Magnifying Glass"
+  },
+  {
+   "id": "mask_of_the_hexer",
+   "wikiName": "Mask of the Hexer"
+  },
+  {
+   "id": "merchants_bauble",
+   "wikiName": "Merchant's Bauble"
+  },
+  {
+   "id": "merlins_beard",
+   "wikiName": "Merlin's Beard"
+  },
+  {
+   "id": "merlins_boots",
+   "wikiName": "Merlin's Boots"
+  },
+  {
+   "id": "merlins_hat",
+   "wikiName": "Merlin's Hat"
+  },
+  {
+   "id": "merlins_robe",
+   "wikiName": "Merlin's Robe"
+  },
+  {
+   "id": "mirror_of_vision",
+   "wikiName": "Mirror of Vision"
+  },
+  {
+   "id": "octagonal_die",
+   "wikiName": "Octagonal Die"
+  },
+  {
+   "id": "pandoras_box",
+   "wikiName": "Pandora's Box"
+  },
+  {
+   "id": "tree_spirit_pendant",
+   "wikiName": "Tree Spirit Pendant"
+  },
+  {
+   "id": "prospectors_gloves",
+   "wikiName": "Prospector's Gloves"
+  },
+  {
+   "id": "prospectors_pickaxe",
+   "wikiName": "Prospector's Pickaxe"
+  },
+  {
+   "id": "prospectors_vest",
+   "wikiName": "Prospector's Vest"
+  },
+  {
+   "id": "rageful_eye",
+   "wikiName": "Rageful Eye"
+  },
+  {
+   "id": "rangers_boots",
+   "wikiName": "Ranger's Boots"
+  },
+  {
+   "id": "reaper_mask",
+   "wikiName": "Reaper Mask"
+  },
+  {
+   "id": "replica_gloves",
+   "wikiName": "Replica Gloves"
+  },
+  {
+   "id": "resilient_physique",
+   "wikiName": "Resilient Physique"
+  },
+  {
+   "id": "rogue_cloak",
+   "wikiName": "Rogue Cloak"
+  },
+  {
+   "id": "seed_of_greed",
+   "wikiName": "Seed of Greed"
+  },
+  {
+   "id": "silver_compass",
+   "wikiName": "Silver Compass"
+  },
+  {
+   "id": "silver_key",
+   "wikiName": "Silver Key"
+  },
+  {
+   "id": "soulbone_armor",
+   "wikiName": "Soulbone Armor"
+  },
+  {
+   "id": "soulbone_crown",
+   "wikiName": "Soulbone Crown"
+  },
+  {
+   "id": "soulbone_mantle",
+   "wikiName": "Soulbone Mantle"
+  },
+  {
+   "id": "sprite_wings",
+   "wikiName": "Sprite Wings"
+  },
+  {
+   "id": "stagnant_droplet",
+   "wikiName": "Stagnant Droplet"
+  },
+  {
+   "id": "talisman_of_focus",
+   "wikiName": "Talisman of Focus"
+  },
+  {
+   "id": "titans_pauldrons",
+   "wikiName": "Titan's Pauldrons"
+  },
+  {
+   "id": "treant_circlet",
+   "wikiName": "Treant Circlet"
+  },
+  {
+   "id": "treant_robe",
+   "wikiName": "Treant Robe"
+  },
+  {
+   "id": "treant_shoulderguards",
+   "wikiName": "Treant Shoulderguards"
+  },
+  {
+   "id": "wand_lens",
+   "wikiName": "Wand Lens"
+  },
+  {
+   "id": "wild_tentacles",
+   "wikiName": "Wild Tentacles"
+  },
+  {
+   "id": "reboot_key",
+   "wikiName": "Reboot Key"
+  },
+  {
+   "id": "explorers_hat",
+   "wikiName": "Explorer's Hat"
+  },
+  {
+   "id": "infusion_hand_seal",
+   "wikiName": "Infusion Hand Seal"
+  },
+  {
+   "id": "colorful_cloak",
+   "wikiName": "Colorful Cloak"
+  },
+  {
+   "id": "ward_charm",
+   "wikiName": "Ward Charm"
+  },
+  {
+   "id": "invisible_wings",
+   "wikiName": "Invisible Wings"
+  },
+  {
+   "id": "berserker",
+   "wikiName": "Berserker"
+  },
+  {
+   "id": "cardiotonic",
+   "wikiName": "Cardiotonic"
+  },
+  {
+   "id": "summoning_wealth_bell",
+   "wikiName": "Summoning Wealth Bell"
+  },
+  {
+   "id": "coolant",
+   "wikiName": "Coolant"
+  },
+  {
+   "id": "swordsman_cloak",
+   "wikiName": "Swordsman Cloak"
+  },
+  {
+   "id": "bian",
+   "wikiName": "Bi'an"
+  },
+  {
+   "id": "reaper",
+   "wikiName": "Reaper"
+  },
+  {
+   "id": "original_shape",
+   "wikiName": "Original Shape"
+  },
+  {
+   "id": "druids_horn",
+   "wikiName": "Druid's Horn"
+  },
+  {
+   "id": "bird_beak_mask",
+   "wikiName": "Bird beak mask"
+  },
+  {
+   "id": "mystical_artifact",
+   "wikiName": "Mystical Artifact"
+  }
+ ],
+ "curses": [
+  {
+   "id": "expired_bounty",
+   "wikiName": "Expired Bounty"
+  },
+  {
+   "id": "enhanced_traps",
+   "wikiName": "Enhanced Traps"
+  },
+  {
+   "id": "bloodthirsty_underlings",
+   "wikiName": "Bloodthirsty Underlings"
+  },
+  {
+   "id": "unstable_rifts",
+   "wikiName": "Unstable Rifts"
+  },
+  {
+   "id": "muscle_atrophy",
+   "wikiName": "Muscle Atrophy"
+  },
+  {
+   "id": "timid",
+   "wikiName": "Timid"
+  },
+  {
+   "id": "heartburn",
+   "wikiName": "Heartburn"
+  },
+  {
+   "id": "fragile",
+   "wikiName": "Fragile"
+  },
+  {
+   "id": "sluggishness",
+   "wikiName": "Sluggishness"
+  },
+  {
+   "id": "thorned_entry",
+   "wikiName": "Thorned Entry"
+  },
+  {
+   "id": "complex_locks",
+   "wikiName": "Complex Locks"
+  },
+  {
+   "id": "tattered_pouch",
+   "wikiName": "Tattered Pouch"
+  },
+  {
+   "id": "impatience",
+   "wikiName": "Impatience"
+  },
+  {
+   "id": "magic_suppression",
+   "wikiName": "Magic Suppression"
+  },
+  {
+   "id": "inefficient_casting",
+   "wikiName": "Inefficient Casting"
+  },
+  {
+   "id": "unstable_balance",
+   "wikiName": "Unstable Balance"
+  },
+  {
+   "id": "profanity",
+   "wikiName": "Profanity"
+  },
+  {
+   "id": "raging_blood",
+   "wikiName": "Raging Blood"
+  },
+  {
+   "id": "misfortune",
+   "wikiName": "Misfortune"
+  },
+  {
+   "id": "shrinking_backpack",
+   "wikiName": "Shrinking Backpack"
+  },
+  {
+   "id": "potion_allergy",
+   "wikiName": "Potion Allergy"
+  },
+  {
+   "id": "explosive_pursuit",
+   "wikiName": "Explosive Pursuit"
+  },
+  {
+   "id": "feebleness",
+   "wikiName": "Feebleness"
+  },
+  {
+   "id": "grim_wager",
+   "wikiName": "Grim Wager"
+  },
+  {
+   "id": "antique_timepiece",
+   "wikiName": "Antique Timepiece"
+  },
+  {
+   "id": "weakness",
+   "wikiName": "Weakness"
+  },
+  {
+   "id": "lethargic_shop",
+   "wikiName": "Lethargic Shop"
+  },
+  {
+   "id": "near_sighted",
+   "wikiName": "Near-Sighted"
+  },
+  {
+   "id": "gate_of_mist",
+   "wikiName": "Gate of Mist"
+  },
+  {
+   "id": "vengeful_spirits",
+   "wikiName": "Vengeful Spirits"
+  },
+  {
+   "id": "frantic_fumble",
+   "wikiName": "Frantic Fumble"
+  },
+  {
+   "id": "perpetual_harm",
+   "wikiName": "Perpetual Harm"
+  },
+  {
+   "id": "stiffened",
+   "wikiName": "Stiffened"
+  },
+  {
+   "id": "depleted_diamonds",
+   "wikiName": "Depleted Diamonds"
+  },
+  {
+   "id": "savage_proliferation",
+   "wikiName": "Savage Proliferation"
+  },
+  {
+   "id": "corroded_currency",
+   "wikiName": "Corroded Currency"
+  },
+  {
+   "id": "toppling_balance",
+   "wikiName": "Toppling Balance"
+  },
+  {
+   "id": "nocturnal_blindness",
+   "wikiName": "Nocturnal Blindness"
+  },
+  {
+   "id": "bewilderment",
+   "wikiName": "Bewilderment"
+  },
+  {
+   "id": "doom",
+   "wikiName": "Doom"
+  },
+  {
+   "id": "aphasia",
+   "wikiName": "Aphasia"
+  },
+  {
+   "id": "shackles",
+   "wikiName": "Shackles"
+  },
+  {
+   "id": "vanished",
+   "wikiName": "Vanished"
+  },
+  {
+   "id": "magic_dissipation",
+   "wikiName": "Magic Dissipation"
+  },
+  {
+   "id": "slovenliness",
+   "wikiName": "Slovenliness"
+  },
+  {
+   "id": "relentless_snail",
+   "wikiName": "Relentless Snail"
+  }
+ ],
+ "potions": [
+  {
+   "id": "serpents_blood",
+   "wikiName": "Serpent's Blood"
+  },
+  {
+   "id": "shield_potion",
+   "wikiName": "Shield Potion"
+  },
+  {
+   "id": "holy_water",
+   "wikiName": "Holy Water"
+  },
+  {
+   "id": "reforge_potion",
+   "wikiName": "Reforge Potion"
+  },
+  {
+   "id": "illusion_potion",
+   "wikiName": "Illusion Potion"
+  },
+  {
+   "id": "awakening_potion",
+   "wikiName": "Awakening Potion"
+  },
+  {
+   "id": "refresh_potion",
+   "wikiName": "Refresh Potion"
+  },
+  {
+   "id": "lockpick_potion",
+   "wikiName": "Lockpick Potion"
+  },
+  {
+   "id": "midas_potion",
+   "wikiName": "Midas Potion"
+  },
+  {
+   "id": "discount_potion",
+   "wikiName": "Discount Potion"
+  },
+  {
+   "id": "levitation_potion",
+   "wikiName": "Levitation Potion"
+  },
+  {
+   "id": "invisibility_potion",
+   "wikiName": "Invisibility Potion"
+  },
+  {
+   "id": "invincibility_potion",
+   "wikiName": "Invincibility Potion"
+  },
+  {
+   "id": "petrification_potion",
+   "wikiName": "Petrification Potion"
+  },
+  {
+   "id": "agility_potion",
+   "wikiName": "Agility Potion"
+  },
+  {
+   "id": "scale_potion",
+   "wikiName": "Scale Potion"
+  },
+  {
+   "id": "crystal_potion",
+   "wikiName": "Crystal Potion"
+  },
+  {
+   "id": "unstable_red_potion",
+   "wikiName": "Unstable Red Potion"
+  },
+  {
+   "id": "unstable_blue_potion",
+   "wikiName": "Unstable Blue Potion"
+  },
+  {
+   "id": "purification_potion",
+   "wikiName": "Purification Potion"
+  },
+  {
+   "id": "wealth_potion",
+   "wikiName": "Wealth Potion"
+  },
+  {
+   "id": "tears_of_the_goddess",
+   "wikiName": "Tears Of the Goddess"
+  },
+  {
+   "id": "relic_potion",
+   "wikiName": "Relic Potion"
+  },
+  {
+   "id": "reset_potion",
+   "wikiName": "Reset Potion"
+  },
+  {
+   "id": "sacrificial_potion",
+   "wikiName": "Sacrificial Potion"
+  },
+  {
+   "id": "locksmith_potion",
+   "wikiName": "Locksmith Potion"
+  },
+  {
+   "id": "pure_castor_oil",
+   "wikiName": "Pure Castor Oil"
+  },
+  {
+   "id": "duplication_potion",
+   "wikiName": "Duplication Potion"
+  },
+  {
+   "id": "treasure_potion",
+   "wikiName": "Treasure Potion"
+  },
+  {
+   "id": "emergency_potion",
+   "wikiName": "Emergency Potion"
+  },
+  {
+   "id": "conversion_potion",
+   "wikiName": "Conversion Potion"
+  }
+ ]
+}

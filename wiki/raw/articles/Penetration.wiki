@@ -1,0 +1,5 @@
+<!-- title: Penetration | updated: 2024-12-03T00:41:25Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Penetration.png|type=Spell Boost|rarity=Normal|spell_penetration1=+1|spell_penetration2=+2|spell_penetration3=+4}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It allows a spell to hit an enemy, pass through them, and potentially hit another enemy with a single cast. Higher Spell Penetration levels allow more enemies to be passed through.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

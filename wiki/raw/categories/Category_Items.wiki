@@ -1,0 +1,8 @@
+<!-- title: Category:Items | updated: 2024-02-29T15:13:41Z | cats:  -->
+== Pages ==
+
+* [[Curses]]
+* [[Potions]]
+* [[Relics]]
+* [[Spells]]
+* [[Wands]]

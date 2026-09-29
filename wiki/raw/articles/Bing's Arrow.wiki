@@ -1,0 +1,8 @@
+<!-- title: Bing's Arrow | updated: 2025-07-12T00:07:12Z | cats:  -->
+{{Spell_InfoBox|title=Bing's Arrow|image=Bing's_Arrow.png|desc=Pulling arrows from the Bing's Bow, after a few shots, a bunch of arrows mysteriously fall out. So magical!|type=Spell Projectiles|rarity=Normal|mana_cost1=4|mana_cost2=5|mana_cost3=7|dmg1=11|dmg2=20|dmg3=36|misc_a_1=After 50 casts, the next cast fires 4 big arrows|misc_a_2=After 50 casts, the next cast fires 6 big arrows|misc_a_3=After 50 casts, the next cast fires 10 big arrows}}
+
+'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it fires a single project towards the target. After 50 casts, the next cast fires multiple big arrows, increasing with the level of the spell.
+
+Note, you will typically only ever see this if you wear the Bing Set.
+
+'''Description:''' Pulling arrows from the Bing's Bow, after a few shots, a bunch of arrows mysteriously fall out. So magical!

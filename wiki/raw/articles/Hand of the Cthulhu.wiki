@@ -1,0 +1,7 @@
+<!-- title: Hand of the Cthulhu | updated: 2024-11-17T17:24:50Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Summon -->
+{{Spell InfoBox|image=Hand_of_the_Cthulhu.png|type=Spell Summon|rarity=Normal|mana_cost1=30|mana_cost2=39|mana_cost3=47|dmg1=10|dmg2=20|dmg3=40|duration1=20 seconds|duration2=30 seconds|duration3=40 seconds|hp1=19|hp2=19|hp3=19}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Summon. When the default spell is cast, a tentacle springs up near the player and attacks enemies by forcing a spike to emerge from the ground beneath the target.
+
+'''Description:''' Though not a plant, it can be described as emerging from the soil. The hand of the Cthulhu can attack enemies regardless of distance.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Summon]]
+[[Category:Rarity: Normal]]

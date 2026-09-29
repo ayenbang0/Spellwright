@@ -1,0 +1,246 @@
+<!-- title: Curses | updated: 2025-03-11T12:20:22Z | cats:  -->
+Curses are a collection of debuffs that are found throughout the game,  guaranteed in cursed chests as well as certain key rooms. Although mostly seen as a nuisance during runs, they can become quite useful under certain circumstances. For example, in combination with certain [[Relics]] that grant buffs for having curses. Some heroes actually find several of the curses to be quite desirable for their effects.
+
+{| class="fandom-table"
+|+
+!'''Name'''
+!'''icon'''
+!'''Rarity level'''
+!'''Curse description'''
+|-
+!Expired Bounty
+![[File:1.png|center|frameless|100x100px]]
+!Normal
+|Resources disappear if not collected within float1 sec.
+|-
+!Enhanced Traps
+![[File:3.png|center|frameless|100x100px]]
+!Normal
+|Traps deal int1% increased DMG to both yourself and your summoned units.
+|-
+!Bloodthirsty Underlings
+![[File:4.png|center|frameless|100x100px]]
+!Normal
+|Enemy movement speed boosted by int1%.
+|-
+!Unstable Rifts
+![[File:7.png|center|frameless|100x100px]]
+!Normal
+|When taking DMG, you're teleported to a random location.
+|-
+!Muscle Atrophy
+![[File:11.png|center|frameless|100x100px]]
+!Normal
+|Reduces movement speed by float1.
+|-
+!Timid
+![[File:12.png|center|frameless|100x100px]]
+!Normal
+|Unable to cast spells for float1 sec upon entering a room.
+|-
+!Heartburn
+![[File:13.png|center|frameless|100x100px]]
+!Normal
+|Reduces spell projectile speed by int1%.
+|-
+!Fragile
+![[File:14.png|center|frameless|100x100px]]
+!Normal
+|Reduces all DMG dealt by int1%.
+|-
+!Sluggishness
+![[File:15.png|center|frameless|100x100px]]
+!Normal
+|Increases the cast interval and cooldown of wands by int1%.
+|-
+!Thorned Entry
+![[File:16.png|center|frameless|100x100px]]
+!Normal
+|Lose int1 HP upon entering each door.
+|-
+!Complex Locks
+![[File:17.png|center|frameless|100x100px]]
+!Normal
+|All locked objects now require 2 keys to open.
+|-
+!Tattered Pouch
+![[File:18.png|center|frameless|100x100px]]
+!Normal
+|Lose int1 coins upon entering each door.
+|-
+!Impatience
+![[File:23.png|center|frameless|100x100px]]
+!Normal
+|Reduces MP Regeneration by int1%.
+|-
+!Magic Suppression
+![[File:24.png|center|frameless|100x100px]]
+!Normal
+|Reduces Max MP by int1%.
+|-
+!Inefficient Casting
+![[File:25.png|center|frameless|100x100px]]
+!Normal
+|MP Cost xint1%
+|-
+!Unstable Balance
+![[File:26.png|center|frameless|100x100px]]
+!Normal
+|Recoil +int1%
+|-
+!Profanity
+![[File:27.png|center|frameless|100x100px]]
+!Normal
+|Relic option -int1
+|-
+!Raging Blood
+![[File:28.png|center|frameless|100x100px]]
+!Normal
+|Enemy HP Regeneration +int1
+|-
+!Misfortune
+![[File:30.png|center|frameless|100x100px]]
+!Normal
+|A curse that changes over time.
+|-
+!Shrinking Backpack
+![[File:35.png|center|frameless|100x100px]]
+!Normal
+|Inventory slots -int1
+|-
+!Potion Allergy
+![[File:36.png|center|frameless|100x100px]]
+!Normal
+|Decreases HP by int1 each time a potion is used.
+|-
+!Explosive Pursuit
+![[File:37.png|center|frameless|100x100px]]
+!Normal
+|A bomb will appear nearby occasionally.
+|-
+!Feebleness
+![[File:39.png|center|frameless|100x100px]]
+!Normal
+|Max HP -int1
+|-
+!Grim Wager
+![[File:40.png|center|frameless|100x100px]]
+!Normal
+|When completing the levels with DMG taken, Max MP is reduced by int1.\When completing the levels without taking DMG, Max HP is increased by int2.
+|-
+!Antique Timepiece
+![[File:41.png|center|frameless|100x100px]]
+!Normal
+|Periodically teleports back to where you were float1 sec ago.
+|-
+!Weakness
+![[File:43.png|center|frameless|100x100px]]
+!Normal
+|CRIT Rate of all DMG types int1%.
+|-
+!Lethargic Shop
+![[File:44.png|center|frameless|100x100px]]
+!Normal
+|Items available in shops -int1
+|-
+!Near-Sighted
+![[File:45.png|center|frameless|100x100px]]
+!Normal
+|Scatter +int1
+|-
+!Gate of Mist
+![[File:2.png|center|frameless|100x100px]]
+!Rare
+|Unable to discern markings on doors.
+|-
+!Vengeful Spirits
+![[File:5.png|center|frameless|100x100px]]
+!Rare
+|When enemies perish, there's a int1% chance they'll transform into spirits, haunting you for float1 sec.
+|-
+!Frantic Fumble
+![[File:6.png|center|frameless|100x100px]]
+!Rare
+|Lose int1 coin(s) when taking DMG.
+|-
+!Perpetual Harm
+![[File:8.png|center|frameless|100x100px]]
+!Rare
+|When taking DMG, there's a int1% chance of simultaneously losing Max HP.
+|-
+!Stiffened
+![[File:9.png|center|frameless|100x100px]]
+!Rare
+|Unable to attack within float1 sec after taking DMG.
+|-
+!Depleted Diamonds
+![[File:10.png|center|frameless|100x100px]]
+!Rare
+|All diamonds transform into coins.
+|-
+!Savage Proliferation
+![[File:19.png|center|frameless|100x100px]]
+!Rare
+|There's a int1% chance of encountering double enemies, excluding bosses.
+|-
+!Corroded Currency
+![[File:20.png|center|frameless|100x100px]]
+!Rare
+|There's a int1% chance of taking int2 DMG when picking up coins or diamonds.
+|-
+!Toppling Balance
+![[File:21.png|center|frameless|100x100px]]
+!Rare
+|Spell knockback is reversed.
+|-
+!Nocturnal Blindness
+![[File:22.png|center|frameless|100x100px]]
+!Rare
+|Your field of vision is limited.
+|-
+!Bewilderment
+![[File:29.png|center|frameless|100x100px]]
+!Rare
+|Unable to see your current status and resources.
+|-
+!Doom
+![[File:31.png|center|frameless|100x100px]]
+!Rare
+|A curse that changes over time.
+|-
+!Aphasia
+![[File:32.png|center|frameless|100x100px]]
+!Rare
+|Unable to recognize text.
+|-
+!Shackles
+![[File:34.png|center|frameless|100x100px]]
+!Rare
+|Locked by a chain ball.
+|-
+!Vanished
+![[File:38.png|center|frameless|100x100px]]
+!Rare
+|Randomly removes a relic. The curse disappears afterward.
+|-
+!Magic Dissipation
+![[File:42.png|center|frameless|100x100px]]
+!Rare
+|Upon entering a room, all wands have their current MP set to 0.
+|-
+!Slovenliness
+![[File:46.png|center|frameless|100x100px]]
+!Rare
+|Summon limit ÷int1 (decimal part rounded up).
+|-
+!Relentless Snail
+![[File:47.png|center|frameless|100x100px]]
+!Rare
+|A slow-moving snail perpetually chases you and cannot be killed.
+|}
+
+
+== Trivia ==
+- Brutal Reproduction can activate on the [[Author]] fight, as it is not counted as a Boss or Elite, causing the player to fight against 2 Authors.
+
+- Bombs created by Minefield can break the metal boxes found in the Second level.

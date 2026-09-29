@@ -1,0 +1,19 @@
+<!-- title: Area Boost | updated: 2025-07-16T03:24:31Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell InfoBox|image=Area_Boost.png|type=Spell Passive|rarity=Rare|misc_a_1=Copies Level 1|misc_a_2=Copies Level 2|misc_a_3=Copies Level 3}}
+
+'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Passive. It effectively is a rather advanced variant of the [[Mimicry Cube]].
+
+{{PAGENAME}} takes up 4 slots to equip into a wand, then the first spell that is placed to the right of it will be duplicated into every other wand you are holding, in the leftmost position, including the "host" wand using {{PAGENAME}}. This will not consume a slot in those wands, the effect is created in a new, free, locked slot; correspondingly, copying a spell that needs something else to the left of it to work such as [[Echo]] or [[Duet]] is not recommended, unless you use {{PAGENAME}} twice to load a triggering spell and then one of those two.
+
+* Note, the copied spell is put to the left of any already existing locked slots on a wand, such as the Soul Set's natural [[Wand Spirit|Wand Spirits]].
+* If {{PAGENAME}} is fit twice into two separate wands, the copied spell in the higher slot will go first (i.e. a copied spell set in wand 2 will take effect first before a copied spell in wand 3)
+
+Like with [[Mimicry Cube]], the level of {{PAGENAME}} determines up to what level of the copied spell it will duplicate, and a high level {{PAGENAME}} cannot create a higher level copy of a low level spell.
+
+'''SPECIAL INTERACTIONS'''
+* [[Magic Vine]]: Is never considered to have the stacking effect from empty slots to the right of it, so will always be one single iteration of the buff.
+* Multi-slot spells like [[Arcane Barrier]] or [[Core of Flame]]: Do not take up their extra slots, they only show 1 single slot at the beginning of the wand but the effects are still at full strength.
+* [[Capacity Expansion Stone]]: Extra slots are still added to the far right end of the wands as normal.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Passive]]
+[[Category:Rarity: Rare]]

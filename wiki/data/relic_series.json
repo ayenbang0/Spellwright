@@ -1,0 +1,27 @@
+[
+ {
+  "Series Name": "Knight Series",
+  "Series Effect": "Invincible for 8 seconds every time you enter a room",
+  "Series Parts": "*Knight's Boots\n*Knight's Breastplate\n* Knight's Helm"
+ },
+ {
+  "Series Name": "Soul Bone Series",
+  "Series Effect": "When entering a room, convert 20% of temporary shields into regular shields",
+  "Series Parts": "* Casket of Souls\n* Soulbone Armor\n* Soulbone Mantle\n* Soulbone Crown"
+ },
+ {
+  "Series Name": "Gold Rush Series",
+  "Series Effect": "All units that touch the player immediately become 1 coin (except for bosses)",
+  "Series Parts": "* Pros-pector's Gloves\n* Pros-pector's Pickaxe\n* Pros-pector's Vest\n* Pros-pector's Goblet"
+ },
+ {
+  "Series Name": "Merlin Series",
+  "Series Effect": "Max mp +300",
+  "Series Parts": "* Merlin's Beard\n* Merlin's Boots\n* Merlin's Hat\n* Merlin's Robe"
+ },
+ {
+  "Series Name": "Tree Spirit Series",
+  "Series Effect": "Max hp +100",
+  "Series Parts": "* Tree Spirit Pendant\n* Treant Shoulderguards\n* Treant Robe\n* Treant Circlet"
+ }
+]

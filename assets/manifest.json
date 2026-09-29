@@ -1,0 +1,841 @@
+{
+  "tile": 16,
+  "scaleDisplay": 4,
+  "enemyBullets": "magenta",
+  "playerBullets": "cyan",
+  "visualStacking": {
+    "order": [
+      "base",
+      "elementTint",
+      "behaviorIcon",
+      "countPips",
+      "trail"
+    ],
+    "elements": {
+      "fire": "ov_fire+flame fringe+trail_fire",
+      "frost": "ov_frost+snow corners",
+      "venom": "ov_venom+bubbles+trail_venom",
+      "thunder": "ov_thunder+sparks",
+      "homing": "ov_homing+curved trail",
+      "rebound": "ov_rebound",
+      "pierce": "ov_pierce+white line",
+      "multishot": "ov_multishot+ghost copies",
+      "volley": "ov_volley+pips",
+      "orbit": "ov_orbit+dashed ring",
+      "duet": "ov_duet+chain",
+      "echo": "ov_echo+faded copy"
+    }
+  },
+  "attackTiming": {
+    "telegraph": 0.3,
+    "windup": 0.1,
+    "impactFrames": 3
+  },
+  "chapters": [
+    "camp",
+    "forest",
+    "purgatory",
+    "void",
+    "abyss",
+    "throne"
+  ],
+  "font": {
+    "path": "ui/font.png",
+    "cellW": 6,
+    "cellH": 8,
+    "cols": 16,
+    "first": 32
+  },
+  "nineSlice": {
+    "ui/panel.png": 4,
+    "ui/button.png": 4,
+    "ui/button_hi.png": 4
+  },
+  "eliteOverlay": "ui/elite_crown.png",
+  "anims": {
+    "bosses/boss_abyssal_lord": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_all_seeing_eye": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_author": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_cage": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_chaotic_wreckage": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_deceiver": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_deceiver2": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_demon_lord_p1": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_demon_lord_p2": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_demon_lord_p3": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_giant_spider": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_hatcher": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_indescribable": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_irate_eye": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_master_mind": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_producer": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_skeletal_centaur": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_spider_egg": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_void_imp": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "bosses/boss_wandering_worm": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 48,
+      "h": 48
+    },
+    "effects/arcane_ring": {
+      "frames": 4,
+      "fps": 12,
+      "loop": false,
+      "w": 32,
+      "h": 32
+    },
+    "effects/death_puff": {
+      "frames": 4,
+      "fps": 12,
+      "loop": false,
+      "w": 16,
+      "h": 16
+    },
+    "effects/hit_spark": {
+      "frames": 3,
+      "fps": 12,
+      "loop": false,
+      "w": 16,
+      "h": 16
+    },
+    "effects/impact_large": {
+      "frames": 3,
+      "fps": 12,
+      "loop": false,
+      "w": 32,
+      "h": 32
+    },
+    "effects/impact_medium": {
+      "frames": 3,
+      "fps": 12,
+      "loop": false,
+      "w": 32,
+      "h": 32
+    },
+    "effects/impact_small": {
+      "frames": 3,
+      "fps": 12,
+      "loop": false,
+      "w": 32,
+      "h": 32
+    },
+    "effects/level_up": {
+      "frames": 4,
+      "fps": 12,
+      "loop": false,
+      "w": 16,
+      "h": 16
+    },
+    "effects/muzzle": {
+      "frames": 3,
+      "fps": 12,
+      "loop": false,
+      "w": 16,
+      "h": 16
+    },
+    "effects/slash": {
+      "frames": 3,
+      "fps": 12,
+      "loop": false,
+      "w": 32,
+      "h": 32
+    },
+    "effects/spawn": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch1/egg": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch1/eye_small": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch1/fly": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch1/mushroom": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch1/slime": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch1/spider": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch1/spider_red": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch1/worm": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch2/armor_spider": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch2/bat": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch2/cage": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch2/deceiver": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch2/hatcher": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch2/mind_mage": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch2/phantom": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch3/absorber_flyer": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch3/centipede": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch3/seeing_eye": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch3/void_archer": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch3/void_imp": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch4/abyss_tentacle": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch4/centaur_minion": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch4/leech": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch4/skeletal_warrior": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch5/flesh_mass": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "enemies/ch5/throne_knight": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "npcs/gina": {
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "w": 16,
+      "h": 20
+    },
+    "npcs/leah": {
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "w": 16,
+      "h": 20
+    },
+    "npcs/lilian": {
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "w": 16,
+      "h": 20
+    },
+    "npcs/lyon": {
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "w": 16,
+      "h": 20
+    },
+    "npcs/nimiao": {
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "w": 16,
+      "h": 20
+    },
+    "npcs/trainer": {
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "w": 16,
+      "h": 20
+    },
+    "npcs/vivian": {
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "w": 16,
+      "h": 20
+    },
+    "pickups/blood_drop": {
+      "frames": 2,
+      "fps": 6,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "pickups/coin": {
+      "frames": 4,
+      "fps": 10,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "pickups/crystal_meta": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "pickups/diamond": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "pickups/heart": {
+      "frames": 2,
+      "fps": 4,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "player/player_cast": {
+      "frames": 3,
+      "fps": 10,
+      "loop": false,
+      "w": 24,
+      "h": 24
+    },
+    "player/player_death": {
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "w": 24,
+      "h": 24
+    },
+    "player/player_idle": {
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "w": 24,
+      "h": 24
+    },
+    "player/player_walk": {
+      "frames": 6,
+      "fps": 12,
+      "loop": true,
+      "w": 24,
+      "h": 24
+    },
+    "projectiles/adava_bolt": {
+      "frames": 3,
+      "fps": 12,
+      "loop": true,
+      "w": 16,
+      "h": 32
+    },
+    "projectiles/arcane_nova": {
+      "frames": 4,
+      "fps": 12,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/bing_arrow": {
+      "frames": 2,
+      "fps": 6,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/black_hole": {
+      "frames": 4,
+      "fps": 10,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/boomerang": {
+      "frames": 4,
+      "fps": 14,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/butterfly": {
+      "frames": 2,
+      "fps": 10,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/cthulhu_hand": {
+      "frames": 2,
+      "fps": 4,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/enchant_coin": {
+      "frames": 4,
+      "fps": 10,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/enemy_bullet": {
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "w": 12,
+      "h": 12
+    },
+    "projectiles/enemy_diamond": {
+      "frames": 2,
+      "fps": 6,
+      "loop": true,
+      "w": 12,
+      "h": 12
+    },
+    "projectiles/enemy_orb": {
+      "frames": 2,
+      "fps": 6,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "projectiles/evil_sword": {
+      "frames": 2,
+      "fps": 6,
+      "loop": true,
+      "w": 18,
+      "h": 26
+    },
+    "projectiles/flame": {
+      "frames": 3,
+      "fps": 10,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "projectiles/fuse_spark": {
+      "frames": 2,
+      "fps": 12,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/grimoire": {
+      "frames": 2,
+      "fps": 4,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/judgement_sword": {
+      "frames": 2,
+      "fps": 6,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/laser": {
+      "frames": 2,
+      "fps": 12,
+      "loop": true,
+      "w": 34,
+      "h": 10
+    },
+    "projectiles/legwire": {
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/lightning_ball": {
+      "frames": 4,
+      "fps": 12,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "projectiles/magic_bullet": {
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/mana_absorb": {
+      "frames": 2,
+      "fps": 6,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/meteor": {
+      "frames": 2,
+      "fps": 10,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/mine": {
+      "frames": 2,
+      "fps": 4,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "projectiles/pillar_light": {
+      "frames": 2,
+      "fps": 6,
+      "loop": true,
+      "w": 18,
+      "h": 26
+    },
+    "projectiles/pop_minion": {
+      "frames": 2,
+      "fps": 6,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/pop_shot": {
+      "frames": 2,
+      "fps": 10,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/rainbow_shot": {
+      "frames": 1,
+      "fps": 1,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "projectiles/ray": {
+      "frames": 2,
+      "fps": 12,
+      "loop": true,
+      "w": 32,
+      "h": 8
+    },
+    "projectiles/rock_ball": {
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/serpent_body": {
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/serpent_head": {
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/shining_arrow": {
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/skull_minion": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "projectiles/supernova_orb": {
+      "frames": 2,
+      "fps": 6,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/thunder_bolt": {
+      "frames": 2,
+      "fps": 12,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/water_bubble": {
+      "frames": 2,
+      "fps": 5,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/water_stream": {
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "w": 18,
+      "h": 18
+    },
+    "projectiles/wisp": {
+      "frames": 4,
+      "fps": 10,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "tiles/fountain": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    },
+    "tiles/portal": {
+      "frames": 4,
+      "fps": 10,
+      "loop": true,
+      "w": 16,
+      "h": 16
+    }
+  }
+}

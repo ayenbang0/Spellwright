@@ -1,0 +1,142 @@
+<!-- title: Potions | updated: 2025-07-18T16:02:51Z | cats:  -->
+0Potions are one-time consumables that occupy slots at the bottom right of the screen. At start of game, you only have one potion slot - but this can be upgraded using [[Blood Of The Old Gods]]. Potions have various magical effects; some of which only last a few seconds, while others may affect a whole run. For example: by removing [[Curses]], boosting stats, unlocking all doors, multiplying keys, granting shields, and even summoning [[Chests]]. Like [[Relics]] and [[Spells]], all potions effects expire on [[Death]] and all unused potions are lost.
+
+== Finding Potions ==
+Potions are available from as drops from enemies, chests, and bosses. They can also be bought from the [[Shop]], and the [[Potion Shop]].
+
+== Full List Of Potions ==
+Note: this list is complete as of 7/29/2024
+{| class="sortable fandom-table"
+|+
+!'''Icon'''
+!'''Name'''
+!'''Effect'''
+|-
+|[[File:Icon Serpents Blood.png]]
+|Serpent's Blood
+|Randomly restores 1-25 HP
+|-
+|[[File:Icon Shield Potion.png]]
+|Shield Potion
+|Generates a shield equivalent to lost HP, up to 50.
+|-
+|[[File:Icon Holy Water.png]]
+|Holy Water
+|Randomly Removes one curse.
+|-
+|[[File:Icon Reforge Potion.png]]
+|Reforge Potion
+|Reforges all spells in the inventory. Note, this is only spells in the Backpack, not on wands.
+|-
+|[[File:Icon Illusion Potion.png]]
+|Illusion Potion
+|Slows down time for 12 sec.
+|-
+|[[File:Icon Awakening Potion.png]]
+|Awakening Potion
+|Temporarily increases MP regenration for your wands by 200% for 10 sec.
+|-
+|[[File:Icon Refresh Potion.png]]
+|Refresh Potion
+|Refreshes purchasable items and accessible doors in all rooms.
+|-
+|[[File:Icon Lockpick Potion.png]]
+|Lockpick Potion
+|Unlocks all locked objects in the current room. Note, can be used to safely open a cursed chest without receiving the curse.
+|-
+|[[File:Icon Midas Potion.png]]
+|Midas Potion
+|Transforms all non-boss enemies in the room into coins.
+|-
+|[[File:Icon Discount Potion.png]]
+|Discount Potion
+|Applies a discount to all purchasable items in the current room.
+|-
+|[[File:Icon Levitation Potion.png]]
+|Levitation Potion
+|You're levitating!  Lasts until you enter the next door.
+|-
+|[[File:Icon Invisibility Potion.png]]
+|Invisibility Potion
+|Grants invisibility for 12 sec; attacks won't reveal you.
+|-
+|[[File:Icon Invincibility Potion.png]]
+|Invincibility Potion
+|Grants invincibility for 8 sec.
+|-
+|[[File:Icon Petrification Potion.png]]
+|Petrification Potion
+|Petrifies yourself, granting immunity to all DMG for 30 sec but you are unable to fire wands.  Movement will end Petrification.
+|-
+|[[File:Icon Agility Potion.png]]
+|Agility Potion
+|Permanently increases movement speed by 0.6.
+|-
+|[[File:Icon Scale Potion.png]]
+|Scale Potion
+|Permanently alters your body size.
+|-
+|[[File:Icon Crystal Potion.png]]
+|Crystal Potion
+|Permanently increases MP regenration by 1.
+|-
+|[[File:Icon Unstable Red Potion.png]]
+|Unstable Red Potion
+|Permanently increases Max HP by -5 or 15.
+|-
+|[[File:Icon Unstable Blue Potion.png]]
+|Unstable Blue Potion
+|Permanently increases Max MP by -5 or 15.
+|-
+|[[File:Icon Purification Potion.png]]
+|Purification Potion
+|Removes all curses.  Lose all coins, keys, and shield.
+|-
+|[[File:Icon Wealth Potion.png]]
+|Wealth Potion
+|Gains coins equal to 25% of the coins currently in possession.
+|-
+|[[File:Icon Tears of Goddess.png]]
+|Tears Of the Goddess
+|Removes all curses if 5 different curses are present.  
+'''Note''': counts curse symbols, not curses acquired.
+|-
+|[[File:Icon Relic Potion.png]]
+|Relic Potion
+|Randomly upgrades one relic.  If no relic can be upgraded, receive a common relic.
+|-
+|[[File:Icon Reset Potion.png]]
+|Reset Potion
+|Resets one chosen relic.
+'''Note''': you choose the relic, not the game.
+|-
+|[[File:Icon Sacrificial Potion.png]]
+|Sacrificial Potion
+|Deducts 20% of current HP to gain a corresponding amount of coins.
+|-
+|[[File:Icon Locksmith Potion.png]]
+|Locksmith Potion
+|Doubles current key count or adds 1 keys if none are owned.
+|-
+|[[File:Icon Pure Castor Oil.png]]
+|Pure Castor Oil
+|Grants immunity to poison and slime in the current room.  Inflicts poison and slows enemies behind for 10 sec. 
+'''Note''': Potion will cause you to move towards the cursor for the 10 seconds of damaging enemies.
+|-
+|[[File:Icon Duplication Potion.png]]
+|Duplication Potion
+|Duplicates all HP recovery, shield, coin, and keys from the current room.
+|-
+|[[File:Icon Treasure Potion.png]]
+|Treasure Potion
+|Obtains a random treasure chest.
+|-
+|[[File:Icon Emergency Potion.png]]
+|Emergency Potion
+|Grants a temporary shield equivalent to your lost HP.  
+'''Note''': The temporary shield goes away when entering the next room.
+|-
+|[[File:Icon Conversion Potion.png]]
+|Conversion Potion
+|Deducts 40% of current HP to gain a corresponding amount of shield.
+|}

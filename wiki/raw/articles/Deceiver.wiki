@@ -1,0 +1,7 @@
+<!-- title: Deceiver | updated: 2024-07-24T05:25:53Z | cats:  -->
+[[File:Deceiver.png|left|thumb]]
+
+== Stats ==
+HP: 650
+
+Imitates opponent's movements, and turnsinvisible after taking a certain amount ofdamage.

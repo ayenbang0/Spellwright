@@ -1,0 +1,850 @@
+<!-- title: Wands | updated: 2026-07-06T00:35:20Z | cats:  -->
+Wands are items dropped from elite monsters, bosses, or purchased from stores, Combining different wands and spells can bring you different damage benefits.
+
+=== Current wand list ===
+{| class="fandom-table"
+|+
+!Name
+!Icon
+!Attribute
+!Passive
+|-
+!Damaged Excaliwood Wand
+![[File:破碎石中杖.png|center|frameless]]
+|MP:80
+Cast Interval:0.15
+MP Regen:10/s
+CD:0.5
+|Scatter: +5°
+|-
+!Arcane Staff
+![[File:奥数法杖.png|center|frameless]]
+|MP:45
+Cast Interval:0.15
+MP Regen:11/s
+CD:0.5
+|Scatter:+10°
+|-
+!Staff of Conjuring
+![[File:召唤法杖.png|center|frameless]]
+|MP:80
+Cast Interval:0.5
+MP Regen:8/s
+CD:1
+|
+|-
+!Swiftcaster Wand
+![[File:急速法杖.png|center|frameless]]
+|MP:50
+Cast Interval:0.5
+MP Regen:10/s
+CD:0.5
+|
+|-
+!Ethereal Wand
+![[File:灵魂法杖.png|center|frameless]]
+|MP:60
+Cast Interval:0.15
+MP Regen:6/s
+CD:1
+|Scatter:+5°
+|-
+!Elderwood Cane
+![[File:槐木老枝.png|center|frameless]]
+|MP:90
+Cast Interval:0.25
+MP Regen:10
+CD:0.5
+|
+|-
+!Toy Blade
+![[File:玩具短剑.png|center|frameless]]
+|MP:70
+Cast Interval:0.15
+MP Regen:11
+CD:0.4
+|
+|-
+!Microcosmic Embrace
+![[File:微观世界.png|center|frameless]]
+|MP:60
+Cast Interval:0.13
+MP Regen:9
+CD:0.33
+|MP consumption for all wands x80%.
+|-
+!Steadfast Will
+![[File:坚毅意志.png|center|frameless]]
+|MP:80
+Cast Interval:0.15
+MP Regen:12
+CD:0.65
+|
+|-
+!Featherweight Wand
+![[File:轻型短杖.png|center|frameless]]
+|MP:40
+Cast Interval:0.08
+MP Regen:11
+CD:0.3
+|Scatter: +10°
+Post Slot: The wand charge 3 energy for every spell cast.
+|-
+!Harmonic Resonance
+![[File:齐鸣之音.png|center|frameless]]
+|MP:70
+Cast Interval:0.5
+MP Regen:11
+CD:0.5
+|Scatter:+80°
+Simultaneous Firing: 5
+|-
+!Natural Convergence
+![[File:汇流之源.png|center|frameless]]
+|MP:90
+Cast Interval:0.11
+MP Regen:10
+CD:0.66
+|MP regeneration for all wands +3/s.
+|-
+!Wooden Stick
+![[File:平凡木棍.png|center|frameless]]
+|MP:100
+Cast Interval:0.3
+MP Regen:12
+CD:0.3
+|
+|-
+!Tuning Fork
+![[File:共鸣音叉.png|center|frameless]]
+|MP:50
+Cast Interval:0.18
+MP Regen:11
+CD:0.55
+|
+|-
+!Novice's Grimoire
+![[File:新手召唤手册.png|center|frameless]]
+|MP:70
+Cast Interval:1
+MP Regen:12
+CD:1
+|Scatter: +6°
+MP consumption for summoning spells x90%.
+|-
+!Guiding Fable
+![[File:指引寓言.png|center|frameless]]
+|MP:70
+Cast Interval:0.2
+MP Regen:10
+CD:0.5
+|
+|-
+!Old Wand
+![[File:陈旧手杖.png|center|frameless]]
+|MP:130
+Cast Interval:0.14
+MP Regen:9
+CD:0.5
+|
+|-
+!777
+![[File:777.png|center|frameless]]
+|MP:77
+Cast Interval:0.17
+MP Regen:7
+CD:0.17
+|Scatter: +7°
+Post Slot: The wand charge 1.7 energy for every enemy hit.
+|-
+!Time Stasis
+![[File:凝滞时空.png|center|frameless]]
+|MP:75
+Cast Interval:0.15
+MP Regen:10
+CD:0.55
+|Scatter: +8°
+Post Slot: charge 2 energy for every meter
+|-
+!New Wand
+![[File:崭新法杖.png|center|frameless]]
+|MP:90
+Cast Interval:0.16
+MP Regen:11
+CD:0.45
+|
+|-
+!Elder's Grip
+![[File:长者之手.png|center|frameless]]
+|MP:120
+Cast Interval:0.3
+MP Regen:12
+CD:0.6
+|
+|-
+!Frenzy Enchanter
+![[File:癫狂魔咒.png|center|frameless]]
+|MP:50
+Cast Interval:0.15
+MP Regen:13
+CD:0.15
+|Scatter: +9°
+Post Slot: The wand charge 4 energy for every spell cast.
+|-
+!Viscous Fang
+![[File:粘滞之牙.png|center|frameless]]
+|MP:50
+Cast Interval:0.1
+MP Regen:12
+CD:0.6
+|Scatter: +3°
+|-
+!Venomous Bite
+![[File:毒素之牙.png|center|frameless]]
+|MP:50
+Cast Interval:0.1
+MP Regen:12
+CD:0.4
+|MP Cost: x80%
+|-
+!Arc of Justice
+![[File:公理圆弧.png|center|frameless]]
+|MP:60
+Cast Interval:0.17
+MP Regen:13
+CD:0.27
+|
+|-
+!Tricolor Scepter
+![[File:三色权杖.png|center|frameless]]
+|MP:70
+Cast Interval:0.15
+MP Regen:11
+CD:0.5
+|Scatter: +3°
+Spells cast with this wand may undergo random base color changes.
+|-
+!Defiant Nature
+![[File:桀骜反骨.png|center|frameless]]
+|MP:80
+Cast Interval:0.14
+MP Regen:15
+CD:0.14
+|Scatter: -360°
+Spells are always cast in reverse.
+|-
+!Shamanic Dagger
+![[File:萨满短匕.png|center|frameless]]
+|MP:120
+Cast Interval:0.12
+MP Regen:8
+CD:0.24
+|MP Cost: x70%
+Final DMG: x70%
+|-
+!Shattered Scepter
+![[File:破碎权杖.png|center|frameless]]
+|MP:80
+Cast Interval:0.05
+MP Regen:12
+CD:0.55
+|Scatter: +4°
+|-
+!Rusty Blaster
+![[File:生锈手炮.png|center|frameless]]
+|MP:80
+Cast Interval:0.2
+MP Regen:12
+CD:0.8
+|Scatter: +10°
+Final DMG:x120%
+Post Slot: The wand charge 20 energy for every 45 damage above.
+|-
+!Energy Reservoir
+![[File:储能之袋.png|center|frameless]]
+|MP:120
+Cast Interval:0.12
+MP Regen:14
+CD:0.12
+|Scatter: +30°
+Post Slot: The wand charge 4 energy for every
+|-
+!Trident
+![[File:1027.png|center|frameless]]
+|MP:130
+Cast Interval:0.3
+MP Regen:13
+CD:0.3
+|Scatter: +13°
+Simultaneous Firing:3
+|-
+!Soul-Devouring Orb
+![[File:1028.png|frameless]]
+|MP:50
+Cast Interval:0.5
+MP Regen:11
+CD:0.5
+|Scatter:+8°
+Simultaneous Firing:3
+Post Slot: The wand charge 30 energy for every enemy killed.
+|-
+!Legacy of Ancestors
+![[File:1029.png|center|frameless]]
+|MP:90
+Cast Interval:0.2
+MP Regen:11
+CD:0.5
+|Post Slot: Charge 15 energy for every second
+|-
+!Vow of Honor
+![[File:1030.png|center|frameless]]
+|MP:100
+Cast Interval:0.18
+MP Regen:11
+CD:0.5
+|Scatter: +10°
+Post Slot: Charge 33 energy every time the character takes damage.
+|-
+!Radiant Bouquet
+![[File:绚丽花束.png|center|frameless]]
+|MP:80
+Cast Interval:0.12
+MP Regen:14
+CD:0.35
+|Scatter:+60°
+Spells cast with this wand may undergo random color changes.
+|-
+!Conch Whistle
+![[File:爆音海螺.png|center|frameless]]
+|MP:100
+Cast Interval:0.2
+MP Regen:10
+CD:0.6
+|Post Slot: charge 3 energy for every metermoved.
+While holding this wand, character Movement Speed is increased by 20%.
+|-
+!Sacrificial Dagger
+![[File:献祭匕首.png|center|frameless]]
+|MP:130
+Cast Interval:0.12
+MP Regen:13
+CD:0.65
+|This wand reduces self-inflicted DMG to 1%
+|-
+!Energizer Wand
+![[File:聚能手杖.png|center|frameless]]
+|MP:70
+Cast Interval:0.1
+MP Regen:13
+CD:0.3
+|Scatter: +5°
+Boosts DMG by 50% when MP consumption is
+|-
+!Deed Witness
+![[File:伟业见证者.png|center|frameless]]
+|MP:100
+Cast Interval:0.2
+MP Regen:15
+CD:0.55
+|Expands spell effect radius for all wands by 50%
+|-
+!Swiftshot Staff
+![[File:2006.png|center|frameless]]
+|MP:120
+Cast Interval:0.12
+MP Regen:14
+CD:0.12
+|Scatter: +12°
+When holding this wand, mp regen x20%
+When not holding this wand, mp regen x150%
+|-
+!Legion Banner
+![[File:2007.png|center|frameless]]
+|MP:130
+Cast Interval:0.12
+MP Regen:12
+CD:1
+|CRIT Rate:+15%
+Post Slot: The wand charge 6 energy for every
+|-
+!Expanding Container
+![[File:2008.png|center|frameless]]
+|MP:130
+Cast Interval:0.2
+MP Regen:13
+CD:0.4
+|Scatter: +6°
+Simultaneous Casting: 2
+
+Max MP for all wands: x130%
+|-
+!Double Flute
+![[File:2009.png|center|frameless]]
+|MP:100
+Cast Interval:0.1
+MP Regen:14
+CD:1
+|Scatter:+20°
+Post Slot: The wand charge 2.2 energy for every enemy hit.
+|-
+!Trichord Lute
+![[File:2010.png|center|frameless]]
+|MP:105
+Cast Interval:0.15
+MP Regen:14
+CD:0.55
+|Simultaneous Firing: 3
+|-
+!Sorcerer's Oath
+![[File:2011.png|center|frameless]]
+|MP:120
+Cast Interval:0.12
+MP Regen:11
+CD:0.55
+|Scatter: +15°
+MP regeneration for all wands +5/s.
+|-
+!Restless Heart
+![[File:2012.png|center|frameless]]
+|MP:100
+Cast Interval:0.05
+MP Regen:14
+CD:0.6
+|Spells cast by this wand produce reversed recoil.
+|-
+!Witch's Broomstick
+![[File:2013.png|center|frameless]]
+|MP:140
+Cast Interval:0.18
+MP Regen:15
+CD:0.4
+|Scatter: +11°
+Allows character to fly while holding this
+|-
+!Tome of Endless
+![[File:2014.png|center|frameless]]
+|MP:85
+Cast Interval:0.1
+MP Regen:13
+CD:0.3
+|
+|-
+!Heavy Impact
+![[File:2015.png|center|frameless]]
+|MP:120
+Cast Interval:0.15
+MP Regen:12
+CD:0.28
+|
+|-
+!Sigil of Temperance
+![[File:2016.png|center|frameless]]
+|MP:90
+Cast Interval:0.1
+MP Regen:12
+CD:0.4
+|Scatter: +10°
+|-
+!Twin-headed Wand
+![[File:2017.png|center|frameless]]
+|MP:80
+Cast Interval:0.3
+MP Regen:13
+CD:0.4
+|
+|-
+!Swift Spellblade
+![[File:2018.png|center|frameless]]
+|MP:110
+Cast Interval:0.12
+MP Regen:14
+CD:0.5
+|Scatter: +90°
+While holding this wand, character Movement Speed is increased by 40%.
+|-
+!Book of Tranquility
+![[File:2019.png|center|frameless]]
+|MP:100
+Cast Interval:0.1
+MP Regen:10
+CD:0.5
+|Post Slot: Charge 20 energy for every second stood still.
+Spells cast by this wand have no recoil while standing.
+|-
+!Handy Wand
+![[File:2020.png|center|frameless]]
+|MP:80
+Cast Interval:0.1
+MP Regen:12
+CD:0.5
+|Post Slot: The wand charge 3 energy for every spell cast.
+|-
+!Ripple Wand
+![[File:2021.png|center|frameless]]
+|MP:60
+Cast Interval:0.12
+MP Regen:20
+CD:0.25
+|Scatter: +30°
+MP Cost: x150%
+Spells have a 5% chance of immediately replenishing MP upon casting
+|-
+!Portable Library
+![[File:2022.png|center|frameless]]
+|MP:150
+Cast Interval:1.5
+MP Regen:15
+CD:1.5
+|Scatter: +3°
+|-
+!Wand of Convergence
+![[File:2023.png|center|frameless]]
+|MP:100
+Cast Interval:0.1
+MP Regen:14
+CD:0.36
+|Scatter: +5°
+Simultaneous Firing:2
+|-
+!Warlock's Satchel
+![[File:2024.png|center|frameless]]
+|MP:0
+Cast Interval:0
+MP Regen:0
+CD:0
+|
+|-
+!Aquaflow Staff
+![[File:2025.png|center|frameless]]
+|MP:110
+Cast Interval:0.05
+MP Regen:16
+CD:0.05
+|Scatter: +140°
+|-
+!Star Strider
+![[File:2026.png|center|frameless]]
+|MP:200
+Cast Interval:0.8
+MP Regen:13
+CD:0.8
+|
+|-
+!Festive Wand
+![[File:2027.png|center|frameless]]
+|MP:65
+Cast Interval:0.3
+MP Regen:17
+CD:0.15
+|Scatter: +10°
+Post Slot: The wand charge 20 energy for every enemy killed.
+|-
+!Granny's Needle
+![[File:2028.png|center|frameless]]
+|MP:90
+Cast Interval:0.15
+MP Regen:16
+CD:0.6
+|
+|-
+!Voltage Stone
+![[File:2029.png|center|frameless]]
+|MP:120
+Cast Interval:0.22
+MP Regen:15
+CD:0.4
+|MP Cost: x110%
+。Post Slot: The wand charge 22 energy for every 45 damage above.
+|-
+!Magic Conductor
+![[File:2030.png|center|frameless]]
+|MP:99
+Cast Interval:0.12
+MP Regen:9
+CD:0.3
+|
+|-
+!Stellar Horn
+![[File:4001.png|center|frameless]]
+|MP:170
+Cast Interval:0.1
+MP Regen:16
+CD:1
+|
+|-
+!Serpentine Waltz
+![[File:舞蛇喷笛.png|center|frameless]]
+|MP:120
+Cast Interval:0.12
+MP Regen:16
+CD:0.6
+|
+|-
+!Asteroid
+![[File:小行星.png|center|frameless]]
+|MP:140
+Cast Interval:0.3
+MP Regen:16
+CD:0.4
+|Scatter:+15°
+MP Cost: x90%
+|-
+!Energized Orb
+![[File:蓄能法球.png|center|frameless]]
+|MP:250
+Cast Interval:0
+MP Regen:20
+CD:0
+|Allows the use of MP from this wand when MP when MP from other wands is insufficient.
+|-
+!Restless Fey
+![[File:狂躁的妖精.png|center|frameless]]
+|MP:180
+Cast Interval:0.1
+MP Regen:17
+CD:0.25
+|Scatter: +15°
+When holding this wand, mp regen x30%
+When not holding this wand, mp regen x180%
+|-
+!Mind Blade
+![[File:意念之剑.png|center|frameless]]
+|MP:140
+Cast Interval:0.27
+MP Regen:18
+CD:0.4
+|
+|-
+!Plague Bearer
+![[File:万疫之源.png|center|frameless]]
+|MP:200
+Cast Interval:1.5
+MP Regen:20
+CD:1.5
+|
+|-
+!Dormant Whisker
+![[File:沉睡之须.png|center|frameless]]
+|MP:155
+Cast Interval:0.15
+MP Regen:16
+CD:0.4
+|Scatter:+12°
+Post Slot: The wand charge 90 energy forevery enemy killed.
+|-
+!Siegemaker
+![[File:4009.png|center|frameless]]
+|MP:220
+Cast Interval:0.2
+MP Regen:16
+CD:1.2
+|Scatter: +2°
+Simultaneous Firing: 3
+MP Cost:x130%
+|-
+!Frozen Touch
+![[File:4010.png|center|frameless]]
+|MP:160
+Cast Interval:0.15
+MP Regen:17
+CD:0.55
+|Scatter: +10°
+Simultaneous Firing:2
+|-
+!Kingdom's Guardian
+![[File:4011.png|center|frameless]]
+|MP:140
+Cast Interval:0.26
+MP Regen:17
+CD:0.4
+|Scatter: +35°
+Post Slot: Charge 35 energy for every second
+|-
+!Dark Young
+![[File:黑山羊子宫.png|center|frameless]]
+|MP:110
+Cast Interval:0.3
+MP Regen:19
+CD:0.9
+|Scatter:+135°
+|-
+!Archmage's Wand
+![[File:4013.png|center|frameless]]
+|MP:150
+Cast Interval:0.12
+MP Regen:18
+CD:0.8
+|Scatter: +20°
+|-
+!Shapeshifter
+![[File:4014.png|center|frameless]]
+|MP:180
+Cast Interval:0.1
+MP Regen:17
+CD:1
+|Scatter:+40°
+CRIT Rate: +70%
+
+Final DMG: x70%
+|-
+!Rainbow Electroweb
+![[File:4015.png|center|frameless]]
+|MP:120
+Cast Interval:0.18
+MP Regen:16
+CD:0.2
+|Scatter: +25°
+MP Cost: x90%
+|-
+!Collector's Staff
+![[File:4016.png|center|frameless]]
+|MP:0
+Cast Interval:0
+MP Regen:0
+CD:0
+|
+|-
+!The Heirless
+![[File:6001.png|center|frameless]]
+|MP:180
+Cast Interval:0.1
+MP Regen:21
+CD:0.55
+|
+|-
+!The Shadeless
+![[File:6002.png|center|frameless]]
+|MP:200
+Cast Interval:0.28
+MP Regen:17
+CD:0.4
+|Post Slot: charge 5 energy for every meter
+|-
+!The Lightless
+![[File:6003.png|center|frameless]]
+|MP:200
+Cast Interval:0.23
+MP Regen:20
+CD:0.55
+|Scatter: +140°
+MP Cost: x70%
+Post Slot: The wand charge 3.3 energy for every enemy hit.
+|-
+!The Formless
+![[File:6004.png|center|frameless]]
+|MP:190
+Cast Interval:0.08
+MP Regen:20
+CD:0.3
+|MP Cost: x90%
+Post Slot: Charge 100 energy every time the character takes damage.
+|-
+!The Featureless
+![[File:6005.png|center|frameless]]
+|MP:230
+Cast Interval:0.42
+MP Regen:21
+CD:0.23
+|
+|-
+!The Faultless
+![[File:6006.png|center|frameless]]
+|MP:210
+Cast Interval:0.33
+MP Regen:21
+CD:0.33
+|Post Slot: The wand charge 130 energy forevery enemy killed.
+|-
+!The Boundless
+![[File:6007.png|center|frameless]]
+|MP:240
+Cast Interval:0.4
+MP Regen:22
+CD:0.68
+|
+|-
+!The Sourceless
+![[File:6008.png|center|frameless]]
+|MP:300
+Cast Interval:0.25
+MP Regen:1
+CD:0.25
+|Scatter: +120°
+Simultaneous Casting: 3
+|-
+!The Wordless
+![[File:6009.png|center|frameless]]
+|MP:200
+Cast Interval:0.2
+MP Regen:8
+CD:1.5
+|MP Cost: x120%"Post Slot: Charge 66 energy for every second
+|-
+!The Nameless
+![[File:6010.png|center|frameless]]
+|MP:160
+Cast Interval:0.5
+MP Regen:22
+CD:0.5
+|
+|-
+!Wand of Focus
+![[File:8001.png|center|frameless]]
+|MP:280
+Cast Interval:0.15
+MP Regen:19
+CD:0.6
+|Final DMG: x120%
+When holding this wand, mp regen x150%
+When not holding this wand, mp regen x50%
+|-
+!Omen of Doom
+![[File:8002.png|center|frameless|180x180px]]
+|MP:350
+Cast Interval:0.05
+MP Regen:20
+CD:1
+|Scatter: +90°
+Post Slot: charge 7.5 energy for every meter moved.
+|-
+!Clearwater Resonance
+![[File:8003.png|center|frameless]]
+|MP:200
+Cast Interval:0.1
+MP Regen:23
+CD:0.45
+|Scatter: -45°
+MP Cost:x30%
+Final DMG:x30%
+Post Slot: The wand charge 1.5 energy for every spell cast.
+|-
+!Shard of Time
+![[File:8004.png|center|frameless]]
+|MP:222
+Cast Interval:0.22
+MP Regen:22
+CD:0.22
+|Scatter: +22°
+MP regeneration for all wands +8/s.
+|-
+!Stellar Drift
+![[File:8005.png|center|frameless]]
+|MP:240
+Cast Interval:0.3
+MP Regen:23
+CD:0.3
+|Scatter: +90°
+Simultaneous Firing:5
+MP Cost:x200%
+CRIT Rate:+20%
+|-
+!Quadruple Staff
+![[File:破碎石中杖.png|center|frameless]]
+|MP:150
+Cast Interval:0.06
+MP Regen:18
+CD:0.3
+|MP Cost: x150%
+Final Damage: x50%
+Spells cast by this wand are quadrupled and fired in four directions.
+|}

@@ -1,0 +1,1105 @@
+<!-- title: Spells | updated: 2026-07-25T01:49:13Z | cats:  -->
+[[File:Summoning.png|right|358x358px]]
+
+= Spells =
+Spells are items that can be arranged inside wands to create attacks. Spells are lost on [[Death]].
+
+=== Projectiles ===
+
+* [[File:Arcane Explosion.png|25x25px]] [[Arcane Explosion]]
+* [[File:Arcane Nova.png|25x25px]] [[Arcane Nova]]
+* [[File:Bing's Arrow.png|25x25px]] [[Bing's Arrow]]
+* [[File:Black_Hole.png|25x25px]] [[Black Hole]]
+* [[File:Boomerang Blade.png|25x25px]] [[Boomerang Blade]]
+* [[File:Butterfly.png|25x25px]] [[Butterfly]]
+* [[File:Condensed Water Bubble.png|25x25px]] [[Condensed Water Bubble]]
+* [[File:Enchanting Coin.png|25x25px]] [[Enchanting Coin]]
+* [[File:Evil Slayer Sword.png|25x25px]] [[Evil Slayer Sword]]
+* [[File:Floating Wisp.png|25x25px]] [[Floating Wisp]]
+* [[File:Fuse.png|25x25px]] [[Fuse]]
+* [[File:Laser.png|25x25px]] [[Laser]]
+* [[File:Magic Bullet.png|25x25px]] [[Magic Bullet]]
+* [[File:Mana Absorption.png|25x25px]] [[Mana Absorption]]
+* [[File:Rainbow.png|25x25px]] [[Rainbow]]
+* [[File:Rock 'n' Ball.png|25x25px]] [[Rock 'n' Ball]]
+* [[File:Shadow Serpent.png|25x25px]] [[Shadow Serpent]]
+* [[File:Shining Star Arrow.png|25x25px]] [[Shining Star Arrow]]
+* [[File:Supernova.png|25x25px]] [[Supernova]]
+* [[File:Sword of Judgement.png|25x25px]] [[Sword of Judgement]]
+* [[File:Thunderstorm.png|25x25px]] [[Thunderstorm]]
+
+==== Continuous Casting ====
+
+* [[File:Fierce_Dragon_Breath.png|25x25px]] [[Fierce Dragon Breath]]
+* [[File:High-pressure_Stream.png|25x25px]] [[High-pressure Stream]]
+* [[File:Lightning_Dash.png|25x25px]] [[Lightning Dash]]
+* [[File:Ray_of_Disintegration.png|25x25px]] [[Ray of Disintegration]]
+
+==== Indiscriminate Damage ====
+
+* [[File:Adava_Keravda.png|25x25px]] [[Adava Keravda]]
+* [[File:Deceptive_Mine.png|25x25px]] [[Deceptive Mine]]
+* [[File:Meteor.png|25x25px]] [[Meteor]]
+
+=== Summon ===
+
+* [[File:Autonomous_Grimoire.png|25x25px]] [[Autonomous Grimoire]]
+* [[File:Giant Troll spell.png|25x25px]] [[Giant Troll]]
+* [[File:Hand_of_the_Cthulhu.png|25x25px]] [[Hand of the Cthulhu]]
+* [[File:Pillar_of_Light.png|25x25px]] [[Pillar of Light]]
+* [[File:Pop.png|25x25px]] [[Pop]]
+* [[File:Skull_of_the_Cthulhu.png|25x25px]] [[Skull of the Cthulhu]]
+
+=== Boost ===
+
+* [[File:Accelerator.png|25x25px]] [[Accelerator]]
+* [[File:Automatic_Navigate.png|25x25px]] [[Automatic Navigate]]
+* [[File:Cadaver_Explosion.png|25x25px]] [[Cadaver Explosion]]
+* [[File:Chain_of_Lightning.png|25x25px]] [[Chain of Lightning]]
+* [[File:Collapse Crystal.png|25x25px]] [[Collapse Crystal]]
+* [[File:Core of Flame.png|25x25px]] [[Core of Flame]]
+* [[File:Core_of_Thunder.png|25x25px]] [[Core of Thunder]]
+* [[File:Blast surge.png|25x25px]] [[Blast Surge]]
+* [[File:Dazzling_Fireworks.png|25x25px]] [[Dazzling Fireworks]]
+* [[File:DMG_Enhanced.png|25x25px]] [[DMG Enhanced]]
+* [[File:Duet.png|25x25px]] [[Duet]]
+* [[File:Echo.png|25x25px]] [[Echo]]
+* [[File:End Teleport.png|24x24px]] [[End Teleport]]
+* [[File:Energy_Saving_Mode.png|25x25px]] [[Energy Saving Mode]]
+* [[File:Enlarge Spell.png|25x25px]] [[Enlarge Spell]]
+* [[File:Essence_of_Soul.png|25x25px]] [[Essence of Soul]]
+* [[File:Fall.png|25x25px]] [[Fall]]
+* [[File:Free Revolution.png|24x24px]] [[Free Revolution]]
+* [[File:Frost_Crystal.png|25x25px]] [[Frost Crystal]]
+* [[File:Fusion_Summon.png|25x25px]] [[Fusion Summon]]
+* [[File:Hover.png|25x25px]] [[Hover]]
+* [[File:Indomitability.png|25x25px]] [[Indomitability]]
+* [[File:Magic Upgrade.png|25x25px]] [[Magic Upgrade]]
+* [[File:Mimicry_Cube.png|25x25px]] [[Mimicry Cube]]
+* [[File:Multi-Shot.png|25x25px]] [[Multi-Shot]]
+* [[File:Orbit.png|25x25px]] [[Orbit]]
+* [[File:Over_Scatter.png|25x25px]] [[Over Scatter]]
+* [[File:Overload.png|25x25px]] [[Overload]]
+* [[File:Parasite.png|25x25px]] [[Parasite]]
+* [[File:Penetration.png|25x25px]] [[Penetration]]
+* [[File:Precise_Shot.png|25x25px]] [[Precise Shot]]
+* [[File:Range_Enhanced.png|25x25px]] [[Range Enhanced]]
+* [[File:Rebound.png|25x25px]] [[Rebound]]
+* [[File:Reflection.png|25x25px]] [[Reflection]]
+* [[File:Self Tracking.png|25x25px]] [[Self Tracking]]
+* [[File:Serial.png|25x25px]] [[Serial]]
+* [[File:Slime_Crystal.png|25x25px]] [[Slime Crystal]]
+* [[File:Split.png|25x25px]] [[Split]]
+* [[File:Strong_Traction.png|25x25px]] [[Strong Traction]]
+* [[File:Time_Duration_Enhanced.png|25x25px]] [[Time Duration Enhanced]]
+* [[File:Track.png|25x25px]] [[Track]]
+* [[File:Troll_Serum.png|25x25px]] [[Troll Serum]]
+* [[File:Twine.png|24x24px]] [[Twine]]
+* [[File:Umbilical_Cord.png|25x25px]] [[Umbilical Cord]]
+* [[File:Venom_Crystal.png|25x25px]] [[Venom Crystal]]
+* [[File:Volley.png|25x25px]] [[Volley]]
+
+=== Passive ===
+
+* [[File:Arcane Barrier.png|25x25px]] [[Arcane Barrier]]
+* [[File:Area Boost.png|25x25px]] [[Area Boost]]
+* [[File:Bi'an Flying Sword.png|25x25px]] [[Bi'an Flying Sword]]
+* [[File:Boundary Stone - Cast.png|24x24px]] [[Boundary Stone - Cast]]
+* [[File:Boundary Stone - Move.png|25x25px]] [[Boundary Stone - Move]]
+* [[File:Boundary Stone - Stand.png|25x25px]] [[Boundary Stone - Stand]]
+* [[File:Boundary Stone - Time.png|25x25px]] [[Boundary Stone - Time]]
+* [[File:Capacity_Expansion_Stone.png|25x25px]] [[Capacity Expansion Stone]]
+* [[File:Charge_Mode.png|25x25px]] [[Charge Mode]]
+* [[File:Forced_Cooldown.png|25x25px]] [[Forced Cooldown]]
+* [[File:Magic_Reservoir.png|25x25px]] [[Magic Reservoir]]
+* [[File:Magic Vine.png|25x25px]] [[Magic Vine]]
+* [[File:Prism Core.png|25x25px]] [[Prism Core]]
+* [[File:Resonance_Rune.png|25x25px]] [[Resonance Rune]]
+* [[File:Rune Hammer.png|25x25px]] [[Rune Hammer]]
+* [[File:Spell Prototype.png|24x24px]] [[Spell Prototype]]
+* [[File:Tranquil_Bloom.png|25x25px]] [[Tranquil Bloom]]
+* [[File:Uniform Scattering.png|24x24px]] [[Uniform Scattering]]
+* [[File:Wand_Spirit.png|25x25px]] [[Wand Spirit]]
+{| class="fandom-table"
+!Name
+!level
+!icon
+!Rarity level
+!Describe
+!Tips
+|-
+! colspan="1" rowspan="3" |[[Magic Bullet]]
+!1
+! colspan="1" rowspan="3" |[[File:1001-sharedassets0.assets-87.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |Essential skill for mages, with powerful support abilities after upgrades
+|-
+!2
+|Damage received by Units hit +50% within 4 seconds
+|-
+!3
+|Damage received by Units hit +100% within 8 seconds
+|-
+! colspan="1" rowspan="3" |[[Rock 'n' Ball]]
+!1
+! colspan="1" rowspan="3" |[[File:1002.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|the Rock'n'Ball can withstand 40 damage
+| colspan="1" rowspan="3" |Crushes the target with the power of the rock, the huge size can withstand enemy projectiles, but this is not a golf ball, do not leave it into the hole\Will leave trails with elemental attachment on the ground
+|-
+!2
+|The Rock'n'Ball can withstand 80 damage
+|-
+!3
+|The Rock'n'Ball can withstand 120 damage
+|-
+! colspan="1" rowspan="3" |[[Butterfly]]
+!1
+! colspan="1" rowspan="3" |[[File:1003.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |Butterflies infused with mana are attracted by the monster's scent, but their fragile body can't resist the interference from other spells
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Laser]]
+!1
+! colspan="1" rowspan="3" |[[File:1004.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |Focuses mana at one point and casts in a straight line, the wand is also willing to cast spells faster under this neon glow\Upgraded to gain the reflection ability
+|-
+!2
+|Penetration +1, Penetration will turn into Reflection
+|-
+!3
+|Penetration +2, Penetration will turn into Reflection
+|-
+! colspan="1" rowspan="3" |[[Fuse]]
+!1
+! colspan="1" rowspan="3" |[[File:1005.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Upon the end, performs the first shooting spell on the right\Spells cast consume x90% mana
+| colspan="1" rowspan="3" |The cornerstone for developing complex spells, don't be fooled by the innocent appearance, one never knows what kind of spells this rune will unlock
+|-
+!2
+|Upon the end, performs the first shooting spell on the right\Spells cast consume x80% mana
+|-
+!3
+|Upon the end, performs the first shooting spell on the right\Spells cast consume x70% mana
+|-
+! colspan="1" rowspan="3" |[[Floating Wisp]]
+!1
+! colspan="1" rowspan="3" |[[File:1006.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Upon hitting enemies, nearby wisps are attracted
+| colspan="1" rowspan="3" |A hovering fire ball made up of magical creatures, they are good at working together and gather other wisps to support them when they find their target\After Upgrading, these magical creatures will multiply at a higher rate, constantly generating new wisps
+|-
+!2
+|Upon hitting enemies, nearby wisps are attracted\Self-replicate every 4 seconds when wisps present
+|-
+!3
+|Upon hitting enemies, nearby wisps are attracted\Self-replicate every 3 seconds when wisps present
+|-
+! colspan="1" rowspan="3" |[[Black Hole]]
+!1
+! colspan="1" rowspan="3" |[[File:1007.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|
+| colspan="1" rowspan="3" |A dense core and a massive accretion disk form a black hole, continuously drawing nearby targets towards the center while dealing damage to them\The upgraded black hole will utilize absorbed material to increase its own size
+|-
+!2
+|Effect Radius slowly increases over time
+|-
+!3
+|Effect Radius increases over time
+|-
+! colspan="1" rowspan="3" |[[Arcane Explosion]]
+!1
+! colspan="1" rowspan="3" |[[File:1008.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |It is said that it's a perfect mate to a fuse, many mages are addicted to experiencing the mana blast after gathering them to the tip of the wand
+|-
+!2
+|Instantly generates an Arcane Explosion with radius multiplied by 0.7 when killing an enemy unit
+|-
+!3
+|Instantly generates an Arcane Explosion when killing an enemy unit
+|-
+![[Mana Absorption|Spell Absorption]]
+!1
+![[File:1009.png|center|frameless|100x100px]]
+!Epic
+|Restores the MP spent for the spell-casting wand when hitting an enemy for the first time
+|Returns mana to you after completing its mission gratefully, but if you can cast it with less MP, what a deal
+|-
+! colspan="1" rowspan="3" |[[Shadow Serpent]]
+!1
+! colspan="1" rowspan="3" |[[File:1010.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Sends a Shadow Serpent with a length of 6 meters
+| colspan="1" rowspan="3" |The curved movement may be slow, but it increases the hitting chance, with a body capable of dealing damage with each body segment, the Shadow Serpent is favored by many mages
+|-
+!2
+|Sends a Shadow Serpent with a length of 12 meters
+|-
+!3
+|Sends a Shadow Serpent with a length of 24 meters
+|-
+! colspan="1" |[[Ray of Disintegration]]
+!1
+
+
+2
+
+
+3
+! colspan="1" |[[File:1011.png|center|frameless|100x100px]]
+! colspan="1" |Rare
+|Continuous casting
+| colspan="1" |An enhanced spell of the Laser, though a vast amount of mana cannot be fully cast in an instant, it can unlimitedly penetrate targets
+|-
+! colspan="1" rowspan="3" |[[Deceptive Mine]]
+!1
+! colspan="1" rowspan="3" |[[File:1012.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|Indiscriminate Damage
+| colspan="1" rowspan="3" |The name itself suggests its danger. Although people suspect it was created by abyssal creatures as a weapon against human, when its powerful explosion directly destroys an entire bone worm, mages get reluctant to discard it into the reforge machine\After landing, it stops moving. If it falls into the abyss, it disappears. When it explodes, it leaves behind elemental residues on the ground
+|-
+!2
+|Indiscriminate Damage
+|-
+!3
+|Indiscriminate Damage
+|-
+! colspan="1" rowspan="3" |[[Meteor]]
+!1
+! colspan="1" rowspan="3" |[[File:1013.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|Indiscriminate Damage
+| colspan="1" rowspan="3" |Summon a meteor shower from the sky, a powerful and splendid spell. When weary of battles, you can always enjoy a meteor shower, but remember to bring an umbrella\Elemental residues are left on the ground, meteors may bounce on the ground
+|-
+!2
+|Additionally launches int1 small meteors\Indiscriminate Damage
+|-
+!3
+|Additionally launches int1 small meteors\Indiscriminate Damage
+|-
+! colspan="1" rowspan="3" |[[Rainbow]]
+!1
+! colspan="1" rowspan="3" |[[File:1014.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Uniform Diffuse
+| colspan="1" rowspan="3" |Shoots seven rainbow-colored projectiles at even angles. Possibly for distinguishing them from magic bullets, these projectiles come with 1 point of penetration
+|-
+!2
+|Uniform Diffuse
+|-
+!3
+|Uniform Diffuse
+|-
+![[Arcane Nova]]
+!1
+![[File:1015.png|center|frameless|100x100px]]
+! colspan="1" |Epic
+|Mana cost of the first shooting spell on the right side x500%, and the damage decreasing by 50% and scatters 20 times. (The spell on the right costs 5 times as much, deals half damage, and activates 20 times.)
+|A superior alternative to the fuse, this spell is rare. The shimmering stars inside and the flowing mana on the surface hint at its immense power
+|-
+! colspan="1" rowspan="3" |[[Lightning Dash]]
+!1
+! colspan="1" rowspan="3" |[[File:1016.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|Invincible while casting spell
+| colspan="1" rowspan="3" |A chunk of drivable lightning, with the driver inside being protected from external harm. If it weren't for the high MP consumption, this could potentially be a transportation
+|-
+!2
+|Invincible while casting spell\Upon completion, triggers an explosion with a Effect Radius multiplied by 2.5, eliminating most spells within
+|-
+!3
+|Invincible while casting spell\Upon completion, triggers an explosion with a Effect Radius multiplied by 3.5, eliminating most spells within
+|-
+! colspan="1" rowspan="3" |[[Adava Keravda]]
+!1
+! colspan="1" rowspan="3" |[[File:1017.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Epic
+|Indiscriminate Damage\Enemy-Killing upgrade
+| colspan="1" rowspan="3" |The power is often as strong as it is difficult to control. With increasing proficiency, a more strong Keravda will be cast
+|-
+!2
+|Indiscriminate Damage\Enemy-Killing upgrade
+|-
+!3
+|Indiscriminate Damage
+|-
+! colspan="1" rowspan="3" |[[Thunderstorm|Thunderstorm]]
+!1
+! colspan="1" rowspan="3" |[[File:1018.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Lightning Strike can conduct int1 times
+| colspan="1" rowspan="3" |Chooses an area where lightning strikes will attack targets within it. Enemies outside the area may also be affected
+|-
+!2
+|Lightning Strike can conduct int1 times\Spell damage increases by 130% when hitting only one enemy unit
+|-
+!3
+|Lightning Strike can conduct int1 times\Spell damage increases by 160% when hitting only one enemy unit
+|-
+! colspan="1" rowspan="3" |[[High-pressure Stream]]
+!1
+! colspan="1" rowspan="3" |[[File:1019.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|60 DPS
+| colspan="1" rowspan="3" |Don't underestimate the strength of water. Continuous attacks without interval are perfect for building combo spells of hitting. Water can also contain attached elements and leave traces on the ground
+|-
+!2
+|120 DPS
+|-
+!3
+|240 DPS
+|-
+![[Enchanting Coin]]
+!1
+![[File:1020.png|center|frameless|100x100px]]
+!Unique
+|Consumes and shoots out 20% of gold coins, for each coin consumed, base damage of the spell increases by 10%. Gold coins will recur upon spell completion.
+|The power of money. No coin no damage. (Remember to pick it up)
+|-
+! colspan="1" rowspan="3" |[[Evil Slayer Sword]]
+!1
+! colspan="1" rowspan="3" |[[File:1021.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|Eliminates most enemy projectiles encountered
+| colspan="1" rowspan="3" |A magical sword formed from mana, fulfilling the mage's desire to exercise muscles, but a 40-meter long sword doesn't seem like something a mage would swing by hands
+|-
+!2
+|Rebounds most enemy projectiles encountered
+|-
+!3
+|More precisely rebounds most enemy projectiles encountered
+|-
+! colspan="1" rowspan="3" |[[Boomerang Blade]]
+!1
+! colspan="1" rowspan="3" |[[File:1022.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Damage 16, crit rate 20%, penetration 5
+| colspan="1" rowspan="3" |Don't be frightened by the returning boomerang blades. Such blades that only attack enemies is the core spell for crafting magical saws
+|-
+!2
+|Damage 32, crit rate 20%, penetration 8
+|-
+!3
+|Damage 64, crit rate 20%, penetration 11
+|-
+! colspan="1" rowspan="3" |[[Sword of Judgement]]
+!1
+! colspan="1" rowspan="3" |[[File:1023.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|
+| colspan="1" rowspan="3" |The Sword of Judgment will surround the summoner, seeking out nearby threats and launch attacks
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Condensed Water Bubble]]
+!1
+! colspan="1" rowspan="3" |[[File:1024.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|
+| colspan="1" rowspan="3" |Imitates the spell crafted by the Wave Envoy, Undine, and being enveloped within it is an incredibly comfortable experience. Although the explosion doesn't harm the caster, the powerful thrust still leaves the mind buzzing\When it explodes, elemental residues are left on the ground, and automatically blow up when enemies approach
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Fierce Dragon Breath]]
+!1
+! colspan="1" rowspan="3" |[[File:1025.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|DMG 80(DPS), +30% per second
+Scatter: 60°
+Continuous casting
+MP Cost: Duration x16
+Duration: 3 seconds
+| colspan="1" rowspan="3" |Mages used to carry the fire traps from the ruins in their hands, and eventually learning this spell. When casting Blazing Breath, there is no slowdown, but it continuously generates recoil during the casting
+|-
+!2
+|DMG 160(DPS), +40% per second
+Scatter: 60°
+Continuous casting
+MP Cost: Duration x22
+Duration: 3 seconds
+|-
+!3
+|DMG 320(DPS), +50% per second
+Scatter: 60°
+Continuous casting
+MP Cost: Duration x28
+Duration: 3 seconds
+|-
+! colspan="1" rowspan="3" |[[Shining Star Arrow]]
+!1
+! colspan="1" rowspan="3" |[[File:1026.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|DMG: 78
+Charged Cast
+CRIT Rate increases by 25% per second while charging
+When CRIT Rate exceeds 33%, Final DMG x150%
+| colspan="1" rowspan="3" |It requires time to infuse with magic, and the purple glow symbolizes maximum mana amount. It's hard to perform a spell of higher damage than this one
+|-
+!2
+|DMG: 148 
+Charged Cast
+CRIT Rate increases by 25% per second while charging
+When CRIT Rate exceeds 66%, Final DMG x170%
+|-
+!3
+|DMG: 281
+Charged Cast
+CRIT Rate increases by 25% per second while charging
+When CRIT Rate exceeds 100%, Final DMG x200%
+|-
+! colspan="1" rowspan="3" |[[Pop]]
+!1
+! colspan="1" rowspan="3" |[[File:2001.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |Creatures usually living in the forest, come to help mages repel monsters after their habitat is taken up by monsters. They enjoy lying in the arms of mages called "Bobo fan"
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Skull of the Cthulhu]]
+!1
+! colspan="1" rowspan="3" |[[File:2002.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Will follow the player into the next map
+| colspan="1" rowspan="3" |A mysterious creature controlled by magic, it restores HP by attacking enemies
+|-
+!2
+|Will follow the player into the next map\Upon summoning, damage is increased by half of the wand's Max MP
+|-
+!3
+|Will follow the player into the next map\Upon summoning, gain damage increase equal to the wand's Max MP
+|-
+! colspan="1" rowspan="3" |[[Hand of the Cthulhu]]
+!1
+! colspan="1" rowspan="3" |Damage 10, Duration 20 seconds
+! colspan="1" rowspan="3" |Normal
+|Damage 10, Duration 20 seconds
+| colspan="1" rowspan="3" |Though not a plant, it can be described as emerging from the soil. The hand of the Cthulhu can attack enemies regardless of distance
+|-
+!2
+|Damage 20, Duration 30 seconds
+|-
+!3
+|Damage 40, Duration 40 seconds
+|-
+! colspan="1" rowspan="3" |[[Pillar of Light]]
+!1
+! colspan="1" rowspan="3" |[[File:2004.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |The divine light brings a sense of security, withstanding projectiles from enemies and applying elemental effects to surrounding enemies
+|-
+!2
+|Deals damage to enemies encountered with equal to 40% of their maximum HP
+|-
+!3
+|Deals damage to enemies encountered with equal to 80% of their maximum HP
+|-
+! colspan="1" rowspan="3" |[[Autonomous Grimoire]]
+!1
+! colspan="1" rowspan="3" |[[File:2005.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|Records and uses the first shooting spell on the right\Grimoire grants a MP Regen speed equivalent to 50% of the summoning wand
+| colspan="1" rowspan="3" |Some mages enjoy using magic to make books turn pages automatically, but obviously these books possess more powerful abilities
+|-
+!2
+|Records and uses the first shooting spell on the right\Grimoire grants a MP Regen speed equivalent to 75% of the summoning wand
+|-
+!3
+|Records and uses the first shooting spell on the right\Grimoire grants a MP Regen speed equivalent to 110% of the summoning wand
+|-
+! colspan="1" rowspan="3" |[[Volley]]
+!1
+! colspan="1" rowspan="3" |[[File:3001.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Simultaneous Firing +2\For each additional shooting spell sent simultaneously, mana cost x78%, scattering +10°
+| colspan="1" rowspan="3" |
+|-
+!2
+|Simultaneous Firing +3\For each additional shooting spell sent simultaneously, mana cost x73%, scattering +15°
+|-
+!3
+|Simultaneous Firing +4\For each additional shooting spell sent simultaneously, mana cost x68%, scattering +20°
+|-
+! colspan="1" rowspan="3" |[[Multi-Shot]]
+!1
+! colspan="1" rowspan="3" |[[File:3002.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|MP Cost: x150%, Increases spell cast by 1
+| colspan="1" rowspan="3" |
+|-
+!2
+|MP Cost: x150%, Increases spell cast by 2
+|-
+!3
+|MP Cost: x150%, Increases spell cast by 4
+|-
+! colspan="1" rowspan="3" |[[Over Scatter]]
+!1
+! colspan="1" rowspan="3" |[[File:3003.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|CD -0.15s
+Scatter +60°
+Simultaneous Firing 5
+| colspan="1" rowspan="3" |
+|-
+!2
+|CD -0.25s
+Scatter +90°
+Simultaneous Firing 8
+|-
+!3
+|CD -0.40s
+Scatter +150°
+Simultaneous Firing 12
+|-
+! colspan="1" rowspan="3" |[[Slime Crystal]]
+!1
+! colspan="1" rowspan="3" |[[File:3004.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|The Movement Speed of targets hit x60% and the Flight Speed of spells x70% for 3 seconds
+| colspan="1" rowspan="3" |When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target
+|-
+!2
+|The Movement Speed of targets hit x50% and the Flight Speed of spells x60% for 4 seconds
+|-
+!3
+|The Movement Speed of targets hit x40% and the Flight Speed of spells x50% in 5 seconds
+|-
+! colspan="1" rowspan="3" |[[Venom Crystal]]
+!1
+! colspan="1" rowspan="3" |[[File:3005.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Applies 1 stacks of poison, dealing damage per stack each second for 3 seconds upon spell hit.
+| colspan="1" rowspan="3" |The venom traces on the ground will inflict damage on allies\When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target
+|-
+!2
+|Applies 2 stacks of poison, dealing damage per stack each second for 4 seconds upon spell hit.
+|-
+!3
+|Applies 4 stacks of poison, dealing damage per stack each second for 5 seconds upon spell hit.
+|-
+! colspan="1" rowspan="3" |[[Penetration]]
+!1
+! colspan="1" rowspan="3" |[[File:3006.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Spell Penetration +1
+| colspan="1" rowspan="3" |
+|-
+!2
+|Spell Penetration +2
+|-
+!3
+|Spell Penetration +4
+|-
+! colspan="1" rowspan="3" |[[Chain of Lightning]]
+!1
+! colspan="1" rowspan="3" |[[File:3007.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|Connects spells cast simultaneously and deal 9 damage to objects along the path
+| colspan="1" rowspan="3" |
+|-
+!2
+|Connects spells cast simultaneously and deal 18 damage to objects along the path
+|-
+!3
+|Connects spells cast simultaneously and deal 36 damage to objects along the path
+|-
+! colspan="1" rowspan="3" |[[Hover]]
+!1
+! colspan="1" rowspan="3" |[[File:3008.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Hover in place for 2 seconds at the completion of the spell
+| colspan="1" rowspan="3" |
+|-
+!2
+|Hover in place for 3 seconds at the completion of the spell
+|-
+!3
+|Hover in place for float1 seconds at the completion of the spell
+|-
+! colspan="1" rowspan="3" |[[Orbit]]
+!1
+! colspan="1" rowspan="3" |[[File:3009.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Spell Duration +4 sec\Orbit Effect Radius float3m\Spell rotates around the caster
+| colspan="1" rowspan="3" |Trajectory enhancements. These enhancements will override previous projectile trajectories
+|-
+!2
+|Spell Duration +7 sec\Spell Flight Speed +5\Orbit Effect Radius float4m\Spell rotates around the caster
+|-
+!3
+|Spell Duration +11 sec\Spell Flight Speed +10\Orbit Effect Radius float4m\Spell rotates around the caster
+|-
+! colspan="1" rowspan="3" |[[Track]]
+!1
+! colspan="1" rowspan="3" |[[File:3010.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|Spell Flight Speed +1\Spell Duration +1 sec\Spells now track your mouse cursor
+| colspan="1" rowspan="3" |Trajectory enhancements. These enhancements will override previous projectile trajectories
+|-
+!2
+|Spell Flight Speed +2\Spell Duration +2 sec\Spells now track your mouse cursor
+|-
+!3
+|Spell Flight Speed +4\Spell Duration +4 sec\Spells now track your mouse cursor
+|-
+! colspan="1" rowspan="3" |[[Automatic Navigate]]
+!1
+! colspan="1" rowspan="3" |[[File:3011.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|The spell tracks the target with an angular velocity of 12° per meter
+| colspan="1" rowspan="3" |Trajectory enhancements. These enhancements will override previous projectile trajectories
+|-
+!2
+|The spell tracks the target with an angular velocity of 22° per meter
+|-
+!3
+|The spell tracks the target with an angular velocity of 38° per meter
+|-
+! colspan="1" rowspan="3" |[[Rebound]]
+!1
+! colspan="1" rowspan="3" |[[File:3012.png|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Spell Rebound Count +2\Duration of each rebound +1 sec
+| colspan="1" rowspan="3" |
+|-
+!2
+|Spell Rebound Count +4\Duration of each rebound +1 sec
+|-
+!3
+|Spell Rebound Count +8\Duration of each rebound +1 sec
+|-
+! colspan="1" rowspan="3" |[[Split]]
+!1
+! colspan="1" rowspan="3" |[[File:3013.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Splits into 3 spells upon the completion of the spell, each dealing x33% damage
+| colspan="1" rowspan="3" |
+|-
+!2
+|Splits into 5 spells upon the completion of the spell, each dealing x33% damage
+|-
+!3
+|Splits into 8 spells upon the completion of the spell, each dealing x33% damage
+|-
+! colspan="1" rowspan="3" |[[Frost Crystal]]
+!1
+! colspan="1" rowspan="3" |[[File:3014.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|
+| colspan="1" rowspan="3" |When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Parasite]]
+!1
+! colspan="1" rowspan="3" |[[File:3015.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Core of Thunder]]
+!1
+! colspan="1" rowspan="3" |[[File:3101.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|
+| colspan="1" rowspan="3" |When applying multiple Cores of Thunder, take the highest thunder chance and add the damage. The appearance change caused by the Core of Thunder will override other elemental enhancements, but won't affect the ultimate effect
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[DMG Enhanced]]
+!1
+! colspan="1" rowspan="3" |[[File:3102.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Spell Damage +25%
+| colspan="1" rowspan="3" |
+|-
+!2
+|Spell Damage +50%
+|-
+!3
+|Spell Damage +100%
+|-
+! colspan="1" rowspan="3" |[[Time Duration Enhanced]]
+!1
+! colspan="1" rowspan="3" |[[File:3103.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Spell Duration +2s
+| colspan="1" rowspan="3" |
+|-
+!2
+|Spell Duration +3.5s
+|-
+!3
+|Spell Duration +6s
+|-
+! colspan="1" rowspan="3" |[[Energy Saving Mode]]
+!1
+! colspan="1" rowspan="3" |[[File:3104.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Spell Cost x60% \Spell Duration x75% \Spell Damage x75%
+| colspan="1" rowspan="3" |
+|-
+!2
+|Spell Cost x50% \Spell Duration x75% \Spell Damage x75%
+|-
+!3
+|Spell Cost x40% \Spell Duration x80% \Spell Damage x80%
+|-
+! colspan="1" rowspan="3" |[[Precise Shot]]
+!1
+! colspan="1" rowspan="3" |[[File:3105.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|CRIT Rate: 10%
+Scatter: -30°
+| colspan="1" rowspan="3" |
+|-
+!2
+|CRIT Rate: 20%
+Scatter -60°
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Accelerator]]
+!1
+! colspan="1" rowspan="3" |[[File:3106.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Spell Flight Speed +float1
+| colspan="1" rowspan="3" |
+|-
+!2
+|Spell Flight Speed +float1
+|-
+!3
+|Spell Flight Speed +float1
+|-
+! colspan="1" rowspan="3" |[[Range Enhanced]]
+!1
+! colspan="1" rowspan="3" |[[File:3107.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Spell Effect Radius +30%
+| colspan="1" rowspan="3" |
+|-
+!2
+|Spell Effect Radius +60%
+|-
+!3
+|Spell Effect Radius +120%
+|-
+! colspan="1" rowspan="3" |[[Troll Serum]]
+!1
+! colspan="1" rowspan="3" |[[File:3108.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Summoned creatures have +40% HP\Summoned creatures restore +2.5HP per second
+| colspan="1" rowspan="3" |
+|-
+!2
+|Summoned creatures have +80% HP\Summoned creatures restore +5 HP per second
+|-
+!3
+|Summoned creatures have +160% HP\Summoned creatures restore +10HP per second
+|-
+! colspan="1" rowspan="3" |[[Mimicry Cube]]
+!1
+! colspan="1" rowspan="3" |[[File:3109.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|Imitates the first spell on the right maximumly duplicating its level 1 effect
+| colspan="1" rowspan="3" |
+|-
+!2
+|Imitates the first spell on the right maximumly duplicating its level 2 effect
+|-
+!3
+|Imitates the first spell on the right maximumly duplicating its level 3 effect
+|-
+! colspan="1" rowspan="3" |[[Umbilical Cord]]
+!1
+! colspan="1" rowspan="3" |[[File:3110.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Connects summoned creatures and deals 25 damage per second against enemies along the path
+| colspan="1" rowspan="3" |
+|-
+!2
+|Connects summoned creatures and deals 50 damage per second against enemies along the path
+|-
+!3
+|Connects summoned creatures and deals 100 damage per second against enemies along the path
+|-
+![[Core of Flame]]
+!1
+![[File:3111.png|center|frameless|100x100px]]
+!Epic
+|Occupies 2 wand slots
+
+Spell DMG +100%
+
+Deals damage equal to 5% of the target's max HP (0.3% for bosses) per second for 3 seconds
+|Adds flame debuff to enemies/bosses for 3 seconds
+|-
+! colspan="1" rowspan="3" |[[Strong Traction]]
+!1
+! colspan="1" rowspan="3" |[[File:3112.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|CRIT Rate: +5%
+When the spell does critical hits, randomly pulls 1 other enemy within a radius of 7m and deals equal damage
+| colspan="1" rowspan="3" |
+|-
+!2
+|CRIT Rate: +5%
+When the spell does critical hits, randomly pulls 2 other enemy within a radius of 8m and deals equal damage
+|-
+!3
+|CRIT Rate: +5% (?verify)
+When the spell does critical hits, randomly pulls 4 other enemy within a radius of 9m and deals equal damage
+|-
+![[Fusion Summon]]
+!1
+![[File:3115.png|center|frameless|100x100px]]
+!Epic
+|
+|
+|-
+! colspan="1" rowspan="3" |[[Cadaver Explosion]]
+!1
+! colspan="1" rowspan="3" |[[File:3118.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Essence of Soul]]
+!1
+! colspan="1" rowspan="3" |[[File:3120.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|
+| colspan="1" rowspan="3" |The actual effects can be viewed in the Enhanced Summoning Spell Information
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Reflection]]
+!1
+! colspan="1" rowspan="3" |[[File:3121.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|
+| colspan="1" rowspan="3" |When both reflection and penetration are present, reflection takes priority
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Indomitability]]
+!1
+! colspan="1" rowspan="3" |[[File:3122.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Duet]]
+!1
+! colspan="1" rowspan="3" |[[File:3201.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Casts the spell on the right at the completion of the spell on the left\The spell on the right inherits 30% of the damage from the spell on the left
+| colspan="1" rowspan="3" |
+|-
+!2
+|Casts the spell on the right at the completion of the spell on the left\The spell on the right inherits 60% of the damage from the spell on the left
+|-
+!3
+|Casts the spell on the right at the completion of the spell on the left\The spell on the right inherits 120% of the damage from the spell on the left
+|-
+! colspan="1" rowspan="3" |[[Dazzling Fireworks]]
+!1
+! colspan="1" rowspan="3" |[[File:3202.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|Casts 4 spells on the right at the completion of the spell on the left\The damage of spells cast x35%
+| colspan="1" rowspan="3" |Because spells on the right will be cast four times, casting more spells on the right side will consume quadruple the mana
+|-
+!2
+|Casts 4 spells on the right at the completion of the spell on the left\The damage of spells cast x45%
+|-
+!3
+|Casts 4 spells on the right at the completion of the spell on the left\The damage of spells cast 60%
+|-
+! colspan="1" rowspan="3" |[[Serial]]
+!1
+! colspan="1" rowspan="3" |[[File:3203.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|Casts the spell on the right with 70% mana cost when the spell on the left is flying
+| colspan="1" rowspan="3" |Casting this set of spells does not cost the MP for spells on the right
+|-
+!2
+|Quickly casts the spell on the right with 55% mana cost when the spell on the left is flying
+|-
+!3
+|Promptly casts the spell on the right with 40% mana cost when the spell on the left is flying
+|-
+! colspan="1" rowspan="3" |[[Echo]]
+!1
+! colspan="1" rowspan="3" |[[File:3205.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 80%, with a shortest interval of 0.3 seconds
+| colspan="1" rowspan="3" |Casting this set of spells does not cost the MP for spells on the right
+|-
+!2
+|When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 65%, with a shortest interval of 0.2 seconds
+|-
+!3
+|When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 50%, with a shortest interval of 0.1 seconds
+|-
+! colspan="1" rowspan="3" |[[Magic Reservoir]]
+!1
+! colspan="1" rowspan="3" |[[File:4002.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Tranquil Bloom]]
+!1
+! colspan="1" rowspan="3" |[[File:4003.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Charge Mode]]
+!1
+! colspan="1" rowspan="3" |[[File:4004.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|
+| colspan="1" rowspan="3" |
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Wand Spirit]]
+!1
+! colspan="1" rowspan="3" |[[File:4005.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|
+| colspan="1" rowspan="3" |The wand's spirit can block enemy projectiles without taking damage
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Forced Cooldown]]
+!1
+! colspan="1" rowspan="3" |[[File:4006.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Capacity Expansion Stone]]
+!1
+! colspan="1" rowspan="3" |[[File:4007.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Rare
+|
+| colspan="1" rowspan="3" |
+|-
+!2
+|
+|-
+!3
+|
+|-
+! colspan="1" rowspan="3" |[[Resonance Rune]]
+!1
+! colspan="1" rowspan="3" |[[File:4008.png|center|frameless|100x100px]]
+! colspan="1" rowspan="3" |Normal
+|
+| colspan="1" rowspan="3" |Resonance casting cannot trigger another wand's resonance
+|-
+!2
+|
+|-
+!3
+|
+|-
+![[Arcane Barrier]]
+!1
+![[File:4012.png|center|frameless|100x100px]]
+!Epic
+|
+|The barrier is only created when the wand is fully charged with MP, and disappears when the wand runs out of MP\Multiple wands equip the passive skill Arcane Barrier simultaneously, and they share the MP and the effect
+|}

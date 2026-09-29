@@ -1,0 +1,7 @@
+node_modules/
+dist/
+wiki/__pycache__/
+tools/__pycache__/
+*.log
+scripts/__pycache__/
+public/data/

@@ -1,0 +1,10 @@
+<!-- title: Magic Vine | updated: 2025-07-16T03:16:37Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell InfoBox|image=Magic_Vine.png|type=Spell Passive|rarity=Rare|misc_a_1=MP Regen of the wand +20%|misc_a_2=MP Regen of the wand +35%|misc_a_3=MP Regen of the wand +TBD|misc_b_1=Max MP of the wand +10%|misc_b_2=Max MP of the wand +20%|misc_b_3=Max MP of the wand +TBD}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Passive. When placed in a wand, it increases the wand's mana regen and mana capacity, with a stacking effect depending on how many wand slots to the right of it are empty.
+
+* The benefit stacks additively for each empty wand slot to the right of {{PAGENAME}}, so 2 empty slots would double it, 3 empty slots would triple it, etc...the slot that {{PAGENAME}} itself is in also counts as one iteration.
+* The slots to the right of {{PAGENAME}} are not locked; other spells can be placed in them as normal.
+* The benefit effect will not pass over an equipped spell to fill other empty slots to the right of it; it will only work in the first unbroken chain of empty slots immediately to the right of {{PAGENAME}}.
+
+[[Category:Spell]]
+[[Category:Spell Type: Spell Passive]]
+[[Category:Rarity: Rare]]

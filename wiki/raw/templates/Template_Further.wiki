@@ -1,0 +1,6 @@
+<!-- title: Template:Further | updated: 2024-01-05T20:39:19Z | cats: Category:Notice templates -->
+<includeonly>{{#invoke:Hatnote|further}}</includeonly>
+<noinclude>{{Documentation|:Template:Hatnote/doc}}<!--
+For a more traditional wikitext version of this template, see 
+https://templates.fandom.com/wiki/Template:Hatnote
+--></noinclude>

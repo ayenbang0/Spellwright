@@ -1,0 +1,7 @@
+<!-- title: Boomerang Blade | updated: 2024-08-01T07:50:43Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell_InfoBox|image=Boomerang_Blade.png|type=Spell Projectiles|rarity=Normal|mana_cost1=9|mana_cost2=11|mana_cost3=15|dmg1=16|dmg2=32|dmg3=64|crit_rate1=20%|crit_rate2=20%|crit_rate3=20%|spell_penetration1=5|spell_penetration2=8|spell_penetration3=12}}The '''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it fires out a single ring that travels to the target and returns to the player.
+
+'''Description:''' Don't be frightened by the returning boomerang blades. Such blades that only attack enemies is the core spell for crafting magical saws.
+[[Category:Spell]]
+[[Category:Rarity: Normal]]
+[[Category:Spell Type: Spell Projectiles]]

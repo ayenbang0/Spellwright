@@ -1,0 +1,10 @@
+<!-- title: Spell Prototype | updated: 2025-07-15T23:55:24Z | cats: Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell InfoBox|image=Spell_Prototype.png|type=Spell Passive|rarity=Rare|misc_a_1=Mimic Level 1|misc_a_2=Mimic Level 2|misc_a_3=Does not exist}}
+
+'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Passive. It has no effect while in a wand, but it can be used as a "wildcard" during Fusion to upgrade another spell, like the [[Mimicry Cube]] being able to duplicate a spell's effect while equipped in a wand.
+
+While it is a Rare, {{PAGENAME}} can be used as a wildcard for both Normal and Rare spells. The upgrade level of the {{PAGENAME}} must match the level of the spell being upgraded (i.e. a Level+ {{PAGENAME}} can only be used for fusing a Level+ spell into Level++, and cannot work on a base level spell).
+
+{{PAGENAME}} cannot be fused up to a Level++ version as that would make no sense since no spell can be upgraded further than ++.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Passive]]

@@ -1,0 +1,23 @@
+<!-- title: Soul Set | updated: 2024-11-08T14:58:59Z | cats:  -->
+== Soul Set ==
+The soul set is a set in which all of your wands will be automatically controlled by a [[Wand Spirit|Wand Spirit+]]. You will start with multiple Ethereal Wands with a [[Butterfly]] spell in each (the number of wands depends on the level of the set) and a Mirror of Vision Relic.
+
+This set is unblocked when you have 3 wands equipped at the same time with a Wand Spirit.
+
+[[File:Set ethereal wand .png|thumb|left|360x360px]]
+
+== Upgrade Cost ==
+{| class="fandom-table"
+|+Upgrade cost for Soul Set
+!Level
+!Cost to Upgrade
+|-
+|1
+|60
+|-
+|2
+|120
+|-
+|
+|
+|}

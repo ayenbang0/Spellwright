@@ -1,0 +1,6 @@
+<!-- title: Currency | updated: 2024-04-30T16:46:10Z | cats:  -->
+== Meta Currency ==
+* [[Crystals]]
+* [[Blood of the Old Gods]]
+== In-Game Currency ==
+* [[Gold]]

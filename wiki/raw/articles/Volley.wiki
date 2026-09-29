@@ -1,0 +1,5 @@
+<!-- title: Volley | updated: 2024-12-03T00:25:24Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Volley.png|type=Spell Boost|rarity=Normal|simultaneous_firing1=+2|simultaneous_firing2=+3|simultaneous_firing3=+4|misc_a_1=For each additional shooting spell sent simultaneously, mana cost x78%, scattering +10°|misc_a_2=For each additional shooting spell sent simultaneously, mana cost x73%, scattering +15°|misc_a_3=For each additional shooting spell sent simultaneously, mana cost x68%, scattering +20°}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It reduces the mana cost of simultaneously cast spells but increases Scatter.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

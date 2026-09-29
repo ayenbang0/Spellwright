@@ -1,0 +1,7 @@
+<!-- title: Resonance Rune | updated: 2024-12-03T00:43:36Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell InfoBox|image=Resonance_Rune.png|type=Spell Passive|rarity=Normal|misc_a_1=There is a 25% chance of auto-casting when using other wands, and a 20% chance of not consuming MP when using auto-casting.|misc_a_2=There is a 50% chance of auto-casting when using other wands, and a 30% chance of not consuming MP when using auto-casting.|misc_a_3=There is a 100% chance of auto-casting when using other wands, and a 40% chance of not consuming MP when using auto-casting.}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Passive. When placed in wand, it adds a chance that the current wand will cast when using another wand and an additional chance to not use any mana.
+
+'''Description:''' Resonance casting cannot trigger another wand's resonance
+[[Category:Spell]]
+[[Category:Spell Type: Spell Passive]]
+[[Category:Rarity: Normal]]

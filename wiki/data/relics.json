@@ -1,0 +1,597 @@
+[
+ {
+  "Relic Name": "Knight's Boots",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "Grants immunity to ground spikes\nGrants immunity to Venom\n\nNote: Part of the Knight Series"
+ },
+ {
+  "Relic Name": "Beast Fangs",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Increases all DMG dealt by 20/35/50/65/80%. Note, does NOT appear to affect poison stacks, such as those from a Venom Crystal"
+ },
+ {
+  "Relic Name": "Black Mark",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "One random item in the shop is now free"
+ },
+ {
+  "Relic Name": "Blade of Fury",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Increases CRIT DMG from 200% to 250/300/350/400/450%"
+ },
+ {
+  "Relic Name": "Blood Key",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "1",
+  "Effect": "After defeating a boss, a Scarlet Relic room will appear.\nNote: Costs -25 Health from Scarlet Relic room.\n\nNote: Only works on final chapter boss."
+ },
+ {
+  "Relic Name": "Blood-thirsty Gaze",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Upon killing an enemy, there is a 20% chance to restore 1 HP"
+ },
+ {
+  "Relic Name": "Casket of Souls",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "3",
+  "Effect": "Upon killing an enemy, there is a 30% chance to summon a tracking soul, dealing 65 DMG\nNote: Part of the Soul Bone Series"
+ },
+ {
+  "Relic Name": "Close Observation",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "2",
+  "Effect": "Displays enemy HP bars / (Lv2) numbers."
+ },
+ {
+  "Relic Name": "Cloud Piercer",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "1",
+  "Effect": "Spells can penetrate walls"
+ },
+ {
+  "Relic Name": "Crimson Anklet",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "Reduces Movement Speed to 70%\nAccelerates to 140% if not taking DMG within 8 sec"
+ },
+ {
+  "Relic Name": "Pros-pector's Goblet",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "Each time entering a new area, gains an additional 5% of current coins, up to 10\nNote: Part of the Gold Rush Series."
+ },
+ {
+  "Relic Name": "Dashing Ear",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "1",
+  "Effect": "Upon taking DMG, Movement Speed instantly increases by 160%, and becomes invincible, lasting for 0.8 seconds"
+ },
+ {
+  "Relic Name": "Demon Mask",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Increases the CRIT Rate of all DMG types by 10/18/26/34/42%"
+ },
+ {
+  "Relic Name": "Demon-bone Tail",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "1",
+  "Effect": "Generates a magic bullet that follows you around upon enemy death"
+ },
+ {
+  "Relic Name": "Drill",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "5",
+  "Effect": "+1/2/3/4/5 slots per wand"
+ },
+ {
+  "Relic Name": "Dusty Treasure",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "10",
+  "Effect": "Randomly upgrades one relic. If no relic can be upgraded, receive a common relic"
+ },
+ {
+  "Relic Name": "Electrified Crown",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Deals 10% of all enemie's max HP (0.2% for bosses) + 30 DMG to all enemies upon taking DMG"
+ },
+ {
+  "Relic Name": "Elven Ears",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "1",
+  "Effect": "Casting spells no longer reduces Movement Speed"
+ },
+ {
+  "Relic Name": "Ember-heart",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "10",
+  "Effect": "Deals 16 DMG per sec to enemies within 3 meters"
+ },
+ {
+  "Relic Name": "Endless Chest",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "When opening a chest, there is a 30% chance to generate another chest"
+ },
+ {
+  "Relic Name": "Endless Elixir",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "Each potion use has a 30% chance to obtain a new potion"
+ },
+ {
+  "Relic Name": "Finite Gloves",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "Cause detonation at regular intervals, killing half of the non-boss enemies on the field"
+ },
+ {
+  "Relic Name": "Fortune Earrings",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "2",
+  "Effect": "Relic option +1/2"
+ },
+ {
+  "Relic Name": "Four-Leaf Clover",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "There is a 11/22/33/44/55% chance to dodge attacks"
+ },
+ {
+  "Relic Name": "Guardian Sprite",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Summons 3/6/9/12/15 sprite(s) to intercept enemy spells"
+ },
+ {
+  "Relic Name": "Healing Belt",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Each Potion use increases Max HP by 3 and Max MP by 2"
+ },
+ {
+  "Relic Name": "Hexa-gonal Die",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Gains 1/2/3/4/5 chance(s) to refresh relics each time a relic is obtained"
+ },
+ {
+  "Relic Name": "Hourglass of Time",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "2",
+  "Effect": "Upon death gains one chance to revive Restores 50/80% of max HP upon reviving.\nThis relic disappears after use\n\nNote: Costs -35 Health the Scarlet Relic room."
+ },
+ {
+  "Relic Name": "Hunter's Talisman",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "2",
+  "Effect": "Improves visibility"
+ },
+ {
+  "Relic Name": "Knight's Breast-plate",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "Reduces DMG taken by 25%\nNote: Part of the Knight Series."
+ },
+ {
+  "Relic Name": "Knight's Helm",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "2",
+  "Effect": "Reduces Indiscriminate DMG taken to 1/0.1%\nNote: Part of the Knight Series."
+ },
+ {
+  "Relic Name": "Lucky Bunny Ear",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "3",
+  "Effect": "Spell options +1"
+ },
+ {
+  "Relic Name": "Magician's Robe",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "3",
+  "Effect": "Remote control your wand, allowing casting spells up to 5 meters away\nSpell effect radius: -30%"
+ },
+ {
+  "Relic Name": "Magni-fying Glass",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Expands the effect radius of spells and relics by 20%"
+ },
+ {
+  "Relic Name": "Mask of the Hexer",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "3",
+  "Effect": "For each curse you own, increases all DMG dealt by 10%/15%"
+ },
+ {
+  "Relic Name": "Mer-chant's Bauble",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "1",
+  "Effect": "When encountering a shop or crafting room, a special room will always appear"
+ },
+ {
+  "Relic Name": "Merlin's Beard",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "1",
+  "Effect": "Summon unit limit x2, which cannot be applied to wand spirit or summoning tome.\nNote: Part of the Merlin series."
+ },
+ {
+  "Relic Name": "Merlin's Boots",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Restores 4 MP upon enemy death\nNote: Part of the Merlin series."
+ },
+ {
+  "Relic Name": "Merlin's Hat",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Max MP +30\nNote: Part of the Merlin series."
+ },
+ {
+  "Relic Name": "Merlin's Robe",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "3",
+  "Effect": "MP Regeneration +2/4/6/s\nNote: Part of the Merlin series."
+ },
+ {
+  "Relic Name": "Mirror of Vision",
+  "Icon": "",
+  "Rarity": "Unique",
+  "Max Level": "3",
+  "Effect": "Permanent flight\nWand limit +1/2/3\n\nAll wands automatically equip Wand Spirit(+)"
+ },
+ {
+  "Relic Name": "Octagonal Die",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "2",
+  "Effect": "Gains 1 chance(s) to refresh spells each time a spell is obtained.\nNote: Costs -66 Health from the Scarlet Relic room."
+ },
+ {
+  "Relic Name": "Pandora's Box",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "3",
+  "Effect": "Upon entering a room, the first 1/2/3 slots of spells in the inventory will be reforged"
+ },
+ {
+  "Relic Name": "Tree Spirit Pendant",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "3",
+  "Effect": "Slowly restores HP to 30 when below 30\nNote: Part of the Tree Spirit Series."
+ },
+ {
+  "Relic Name": "Pros-pector's Gloves",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "3",
+  "Effect": "Upon killing an enemy, there is a 8/16/24% chance to drop coins\nNote: Part of the Gold Rush Series."
+ },
+ {
+  "Relic Name": "Pros-pector's Pickaxe",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Increases DMG dealt by 1/2/3/4/5% for every 3/4/5/6/7 coins you own\nNote: Part of the Gold Rush Series."
+ },
+ {
+  "Relic Name": "Pros-pector's Vest",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "1",
+  "Effect": "Restores equivalent HP when picking up coins.\nNote: Costs -32 Health from the Scarlet Relic room.\n\nNote: Part of the Gold Rush Series."
+ },
+ {
+  "Relic Name": "Rageful Eye",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "3",
+  "Effect": "For every 2 missing HP, increases all DMG dealt by 1%"
+ },
+ {
+  "Relic Name": "Ranger's Boots",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "1",
+  "Effect": "Grants immunity to slow effects ( except those caused by spells)\nMovement Speed +1"
+ },
+ {
+  "Relic Name": "Reaper Mask",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "There is a 1% chance to kill a non-boss unit"
+ },
+ {
+  "Relic Name": "Replica Gloves",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "2",
+  "Effect": "Upon casting a spell, there is a 25/45% chance to duplicate the spell in a random direction.\nNote: Costs -28 Health from the Scarlet Relic room."
+ },
+ {
+  "Relic Name": "Resilient Physique",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "Increases all DMG dealt by 100%\nIncreases all DMG taken by 70%"
+ },
+ {
+  "Relic Name": "Rogue Cloak",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "2",
+  "Effect": "Grants invisibility if not attacking for 5 sec\nAttack breaks invisibility\n\nNote: Author can still see you."
+ },
+ {
+  "Relic Name": "Seed of Greed",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "1",
+  "Effect": "Absorbs all HP\nAfter absorbing 70HP, grows and increases Max HP by 50\n\nNote: Can be rerolled by relic potion after Max HP increase with no downside."
+ },
+ {
+  "Relic Name": "Silver Compass",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "1",
+  "Effect": "The next room is guaranteed to have a chest or a statue.\nNote: Costs -68 Health from the Scarlet Relic room."
+ },
+ {
+  "Relic Name": "Silver Key",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "1",
+  "Effect": "Grants access to all chests and doors.\nNote: Costs -58 Health from the Scarlet Relic room."
+ },
+ {
+  "Relic Name": "Soulbone Armor",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Upon killing an enemy, there is a 20% chance to generate a shield\nNote: Part of the Soul Bone Series."
+ },
+ {
+  "Relic Name": "Soulbone Crown",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "2",
+  "Effect": "Gains 1 temporary shield points upon killing 3 enemies\nNote: Part of the Soul Bone Series."
+ },
+ {
+  "Relic Name": "Soulbone Mantle",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "1",
+  "Effect": "Gains 20 shield points\nGains 1 shield points for every 3 enemies killed\n\nNote: Costs -99 Health from the Scarlet Relic room.\n\nNote: Part of the Soul Bone Series."
+ },
+ {
+  "Relic Name": "Sprite Wings",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "1",
+  "Effect": "Allows you to fly.\nNote: Costs -42 Health from the Scarlet Relic room. Makes you immune to all pit traps, but not poison fields."
+ },
+ {
+  "Relic Name": "Stagnant Droplet",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "Slows down enemy projectiles within 3 meters"
+ },
+ {
+  "Relic Name": "Talisman of Focus",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "Reduces spell cooldowns, casting intervals, and scatter ba up to 60% when stationary"
+ },
+ {
+  "Relic Name": "Titan's Pauldrons",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "3",
+  "Effect": "Max HP +20\nBody Size +15%\nRecoil -33%"
+ },
+ {
+  "Relic Name": "Treant Circlet",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "5",
+  "Effect": "Gains 15 temporary shield points upon entering a door\nNote: Part of the Tree Spirit Series."
+ },
+ {
+  "Relic Name": "Treant Robe",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Restores 5 HP upon entering a door\nNote: Part of the Tree Spirit Series."
+ },
+ {
+  "Relic Name": "Treant Shoulder-guards",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Gains 3/6/9/12/15 shield points upon entering a door\nNote: Part of the Tree Spirit Series."
+ },
+ {
+  "Relic Name": "Wand Lens",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "3",
+  "Effect": "Spell knockback +50%"
+ },
+ {
+  "Relic Name": "Wild Tentacles",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Increases Movement Speed by 1,5"
+ },
+ {
+  "Relic Name": "Reboot Key",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "1",
+  "Effect": "Reroll your spells, wands, relics and curses. The item disappears afterwards.\nNote: This Item can only appear once in a map, and will bring you to the start of the zone. Rarity is matched, so it may be a good idea to pick up any cheap epics before choosing this item. Be aware, the game does not save until after you have completed your first choice room."
+ },
+ {
+  "Relic Name": "Explorer's Hat",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "1",
+  "Effect": "Normal levels have one more door"
+ },
+ {
+  "Relic Name": "Infusion Hand Seal",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Increases all wand's secondary slot charge efficiency by 20%"
+ },
+ {
+  "Relic Name": "Colorful Cloak",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "Spells receive random elemental effects"
+ },
+ {
+  "Relic Name": "Ward Charm",
+  "Icon": "",
+  "Rarity": "Epic",
+  "Max Level": "1",
+  "Effect": "Each Time you enter a room, there's a 33% chance to randomly remove one curse"
+ },
+ {
+  "Relic Name": "Invisible Wings",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "When taking damage, gain flight and increase Movement Speed by 30%. Till you enter the next door"
+ },
+ {
+  "Relic Name": "Berseker",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "1",
+  "Effect": "Increases all DMG by 50% when HP is below 50%"
+ },
+ {
+  "Relic Name": "Cardiotonic",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "3",
+  "Effect": "\"Life room revenue increases by 30%\"\nNote: Increases max health pickups behind the \"HP Boost\" doors."
+ },
+ {
+  "Relic Name": "Summoning Wealth Bell",
+  "Icon": "",
+  "Rarity": "Rare",
+  "Max Level": "3",
+  "Effect": "\"Gold coin house revenue increases by 30%\"\nNote: Increases gold pouch drops behind the \"Coins\" doors."
+ },
+ {
+  "Relic Name": "Coolant",
+  "Icon": "",
+  "Rarity": "Normal",
+  "Max Level": "5",
+  "Effect": "Reduces relic active skill cooldown by 25%"
+ },
+ {
+  "Relic Name": "Swordsman Cloak",
+  "Icon": "",
+  "Rarity": "Unique",
+  "Max Level": "3",
+  "Effect": "Press Space Bar to sprint, Invincible while sprinting and can use held wand once for free during sprint, Cooldown: 2 seconds\nEvil Slayer Sword MP Cost x90%"
+ },
+ {
+  "Relic Name": "Bi'an",
+  "Icon": "",
+  "Rarity": "Unique",
+  "Max Level": "3",
+  "Effect": "Press Space Bar to use sword return. Recall all Bi'an flying swords, dealing damage to enemies along their returned path. Cooldown: 5s"
+ },
+ {
+  "Relic Name": "Reaper",
+  "Icon": "",
+  "Rarity": "Unique",
+  "Max Level": "2",
+  "Effect": "Poison stacks applied x2/3\nSpells in the inventory will automatically be crafted upon entering a new room if they can be crafted\nNote: \"inventory\" only refers to the backpack. Will not combine Spell Prototype with other Spells"
+ },
+ {
+  "Relic Name": "Original Shape",
+  "Icon": "",
+  "Rarity": "Unique",
+  "Max Level": "2",
+  "Effect": "Press Space Bar to perform a Butt Slam toward the cursor location, Upon landing, deals damage equal to 50% of each target's Max HP (10% for bosses) within 3 meters. Cooldown: 10 seconds.\nIf the Butt Slam kills any enemy, the cooldown is reset."
+ },
+ {
+  "Relic Name": "Druid's Horn",
+  "Icon": "",
+  "Rarity": "Unique",
+  "Max Level": "5",
+  "Effect": "Deal 10/20/30/40/50% of players max hp as damage per second to enemies and heal allies for 5/10/15/20/25% of players max hp per second. Both within 3/3.5/4/4.5/5 meters."
+ },
+ {
+  "Relic Name": "Bird beak mask",
+  "Icon": "",
+  "Rarity": "Unique",
+  "Max Level": "2",
+  "Effect": "Potion limit +1\nEvery time you complete 2 battles? you get a bottle of potion\nDrinking potions will restore 5 health points"
+ },
+ {
+  "Relic Name": "Mystical Artifact",
+  "Icon": "",
+  "Rarity": "",
+  "Max Level": "-",
+  "Effect": "Each level gives 1 max hp!\nAcquired when gaining a common/rare/epic relic with all other common/rare/epic relics already in possession at max rank."
+ }
+]

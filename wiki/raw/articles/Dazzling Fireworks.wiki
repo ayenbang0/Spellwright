@@ -1,0 +1,7 @@
+<!-- title: Dazzling Fireworks | updated: 2024-12-03T00:34:22Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Dazzling_Fireworks.png|type=Spell Boost|rarity=Rare|misc_a_1=At the end of the left spell, release the right spell 4 times|misc_b_1=The damage of the released spell x35%|misc_a_2=At the end of the left spell, release the right spell 4 times|misc_b_2=The damage of the released spell x45%|misc_a_3=At the end of the left spell, release the right spell 4 times|misc_b_3=The damage of the released spell x60%}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. When the left spell ends, it casts the spell to the right four times at a reduced damage.
+
+'''Description:''' Because spells on the right will be cast four times, casting more spells on the right side will consume quadruple the mana.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Rare]]

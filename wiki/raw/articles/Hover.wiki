@@ -1,0 +1,11 @@
+<!-- title: Hover | updated: 2025-03-19T07:33:12Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Hover.png|type=Spell Boost|rarity=Normal|misc_a_1=Hover in place for 2 seconds at the completion of the spell|misc_a_2=Hover in place for 3 seconds at the completion of the spell|misc_a_3=Hover in place for 5 seconds at the completion of the spell}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. The affected spell is cast normally but when the spell ends, it's projectile(s) hover in place for a short time.
+
+== Interactions ==
+
+* [[Arcane Explosion]]: No further damage beyond the casting of the spell.
+* [[Thunderstorm]]: Lightning strikes continue until spell disappears.
+
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

@@ -1,0 +1,19 @@
+<!-- title: Trigger spells | updated: 2025-05-03T13:32:44Z | cats:  -->
+Some spells in magicraft release other spells when a certain criteria is met. 
+
+List of Trigger spells:
+
+* [[Duet]]
+* [[Fuse]]
+* [[Echo]]
+* [[Serial]]
+* [[Dazzling Fireworks]]
+* [[Twine]]
+* [[Arcane Nova]]
+* [[Autonomous Grimoire]]
+
+'''Creating payload'''
+
+When casting any of these spells they will take the simultaneous casting number you have and look to add that many spells to its "payload". The payload will then release when the condition of the spell is met. 
+
+Things inside and outside of the payload will have separate effects of [[Multi-Shot]] and [[Duet]] damage bonus.

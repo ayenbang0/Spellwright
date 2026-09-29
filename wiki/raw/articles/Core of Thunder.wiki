@@ -1,0 +1,5 @@
+<!-- title: Core of Thunder | updated: 2025-10-29T05:34:36Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Core_of_Thunder.png|type=Spell Boost|rarity=Rare|misc_a_1=At the completion of the spell, there is a 15% chance to deal an additional 100% damage to enemies within a Effect Radius of 2.2m|misc_a_2=At the completion of the spell, there is a 30% chance to deal an additional 150% damage to enemies within a Effect Radius of 2.4m|misc_a_3=At the completion of the spell, there is a 40% chance to deal an additional 200% damage to enemies within a Effect Radius of 2.8m}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. When the spell ends, it adds a chance to do additional damage in an area.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Rare]]

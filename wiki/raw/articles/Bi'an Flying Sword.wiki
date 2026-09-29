@@ -1,0 +1,11 @@
+<!-- title: Bi'an Flying Sword | updated: 2025-05-09T18:05:09Z | cats: Category:Rarity: Unique, Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell_InfoBox|image=Bi'an Flying Sword.png|type=Spell Passive|rarity=Unique|dmg1=42|crit_rate1=20%|spell_slots1=+1}}
+'''Bi'an Flying Sword''' is an [[Rarity|Unique]] [[Spells|Spell]] of Type: Spell Passive. When casting with the [[Wands|wand]], it automatically launches flying swords.
+
+For every 25 Max MP on the wand, the flying sword limit is increased by 1.
+
+Swords can only be recalled using the Bi'an [[Relics|relic]].
+[[File:Bi'an Flying Sword Spell.gif|left]]
+[[Category:Spell]]
+[[Category:Rarity: Unique]]
+[[Category:Spell Type: Spell Passive]]

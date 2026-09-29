@@ -1,0 +1,8 @@
+<!-- title: Magic Bullet | updated: 2024-11-07T22:16:03Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Magic_Bullet.png|type=Spell Projectiles|rarity=Normal|mana_cost1=3|mana_cost2=4|mana_cost3=5|dmg1=10|dmg2=13|dmg3=16|misc_a_1=|misc_a_2=Damage received by Units hit +50% within 4 seconds|misc_a_3=Damage received by Units hit +100% within 8 seconds}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it fires a single project towards the target. After upgrading, it boosts damage received by a target by 50% for a duration of 4 seconds. After upgrading again, it boosts damage received by a target by 100% for a duration of 8 seconds.
+
+'''Description:''' Essential skill for mages, with powerful support abilities after upgrades.
+
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Normal]]

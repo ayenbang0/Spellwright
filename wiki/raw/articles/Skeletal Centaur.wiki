@@ -1,0 +1,7 @@
+<!-- title: Skeletal Centaur | updated: 2024-07-24T06:13:28Z | cats:  -->
+[[File:300901.png|left|thumb]]
+
+== Stats ==
+HP: 150000
+
+A giant skeletal creature, capable of launching swift slashes and disrupting the battlefield through various means.

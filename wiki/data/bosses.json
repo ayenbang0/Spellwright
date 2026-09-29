@@ -1,0 +1,130 @@
+[
+ {
+  "chapter": "Chapter1",
+  "name": "Giant Spider",
+  "icon": "",
+  "HP": "650",
+  "describe": "An exceptionally large spider that spews webs to entangle its opponents.",
+  "Information": "Shoots sticky webs that slow your movement"
+ },
+ {
+  "chapter": "Chapter1",
+  "name": "Wandering Worm",
+  "icon": "",
+  "HP": "650",
+  "describe": "A very aggressive giant worm that performsrapid charging attacks.",
+  "Information": ""
+ },
+ {
+  "chapter": "Chapter1",
+  "name": "Deceiver",
+  "icon": "",
+  "HP": "650",
+  "describe": "Imitates opponent's movements, and turnsinvisible after taking a certain amount of damage.",
+  "Information": "fires a barrage of bullets forward"
+ },
+ {
+  "chapter": "Chapter1",
+  "name": "Raging Eye",
+  "icon": "",
+  "HP": "650",
+  "describe": "An incessantly bouncing eyeball. Beware ofthe tracking rock'n'ball it spits out.",
+  "Information": ""
+ },
+ {
+  "chapter": "Chapter1",
+  "name": "Disordered Remains",
+  "icon": "",
+  "HP": "1700",
+  "describe": "A huge fleshy orb that can powerfully charge.",
+  "Information": ""
+ },
+ {
+  "chapter": "Chapter1",
+  "name": "Poisonous Spider's Egg",
+  "icon": "",
+  "HP": "1500",
+  "describe": "The eggs of a giant venomous spider,capable of using various poisonous attacks.",
+  "Information": "Can fire one posioning homing boulder or two thes boulders make a trail of poisson effect"
+ },
+ {
+  "chapter": "Chapter2",
+  "name": "Deceiver Type 2",
+  "icon": "",
+  "HP": "3000",
+  "describe": "Imitates opponent's movements, and turnsinvisible after taking a certain amount of damage.",
+  "Information": ""
+ },
+ {
+  "chapter": "Chapter2",
+  "name": "Hatcher",
+  "icon": "",
+  "HP": "3300",
+  "describe": "A gigantic magic creature constantly spawning offspring.",
+  "Information": ""
+ },
+ {
+  "chapter": "Chapter2",
+  "name": "Master of Mind",
+  "icon": "",
+  "HP": "3200",
+  "describe": "This alien magic creature is capable of capturing opponents' bullets and using them.",
+  "Information": ""
+ },
+ {
+  "chapter": "Chapter2",
+  "name": "Cage",
+  "icon": "",
+  "HP": "6000",
+  "describe": "A massive square cage, contains an evil spirit.",
+  "Information": ""
+ },
+ {
+  "chapter": "Chapter3",
+  "name": "Void Imp",
+  "icon": "",
+  "HP": "17000",
+  "describe": "A creature capable of freely traversing the Void boundary, spitting out Void balls that contaminate the ground.",
+  "Information": ""
+ },
+ {
+  "chapter": "Chapter3",
+  "name": "All-Seeing Eye",
+  "icon": "",
+  "HP": "19000",
+  "describe": "An alien creature capable of using chain magic attacks. Attacking the nodes of the chains can unlock the chain blockade.",
+  "Information": ""
+ },
+ {
+  "chapter": "Chapter3",
+  "name": "The Indescribable",
+  "icon": "",
+  "HP": "40000",
+  "describe": "An evil creature growing tentacles all over its body.",
+  "Information": "Beware of purple attacks with a face: when hit, they will cast a curse."
+ },
+ {
+  "chapter": "Chapter4",
+  "name": "Skeletal Centaur",
+  "icon": "",
+  "HP": "150000",
+  "describe": "A giant skeletal creature, capable of launching swift slashes and disrupting the battlefield through various means.",
+  "Information": ""
+ },
+ {
+  "chapter": "Chapter4",
+  "name": "Abyssal Lord",
+  "icon": "",
+  "HP": "290000",
+  "describe": "Giant sea monster mastering the power of water.",
+  "Information": ""
+ },
+ {
+  "chapter": "Easter egg",
+  "name": "Author",
+  "icon": "",
+  "HP": "1000000",
+  "describe": "",
+  "Information": ""
+ }
+]

@@ -1,0 +1,11 @@
+<!-- title: Skull of the Cthulhu | updated: 2024-12-15T16:30:41Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Summon -->
+{{Spell InfoBox|image=Skull_of_the_Cthulhu.png|type=Spell Summon|rarity=Normal|mana_cost1=50|mana_cost2=80|mana_cost3=130|dmg1=16 (DPS)|dmg2=20 (DPS)|dmg3=26 (DPS)|crit_rate1=40%|crit_rate2=40%|crit_rate3=40%|effect_radius1=2.2m|effect_radius2=2.4m|effect_radius3=2.8m|hp1=140|hp2=210|hp3=330|summon_limit1=1|summon_limit2=1|summon_limit3=1|misc_a_2=Gain DPS equal to 10% of the wand's max MP|misc_a_3=Gain DPS equal to 20% of the wand's max MP}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Summon. When the default spell is cast, it summons a large spider-like creature that moves to nearby enemies and attacks, replenishing its health.
+
+'''Description:''' Will follow the player into the next map.
+
+A mysterious creature controlled by magic, it restores HP by attacking enemies.
+
+'''Unique interaction:''' Skull has a unique interaction with [[Duet]] gaining x1.75 of its damage bonus.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Summon]]
+[[Category:Rarity: Normal]]

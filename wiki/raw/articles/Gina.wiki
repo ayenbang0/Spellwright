@@ -1,0 +1,5 @@
+<!-- title: Gina | updated: 2024-09-13T12:28:42Z | cats:  -->
+[[File:Gina.png|center|frameless|150x150px]]
+'''She allows you to disable some spells in this adventure.'''
+
+A total of '''20''' can be disabled.Free disabling of '''5''', subsequent disabling of '''n''' more requires '''10n''' Magic Crystal or '''1n''' Ancient Blood.

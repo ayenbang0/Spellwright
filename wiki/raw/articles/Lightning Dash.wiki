@@ -1,0 +1,8 @@
+<!-- title: Lightning Dash | updated: 2024-08-01T07:40:51Z | cats: Category:Continuous Casting, Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Lightning_Dash.png|type=Spell Projectiles|rarity=Rare|mana_cost1=33|mana_cost2=43|mana_cost3=56|dmg1=14|dmg2=28|dmg3=56|crit_rate1=70%|crit_rate2=70%|crit_rate3=70%|effect_radius1=1m|effect_radius2=1m|effect_radius3=1m|misc_a_1=Continuous Casting|misc_b_1=Invincible while casting spell|misc_a_2=Continuous Casting|misc_b_2=Invincible while casting spell|misc_c_2=Upon completion, triggers an explosion with a Effect Radius multiplied by 2.5, eliminating most spells within|misc_a_3=Continuous Casting|misc_b_3=Invincible while casting spell|misc_c_3=Upon completion, triggers an explosion with a Effect Radius multiplied by 3.5, eliminating most spells within}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, The player is turned into a ball of lightning following the player's cursor.
+
+'''Description:''' A chunk of drivable lightning, with the driver inside being protected from external harm. If it weren't for the high MP consumption, this could potentially be a transportation.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Rare]]
+[[Category:Continuous Casting]]

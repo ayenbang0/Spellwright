@@ -1,0 +1,60 @@
+<!-- title: Leah | updated: 2025-07-12T01:06:17Z | cats:  -->
+[[File:Leah.png|center|frameless|150x150px]]
+'''She can provide replaceable sets for you.'''
+Leah is where you can switch your starting equipment, almost acting like a Character Class. Most of these come with a unique Relic that cannot be reforged and cannot be obtained through normal play, tailoring the capabilities of your character.
+
+{| class="fandom-table"
+|+
+!Name of Set
+!Unlock Condition
+!Brief Description
+!Notes
+|-
+!Original
+|Initial starting set
+|Basic set with Magic Bullet wand
+|
+|-
+!Magician Set
+|Automatically obtained
+after rescuing Leah
+|Has Magician Robe and Arcane Explosion
+|Can remote blast with wand. Relic is not unique, has an AoE size penalty
+|-
+!Summoner Set
+|Complete Chapter2
+|Gives damage and healing AoE effects to summons
+|
+|-
+!Dash Set
+|Complete Chapter 3 on Hard difficulty
+|Starts with Lightning Dash, no special relic
+|
+|-
+!Soul Set
+|At the same time, have 3
+wands equipped
+with [[Wand Spirit]]
+|Every wand you pick up automatically gets a level+ [[Wand Spirit]], you start with +1/2/3 extra Wand Slots and you can permanently fly. Your first wand and every Extra wand slot starts pre-equipped with an Ethereal Wand fit with [[Butterfly]].
+|The permanent flight plus spirit-controlled wands make you immune to pit traps, poison and slow puddles, and the Curses of Timid, Unstable Balance, Stiffened and Toppling Balance.
+|-
+!Melee Mage Set
+|Kill 300 enemies with Evil Slayer Sword
+|Start with [[Evil Slayer Sword]], a 10% MP discount on casting it, and a special Dash move that fires it for free at the end of the dash that can build up 1/2/3 charges at 1 per second
+|Highly effective defense, with the Sword destroying many projectiles and the Dash helping to avoid others
+|-
+!Bi'an Set
+|Kill any Boss with Sword of Judgment
+|Starts with Nameless wand, [[Sword of Judgement]] and [[Bi'an Flying Sword]]
+|A magical swordswoman. Also has a Recall skill to instantly return all deployed Flying Swords.
+|-
+!Reaper Set
+|Venom reaches 1500 stacks, not including scarecrow
+|Doubles all applied Poison stacks, starts with [[Shadow Serpent]] and [[Venom Crystal]]
+|Can also automatically Craft upon entering a door (blending 3 identical spells into the next level up) without need of a Forge site.
+|-
+!Bing Set
+|Unlock 6 sets
+|A magical archer. Starts with a Bow fit with 3 [[Bing's Arrow]]
+|Has a "Butt Slam" skill allowing you to jump up and slam down on enemies once every 9/8 seconds. Getting hit with an attack plays the additional sound of a small Chinese gong.
+|}

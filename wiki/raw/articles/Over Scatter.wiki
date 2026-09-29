@@ -1,0 +1,5 @@
+<!-- title: Over Scatter | updated: 2024-05-18T13:04:52Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Over_Scatter.png|type=Spell Boost|rarity=Normal|cd1=-0.15s|cd2=-0.25s|cd3=-0.4s|scatter1=+60°|scatter2=+90°|scatter3=+150°|simultaneous_firing1=5|simultaneous_firing2=8|simultaneous_firing3=12}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It simultaneously fires multiple spells and lowers CD but adds Scatter.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

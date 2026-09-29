@@ -1,0 +1,5 @@
+<!-- title: Template:Space/doc | updated: 2024-01-05T20:39:19Z | cats: Category:Template documentation -->
+;Description
+This template allows you to force a space in areas that strip whitespace.
+
+<includeonly>[[Category:General wiki templates]]</includeonly><noinclude>[[Category:Template documentation]]</noinclude>

@@ -1,0 +1,9 @@
+<!-- title: Condensed Water Bubble | updated: 2024-11-07T21:55:30Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Condensed_Water_Bubble.png|type=Spell Projectiles|rarity=Rare|mana_cost1=35|mana_cost2=45|mana_cost3=59|dmg1=100|dmg2=170|dmg3=290|cd1=+0.2s|cd2=+0.2s|cd3=+0.2s|effect_radius1=3m|effect_radius2=3.2m|effect_radius3=3.5m|misc_a_1=Occupied Slots: 2|misc_b_1=For every second of existence, Effect Radius increases by 10% and damage increases by 20%|misc_a_2=Occupied Slots: 2|misc_b_2=For every second of existence, Effect Radius increases by 12% and damage increases by 25%|misc_a_3=Occupied Slots: 2|misc_b_3=For every second of existence, Effect Radius increases by 15% and damage increases by 35%}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it places a large pulsating bubble near the player that slowly grows until it explodes, doing damage to enemies in the blast area. The player and any summons within the blast radius are knocked back but not hurt.
+
+'''Description:''' Imitates the spell crafted by the Wave Envoy, Undine, and being enveloped within it is an incredibly comfortable experience. Although the explosion doesn't harm the caster, the powerful thrust still leaves the mind buzzing.
+
+When it explodes, elemental residues are left on the ground, and automatically blow up when enemies approach.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Rare]]

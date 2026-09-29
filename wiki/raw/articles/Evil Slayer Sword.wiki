@@ -1,0 +1,15 @@
+<!-- title: Evil Slayer Sword | updated: 2025-05-11T19:00:20Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Evil_Slayer_Sword.png|type=Spell Projectiles|rarity=Rare|mana_cost1=18|mana_cost2=22|mana_cost3=29|dmg1=39|dmg2=78|dmg3=156|effect_radius1=2.3m|effect_radius2=2.3m|effect_radius3=2.3m|scatter1=150°|scatter2=180°|scatter3=240°|misc_a_1=Eliminates most enemy projectiles encountered|misc_a_2=Rebounds most enemy projectiles encountered|misc_a_3=More precisely rebounds most enemy projectiles encountered}}
+[[File:2025-05-11 21-54-35.png|thumb|standard]]
+[[File:2025-05-11 21-47-42.png|thumb|venom]]
+[[File:2025-05-11 21-47-54.png|thumb|slime[[File:2025-05-11 21-41-42.png|thumb|frozen]]]]
+[[File:2025-05-11 21-44-30.png|thumb|electric]]
+[[File:2025-05-11 21-44-36.png|thumb|fiery]]
+The '''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it swings a large glowing sword in front of the player, damaging targets and destroying most enemy projectiles.
+
+'''Description:''' A magical sword formed from mana, fulfilling the mage's desire to exercise muscles, but a 40-meter long sword doesn't seem like something a mage would swing by hand.
+
+Interesting fact: the shape of the sword can be different and depends on the elemental enhancement
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Rare]]

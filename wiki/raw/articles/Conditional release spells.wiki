@@ -1,0 +1,2 @@
+<!-- title: Conditional release spells | updated: 2025-05-03T13:32:22Z | cats:  -->
+#REDIRECT [[Trigger spells]]

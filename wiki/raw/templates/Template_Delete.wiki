@@ -1,0 +1,10 @@
+<!-- title: Template:Delete | updated: 2024-01-05T20:39:19Z | cats: Category:Notice templates -->
+{{MessageBox
+|header  = Candidate for deletion
+|type    = delete
+|text    = This page has been nominated for removal from the wiki.
+|comment = Remember to check [[Special:Whatlinkshere/{{FULLPAGENAME}}|what links here]] and [{{fullurl:{{FULLPAGENAME}}|action=history}} the page history] before deletion.
+|class   = notice hidden plainlinks
+|id      = delete
+}}<includeonly>[[Category:Candidates for deletion]]</includeonly><noinclude>
+{{Documentation}}</noinclude>

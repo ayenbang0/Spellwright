@@ -1,0 +1,18 @@
+<!-- title: Enchanting Coin | updated: 2025-05-20T21:50:40Z | cats: Category:Rarity: Unique, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Enchanting_Coin.png|type=Spell Projectiles|rarity=Unique|mana_cost1=20|dmg1=60|misc_a_1=Consumes and shoots out 20% of gold coins, for each coin consumed, base damage of the spell increases by 10%. Gold coins will recur upon spell completion.|misc_a_2=unable to craft and reforge}}The '''{{PAGENAME}}''' is a [[Rarity|Unique]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it fires out a large gold orb. When the spell completes, it leaves a pile of gold.
+
+NOTE: The player must pick up the pile of gold before leaving the room or it will be lost.
+
+'''Description:''' The power of money. No coin no damage. (Remember to pick it up)
+
+Dropped by "Vines", a spider that hides in suits of armor in the Eternal Fortress. This includes those found in secret shops.
+
+
+Tips: 
+
+# This spell can be used to drop gold on the ground which pairs well with a Duplication Potion.
+# Can be used with Pros-pector's Vest for unlimited healing.
+
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Unique]]

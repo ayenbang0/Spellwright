@@ -1,0 +1,47 @@
+<!-- title: Damage Calculation | updated: 2025-02-15T20:51:40Z | cats:  -->
+This page is work in progress, info may be incomplete
+
+'''Damage formula'''
+
+Here is how damage is calculated in Magicraft:
+
+((('''Spell base damage'''  + '''Base damage increase''') × '''Spell damage multiplier''' + '''Mirrored damage''') 
+
+   × '''Final damage multiplier''' 
+
+   × '''Conditional final damage''' 
+
+   + '''Bubble growth damage''') 
+
+       × '''Crit multiplier''' × '''Enemy damage taken de-buff'''
+
+'''Base damage:''' Damage a spell does when hitting an enemy when unmodified.
+
+'''Base damage increase:''' Base damage increase from things like [[Enchanting Coin]] from coins, [[Fierce Dragon Breath]] over time, [[Supernova]] from charging, and [[Blast Surge]] only if spell has a radius, [[Dimension Walker]] off of current mana.
+
+'''Spell damage multiplier:''' Changed by [[Relics]] (additive), [[Curses]] (additive), spells like [[DMG Enhanced]] (additive), [[Overload]] (additive), [[Wands|Energizer wand]] (additive) when criteria is met, [[Reflection]] (multiplicative) and [[Energy Saving Mode]] (multiplicative). Total curse + relics damage can be seen on the character screen in the pause menu.
+
+'''Mirrored damage:''' That's the damage that [[Duet]] gives to the payload. Most spells marked with (DPS) in the tool tip will divide the Mirrored damage over their [[Tick rate|Ticks]] of damage, except for [[Skull of the Cthulhu]] for some reason it gets x1.75 Duet damage for all ticks.
+
+'''Final damage:''' Multiplier affected by [[Capacity Expansion Stone]] (multiplicative), [[Wands|Wand]] stat of final damage (multiplicative), [[Thunderstorm]] when meeting condition of hitting a single enemy (multiplicative). 
+
+'''Conditional final damage multiplier:''' Affected by [[Shining Star Arrow]] with crit condition met and [[Skull of the Cthulhu]] scaling from max MP. Formula for [[Skull of the Cthulhu]] damage multiplier from mp is: 1 + Max mp × 0.001/0.002 (for skull+/skull++ respectively). Why separate it from Final damage? Because, unlike Final Damage, the Conditional final damage multiplier will be applied when calculating the damage a spell will supply to spells after [[Duet]]. [[Skull of the Cthulhu]] mp to damage multiplier also gets recalculated when [[Fusion Summon|Fusion Summoning]] with more skulls. 
+
+'''Bubble growth damage:''' [[Condensed Water Bubble]] is a weird spell in that it's damage gain from lifetime is not affected by multiplicative damage modifications. The formula for Bubble growth damage is: Lifetime in seconds x 0.2/0.25/0.35 depending on bubble level x 100/170/290 base damage x Spell damage multiplier without the [[Energy Saving Mode]].
+
+'''Crit multiplier:''' Applied if the roll for a crit succeeds, the multiplier is x2 by default is able to upgraded with [[Relics|Blade of Fury]].
+
+'''Enemy damage taken de-buff:''' De-buff applied by [[Magic Bullet]] making enemies take x1.5/x2 damage when hitting them with bullet+ and bullet++ respectively.
+
+
+'''About how duet takes damage from the spell on the left'''
+
+Resulting mirrored damage that a spell will provide when using [[Duet]] is calculated as followed: 
+
+((('''Spell base damage'''  + '''Base damage increase''') × '''Spell damage multiplier''') + '''Mirrored damage''' + '''Bubble growth damage''') × '''Conditional final damage multiplier''' × 0.3/0.6/1.2 (depending on [[Duet]] level)
+
+Note: In duet calculation spell base damage for most dps spells is its total damage over a second (the number on the tool-tip), except [[Skull of the Cthulhu]] for which it takes its one tick of damage number.
+
+Note: Magicraft rounds a lot, after like every single math operation... that means that the order of the multipliers (and potentially even the order of the separate sources of multipliers)  being applied matters. <sub>I am not figuring it out, good luck.😁</sub> 
+
+      

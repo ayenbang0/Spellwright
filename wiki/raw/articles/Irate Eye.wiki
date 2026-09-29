@@ -1,0 +1,7 @@
+<!-- title: Irate Eye | updated: 2024-07-24T05:24:52Z | cats:  -->
+[[File:Raging Eye.png|left|thumb]]
+
+== Stats ==
+HP: 650
+
+An incessantly bouncing eyeball. Beware ofthe tracking rock'n'ball it spits out.

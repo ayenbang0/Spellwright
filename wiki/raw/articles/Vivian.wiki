@@ -1,0 +1,262 @@
+<!-- title: Vivian | updated: 2024-08-01T05:35:10Z | cats:  -->
+[[File:Vivian.png|frameless|150x150px|center]]
+
+'''She can help you improve your talent. To unlock more talents, you need Ancient Blood. To up grade the talent, you need Magic Crystal.'''
+
+{| class="fandom-table"
+|+
+!Unlock more talents you need
+!Upgradeable project
+!Upgradeable times
+!Upgrade effect
+!The consumption of Magic Crystal
+|-
+| colspan="1" rowspan="16" |
+| colspan="1" rowspan="3" |Wand Slots 
+| colspan="1" rowspan="3" |3
+| +1 Limit
+|1
+|-
+| +2 Limit
+|200
+|-
+| +3 Limit
+|900
+|-
+| colspan="1" rowspan="10" |Inventory Slots
+| colspan="1" rowspan="10" |10
+| +1 Limit
+|6
+|-
+| +2 Limit
+|12
+|-
+| +3 Limit
+|21
+|-
+| +4 Limit
+|33
+|-
+| +5 Limit
+|48
+|-
+| +6 Limit
+|66
+|-
+| +7 Limit
+|87
+|-
+| +8 Limit
+|111
+|-
+| +9 Limit
+|138
+|-
+| +10 Limit
+|168
+|-
+| colspan="1" rowspan="3" |Healing Upon Entry
+| colspan="1" rowspan="3" |3
+|2
+|15
+|-
+|4
+|60
+|-
+|6
+|240
+|-
+| colspan="1" rowspan="17" |5 Ancient Blood
+| colspan="1" rowspan="12" |HP Boost
+| colspan="1" rowspan="12" |12
+| +5 Max HP
+|8
+|-
+| +10 Max HP
+|17
+|-
+| +15 Max HP
+|29
+|-
+| +20 Max HP
+|44
+|-
+| +25 Max HP
+|62
+|-
+| +30 Max HP
+|83
+|-
+| +35 Max HP
+|107
+|-
+| +40 Max HP
+|134
+|-
+| +45 Max HP
+|164
+|-
+| +50 Max HP
+|197
+|-
+| +55 Max HP
+|233
+|-
+| +60 Max HP
+|272
+|-
+| colspan="1" rowspan="5" |HP Room
+| colspan="1" rowspan="5" |5
+| +3 HP Regen
+|20
+|-
+| +6 HP Regen
+|40
+|-
+| +9 HP Regen
+|80
+|-
+| +12 HP Regen
+|140
+|-
+| +15 HP Regen
+|220
+|-
+| colspan="1" rowspan="18" |20 Ancient Blood
+| colspan="1" rowspan="12" |Initial Coin
+| colspan="1" rowspan="12" |12
+| +7 lnitial Coin
+|9
+|-
+| +14 lnitial Coin
+|18
+|-
+| +21 lnitial Coin
+|30
+|-
+| +28 lnitial Coin
+|45
+|-
+| +35 lnitial Coin
+|63
+|-
+| +42 lnitial Coin
+|84
+|-
+| +49 lnitial Coin
+|108
+|-
+| +56 lnitial Coin
+|135
+|-
+| +63 lnitial Coin
+|165
+|-
+| +70 lnitial Coin
+|198
+|-
+| +77 lnitial Coin
+|234
+|-
+| +84 lnitial Coin
+|273
+|-
+| colspan="1" rowspan="6" |Coin Room
+| colspan="1" rowspan="6" |6
+| +10% Coin Yield
+|18
+|-
+| +20% Coin Yield
+|36
+|-
+| +30% Coin Yield
+|72
+|-
+| +40% Coin Yield
+|144
+|-
+| +50% Coin Yield
+|288
+|-
+| +60% Coin Yield
+|576
+|-
+| colspan="1" rowspan="8" |40 Ancient Blood
+| colspan="1" rowspan="4" |Relic Room
+| colspan="1" rowspan="4" |4
+|Rare Probability x125%
+|24
+|-
+|Rare Probability x150%
+|60
+|-
+|Rare Probability x175%
+|150
+|-
+|Rare Probability x200%
+|375
+|-
+| colspan="1" rowspan="4" |Spell Room
+| colspan="1" rowspan="4" |4
+|Rare Probability x125%
+|24
+|-
+|Rare Probability x150%
+|60
+|-
+|Rare Probability x175%
+|150
+|-
+|Rare Probability x200%
+|375
+|-
+| colspan="1" rowspan="15" |60 Ancient Blood
+| colspan="1" rowspan="10" |Max MP
+| colspan="1" rowspan="10" |10
+| +10 Max MP
+|30
+|-
+| +20 Max MP
+|60
+|-
+| +30 Max MP
+|100
+|-
+| +40 Max MP
+|150
+|-
+| +50 Max MP
+|210
+|-
+| +60 Max MP
+|280
+|-
+| +70 Max MP
+|360
+|-
+| +80 Max MP
+|450
+|-
+| +90 Max MP
+|550
+|-
+| +100 Max MP
+|660
+|-
+| colspan="1" rowspan="5" |MP Regen
+| colspan="1" rowspan="5" |5
+| +1MP Regen
+|60
+|-
+| +2MP Regen
+|120
+|-
+| +3MP Regen
+|200
+|-
+| +4MP Regen
+|300
+|-
+| +5MP Regen
+|420
+|}

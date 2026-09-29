@@ -1,0 +1,822 @@
+<!-- title: Template:Spell InfoBox | updated: 2024-05-06T02:31:30Z | cats:  -->
+<includeonly>
+<infobox>
+  <title source="title">
+    <default>{{PAGENAME}}</default>
+  </title>
+  <image source="image">
+    <caption source="caption-image"/>
+  </image>
+  <data source="desc">
+    <label>Description</label>
+  </data>
+  <data source="type">
+    <label>Type</label>
+  </data>
+  <data source="rarity">
+    <label>Rarity</label>
+  </data>
+  <panel>
+    <section>
+      <label>Level</label>
+      <data source="mana_cost1">
+        <label>Mana Cost</label>
+      </data>
+      <data source="dmg1">
+        <label>Damage</label>
+      </data>
+      <data source="cast_interval1">
+        <label>Cast Interval</label>
+      </data>
+      <data source="cd1">
+        <label>CD</label>
+      </data>
+      <data source="crit_rate1">
+        <label>CRIT Rate</label>
+      </data>
+      <data source="duration1">
+        <label>Duration</label>
+      </data>
+      <data source="effect_radius1">
+        <label>Effect Radius</label>
+      </data>
+      <data source="hp1">
+        <label>HP</label>
+      </data>
+      <data source="mp_cost1">
+        <label>MP Cost</label>
+      </data>
+      <data source="number_of_shots1">
+        <label>Number of Shots</label>
+      </data>
+      <data source="scatter1">
+        <label>Scatter</label>
+      </data>
+      <data source="simultaneous_firing1">
+        <label>Simultaneous Firing</label>
+      </data>
+      <data source="spell_damage1">
+        <label>Spell Damage</label>
+      </data>
+      <data source="spell_duration1">
+        <label>Spell Duration</label>
+      </data>
+      <data source="spell_effect_radius1">
+        <label>Spell Effect Radius</label>
+      </data>
+      <data source="spell_flight_speed1">
+        <label>Spell Flight Speed</label>
+      </data>
+      <data source="spell_penetration1">
+        <label>Spell Penetration</label>
+      </data>
+      <data source="spell_rebound_count1">
+        <label>Spell Rebound Count</label>
+      </data>
+      <data source="spell_slots1">
+        <label>Spell Slots</label>
+      </data>
+      <data source="summon_limit1">
+        <label>Summon Limit</label>
+      </data>
+      <data source="misc_a_1">
+        <label>Misc 1</label>
+      </data>
+      <data source="misc_b_1">
+        <label>Misc 2</label>
+      </data>
+      <data source="misc_c_1">
+        <label>Misc 3</label>
+      </data>
+      <data source="misc_d_1">
+        <label>Misc 4</label>
+      </data>
+    </section>
+    <section>
+      <label>Level+</label>
+      <data source="mana_cost2">
+        <label>Mana Cost</label>
+      </data>
+      <data source="dmg2">
+        <label>Damage</label>
+      </data>
+      <data source="cast_interval2">
+        <label>Cast Interval</label>
+      </data>
+      <data source="cd2">
+        <label>CD</label>
+      </data>
+      <data source="crit_rate2">
+        <label>CRIT Rate</label>
+      </data>
+      <data source="duration2">
+        <label>Duration</label>
+      </data>
+      <data source="effect_radius2">
+        <label>Effect Radius</label>
+      </data>
+      <data source="hp2">
+        <label>HP</label>
+      </data>
+      <data source="mp_cost2">
+        <label>MP Cost</label>
+      </data>
+      <data source="number_of_shots2">
+        <label>Number of Shots</label>
+      </data>
+      <data source="scatter2">
+        <label>Scatter</label>
+      </data>
+      <data source="simultaneous_firing2">
+        <label>Simultaneous Firing</label>
+      </data>
+      <data source="spell_damage2">
+        <label>Spell Damage</label>
+      </data>
+      <data source="spell_duration2">
+        <label>Spell Duration</label>
+      </data>
+      <data source="spell_effect_radius2">
+        <label>Spell Effect Radius</label>
+      </data>
+      <data source="spell_flight_speed2">
+        <label>Spell Flight Speed</label>
+      </data>
+      <data source="spell_penetration2">
+        <label>Spell Penetration</label>
+      </data>
+      <data source="spell_rebound_count2">
+        <label>Spell Rebound Count</label>
+      </data>
+      <data source="spell_slots2">
+        <label>Spell Slots</label>
+      </data>
+      <data source="summon_limit2">
+        <label>Summon Limit</label>
+      </data>
+      <data source="misc_a_2">
+        <label>Misc 1</label>
+      </data>
+      <data source="misc_b_2">
+        <label>Misc 2</label>
+      </data>
+      <data source="misc_c_2">
+        <label>Misc 3</label>
+      </data>
+      <data source="misc_d_2">
+        <label>Misc 4</label>
+      </data>
+    </section>
+    <section>
+      <label>Level++</label>
+      <data source="mana_cost3">
+        <label>Mana Cost</label>
+      </data>
+      <data source="dmg3">
+        <label>Damage</label>
+      </data>
+      <data source="cast_interval3">
+        <label>Cast Interval</label>
+      </data>
+      <data source="cd3">
+        <label>CD</label>
+      </data>
+      <data source="crit_rate3">
+        <label>CRIT Rate</label>
+      </data>
+      <data source="duration3">
+        <label>Duration</label>
+      </data>
+      <data source="effect_radius3">
+        <label>Effect Radius</label>
+      </data>
+      <data source="hp3">
+        <label>HP</label>
+      </data>
+      <data source="mp_cost3">
+        <label>MP Cost</label>
+      </data>
+      <data source="number_of_shots3">
+        <label>Number of Shots</label>
+      </data>
+      <data source="scatter3">
+        <label>Scatter</label>
+      </data>
+      <data source="simultaneous_firing3">
+        <label>Simultaneous Firing</label>
+      </data>
+      <data source="spell_damage3">
+        <label>Spell Damage</label>
+      </data>
+      <data source="spell_duration3">
+        <label>Spell Duration</label>
+      </data>
+      <data source="spell_effect_radius3">
+        <label>Spell Effect Radius</label>
+      </data>
+      <data source="spell_flight_speed3">
+        <label>Spell Flight Speed</label>
+      </data>
+      <data source="spell_penetration3">
+        <label>Spell Penetration</label>
+      </data>
+      <data source="spell_rebound_count3">
+        <label>Spell Rebound Count</label>
+      </data>
+      <data source="spell_slots3">
+        <label>Spell Slots</label>
+      </data>
+      <data source="summon_limit3">
+        <label>Summon Limit</label>
+      </data>
+      <data source="misc_a_3">
+        <label>Misc 1</label>
+      </data>
+      <data source="misc_b_3">
+        <label>Misc 2</label>
+      </data>
+      <data source="misc_c_3">
+        <label>Misc 3</label>
+      </data>
+      <data source="misc_d_3">
+        <label>Misc 4</label>
+      </data>
+    </section>
+  </panel>
+</infobox>
+</includeonly>
+<noinclude>
+Example usage:
+{{Spell_InfoBox
+  | title=Example
+  | image=Example.jpg
+  | caption-image=Example
+  | desc=Example
+  | type=Spell Projectiles
+  | rarity=Normal
+  | mana_cost1=9
+  | dmg1=16
+  | crit_rate1=20
+  | spell_penetration1=5
+  | mana_cost2=11
+  | dmg2=32
+  | crit_rate2=20
+  | spell_penetration2=8
+  | mana_cost3=13
+  | dmg3=48
+  | crit_rate3=20
+  | spell_penetration3=11
+  }}
+<pre>
+{{Spell_InfoBox
+  | title=Example
+  | image=Example.jpg
+  | caption-image=Example
+  | desc=Example
+  | type=Spell Projectiles
+  | rarity=Normal
+  | mana_cost1=9
+  | dmg1=16
+  | crit_rate1=20
+  | spell_penetration1=5
+  | mana_cost2=11
+  | dmg2=32
+  | crit_rate2=20
+  | spell_penetration2=8
+  | mana_cost3=13
+  | dmg3=48
+  | crit_rate3=20
+  | spell_penetration3=11
+  }}
+</pre>
+<templatedata>
+{
+	"params": {
+		"title": {
+			"suggested": true,
+			"description": "The name of the spell",
+			"type": "string",
+			"default": "The default is the page name. Please ensure this page's name is the actual spell name in game."
+		},
+		"image": {
+			"suggested": true,
+			"description": "An image of the spell's icon"
+		},
+		"desc": {
+			"suggested": true,
+			"label": "description",
+			"description": "The spell description from the in-game Encyclopedia",
+			"type": "string"
+		},
+		"type": {
+			"description": "The spell type",
+			"type": "string",
+			"suggestedvalues": [
+				"Spell Projectiles",
+				"Spell Summon",
+				"Spell Boost",
+				"Spell Passive"
+			],
+			"required": true
+		},
+		"rarity": {
+			"description": "The rarity of the spell",
+			"type": "string",
+			"suggestedvalues": [
+				"Epic",
+				"Unique",
+				"Normal",
+				"Rare"
+			],
+			"required": true
+		},
+		"mana_cost1": {
+			"description": "Mana cost for the level 1 spell",
+			"type": "number",
+			"suggested": true,
+			"label": "Mana Cost - Level 1",
+			"example": "9"
+		},
+		"mana_cost2": {
+			"description": "Mana cost for the level 2 spell",
+			"type": "number",
+			"suggested": true,
+			"label": "Mana Cost - Level 2",
+			"example": "11"
+		},
+		"mana_cost3": {
+			"description": "Mana cost for the level 3 spell",
+			"type": "number",
+			"suggested": true,
+			"label": "Mana Cost - Level 3",
+			"example": "13"
+		},
+		"dmg1": {
+			"label": "Damage - Level 1",
+			"description": "Damage for the level 1 spell",
+			"type": "number",
+			"suggested": true,
+			"example": "10"
+		},
+		"dmg2": {
+			"label": "Damage - Level 2",
+			"description": "Damage for the level 2 spell",
+			"type": "number",
+			"suggested": true,
+			"example": "13"
+		},
+		"dmg3": {
+			"label": "Damage - Level 3",
+			"description": "Damage for the level 3 spell",
+			"type": "number",
+			"suggested": true,
+			"example": "16"
+		},
+		"cast_interval1": {
+			"label": "Cast Interval - Level 1",
+			"description": "The modifier to the wand's Case Interval timing for the level 1 spell",
+			"example": "-0.05s",
+			"type": "string"
+		},
+		"cast_interval2": {
+			"label": "Cast Interval - Level 2",
+			"description": "The modifier to the wand's Case Interval timing for the level 2 spell",
+			"example": "-0.05s",
+			"type": "string"
+		},
+		"cast_interval3": {
+			"label": "Cast Interval - Level 3",
+			"description": "The modifier to the wand's Case Interval timing for the level 2 spell",
+			"example": "-0.05s",
+			"type": "string"
+		},
+		"cd1": {
+			"label": "Cool Down (CD) - Level 1",
+			"description": "The modifier to the wand's Cool Down (CD) for the level 1 spell",
+			"example": "-0.1s",
+			"type": "string"
+		},
+		"cd2": {
+			"label": "Cool Down (CD) - Level 2",
+			"description": "The modifier to the wand's Cool Down (CD) for the level 2 spell",
+			"example": "-0.1s",
+			"type": "string"
+		},
+		"cd3": {
+			"label": "Cool Down (CD) - Level 3",
+			"description": "The modifier to the wand's Cool Down (CD) for the level 3 spell",
+			"example": "-0.1s",
+			"type": "string"
+		},
+		"crit_rate1": {
+			"label": "CRIT Rate - Level 1",
+			"description": "The Critical Hit Chance for the level 1 spell",
+			"example": "20%",
+			"type": "number"
+		},
+		"crit_rate2": {
+			"label": "CRIT Rate - Level 2",
+			"description": "The Critical Hit Chance for the level 2 spell",
+			"example": "20%",
+			"type": "number"
+		},
+		"crit_rate3": {
+			"label": "CRIT Rate - Level 3",
+			"description": "The Critical Hit Chance for the level 3 spell",
+			"example": "20%",
+			"type": "number"
+		},
+		"duration1": {
+			"label": "Duration - Level 1",
+			"description": "The Duration for the level 1 spell",
+			"example": "20 seconds"
+		},
+		"duration2": {
+			"label": "Duration - Level 2",
+			"description": "The Duration for the level 2 spell",
+			"example": "20 seconds"
+		},
+		"duration3": {
+			"label": "Duration - Level 3",
+			"description": "The Duration for the level 3 spell",
+			"example": "20 seconds"
+		},
+		"effect_radius1": {
+			"label": "Effect Radius - Level 1",
+			"description": "The radius of the area of effect for the level 1 spell",
+			"example": "3m"
+		},
+		"effect_radius2": {
+			"label": "Effect Radius - Level 2",
+			"description": "The radius of the area of effect for the level 2 spell",
+			"example": "3m"
+		},
+		"effect_radius3": {
+			"label": "Effect Radius - Level 3",
+			"description": "The radius of the area of effect for the level 3 spell",
+			"example": "3m"
+		},
+		"hp1": {
+			"label": "Hit Points - Level 1",
+			"description": "The HP (hit points) of the summon for the level 1 spell",
+			"example": "25",
+			"type": "number"
+		},
+		"hp2": {
+			"label": "Hit Points - Level 2",
+			"description": "The HP (hit points) of the summon for the level 2 spell",
+			"example": "25",
+			"type": "number"
+		},
+		"hp3": {
+			"label": "Hit Points - Level 3",
+			"description": "The HP (hit points) of the summon for the level 3 spell",
+			"example": "25",
+			"type": "number"
+		},
+		"mp_cost1": {
+			"label": "MP Cost - Level 1",
+			"description": "The MP modifier for the level 1 spell",
+			"example": "x150%"
+		},
+		"mp_cost2": {
+			"label": "MP Cost - Level 2",
+			"description": "The MP modifier for the level 2 spell",
+			"example": "x150%"
+		},
+		"mp_cost3": {
+			"label": "MP Cost - Level 3",
+			"description": "The MP modifier for the level 3 spell",
+			"example": "x150%"
+		},
+		"number_of_shots1": {
+			"label": "Number of Shots - Level 1",
+			"description": "The number of projectiles fired for the level 1 spell",
+			"example": "3",
+			"type": "number"
+		},
+		"number_of_shots2": {
+			"label": "Number of Shots - Level 2",
+			"description": "The number of projectiles fired for the level 2 spell",
+			"example": "4",
+			"type": "number"
+		},
+		"number_of_shots3": {
+			"label": "Number of Shots - Level 3",
+			"description": "The number of projectiles fired for the level 3 spell",
+			"example": "5",
+			"type": "number"
+		},
+		"scatter1": {
+			"label": "Scatter - Level 1",
+			"description": "The Scatter modifier for the level 1 spell",
+			"example": "30°"
+		},
+		"scatter2": {
+			"label": "Scatter - Level 2",
+			"description": "The Scatter modifier for the level 2 spell",
+			"example": "45°"
+		},
+		"scatter3": {
+			"label": "Scatter - Level 3",
+			"description": "The Scatter modifier for the level 3 spell",
+			"example": "60°"
+		},
+		"simultaneous_firing1": {
+			"label": "Simultaneous Firing - Level 1",
+			"description": "The number of projectile spells fired at once for the level 1 spell",
+			"example": "2",
+			"type": "number"
+		},
+		"simultaneous_firing2": {
+			"label": "Simultaneous Firing - Level 2",
+			"description": "The number of projectile spells fired at once for the level 2 spell",
+			"example": "3",
+			"type": "number"
+		},
+		"simultaneous_firing3": {
+			"label": "Simultaneous Firing - Level 3",
+			"description": "The number of projectile spells fired at once for the level 3 spell",
+			"example": "4",
+			"type": "number"
+		},
+		"spell_damage1": {
+			"label": "Spell Damage - Level 1",
+			"description": "The total spell damage modifier for the level 1 spell",
+			"example": "+25%"
+		},
+		"spell_damage2": {
+			"label": "Spell Damage - Level 2",
+			"description": "The total spell damage modifier for the level 2 spell",
+			"example": "+50%"
+		},
+		"spell_damage3": {
+			"label": "Spell Damage - Level 3",
+			"description": "The total spell damage modifier for the level 3 spell",
+			"example": "+100%"
+		},
+		"spell_duration1": {
+			"label": "Spell Duration - Level 1",
+			"description": "The spell duration modifier for the level 1 spell",
+			"example": "x75%"
+		},
+		"spell_duration2": {
+			"label": "Spell Duration - Level 2",
+			"description": "The spell duration modifier for the level 2 spell",
+			"example": "x75%"
+		},
+		"spell_duration3": {
+			"label": "Spell Duration - Level 3",
+			"description": "The spell duration modifier for the level 3 spell",
+			"example": "x75%"
+		},
+		"spell_effect_radius1": {
+			"label": "Spell Effect Radius - Level 1",
+			"description": "The Spell Effect Radius modifier for the level 1 spell",
+			"example": "+30%"
+		},
+		"spell_effect_radius2": {
+			"label": "Spell Effect Radius - Level 2",
+			"description": "The Spell Effect Radius modifier for the level 2 spell",
+			"example": "+60%"
+		},
+		"spell_effect_radius3": {
+			"label": "Spell Effect Radius - Level 3",
+			"description": "The Spell Effect Radius modifier for the level 3 spell",
+			"example": "+90%"
+		},
+		"spell_flight_speed1": {
+			"label": "Spell Flight Speed - Level 1",
+			"description": "The travel speed modifier for the level 1 spell",
+			"example": "+3"
+		},
+		"spell_flight_speed2": {
+			"label": "Spell Flight Speed - Level 2",
+			"description": "The travel speed modifier for the level 2 spell",
+			"example": "+6"
+		},
+		"spell_flight_speed3": {
+			"label": "Spell Flight Speed - Level 3",
+			"description": "The travel speed modifier for the level 3 spell",
+			"example": "+9"
+		},
+		"spell_penetration1": {
+			"label": "Spell Penetration - Level 1",
+			"description": "The modifier for the number of targets that can be hit and passed through for the level 1 spell",
+			"example": "+1"
+		},
+		"spell_penetration2": {
+			"label": "Spell Penetration - Level 2",
+			"description": "The modifier for the number of targets that can be hit and passed through for the level 2 spell",
+			"example": "+2"
+		},
+		"spell_penetration3": {
+			"label": "Spell Penetration - Level 3",
+			"description": "The modifier for the number of targets that can be hit and passed through for the level 3 spell",
+			"example": "+3"
+		},
+		"spell_rebound_count1": {
+			"label": "Spell Rebound Count - Level 1",
+			"description": "The number of objects that be hit and bounced off of by the level 1 spell",
+			"example": "+2"
+		},
+		"spell_rebound_count2": {
+			"label": "Spell Rebound Count - Level 2",
+			"description": "The number of objects that be hit and bounced off of by the level 2 spell",
+			"example": "+4"
+		},
+		"spell_rebound_count3": {
+			"label": "Spell Rebound Count - Level 3",
+			"description": "The number of objects that be hit and bounced off of by the level 3 spell",
+			"example": "+6"
+		},
+		"spell_slots1": {
+			"label": "Spell Slots - Level 1",
+			"description": "The number of spell slots added to the current wand by the level 1 spell",
+			"example": "+3"
+		},
+		"spell_slots2": {
+			"label": "Spell Slots - Level 2",
+			"description": "The number of spell slots added to the current wand by the level 2 spell",
+			"example": "+4"
+		},
+		"spell_slots3": {
+			"label": "Spell Slots - Level 3",
+			"description": "The number of spell slots added to the current wand by the level 3 spell",
+			"example": "+5"
+		},
+		"summon_limit1": {
+			"label": "Summon Limit - Level 1",
+			"description": "The total number of summons of this type that can exist at once for the level 1 spell",
+			"example": "5",
+			"type": "number"
+		},
+		"summon_limit2": {
+			"label": "Summon Limit - Level 2",
+			"description": "The total number of summons of this type that can exist at once for the level 2 spell",
+			"example": "5",
+			"type": "number"
+		},
+		"summon_limit3": {
+			"label": "Summon Limit - Level 3",
+			"description": "The total number of summons of this type that can exist at once for the level 3 spell",
+			"example": "5",
+			"type": "number"
+		},
+		"misc_a_1": {
+			"label": "Misc 1 A",
+			"description": "Miscellaneous attribute A for the level 1 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		},
+		"misc_b_1": {
+			"label": "Misc 1 B",
+			"description": "Miscellaneous attribute B for the level 1 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		},
+		"misc_c_1": {
+			"label": "Misc 1 C",
+			"description": "Miscellaneous attribute C for the level 1 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		},
+		"misc_a_2": {
+			"label": "Misc 2 A",
+			"description": "Miscellaneous attribute A for the level 2 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		},
+		"misc_b_2": {
+			"label": "Misc 2 B",
+			"description": "Miscellaneous attribute B for the level 2 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		},
+		"misc_c_2": {
+			"label": "Misc 2 C",
+			"description": "Miscellaneous attribute C for the level 2 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		},
+		"misc_a_3": {
+			"label": "Misc 3 A",
+			"description": "Miscellaneous attribute A for the level 3 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		},
+		"misc_b_3": {
+			"label": "Misc 3 B",
+			"description": "Miscellaneous attribute B for the level 3 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		},
+		"misc_c_3": {
+			"label": "Misc 3 C",
+			"description": "Miscellaneous attribute C for the level 3 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		},
+		"misc_d_1": {
+			"label": "Misc 1  D",
+			"description": "Miscellaneous attribute D for the level 1 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		},
+		"misc_d_2": {
+			"label": "Misc 2 D",
+			"description": "Miscellaneous attribute D for the level 2 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		},
+		"misc_d_3": {
+			"label": "Misc 3 D",
+			"description": "Miscellaneous attribute D for the level 3 spell",
+			"example": "Continuous Casting",
+			"type": "string"
+		}
+	},
+	"sets": [],
+	"paramOrder": [
+		"title",
+		"image",
+		"desc",
+		"type",
+		"rarity",
+		"mana_cost1",
+		"mana_cost2",
+		"mana_cost3",
+		"dmg1",
+		"dmg2",
+		"dmg3",
+		"cast_interval1",
+		"cast_interval2",
+		"cast_interval3",
+		"cd1",
+		"cd2",
+		"cd3",
+		"crit_rate1",
+		"crit_rate2",
+		"crit_rate3",
+		"duration1",
+		"duration2",
+		"duration3",
+		"effect_radius1",
+		"effect_radius2",
+		"effect_radius3",
+		"hp1",
+		"hp2",
+		"hp3",
+		"mp_cost1",
+		"mp_cost2",
+		"mp_cost3",
+		"number_of_shots1",
+		"number_of_shots2",
+		"number_of_shots3",
+		"scatter1",
+		"scatter2",
+		"scatter3",
+		"simultaneous_firing1",
+		"simultaneous_firing2",
+		"simultaneous_firing3",
+		"spell_damage1",
+		"spell_damage2",
+		"spell_damage3",
+		"spell_duration1",
+		"spell_duration2",
+		"spell_duration3",
+		"spell_effect_radius1",
+		"spell_effect_radius2",
+		"spell_effect_radius3",
+		"spell_flight_speed1",
+		"spell_flight_speed2",
+		"spell_flight_speed3",
+		"spell_penetration1",
+		"spell_penetration2",
+		"spell_penetration3",
+		"spell_rebound_count1",
+		"spell_rebound_count2",
+		"spell_rebound_count3",
+		"spell_slots1",
+		"spell_slots2",
+		"spell_slots3",
+		"summon_limit1",
+		"summon_limit2",
+		"summon_limit3",
+		"misc_a_1",
+		"misc_b_1",
+		"misc_c_1",
+		"misc_d_1",
+		"misc_a_2",
+		"misc_b_2",
+		"misc_c_2",
+		"misc_d_2",
+		"misc_a_3",
+		"misc_b_3",
+		"misc_c_3",
+		"misc_d_3"
+	],
+	"description": "Basic information on the spell for the InfoBox on the right side of the page."
+}
+</templatedata>
+</noinclude>

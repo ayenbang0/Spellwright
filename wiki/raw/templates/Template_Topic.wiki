@@ -1,0 +1,2 @@
+<!-- title: Template:Topic | updated: 2024-01-05T20:39:19Z | cats: Category:Templates -->
+<includeonly>{{#sub:{{#replace:{{SITENAME}}| Wiki}}|-{{#len:{{#replace:{{SITENAME}}| Wiki}}}}-1}}</includeonly><noinclude>{{documentation}}</noinclude>

@@ -1,0 +1,39 @@
+<!-- title: NPCs | updated: 2025-03-11T12:24:50Z | cats:  -->
+== NPCs ==
+{| class="fandom-table"
+|+
+!Name
+!Icon
+!Ability
+!Name
+!Icon
+!Ability
+|-
+![[Vivian]]
+|[[File:Vivian.png|center|frameless|100x100px]]
+|Talent
+![[Gina]]
+|[[File:Gina.png|center|frameless|100x100px]]
+|Spell Disable
+|-
+![[Lyon]]
+|[[File:Lyon.png|center|frameless|100x100px]]
+|Research
+!Nimiao
+|[[File:Noname.png|center|frameless|100x100px]]
+|
+|-
+![[Lilian]]
+|[[File:Lilian.png|center|frameless|100x100px]]
+|Spell Activation
+![[The NPC at the Training Ground|(unknown)]]
+|[[File:训练场.png|center|frameless|100x100px]]
+|Training Ground
+|-
+![[Leah]]
+|[[File:Leah.png|center|frameless|100x100px]]
+|Set
+|
+|
+|
+|}

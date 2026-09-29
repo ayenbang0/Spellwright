@@ -1,0 +1,7 @@
+<!-- title: Automatic Navigate | updated: 2024-12-03T00:23:19Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Automatic_Navigate.png|type=Spell Boost|rarity=Rare|misc_a_1=The spell tracks the target with an angular velocity of 12° per meter|misc_a_2=The spell tracks the target with an angular velocity of 22° per meter|misc_a_3=The spell tracks the target with an angular velocity of 38° per meter}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It adds automatic target tracking to any projectile spell.
+
+'''Description:''' Trajectory enhancements. These enhancements will override previous projectile trajectories.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Rare]]

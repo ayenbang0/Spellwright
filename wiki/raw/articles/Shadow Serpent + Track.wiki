@@ -1,0 +1,18 @@
+<!-- title: Shadow Serpent + Track | updated: 2024-05-06T02:09:44Z | cats:  -->
+== How does this build work ==
+Spawn as many [[Ghost Snake|Ghost Snakes]] as you can and have as high damage as possible. Use [https://magicraft.fandom.com/wiki/Tracking Tracking] and [[spells]] like [[Orbit]] or [[Accelerator]] to increase the speed and duration of the Snakes.
+
+== How to get this build fast ==
+
+=== Method 1 ===
+
+# Choose the Original Class and try to get Tracking in a shop or any other rare spell
+# Go into a forge and combine your [[Magic Bullet|Magic Bullets]]
+# Roll the Magic Bullet+ to a Ghost Snake+
+# Roll, if you don't already have it, your rare spell to Tracking
+
+=== Method 2 (only works with Tier 2 Dash Class) ===
+
+# Try to get any common spell
+# Go into a forge and roll it to Ghost Snake
+# Replace the [[Lightning Dash]] with Ghost Snake

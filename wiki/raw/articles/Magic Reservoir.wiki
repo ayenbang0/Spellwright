@@ -1,0 +1,5 @@
+<!-- title: Magic Reservoir | updated: 2024-05-18T13:42:33Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell InfoBox|image=Magic_Reservoir.png|type=Spell Passive|rarity=Normal|misc_a_1=Max MP of the wand +40%|misc_a_2=Max MP of the wand +80%|misc_a_3=Max MP of the wand +160%}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Passive. When placed in wand, it increases the maximum mana (MP) of the wand.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Passive]]
+[[Category:Rarity: Normal]]

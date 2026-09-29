@@ -1,0 +1,8 @@
+<!-- title: Ray of Disintegration | updated: 2026-01-22T22:41:34Z | cats: Category:Continuous Casting, Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Ray_of_Disintegration.png|desc=Laser beam that deals damage over time|type=Spell Projectiles|rarity=Rare|mana_cost1=43|mana_cost2=56|mana_cost3=73|dmg1=60 (DPS)|dmg2=120 (DPS)|dmg3=240 (DPS)|misc_a_1=Continuous Casting|misc_a_2=Continuous Casting|misc_a_3=Continuous Casting}}The '''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, continuously fires the ray at the target for several seconds.
+
+'''Description:''' An enhanced spell of the Last, though a vast amount of mana cannot be fully cast in an instance, it can unlimitedly penetrate targets.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Rare]]
+[[Category:Continuous Casting]]

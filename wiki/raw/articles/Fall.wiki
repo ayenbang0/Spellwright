@@ -1,0 +1,10 @@
+<!-- title: Fall | updated: 2025-03-19T08:28:18Z | cats:  -->
+{{Spell InfoBox|image=Blank.png|type=Spell Boost|rarity=Normal|effect_radius1=1m|effect_radius2=???|effect_radius3=2.3m}}
+
+'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It drops spells from the sky and causes damage in an area where they hit the ground.
+
+== Interactions ==
+
+* [[Black Hole]]: Creates a large explosion area on the location of impact.
+* [[Evil Slayer Sword]]: Drops the sword in a large area, with a minor offset impact location closer to the caster, based on the cursor location. [[Precise Shot]] reduces this scatter effect, but does not eliminate it.
+* [[Dimension Walker]]: Lands on the caster, repeating the impact to the right of the initial impact point, repeating until the spell runs out.

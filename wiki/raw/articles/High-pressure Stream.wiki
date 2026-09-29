@@ -1,0 +1,10 @@
+<!-- title: High-pressure Stream | updated: 2025-07-08T04:45:17Z | cats: Category:Continuous Casting, Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=High-pressure_Stream.png|type=Spell Projectiles|rarity=Normal|mana_cost1=24|mana_cost2=31|mana_cost3=40|dmg1=60 (DPS)|dmg2=120 (DPS)|dmg3=240 (DPS)|misc_a_1=Continuous Casting|misc_a_2=Continuous Casting|misc_a_3=Continuous Casting}}The '''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it fires a stream of water at the target.
+
+'''Description:''' Don't underestimate the strength of water. Continuous attacks without interval are perfect for building combo spells of hitting. Water can also contain attached elements and leave traces on the ground.
+
+WARNING: If combined with a [[Venom Crystal]] it will create poison fields all over the ground where it sprays, which can also damage you and your summons.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Normal]]
+[[Category:Continuous Casting]]

@@ -1,0 +1,6 @@
+<!-- title: Giant Spider | updated: 2024-07-24T03:16:41Z | cats:  -->
+[[File:300101-resources.assets-3050.png|thumb|left|border]]
+== Stats ==
+HP: 650
+
+An exceptionally large spider that spews webs to entangle its opponents.

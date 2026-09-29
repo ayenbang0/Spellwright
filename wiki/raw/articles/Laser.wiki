@@ -1,0 +1,7 @@
+<!-- title: Laser | updated: 2024-08-01T07:28:36Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Laser.png|type=Spell Projectiles|rarity=Normal|mana_cost1=2|mana_cost2=3|mana_cost3=4|dmg1=8|dmg2=11|dmg3=15|cast_interval1=-0.05s|cast_interval2=-0.05s|cast_interval3=-0.05s|cd1=-0.1s|cd2=-0.1s|cd3=-0.1s|crit_rate2=25%|crit_rate3=50%|misc_a_2=Penetration +1, Penetration will turn into Reflection|misc_a_3=Penetration +2, Penetration will turn into Reflection}}The '''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, fires a beam instantly at the target.
+
+'''Description:''' Focuses mana at one point and cases in a straight line, the wand is also willing to cast spells faster under this neon glow.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Normal]]

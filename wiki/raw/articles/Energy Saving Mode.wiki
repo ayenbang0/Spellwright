@@ -1,0 +1,5 @@
+<!-- title: Energy Saving Mode | updated: 2024-12-03T00:39:14Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Energy_Saving_Mode.png|type=Spell Boost|rarity=Normal|mp_cost1=x60%|mp_cost2=x50%|mp_cost3=x40%|spell_damage1=x75%|spell_damage2=x75%|spell_damage3=x80%|spell_duration1=x75%|spell_duration2=x75%|spell_duration3=x80%}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It lowers the MP cost of spells but also lowers the Spell Damage and Spell Duration.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

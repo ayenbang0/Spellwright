@@ -1,0 +1,9 @@
+<!-- title: Arcane Barrier | updated: 2024-08-01T08:17:35Z | cats: Category:Rarity: Epic, Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell InfoBox|image=Arcane_Barrier.png|type=Spell Passive|rarity=Epic|misc_a_1=Occupied Slots: 3|misc_b_1=Max MP of the wand +120|misc_c_1=Arcane Barrier consumes 1 point of damage with 3% of Max MP and inflicts 4 times the MP cost on targets within a radius of 4m}}'''{{PAGENAME}}''' is an [[Rarity|Epic]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Passive. Damage to the player gets redirected to the Mana of the wand.
+
+'''Description:''' The barrier is only created when the wand is fully charged with MP, and disappears when the wand runs out of MP.
+
+Multiple wands equip the passive skill Arcane barrier simultaneously, and the share the MP and the effect.
+[[Category:Spell]]
+[[Category:Rarity: Epic]]
+[[Category:Spell Type: Spell Passive]]

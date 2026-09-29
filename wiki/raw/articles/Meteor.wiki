@@ -1,0 +1,10 @@
+<!-- title: Meteor | updated: 2024-11-17T17:16:35Z | cats: Category:Indiscriminate Damage, Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Meteor.png|type=Spell Projectiles|rarity=Epic|mana_cost1=18|mana_cost2=24|mana_cost3=30|dmg1=65|dmg2=93|dmg3=130|effect_radius1=1.2m|effect_radius2=1.3m|effect_radius3=1.4m|misc_a_1=Indiscriminate Damage|misc_a_2=Indiscriminate Damage|misc_b_2=Addidtionally launches 2 small meteors (28 dmg)|misc_a_3=Indiscriminate Damage|misc_b_3=Addidtionally launches 5 small meteors (39 dmg)}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, a meteor falls from the sky and impacts the ground under the player's cursor.
+
+'''Description:''' Summon a meteor shower from the sky, a powerful and splendid spell. When weary of battles, you can always enjoy a meteor shower, but remember to bring an umbrella.
+
+Elemental residues are left on the ground, meteors may bounce on the ground.
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Spell]]
+[[Category:Rarity: Rare]]
+[[Category:Indiscriminate Damage]]

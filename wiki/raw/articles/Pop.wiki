@@ -1,0 +1,9 @@
+<!-- title: Pop | updated: 2025-07-08T04:47:46Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Summon -->
+{{Spell InfoBox|image=Pop.png|type=Spell Summon|rarity=Normal|mana_cost1=36|mana_cost2=48|mana_cost3=62|dmg1=6|dmg2=12|dmg3=16|hp1=25|hp2=40|hp3=64|summon_limit1=5|summon_limit2=5|summon_limit3=5}}The '''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Summon. When the default spell is cast, a small creature appears at the players feet and quickly rolls towards and starts shooting the nearest enemy.
+
+'''Description:''' Creatures usually living in the forest, come to help mages repel monsters after their habitat is taken up by monsters. They enjoy lying in the arms of mages called "Pop fan".
+
+NOTE, their attack can create effect fields on the ground where they land, such as poison fields if they are boosted with a [[Venom Crystal]].
+[[Category:Spell]]
+[[Category:Spell Type: Spell Summon]]
+[[Category:Rarity: Normal]]

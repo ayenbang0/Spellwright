@@ -1,0 +1,7 @@
+<!-- title: Butterfly | updated: 2024-11-07T21:52:43Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Butterfly.png|type=Spell Projectiles|rarity=Normal|mana_cost1=8|mana_cost2=11|mana_cost3=15|dmg1=10|dmg2=18|dmg3=34|number_of_shots1=3|number_of_shots2=4|number_of_shots3=5|scatter1=90°|scatter2=90°|scatter3=90°}}The '''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it fires out 4 butterflies that home in on the closest target.
+
+'''Description:''' Butterflies infused with mana are attracted by the monster's scent, but their fragile body can't resist the interference from other spells.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Normal]]

@@ -1,0 +1,4 @@
+<!-- title: Enlarge Spell | updated: 2025-01-04T01:21:32Z | cats:  -->
+{{Spell InfoBox|image=Enlarge Spell.png|type=Spell Boost|rarity=Unique|spell_slots1=+1|misc_a_1=spell size +150 (does not apply for area affect spells)}}
+
+'''Enlarge spell''' is a [[Rarity|Unique]] [[Spells|spell]] of type:  obtained by feeding the [[Carrion Eater]] in [[Chapter 3]]. It increases the size of projectiles.

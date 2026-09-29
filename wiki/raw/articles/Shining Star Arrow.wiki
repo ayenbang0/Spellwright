@@ -1,0 +1,8 @@
+<!-- title: Shining Star Arrow | updated: 2024-11-07T22:48:10Z | cats: Category:Charged Casting, Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Shining_Star_Arrow.png|type=Spell Projectiles|rarity=Normal|mana_cost1=27|mana_cost2=35|mana_cost3=46|dmg1=78|dmg2=148|dmg3=281|misc_a_1=Charged Casting|misc_b_1=Critical Rate increases by 25% per second during channeling|misc_c_1=When Critical rate exceeds 33%, final damage x150%|misc_a_2=Charged Casting|misc_b_2=Critical Rate increases by 25% per second during channeling|misc_c_2=When Critical rate exceeds 66%, final damage x170%|misc_a_3=Charged Casting|misc_b_3=Critical Rate increases by 25% per second during channeling|misc_c_3=When Critical rate exceeds 100%, final damage x200%}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it fires out a small projectile while knocking the player back slightly. This spell can be charged up for more damage by holding down the cast button. As the cast is charged, it increases in crit rate each second. Each new level of charge is accompanied by a sound and sparkle on the wand. This effect is also triggered at the start of the charge but can be delayed to the moment the spell reaches 0% crit chance if the starting crit chance is negative. The charged spell can be released at any time.
+
+'''Description:''' It requires time to infuse with magic, and the purple glow symbolizes maximum mana amount. It's hard to perform a spell of higher damage than this one.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Normal]]
+[[Category:Charged Casting]]

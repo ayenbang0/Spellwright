@@ -1,0 +1,7 @@
+<!-- title: Parasite | updated: 2024-12-03T00:21:31Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Parasite.png|type=Spell Boost|rarity=Normal|misc_a_1=Summoned creatures gain +30% Attack Speed and Movement Speed, losing 2 HP per second|misc_b_1=When Summoned creatures die, 2 parasites are spawned|misc_a_2=Summoned creatures gain +50% Attack Speed and Movement Speed, losing 4 HP per second|misc_b_2=When Summoned creatures die, 3 parasites are spawned|misc_a_3=Summoned creatures gain +80% Attack Speed and Movement Speed, losing 8 HP per second|misc_b_3=When Summoned creatures die, 5 parasites are spawned}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It increases the Attack Speed and Movement Spells of affected summons but causes constant HP loss. If a summon dies, parasites are spawned and attack the nearest enemy.
+
+Parasites spawned do 15 damage, inherit the summons crit rate, spell damage multiplier and final damage multiplier.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

@@ -1,0 +1,15 @@
+<!-- title: Venom Crystal | updated: 2025-07-09T15:39:12Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Venom_Crystal.png|type=Spell Boost|rarity=Normal|misc_a_1=Applies 1 stacks of poison, dealing damage per stack each second for 3 seconds upon spell hit.|misc_a_2=Applies 2 stacks of poison, dealing damage per stack each second for 4 seconds upon spell hit.|misc_a_3=Applies 4 stacks of poison, dealing damage per stack each second for 5 seconds upon spell hit.}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It adds stacking poison damage to projectiles or summons.
+
+'''Description:''' The venom traces on the ground will inflict damage on allies.
+
+When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target.
+
+NOTE: 
+* Some spells boosted with a {{PAGENAME}} can create poison pools on the ground which will poison the player and any summons, if touched. The examples below will create poison pools,
+** The enhanced grenade attack of a [[Pop]] boosted by {{PAGENAME}} and [[Essence of Soul]]
+** A [[Condensed Water Bubble]] boosted by {{PAGENAME}}
+* The damage per second of the poison stacks from this are completely unaffected by all Increase Damage effects, such as the [[Beast Fangs]] relic and Final Damage modifiers on some wands, and they also cannot Critical Hit so relevant items like [[Precise Shot]] and [[Blade of Fury]] have no effect. To get the best damage out of the poison it is best to use spells that can rapidly apply hits and focus more on their firing rate instead of their damage output.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

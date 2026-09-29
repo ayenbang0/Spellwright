@@ -1,0 +1,2 @@
+<!-- title: Potion Shop | updated: 2024-03-07T20:55:09Z | cats:  -->
+The [[Potions|Potion]] Shop is a [[Sideroom]] that appears next to the [[Shop]]. It is a special area that contains only random potions for sale.

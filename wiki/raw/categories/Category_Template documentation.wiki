@@ -1,0 +1,3 @@
+<!-- title: Category:Template documentation | updated: 2024-01-05T20:39:19Z | cats: Category:Templates -->
+The templates in this category contain documentation about other templates. The are automatically put here by the {{T|Documentation}} template.
+[[Category:Templates]]

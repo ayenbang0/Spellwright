@@ -1,0 +1,14 @@
+<!-- title: Autonomous Grimoire | updated: 2024-11-17T17:21:16Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Summon -->
+{{Spell InfoBox|image=Autonomous_Grimoire.png|type=Spell Summon|rarity=Rare|mana_cost1=40|mana_cost2=50|mana_cost3=60|hp1=40|hp2=65|hp3=100|summon_limit1=3|summon_limit2=3|summon_limit3=3|misc_a_1=Records and uses the first shooting spell on the right|misc_b_1=Grimoire grants a MP Regen speed equivalent to 50% of the summoning wand|misc_a_2=Records and uses the first shooting spell on the right|misc_b_2=Grimoire grants a MP Regen speed equivalent to 75% of the summoning wand|misc_a_3=Records and uses the first shooting spell on the right|misc_b_3=Grimoire grants a MP Regen speed equivalent to 110% of the summoning wand}}The '''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Summon. When the default spell is cast, it summons a floating book that casts the spell in the wand to the right.
+
+The Grimoire can cast either projectile spells or summon creatures.
+
+* If it is used to cast projectile spells, the Grimoire will automatically shoot at the nearest enemy in range.
+* If it is used to cast summons, it will begin summoning creatures. If the Grimoire dies, all summons it controlled die as well. If a Grimoire summons after reaching the summoning limit, one of the existing summons will be killed and a new one is spawned near the player. This may be useful with some builds but generally hurts DPS because the summon already in combat disappears and the newly created summon has to move into place to begin combat with enemies. This can be prevented by enabling a setting in Settings > Gameplay > Summon Limit > On. With this setting on, the Grimoire will summon until the limit is hit and then stop, only summoning a new creature if an existing creature dies.
+
+Grimoires can also summon more Grimoires, for example you could have Grimoire > Grimoire > [[Pop]] which would summon 3 parent Grimoires which would each have 3 child Grimoires which would each have 5 Pops for a total of 45 Pops. Granted, it takes a while for all of the child Grimoires and Pops to be summoned and that also assumes that none of them die in combat.
+
+'''Description:''' Some mages enjoy using magic to make books turn pages automatically, but obviously these books possess more powerful abilities.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Summon]]
+[[Category:Rarity: Rare]]

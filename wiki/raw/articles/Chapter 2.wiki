@@ -1,0 +1,15 @@
+<!-- title: Chapter 2 | updated: 2024-03-04T18:26:59Z | cats:  -->
+==How to get Access==
+*Defeat the boss of [[Chapter 1]] and walk through the portal.
+==Enemies==
+(Placeholder)
+==Elites/Bosses==
+[[Cage]]
+
+[[Deceiver Typ II|Deceiver Type 2]]
+
+[[Hatcher]]
+
+[[Psychic Master]]
+==Trivia==
+(Placeholder)

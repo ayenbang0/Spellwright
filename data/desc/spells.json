@@ -1,0 +1,417 @@
+{
+  "magic_bullet": [
+    "Fires a single swift bolt of mana at the target.",
+    "Fires a swift mana bolt. Foes struck take +50% damage for 4 s.",
+    "Fires a swift mana bolt. Foes struck take +100% damage for 8 s."
+  ],
+  "rock_n_ball": [
+    "Rolls a heavy boulder forward that soaks up to 40 damage from enemy shots.",
+    "Rolls a heavy boulder forward that soaks up to 80 damage from enemy shots.",
+    "Rolls a heavy boulder forward that soaks up to 120 damage from enemy shots."
+  ],
+  "butterfly": [
+    "Releases a flutter of delicate mana moths that seek out the nearest foe.",
+    "Releases a larger flutter of delicate mana moths that seek out the nearest foe.",
+    "Releases a dense flutter of delicate mana moths that seek out the nearest foe."
+  ],
+  "laser": [
+    "Instantly fires a straight beam at the target and slightly quickens casting.",
+    "Instant straight beam that quickens casting. Gains 1 extra pierce, and every pierce becomes a bounce.",
+    "Instant straight beam that quickens casting. Gains 2 extra pierces, and every pierce becomes a bounce."
+  ],
+  "fuse": [
+    "Launches a rune that, on impact or at max range, releases the first projectile spell to its right at x90% MP cost.",
+    "Launches a rune that, on impact or at max range, releases the first projectile spell to its right at x80% MP cost.",
+    "Launches a rune that, on impact or at max range, releases the first projectile spell to its right at x70% MP cost."
+  ],
+  "floating_wisp": [
+    "Sends out a drifting fire spirit. Striking a foe calls nearby spirits to join in.",
+    "Sends out a drifting fire spirit that calls nearby spirits on a hit. Duplicates itself every 4 s while others are around.",
+    "Sends out a drifting fire spirit that calls nearby spirits on a hit. Duplicates itself every 3 s while others are around."
+  ],
+  "black_hole": [
+    "Hurls a dense singularity that drags nearby foes toward its core while damaging them.",
+    "Hurls a dense singularity that drags in and damages foes. Its pull area slowly grows over time.",
+    "Hurls a dense singularity that drags in and damages foes. Its pull area steadily grows over time."
+  ],
+  "arcane_explosion": [
+    "Detonates a burst of raw mana right at the wand's tip.",
+    "Detonates a mana burst at the wand's tip. Each kill sets off a fresh burst at x0.7 radius.",
+    "Detonates a mana burst at the wand's tip. Each kill sets off a fresh full-size burst."
+  ],
+  "shadow_serpent": [
+    "Sends a slow, winding 6 m shade-snake through foes and walls; every segment deals damage.",
+    "Sends a slow, winding 12 m shade-snake through foes and walls; every segment deals damage.",
+    "Sends a slow, winding 24 m shade-snake through foes and walls; every segment deals damage."
+  ],
+  "ray_of_disintegration": [
+    "Channeled while held: projects a beam that pierces everything in its path without limit.",
+    "Channeled while held: projects a stronger beam that pierces everything in its path without limit.",
+    "Channeled while held: projects a devastating beam that pierces everything in its path without limit."
+  ],
+  "deceptive_mine": [
+    "Tosses a spiked charge that blows up on contact, or blinks and detonates after it stops. The blast harms everyone, you included.",
+    "Tosses a spiked charge that blows up on contact, or blinks and detonates after it stops. The blast harms everyone, you included.",
+    "Tosses a spiked charge that blows up on contact, or blinks and detonates after it stops. The blast harms everyone, you included."
+  ],
+  "meteor": [
+    "Calls a burning rock down onto the cursor. The impact harms everyone, you included.",
+    "Calls a burning rock down onto the cursor, plus 2 smaller rocks (28 damage each). Impacts harm everyone, you included.",
+    "Calls a burning rock down onto the cursor, plus 5 smaller rocks (39 damage each). Impacts harm everyone, you included."
+  ],
+  "rainbow": [
+    "Fans out seven many-hued bolts at even angles, each able to pierce one foe.",
+    "Fans out seven many-hued bolts at even angles, each able to pierce one foe.",
+    "Fans out seven many-hued bolts at even angles, each able to pierce one foe."
+  ],
+  "arcane_nova": [
+    "Launches a spinning star that fires the first projectile spell to its right 20 times. That spell costs x500% MP and deals x50% damage.",
+    "Launches a spinning star that fires the first projectile spell to its right 20 times. That spell costs x500% MP and deals x50% damage.",
+    "Launches a spinning star that fires the first projectile spell to its right 20 times. That spell costs x500% MP and deals x50% damage."
+  ],
+  "lightning_dash": [
+    "Channeled while held: become a streak of living lightning that follows the cursor. You are invulnerable throughout.",
+    "Channeled while held: ride the cursor as invulnerable lightning. On ending, erupts at x2.5 radius, wiping out most enemy projectiles inside.",
+    "Channeled while held: ride the cursor as invulnerable lightning. On ending, erupts at x3.5 radius, wiping out most enemy projectiles inside."
+  ],
+  "adava_keravda": [
+    "Instantly strikes the cursor with a lethal bolt that harms everyone. Levels up after 240 kills; cannot be crafted.",
+    "Instantly strikes the cursor with a lethal bolt that harms everyone. Levels up after another 240 kills; cannot be crafted.",
+    "Instantly strikes the cursor with a lethal bolt that harms everyone. Fully mastered; cannot be crafted."
+  ],
+  "thunderstorm": [
+    "Marks a zone where bolts strike foes inside; each bolt can jump 3 times.",
+    "Marks a zone where bolts strike foes inside; each bolt can jump 5 times. Deals +130% damage when only one foe is hit.",
+    "Marks a zone where bolts strike foes inside; each bolt can jump 7 times. Deals +160% damage when only one foe is hit."
+  ],
+  "high_pressure_stream": [
+    "Channeled while held: sprays a gapless water jet at the target, ideal for on-hit combos.",
+    "Channeled while held: sprays a harder, gapless water jet at the target, ideal for on-hit combos.",
+    "Channeled while held: sprays a crushing, gapless water jet at the target, ideal for on-hit combos."
+  ],
+  "enchanting_coin": [
+    "Flings 20% of your gold as a gilded orb; each coin adds +10% base damage. The gold drops back when it ends. Cannot be crafted or reforged.",
+    "Flings 20% of your gold as a gilded orb; each coin adds +10% base damage. The gold drops back when it ends. Cannot be crafted or reforged.",
+    "Flings 20% of your gold as a gilded orb; each coin adds +10% base damage. The gold drops back when it ends. Cannot be crafted or reforged."
+  ],
+  "evil_slayer_sword": [
+    "Swings a colossal blade of mana ahead of you, destroying most enemy projectiles it meets.",
+    "Swings a colossal blade of mana ahead of you, batting most enemy projectiles it meets back at them.",
+    "Swings a colossal blade of mana ahead of you, batting most enemy projectiles it meets back with sharper aim."
+  ],
+  "boomerang_blade": [
+    "Throws a spinning ring that flies out and returns, piercing 5 times and striking only enemies.",
+    "Throws a spinning ring that flies out and returns, piercing 8 times and striking only enemies.",
+    "Throws a spinning ring that flies out and returns, piercing 12 times and striking only enemies."
+  ],
+  "sword_of_judgement": [
+    "Conjures a blade that circles you and lunges at one nearby threat before fading.",
+    "Conjures a blade that circles you and lunges at one nearby threat before fading, with faster recharge.",
+    "Conjures a blade that circles you and lunges at one nearby threat before fading, with even faster recharge."
+  ],
+  "condensed_water_bubble": [
+    "Uses 2 slots. Sets a swelling bubble that gains +10% radius and +20% damage each second before it bursts.",
+    "Uses 2 slots. Sets a swelling bubble that gains +12% radius and +25% damage each second before it bursts.",
+    "Uses 2 slots. Sets a swelling bubble that gains +15% radius and +35% damage each second before it bursts."
+  ],
+  "fierce_dragon_breath": [
+    "Channeled while held: exhales a cone of fire that pushes you back. Drains 16 MP per second; damage rises +30% each second.",
+    "Channeled while held: exhales a cone of fire that pushes you back. Drains 22 MP per second; damage rises +40% each second.",
+    "Channeled while held: exhales a cone of fire that pushes you back. Drains 28 MP per second; damage rises +50% each second."
+  ],
+  "shining_star_arrow": [
+    "Charged: hold to build +25% crit per second, then release. Above 33% crit, final damage x1.5.",
+    "Charged: hold to build +25% crit per second, then release. Above 66% crit, final damage x1.7.",
+    "Charged: hold to build +25% crit per second, then release. Above 100% crit, final damage x2.0."
+  ],
+  "pop": [
+    "Summons a small forest critter that rolls toward the nearest foe and pelts it with shots.",
+    "Summons a sturdier forest critter that rolls toward the nearest foe and pelts it with shots.",
+    "Summons a hardy forest critter that rolls toward the nearest foe and pelts it with shots."
+  ],
+  "skull_of_the_cthulhu": [
+    "Summons a hulking crawler that hunts foes and heals by attacking. It follows you to the next floor.",
+    "Summons a hulking crawler that hunts foes, heals by attacking, and follows you between floors. Its DPS rises by 10% of this wand's Max MP.",
+    "Summons a hulking crawler that hunts foes, heals by attacking, and follows you between floors. Its DPS rises by 20% of this wand's Max MP."
+  ],
+  "hand_of_the_cthulhu": [
+    "Raises a tentacle that drives spikes up beneath foes at any distance. Lasts 20 s.",
+    "Raises a tentacle that drives spikes up beneath foes at any distance. Lasts 30 s.",
+    "Raises a tentacle that drives spikes up beneath foes at any distance. Lasts 40 s."
+  ],
+  "pillar_of_light": [
+    "Raises a wall of radiant columns that blocks enemy shots and hurts foes that touch it.",
+    "Raises a wall of radiant columns that blocks enemy shots. Foes touching it lose 40% of their Max HP.",
+    "Raises a wall of radiant columns that blocks enemy shots. Foes touching it lose 80% of their Max HP."
+  ],
+  "autonomous_grimoire": [
+    "Summons a floating tome that memorizes and casts the first projectile spell to its right. It regains MP at 50% of the casting wand's regen.",
+    "Summons a floating tome that memorizes and casts the first projectile spell to its right. It regains MP at 75% of the casting wand's regen.",
+    "Summons a floating tome that memorizes and casts the first projectile spell to its right. It regains MP at 110% of the casting wand's regen."
+  ],
+  "volley": [
+    "Casts 2 extra projectile spells at once. Each added spell costs x78% MP and widens spread by 10°.",
+    "Casts 3 extra projectile spells at once. Each added spell costs x73% MP and widens spread by 15°.",
+    "Casts 4 extra projectile spells at once. Each added spell costs x68% MP and widens spread by 20°."
+  ],
+  "multi_shot": [
+    "Repeats the spell 1 extra time, at x150% MP cost.",
+    "Repeats the spell 2 extra times, at x150% MP cost.",
+    "Repeats the spell 4 extra times, at x150% MP cost."
+  ],
+  "over_scatter": [
+    "Looses 5 spells at once in a wild spray; recharges faster but aims far wider.",
+    "Looses 8 spells at once in a wild spray; recharges faster but aims far wider.",
+    "Looses 12 spells at once in a wild spray; recharges faster but aims far wider."
+  ],
+  "slime_crystal": [
+    "The spell travels at x70% speed, and foes hit move at x60% speed for 3 s.",
+    "The spell travels at x60% speed, and foes hit move at x50% speed for 4 s.",
+    "The spell travels at x50% speed, and foes hit move at x40% speed for 5 s."
+  ],
+  "venom_crystal": [
+    "Hits apply 1 poison stack; each stack deals damage every second for 3 s.",
+    "Hits apply 2 poison stacks; each stack deals damage every second for 4 s.",
+    "Hits apply 4 poison stacks; each stack deals damage every second for 5 s."
+  ],
+  "penetration": [
+    "The spell passes through 1 more target.",
+    "The spell passes through 2 more targets.",
+    "The spell passes through 4 more targets."
+  ],
+  "chain_of_lightning": [
+    "Links spells cast together with arcs that deal 9 damage to anything they cross.",
+    "Links spells cast together with arcs that deal 18 damage to anything they cross.",
+    "Links spells cast together with arcs that deal 36 damage to anything they cross."
+  ],
+  "hover": [
+    "When the spell would end, it lingers in place for 2 s.",
+    "When the spell would end, it lingers in place for 3 s.",
+    "When the spell would end, it lingers in place for 5 s."
+  ],
+  "orbit": [
+    "The spell circles around you at a 3 m radius.",
+    "The spell circles around you at a 4 m radius, moving faster.",
+    "The spell circles around you at a 5 m radius, moving much faster."
+  ],
+  "track": [
+    "The spell steers toward your cursor as it flies.",
+    "The spell steers toward your cursor as it flies, lasting longer.",
+    "The spell steers toward your cursor as it flies, lasting much longer."
+  ],
+  "automatic_navigate": [
+    "The spell homes in on foes, turning up to 12° per meter traveled.",
+    "The spell homes in on foes, turning up to 22° per meter traveled.",
+    "The spell homes in on foes, turning up to 38° per meter traveled."
+  ],
+  "rebound": [
+    "The spell bounces off walls 2 more times, gaining +1 s of life per bounce.",
+    "The spell bounces off walls 4 more times, gaining +1 s of life per bounce.",
+    "The spell bounces off walls 8 more times, gaining +1 s of life per bounce."
+  ],
+  "split": [
+    "When the spell ends, it breaks into 3 copies dealing x33% damage each.",
+    "When the spell ends, it breaks into 5 copies dealing x33% damage each.",
+    "When the spell ends, it breaks into 8 copies dealing x33% damage each."
+  ],
+  "frost_crystal": [
+    "Non-boss foes hit are frozen solid for 1.5 s.",
+    "Non-boss foes hit are frozen solid for 3 s.",
+    "Non-boss foes hit are frozen solid for 6 s."
+  ],
+  "parasite": [
+    "Summons gain +30% attack and move speed but lose 2 HP per second. On death, each releases 2 larvae.",
+    "Summons gain +50% attack and move speed but lose 4 HP per second. On death, each releases 3 larvae.",
+    "Summons gain +80% attack and move speed but lose 8 HP per second. On death, each releases 5 larvae."
+  ],
+  "core_of_thunder": [
+    "When the spell ends, 15% chance to shock foes within 2.2 m for an extra 100% damage.",
+    "When the spell ends, 30% chance to shock foes within 2.4 m for an extra 150% damage.",
+    "When the spell ends, 40% chance to shock foes within 2.8 m for an extra 200% damage."
+  ],
+  "dmg_enhanced": [
+    "Empowers the spell for +25% damage.",
+    "Empowers the spell for +50% damage.",
+    "Empowers the spell for +100% damage."
+  ],
+  "time_duration_enhanced": [
+    "Extends the spell's lifetime by 2 s.",
+    "Extends the spell's lifetime by 3.5 s.",
+    "Extends the spell's lifetime by 6 s."
+  ],
+  "energy_saving_mode": [
+    "The spell costs x60% MP, but its damage and lifetime drop to x75%.",
+    "The spell costs x50% MP, but its damage and lifetime drop to x75%.",
+    "The spell costs x40% MP, but its damage and lifetime drop to x80%."
+  ],
+  "precise_shot": [
+    "Steadies aim: +10% crit and 30° less spread.",
+    "Steadies aim: +20% crit and 60° less spread.",
+    "Steadies aim: +40% crit and 100° less spread."
+  ],
+  "accelerator": [
+    "The spell flies faster (+3 speed).",
+    "The spell flies faster (+6 speed).",
+    "The spell flies faster (+12 speed)."
+  ],
+  "range_enhanced": [
+    "Widens the spell's area of effect by 30%.",
+    "Widens the spell's area of effect by 60%.",
+    "Widens the spell's area of effect by 120%."
+  ],
+  "troll_serum": [
+    "Summons gain +40% Max HP and recover 2.5 HP per second.",
+    "Summons gain +80% Max HP and recover 5 HP per second.",
+    "Summons gain +160% Max HP and recover 10 HP per second."
+  ],
+  "mimicry_cube": [
+    "Copies the effect of the first spell to its right, up to that spell's level 1 form.",
+    "Copies the effect of the first spell to its right, up to that spell's level 2 form.",
+    "Copies the effect of the first spell to its right, up to that spell's level 3 form."
+  ],
+  "umbilical_cord": [
+    "Tethers your summons together; the links deal 25 damage per second to foes crossing them.",
+    "Tethers your summons together; the links deal 50 damage per second to foes crossing them.",
+    "Tethers your summons together; the links deal 100 damage per second to foes crossing them."
+  ],
+  "core_of_flame": [
+    "Uses 2 slots. Doubles spell damage, and hits set foes ablaze for 5% of their Max HP per second over 3 s (0.3% on bosses).",
+    "Uses 2 slots. Doubles spell damage, and hits set foes ablaze for 5% of their Max HP per second over 3 s (0.3% on bosses).",
+    "Uses 2 slots. Doubles spell damage, and hits set foes ablaze for 5% of their Max HP per second over 3 s (0.3% on bosses)."
+  ],
+  "strong_traction": [
+    "On a crit, yanks 1 other foe within 7 m and deals it the same damage.",
+    "On a crit, yanks 2 other foes within 8 m and deals them the same damage.",
+    "On a crit, yanks 4 other foes within 9 m and deals them the same damage."
+  ],
+  "fusion_summon": [
+    "Uses 2 slots. Merges two identical summons into one with +100% stats; each can merge only once.",
+    "Uses 2 slots. Merges two identical summons into one with +100% stats; each can merge only once.",
+    "Uses 2 slots. Merges two identical summons into one with +100% stats; each can merge only once."
+  ],
+  "cadaver_explosion": [
+    "Summons have x80% Max HP and perish below half health, bursting for 100% of their remaining HP within 2.5 m.",
+    "Summons have x80% Max HP and perish below half health, bursting for 100% of their remaining HP within 2.5 m.",
+    "Summons have x80% Max HP and perish below half health, bursting for 100% of their remaining HP within 2.5 m."
+  ],
+  "essence_of_soul": [
+    "Uses 2 slots. Awakens a new ability in this wand's summons.",
+    "Uses 2 slots. Awakens a new ability in this wand's summons and strengthens it.",
+    "Uses 2 slots. Awakens a new ability in this wand's summons and greatly strengthens it."
+  ],
+  "reflection": [
+    "After hitting a foe, the spell leaps to the nearest enemy, up to 2 times.",
+    "After hitting a foe, the spell leaps to the nearest enemy, up to 3 times.",
+    "After hitting a foe, the spell leaps to the nearest enemy, up to 5 times."
+  ],
+  "indomitability": [
+    "Summons keep fighting for 2 s after they die.",
+    "Summons keep fighting for 4 s after they die.",
+    "Summons keep fighting for 8 s after they die."
+  ],
+  "duet": [
+    "When the left spell ends, casts the right spell, which inherits 30% of the left spell's damage.",
+    "When the left spell ends, casts the right spell, which inherits 60% of the left spell's damage.",
+    "When the left spell ends, casts the right spell, which inherits 120% of the left spell's damage."
+  ],
+  "dazzling_fireworks": [
+    "When the left spell ends, casts the right spell 4 times at x35% damage.",
+    "When the left spell ends, casts the right spell 4 times at x45% damage.",
+    "When the left spell ends, casts the right spell 4 times at x60% damage."
+  ],
+  "serial": [
+    "While the left spell is in flight, casts the right spell at 70% MP cost.",
+    "While the left spell is in flight, swiftly casts the right spell at 55% MP cost.",
+    "While the left spell is in flight, rapidly casts the right spell at 40% MP cost."
+  ],
+  "echo": [
+    "Each time the left spell hits a foe, casts the right spell at 80% MP cost, at most once per 0.3 s.",
+    "Each time the left spell hits a foe, casts the right spell at 65% MP cost, at most once per 0.2 s.",
+    "Each time the left spell hits a foe, casts the right spell at 50% MP cost, at most once per 0.1 s."
+  ],
+  "magic_reservoir": [
+    "Raises the wand's Max MP by 40%.",
+    "Raises the wand's Max MP by 80%.",
+    "Raises the wand's Max MP by 160%."
+  ],
+  "tranquil_bloom": [
+    "Adds 3 MP per second to the wand's regeneration.",
+    "Adds 6 MP per second to the wand's regeneration.",
+    "Adds 12 MP per second to the wand's regeneration."
+  ],
+  "charge_mode": [
+    "Hold the cast button to stockpile up to 6 casts, then release them all together.",
+    "Hold the cast button to stockpile up to 12 casts, then release them all together.",
+    "Hold the cast button to stockpile up to 24 casts, then release them all together."
+  ],
+  "wand_spirit": [
+    "The wand fights on its own and can't be fired by hand; its MP regen becomes x50%.",
+    "The wand fights on its own and can't be fired by hand; its MP regen becomes x80%.",
+    "The wand fights on its own and can't be fired by hand; its MP regen becomes x130%."
+  ],
+  "forced_cooldown": [
+    "Cuts the wand's recharge time to x60%.",
+    "Cuts the wand's recharge time to x30%.",
+    "Cuts the wand's recharge time to x15%."
+  ],
+  "capacity_expansion_stone": [
+    "Adds 3 spell slots to the wand, but spell damage drops to x75%.",
+    "Adds 4 spell slots to the wand, but spell damage drops to x80%.",
+    "Adds 6 spell slots to the wand, but spell damage drops to x85%."
+  ],
+  "resonance_rune": [
+    "When you cast with another wand, 25% chance this wand fires too; those casts have a 20% chance to cost no MP.",
+    "When you cast with another wand, 50% chance this wand fires too; those casts have a 30% chance to cost no MP.",
+    "When you cast with another wand, this wand always fires too; those casts have a 40% chance to cost no MP."
+  ],
+  "arcane_barrier": [
+    "Uses 3 slots; wand Max MP +120. While the wand holds MP, incoming damage drains 3% Max MP per point instead and blasts foes within 4 m for 4x the MP spent.",
+    "Uses 3 slots; wand Max MP +120. While the wand holds MP, incoming damage drains 3% Max MP per point instead and blasts foes within 4 m for 4x the MP spent.",
+    "Uses 3 slots; wand Max MP +120. While the wand holds MP, incoming damage drains 3% Max MP per point instead and blasts foes within 4 m for 4x the MP spent."
+  ],
+  "bings_arrow": [
+    "Shoots a single shaft. Every 50 casts, the next one unleashes 4 great arrows.",
+    "Shoots a single shaft. Every 50 casts, the next one unleashes 6 great arrows.",
+    "Shoots a single shaft. Every 50 casts, the next one unleashes 10 great arrows."
+  ],
+  "bian_flying_sword": [
+    "Casting with this wand automatically looses spectral blades; +1 blade cap per 25 wand Max MP.",
+    "Casting with this wand automatically looses spectral blades; +1 blade cap per 25 wand Max MP.",
+    "Casting with this wand automatically looses spectral blades; +1 blade cap per 25 wand Max MP."
+  ],
+  "area_boost": [
+    "Uses 4 slots. Copies the first spell to its right into a free locked slot on every wand you carry, up to its level 1 form.",
+    "Uses 4 slots. Copies the first spell to its right into a free locked slot on every wand you carry, up to its level 2 form.",
+    "Uses 4 slots. Copies the first spell to its right into a free locked slot on every wand you carry, up to its level 3 form."
+  ],
+  "mana_absorption": [
+    "Fires a bolt that refunds the MP the wand spent on it when it first hits a foe. Cannot be crafted.",
+    "Fires a bolt that refunds the MP the wand spent on it when it first hits a foe. Cannot be crafted.",
+    "Fires a bolt that refunds the MP the wand spent on it when it first hits a foe. Cannot be crafted."
+  ],
+  "magic_upgrade": [
+    "Raises the nearest spell on each side by 1 level, never past the cap.",
+    "Raises the nearest spell on each side by 1 level, never past the cap.",
+    "Raises the nearest spell on each side by 1 level, never past the cap."
+  ],
+  "enlarge_spell": [
+    "Greatly swells projectile size (+150); area spells are unaffected.",
+    "Greatly swells projectile size (+150); area spells are unaffected.",
+    "Greatly swells projectile size (+150); area spells are unaffected."
+  ],
+  "fall": [
+    "Drops the spell from the sky onto the target spot, damaging foes where it lands.",
+    "Drops the spell from the sky onto the target spot, damaging foes across a wider landing zone.",
+    "Drops the spell from the sky onto the target spot, damaging foes across a broad landing zone."
+  ],
+  "magic_vine": [
+    "Wand MP regen +20% and Max MP +10% per empty slot in an unbroken run to its right, its own slot included.",
+    "Wand MP regen +35% and Max MP +20% per empty slot in an unbroken run to its right, its own slot included.",
+    "Wand MP regen +50% and Max MP +30% per empty slot in an unbroken run to its right, its own slot included."
+  ],
+  "spell_prototype": [
+    "Does nothing in a wand, but acts as a wildcard copy of a level 1 spell when upgrading by fusion.",
+    "Does nothing in a wand, but acts as a wildcard copy of a level 2 spell when upgrading by fusion.",
+    "Does nothing in a wand, but mimics level 3 as a wildcard when upgrading by fusion."
+  ]
+}

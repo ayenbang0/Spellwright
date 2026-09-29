@@ -1,0 +1,5 @@
+<!-- title: The NPC at the Training Ground | updated: 2024-08-01T05:59:27Z | cats:  -->
+[[File:训练场.png|center|frameless|150x150px]]
+'''She provides a Training Ground for you.'''
+
+At the Training Ground, you can try out any spells and wands you've encountered before, and test their DMG.

@@ -1,0 +1,7 @@
+<!-- title: Arcane Nova | updated: 2024-11-07T21:44:59Z | cats: Category:Rarity: Epic, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Arcane_Nova.png|type=Spell Projectiles|rarity=Epic|mana_cost1=10|dmg1=30|misc_a_1=Mana cost of the first shooting spell on the right side x500%, and the damage decreasing by 50% and scatters 20 times.}}'''{{PAGENAME}}''' is an [[Rarity|Epic]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it launches a spinning star. As the star travels, it repeatedly shoots the first spell to the right up to twenty times.
+
+'''Description:''' A superior alternative to the fuse, this spell is rare. The shimmering stars inside and the flowing mana on the surface hint at its immense power.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Epic]]

@@ -1,0 +1,7 @@
+<!-- title: Deceiver Typ II | updated: 2024-07-24T05:50:16Z | cats:  -->
+[[File:300302.png|left|thumb]]
+
+== Stats ==
+HP: 3,000
+
+Imitates opponent's movements, and turnsinvisible after taking a certain amount of damage.

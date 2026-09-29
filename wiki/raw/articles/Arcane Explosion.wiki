@@ -1,0 +1,39 @@
+<!-- title: Arcane Explosion | updated: 2026-01-22T21:51:01Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Arcane_Explosion.png|desc=Area spell that detonates instantly at cast point|type=Spell Projectiles|rarity=Normal|mana_cost1=9|mana_cost2=18|mana_cost3=60|dmg1=15|dmg2=45|dmg3=135|crit_rate1=25%|crit_rate2=25%|crit_rate3=25%|effect_radius1=3m|effect_radius2=3.2m|effect_radius3=3.5m|misc_a_2=Instantly generates an Arcane Explosion with radius multiplied by 0.7 when killing an enemy unit.|misc_a_3=Instantly generates an Arcane Explosion when killing an enemy unit.}}The '''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it explodes at the tip of the wand.
+
+'''Description:''' It is said that it's a perfect mate to a fuse, many mages are addicted to experiencing the mana blast after gathering them to the tip of the wand.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Normal]]

@@ -1,0 +1,5 @@
+<!-- title: Indomitability | updated: 2024-12-03T00:31:38Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Indomitability.png|type=Spell Boost|rarity=Normal|misc_a_1=Summoned creatures continue to fight for 2 seconds upon death|misc_a_2=Summoned creatures continue to fight for 4 seconds upon death|misc_a_3=Summoned creatures continue to fight for 8 seconds upon death}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. After an affected summon dies, it continues for fight for a few seconds.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

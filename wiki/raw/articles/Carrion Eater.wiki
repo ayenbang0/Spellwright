@@ -1,0 +1,16 @@
+<!-- title: Carrion Eater | updated: 2025-01-04T00:58:26Z | cats:  -->
+'''Carrion Eater''' is located in [[chapter 3]] after unlocking it from [[Lyon]], it can be found randomly in a any room except for [[Reforge Furnace|the Reforge Furnace]] and [[Shop|the Shop]]. 
+
+if you drop any [[Spells|spell]] next to the hole, one of the tongues will reach out and take it returning you one of six unique spells.
+
+Blast Surge
+
+=== [[File:Self Tracking.png]]   Self Tracking ===
+
+=== [[File:End Teleport.png]]   End Teleport ===
+
+=== [[File:Free Revolution.png]]   Free Revolution ===
+
+=== [[File:Enlarge Spell.png]]   [[Enlarge Spell]] ===
+
+=== [[File:Uniform Scattering.png]]   Uniform Scattering ===

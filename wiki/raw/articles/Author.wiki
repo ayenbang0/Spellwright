@@ -1,0 +1,16 @@
+<!-- title: Author | updated: 2025-09-20T04:52:27Z | cats:  -->
+[[File:Monster999 Idle-resources.assets-3302.png|thumb|left]]
+
+==Stats==
+HP: 25,000,000(5,000,000
+*You can also find the Author at the ancient trhone
+
+== Trivia ==
+In the Author Fight youn are fighting 5 authos at once. If you bring one of them in there second dace all of them do. 
+
+The Author is a split phase boss, the first phase of the Author is a regular and mostly harmless Trollface sprite, but once hit (a currently unknown number of times), it will turn into a different sprite and grow an upper and lower body.
+
+* When it reaches this phase, it will claim that "It's too late to run home crying" before unleashing a never-ending flurry of bullets upon the user.
+** The second phase entity can detect and will aim at you even if you have used potions which should prevent it from being able to do so.
+* The Trollface is not considered a boss enemy, and this makes using a specific potion which turns all non boss enemies in the current room into coins a strategy to defeat it. This is reported to not work on the second phase entity.
+** Subsequent rooms allegedly contain more Trollfaces. It's currently unknown how far this goes on for.---You can only beat him once each run and then have to go back to spawn ending the run.

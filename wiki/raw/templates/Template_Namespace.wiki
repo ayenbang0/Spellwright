@@ -1,0 +1,5 @@
+<!-- title: Template:Namespace | updated: 2024-01-05T20:39:19Z | cats: Category:General wiki templates -->
+{{SAFESUBST:<noinclude />#invoke:Namespace detect|main}}<noinclude>{{Documentation}}<!--
+For a more traditional wikitext version of this template, see 
+https://templates.fandom.com/wiki/Template:Namespace_detect
+--></noinclude>

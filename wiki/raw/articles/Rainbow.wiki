@@ -1,0 +1,7 @@
+<!-- title: Rainbow | updated: 2024-08-01T07:36:12Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Rainbow.png|type=Spell Projectiles|rarity=Normal|mana_cost1=12|mana_cost2=15|mana_cost3=20|dmg1=6|dmg2=12|dmg3=24|number_of_shots1=7|number_of_shots2=7|number_of_shots3=7|scatter1=45°|scatter2=45°|scatter3=45°|misc_a_1=Uniform Diffuse|misc_a_2=Uniform Diffuse|misc_a_3=Uniform Diffuse}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it fans out its seven projectiles in front of the player colored like a rainbow shotgun blast.
+
+'''Description:''' Shoots seven rainbow-colored projectiles at even angles. Possibly for distinguishing them from magic bullets, these projectiles come with 1 point of penetration.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Normal]]

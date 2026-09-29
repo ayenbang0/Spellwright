@@ -1,0 +1,10 @@
+<!-- title: Deceptive Mine | updated: 2024-11-17T17:19:41Z | cats: Category:Indiscriminate Damage, Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Deceptive_Mine.png|type=Spell Projectiles|rarity=Rare|mana_cost1=25|mana_cost2=38|mana_cost3=56|dmg1=70|dmg2=147|dmg3=309|crit_rate1=50%|crit_rate2=60%|crit_rate3=80%|effect_radius1=1.5m|effect_radius2=1.8m|effect_radius3=2.2m|misc_a_1=Indiscriminate Damage|misc_a_2=Indiscriminate Damage|misc_a_3=Indiscriminate Damage}}The '''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it fires out a spiked bomb that explodes damaging nearby enemies. If the bomb strikes a target, it explodes immediately. If it does not strike a target, it comes to a stop, blinks a few times, and then explodes.
+
+'''Description:''' The name itself suggests its danger. Although people suspect it was created by abyssal creatures as a weapon against human, when its powerful explosion directly destroys an entire bone work, mages get reluctant to discard it into the reforge machine.
+
+After landing, it stops moving. If it falls into the abyss, it disappears. When it explodes, it leaves attached elements on the ground.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Rare]]
+[[Category:Indiscriminate Damage]]

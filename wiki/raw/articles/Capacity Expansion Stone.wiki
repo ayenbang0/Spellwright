@@ -1,0 +1,5 @@
+<!-- title: Capacity Expansion Stone | updated: 2024-05-18T13:45:49Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell InfoBox|image=Capacity_Expansion_Stone.png|type=Spell Passive|rarity=Rare|spell_damage1=x75%|spell_damage2=x80%|spell_damage3=x85%|spell_slots1=+3|spell_slots2=+4|spell_slots3=+6}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Passive. When placed in wand, it adds spell slots but reduces overall damage.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Passive]]
+[[Category:Rarity: Rare]]

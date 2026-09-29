@@ -1,0 +1,5 @@
+<!-- title: Cadaver Explosion | updated: 2024-05-05T15:04:55Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Cadaver_Explosion.png|type=Spell Boost|rarity=Normal|misc_a_1=Summoned creature's maximum HP x80%|misc_b_1=Summoned creature dies instantly if HP falls below 50%|misc_c_1=When summoned creature dies, deals damage equal to current HP x100% to enemies within a radius of 2.5m}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It lowers a summon's HP and causes it to explode if it reaches half health.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

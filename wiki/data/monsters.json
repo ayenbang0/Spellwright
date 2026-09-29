@@ -1,0 +1,1166 @@
+[
+ {
+  "name": "Spider",
+  "icon": "",
+  "HP": "50",
+  "describe": "Spiders commonly seen in the forest, affected by the energy of the old gods, are much larger than their counterparts in the protagonist's world."
+ },
+ {
+  "name": "Red-eyed Spider",
+  "icon": "",
+  "HP": "60",
+  "describe": "Red individuals mutated from spiders, capable of firing red magic bullets from their single eye."
+ },
+ {
+  "name": "Wolf Fang Spider",
+  "icon": "",
+  "HP": "200",
+  "describe": "Exceptionally powerful red individuals among spiders, capable of shooting a long string of red magic bullets at once."
+ },
+ {
+  "name": "Bouncing Spider",
+  "icon": "",
+  "HP": "50",
+  "describe": "Further affected by the old gods, the Bouncing Spiders hunt through aggressive leaps."
+ },
+ {
+  "name": "Venomous Spider",
+  "icon": "",
+  "HP": "60",
+  "describe": "Green individuals mutated from Bouncing Spiders, affected by venom crystals, can emit poisonous magic bullets."
+ },
+ {
+  "name": "Double-shot Wolf Fang Spider",
+  "icon": "",
+  "HP": "200",
+  "describe": "Wolf Fang Spiders with dual eyes due to a certain type of mutation, allowing them to spit out two rows of magic bullets at once."
+ },
+ {
+  "name": "Long Legged Spider",
+  "icon": "",
+  "HP": "50",
+  "describe": "Bouncing Spider with mutated long legs,which make it move faster."
+ },
+ {
+  "name": "Long Legged Venomous Spider",
+  "icon": "",
+  "HP": "60",
+  "describe": "Venomous Spider with mutated long legs,which make it move faster."
+ },
+ {
+  "name": "Long Legged Wolf Fang Spider",
+  "icon": "",
+  "HP": "200",
+  "describe": "Wolf Fang Spider with mutated long legs,which make it move faster."
+ },
+ {
+  "name": "Spider Egg",
+  "icon": "",
+  "HP": "25",
+  "describe": "Spider eggs about to hatch, which speed up hatching when stimulated."
+ },
+ {
+  "name": "Spider Egg-Large",
+  "icon": "",
+  "HP": "200",
+  "describe": "Crammed large spider eggs from which spiders continuously crowd out from the inside."
+ },
+ {
+  "name": "Red-eyed Spider Egg-Large",
+  "icon": "",
+  "HP": "300",
+  "describe": "Crammed large Red-eyed Spider eggs from which spiders continuously crowd out from the inside."
+ },
+ {
+  "name": "Red-eyed Spider Egg",
+  "icon": "",
+  "HP": "35",
+  "describe": "Red-eyed Spider eggs about to hatch, which speed up hatching when stimulated."
+ },
+ {
+  "name": "Bouncing Spider Egg",
+  "icon": "",
+  "HP": "25",
+  "describe": "Crammed large Bouncing Spider eggs from which spiders continuously crowd out from the inside."
+ },
+ {
+  "name": "Bouncing Spider Egg-Large",
+  "icon": "",
+  "HP": "200",
+  "describe": "Bouncing Spider eggs about to hatch, which speed up hatching when stimulated."
+ },
+ {
+  "name": "Venomous Spider Egg-Large",
+  "icon": "",
+  "HP": "300",
+  "describe": "Crammed large Venomous Spider eggs from which spiders continuously crowd out from the inside."
+ },
+ {
+  "name": "Venomous Spider Egg",
+  "icon": "",
+  "HP": "35",
+  "describe": "Venomous Spider eggs about to hatch, which speed up hatching when stimulated."
+ },
+ {
+  "name": "Long Legged Spider Egg",
+  "icon": "",
+  "HP": "25",
+  "describe": "Crammed large Long legged Spider eggs from which spiders continuously crowd out from the inside."
+ },
+ {
+  "name": "Long Legged Spider Egg-Large",
+  "icon": "",
+  "HP": "200",
+  "describe": "Long legged Spider eggs about to hatch, which speed up hatching when stimulated."
+ },
+ {
+  "name": "Long Legged Venomous Spider Egg-Large",
+  "icon": "",
+  "HP": "300",
+  "describe": "Crammed large Long legged Venomous Spider eggs from which spiders continuously crowd out from the inside."
+ },
+ {
+  "name": "Long Legged Venomous Spider Egg",
+  "icon": "",
+  "HP": "35",
+  "describe": "Long legged Venomous  Spider eggs from which spiders continuously crowd out from the inside."
+ },
+ {
+  "name": "Aggregated Monster",
+  "icon": "",
+  "HP": "600",
+  "describe": "Unstable creatures that break apart into smaller individuals, then merge back together. It's remain unknown that whether the large ones come first or the small ones."
+ },
+ {
+  "name": "Slime",
+  "icon": "",
+  "HP": "30",
+  "describe": "Shapeshifting creatures that are easily affected by the surroundings, leave puddles on the ground."
+ },
+ {
+  "name": "Mucus Slime",
+  "icon": "",
+  "HP": "30",
+  "describe": "Shapeshifting creatures that are easily affected by the surroundings, leave mucus on the ground."
+ },
+ {
+  "name": "Venom Slime",
+  "icon": "",
+  "HP": "30",
+  "describe": "Shapeshifting creatures that are easily affected by the surroundings, leave venom on the ground."
+ },
+ {
+  "name": "Slime-Large",
+  "icon": "",
+  "HP": "150",
+  "describe": "Large individuals among Slimes, reproduce by spitting out smaller ones."
+ },
+ {
+  "name": "Mucus Slime-Large",
+  "icon": "",
+  "HP": "150",
+  "describe": "Large individuals among Jam Slimes, reproduce by spitting out smaller ones."
+ },
+ {
+  "name": "Venom Slime-Large",
+  "icon": "",
+  "HP": "150",
+  "describe": "Large individuals among Venom Slimes, reproduce by spitting out smaller ones."
+ },
+ {
+  "name": "Slime King",
+  "icon": "",
+  "HP": "300",
+  "describe": "A rare giant Slime, reigning supreme in the slime society with its impressive size."
+ },
+ {
+  "name": "Mucus Slime King",
+  "icon": "",
+  "HP": "300",
+  "describe": "A rare giant Jam Slime, reigning supreme in the slime society with its impressive size."
+ },
+ {
+  "name": "Venom Slime King",
+  "icon": "",
+  "HP": "300",
+  "describe": "A rare giant Venom Slime, reigning supreme in the slime society with its impressive size."
+ },
+ {
+  "name": "Flame Slime",
+  "icon": "",
+  "HP": "30",
+  "describe": "A rare flame variety of slime that won't get stained by other elements.It will emit a flame shock wave when landing."
+ },
+ {
+  "name": "Flame Slime-Large",
+  "icon": "",
+  "HP": "150",
+  "describe": "Large individuals among Flame Slimes,reproduce by spitting out smaller ones."
+ },
+ {
+  "name": "Flame Slime King",
+  "icon": "",
+  "HP": "300",
+  "describe": "A rare giant Flame Slime,reigning supreme in the slime society with its impressive size."
+ },
+ {
+  "name": "Flesh Fly",
+  "icon": "",
+  "HP": "25",
+  "describe": "Timid parasitic creatures that seek shelter near other livings."
+ },
+ {
+  "name": "Evil Flesh Fly",
+  "icon": "",
+  "HP": "35",
+  "describe": "A flesh fly with a large mouth that can spit out magic bullets to protect itself and its host."
+ },
+ {
+  "name": "Blue Evil Flesh Fly",
+  "icon": "",
+  "HP": "90",
+  "describe": "Mutant flesh fly capable of spitting out two magic bullets, but unfortunately cannot ensure the accuracy."
+ },
+ {
+  "name": "Annoying Flesh Fly",
+  "icon": "",
+  "HP": "25",
+  "describe": "The Flesh Fly that changes its survival strategy into disrupting enemys actions by surrounding them."
+ },
+ {
+  "name": "Annoying Evil Flesh Fly",
+  "icon": "",
+  "HP": "35",
+  "describe": "The Evil Flesh Fly that changes its survival strategy into disrupting enemys actions by surrounding them."
+ },
+ {
+  "name": "Annoying Blue Evil Flesh Fly",
+  "icon": "",
+  "HP": "90",
+  "describe": "The Blue Evil Flesh Fly that changes its survival strategy into disrupting enemys actions by surrounding them."
+ },
+ {
+  "name": "Bloodsucking Larva",
+  "icon": "",
+  "HP": "30",
+  "describe": "Greedy evil creature that feeds on the corpses of its own kind."
+ },
+ {
+  "name": "Rampaging Phantom",
+  "icon": "",
+  "HP": "150",
+  "describe": "Evasive phantoms that haunt across the castle."
+ },
+ {
+  "name": "Shadow Rampaging Phantom",
+  "icon": "",
+  "HP": "150",
+  "describe": "Rampaging phantoms filled with resentment, are so fast that only leave shadows."
+ },
+ {
+  "name": "Void Rampaging Phantom",
+  "icon": "",
+  "HP": "150",
+  "describe": "Rampaging phantoms with the power of the void,can void itself when away from enemies."
+ },
+ {
+  "name": "Infectious Mushroom",
+  "icon": "",
+  "HP": "25",
+  "describe": "Mutated fungal hunters, they attract friends in a special way."
+ },
+ {
+  "name": "Infectious Mushroom-Large",
+  "icon": "",
+  "HP": "120",
+  "describe": "Abnormally large Infectious Mushroom, capable of withstanding more damage."
+ },
+ {
+  "name": "Mutated Mushroom",
+  "icon": "",
+  "HP": "60",
+  "describe": "Aberrations among Infectious Mushrooms, they prefer hunting by shooting magic bullets."
+ },
+ {
+  "name": "Mutated Mushroom-Large",
+  "icon": "",
+  "HP": "160",
+  "describe": "Giant Mutated Mushroom, shoots magic bullets more densely."
+ },
+ {
+  "name": "Spore Mushroom",
+  "icon": "",
+  "HP": "25",
+  "describe": "The further mutated product of Infectious Mushroom, releases healing spores to heal allies after death."
+ },
+ {
+  "name": "Spore Mushroom-Large",
+  "icon": "",
+  "HP": "120",
+  "describe": "Abnormally large Spore Mushroom, capable of dispersing healing spores over a wider area."
+ },
+ {
+  "name": "Mutated Spore Mushroom",
+  "icon": "",
+  "HP": "60",
+  "describe": "The further mutated product of Mutated Mushroom, releases healing spores to heal allies after death."
+ },
+ {
+  "name": "Mutated Spore Mushroom-Large",
+  "icon": "",
+  "HP": "160",
+  "describe": "Abnormally large Mutated Mushroom, capable of dispersing healing spores over a wider area."
+ },
+ {
+  "name": "Juicy Mushroom",
+  "icon": "",
+  "HP": "25",
+  "describe": "A particularly juicy mushroom variety, and the moist spore mist it emits lasts longer."
+ },
+ {
+  "name": "Juicy Mushroom-Large",
+  "icon": "",
+  "HP": "120",
+  "describe": "Large Juicy Mushroom which has wider healing range and greater heal power."
+ },
+ {
+  "name": "Mutated Mucus Mushroom",
+  "icon": "",
+  "HP": "60",
+  "describe": "A particularly juicy mutated mushroom variety, and the moist spore mist it emits lasts longer."
+ },
+ {
+  "name": "Mutated Juicy Mushroom-Large",
+  "icon": "",
+  "HP": "160",
+  "describe": "Large Mutated Juicy Mushroom which has wider healing range and greater heal power."
+ },
+ {
+  "name": "Water Lily",
+  "icon": "",
+  "HP": "50",
+  "describe": "Vegetative attackers capable of emitting lasers from its flowers."
+ },
+ {
+  "name": "Agile Water Lily",
+  "icon": "",
+  "HP": "140",
+  "describe": "Exceptionally powerful water lily capable of sensing its environment through its leaves and avoiding danger in advance."
+ },
+ {
+  "name": "Scavenger Orb",
+  "icon": "",
+  "HP": "75",
+  "describe": "Crawling creatures at the bottom of the food chain, feeding while excreting the magic in their food into the surrounding environment."
+ },
+ {
+  "name": "Mucus Scavenger Orb",
+  "icon": "",
+  "HP": "85",
+  "describe": "A Scavenger Orb that has ingested Slime Crystals, spits out magic bullets carrying slime attribute and leaves slime on the ground."
+ },
+ {
+  "name": "Venom Scavenger Orb",
+  "icon": "",
+  "HP": "95",
+  "describe": "A Scavenger Orb that has ingested Venom Crystals, spits out magic bullets carrying venom attribute and leaves venom on the ground."
+ },
+ {
+  "name": "Mixed Scavenger Orb",
+  "icon": "",
+  "HP": "105",
+  "describe": "A Scavenger Orb with a particularly complex diet, spits out multi-colored magic bullets."
+ },
+ {
+  "name": "Scavenger Orb-Growing",
+  "icon": "",
+  "HP": "75",
+  "describe": "A Scavenger Orb that hasn't grown legs yet, so half of the body buries underground."
+ },
+ {
+  "name": "Mucus Scavenger Orb-Growing",
+  "icon": "",
+  "HP": "85",
+  "describe": "A Jam Scavenger Orb that hasn't grown legs yet, so half of the body buries underground."
+ },
+ {
+  "name": "Venom Scavenger Orb-Growing",
+  "icon": "",
+  "HP": "95",
+  "describe": "A Venom Scavenger Orb that hasn't grown legs yet, so half of the body buries underground."
+ },
+ {
+  "name": "Long Necked Scavenger Orb",
+  "icon": "",
+  "HP": "75",
+  "describe": "A variant of Scavenger Orb, the magic bullet ejected from its elongated nozzle will bounce when landing."
+ },
+ {
+  "name": "Long Necked Mucus Scavenger Orb",
+  "icon": "",
+  "HP": "85",
+  "describe": "A variant of Mucus Scavenger Orb, the magic bullet ejected from its elongated nozzle will bounce when landing."
+ },
+ {
+  "name": "Long Necked Venom Scavenger Orb",
+  "icon": "",
+  "HP": "95",
+  "describe": "A variant of Venom Scavenger Orb, the magic bullet ejected from its elongated nozzle will bounce when landing."
+ },
+ {
+  "name": "Long Necked Mixed Scavenger Orb",
+  "icon": "",
+  "HP": "105",
+  "describe": "A variant of Mixed Scavenger Orb, the magic bullet ejected from its elongated nozzle will bounce when landing."
+ },
+ {
+  "name": "Long Necked Scavenger Orb-Growing",
+  "icon": "",
+  "HP": "75",
+  "describe": "A Long Necked Scavenger Orb that hasn't grown legs yet, so half of the body buries underground."
+ },
+ {
+  "name": "Long Necked Mucus Scavenger Orb-Growing",
+  "icon": "",
+  "HP": "85",
+  "describe": "A Long Necked Mucus Scavenger Orb that hasn't grown legs yet, so half of the body buries underground."
+ },
+ {
+  "name": "Long Necked Venom Scavenger Orb-Growing",
+  "icon": "",
+  "HP": "95",
+  "describe": "A Long Necked Venom Scavenger Orb that hasn't grown legs yet, so half of the body buries underground."
+ },
+ {
+  "name": "Abyssal Peeper",
+  "icon": "",
+  "HP": "???",
+  "describe": "An evil creature mimicking the human spine, likes to hide in the abyss and is very cunning."
+ },
+ {
+  "name": "Abyssal Collector",
+  "icon": "",
+  "HP": "???",
+  "describe": "The further mutated Peeper, capable of spewing continuously rebounding magic bones."
+ },
+ {
+  "name": "Replicating Sludge",
+  "icon": "",
+  "HP": "120",
+  "describe": "A blob of rotting mud that can't stop replicating itself, must eliminate them before being overwhelmed."
+ },
+ {
+  "name": "Road Blocker",
+  "icon": "",
+  "HP": "120",
+  "describe": "A magic creature that rolls along the walls of the castle, occasionally bouncing to the other side of the wall."
+ },
+ {
+  "name": "Interceptor",
+  "icon": "",
+  "HP": "200",
+  "describe": "A magical road blocker, capable of leaving a row of floating magic bullets when bouncing up."
+ },
+ {
+  "name": "Interceptor",
+  "icon": "",
+  "HP": "500",
+  "describe": "An exceptionally powerful Interceptor that constantly leaves magic bullets in its path."
+ },
+ {
+  "name": "Vines",
+  "icon": "",
+  "HP": "2100",
+  "describe": "A rare creature that inhabits castle armor, fond of collecting coins."
+ },
+ {
+  "name": "Jumping Ball",
+  "icon": "",
+  "HP": "130",
+  "describe": "A fleshy orb about to burst, it's best not to stay in the same quadrant as it."
+ },
+ {
+  "name": "Jumping Ball-Bloodsucking Larva",
+  "icon": "",
+  "HP": "180",
+  "describe": "A fleshy orb about to burst, its interior has been a nest for Bloodsucking Larva."
+ },
+ {
+  "name": "Jumping Ball-Mucus Ball",
+  "icon": "",
+  "HP": "180",
+  "describe": "A fleshy orb about to burst, leaves a puddle of slime after death."
+ },
+ {
+  "name": "Large Jumping Ball",
+  "icon": "",
+  "HP": "260",
+  "describe": "A large Jumping ball with a greater capacity of content and produces more dense bullets when landing."
+ },
+ {
+  "name": "Large Jumping Ball-Bloodsucking Larva",
+  "icon": "",
+  "HP": "360",
+  "describe": "A large Bloodsucking Larva Jumping ball with a greater capacity of content and produces more dense bullets when landing."
+ },
+ {
+  "name": "Large Jumping Ball-Mucus Ball",
+  "icon": "",
+  "HP": "360",
+  "describe": "A large Mucus Jumping ball with a greater capacity of content and produces more dense bullets when landing."
+ },
+ {
+  "name": "Dazing Rock",
+  "icon": "",
+  "HP": "60",
+  "describe": "Stone creature capable of distorting physical laws, reversing the fighting force it receives when being attacked."
+ },
+ {
+  "name": "Dazing Rock-Large",
+  "icon": "",
+  "HP": "170",
+  "describe": "A more powerful Dazing Rock, it further attracts attackers when being hit."
+ },
+ {
+  "name": "Critical Rock",
+  "icon": "",
+  "HP": "60",
+  "describe": "A Dazing Rock filled with unstable energy that can cause an explosion when it dies."
+ },
+ {
+  "name": "Critical Rock-Large",
+  "icon": "",
+  "HP": "170",
+  "describe": "A large Dazing Rock filled with unstable energy that can cause a huge explosion when it dies."
+ },
+ {
+  "name": "Hardshell Beetle",
+  "icon": "",
+  "HP": "90",
+  "describe": "A creature with a hard shell, when it closes the shell, it can block external damage."
+ },
+ {
+  "name": "Hardshell Beetle-Rebound",
+  "icon": "",
+  "HP": "130",
+  "describe": "Evolved Hardshell Beetle that can reflect most of the spells it takes."
+ },
+ {
+  "name": "Hardshell Beetle-Large",
+  "icon": "",
+  "HP": "200",
+  "describe": "Giant Hardshell Beetle that leaves a reflective shell after death."
+ },
+ {
+  "name": "Face Snake",
+  "icon": "",
+  "HP": "120",
+  "describe": "Snake-like creatures with creepy human faces. Best not to disturb them while resting."
+ },
+ {
+  "name": "Horned Face Snake",
+  "icon": "",
+  "HP": "120",
+  "describe": "Face snakes that grow horns, known for their remarkably resilient vitality."
+ },
+ {
+  "name": "Face Snake's Face",
+  "icon": "",
+  "HP": "80",
+  "describe": "A horned Face Snake, which continues to move even after being beheaded."
+ },
+ {
+  "name": "Evil Cluster",
+  "icon": "",
+  "HP": "80",
+  "describe": "Clustered ball-shaped creatures, to defeat them, you must first break them up."
+ },
+ {
+  "name": "Evil Cluster-Laser",
+  "icon": "",
+  "HP": "150",
+  "describe": "Evil clusters capable of emitting lasers, very tough creatures."
+ },
+ {
+  "name": "Centipede",
+  "icon": "",
+  "HP": "???",
+  "describe": "A crawling creature with many body segments, area attack will fit in the case."
+ },
+ {
+  "name": "Centipede Mutated",
+  "icon": "",
+  "HP": "???",
+  "describe": "Mutated centipede with some body segments containing magic."
+ },
+ {
+  "name": "Centipede-Large",
+  "icon": "",
+  "HP": "???",
+  "describe": "Giant centipede with incredibly strong vitality."
+ },
+ {
+  "name": "Centipede Mutated-Large",
+  "icon": "",
+  "HP": "???",
+  "describe": "Large mutated centipede with some body segments containing more magic."
+ },
+ {
+  "name": "Flying Centipede",
+  "icon": "",
+  "HP": "???",
+  "describe": "Evolved centipede capable of flying."
+ },
+ {
+  "name": "Flying Centipede Mutated",
+  "icon": "",
+  "HP": "???",
+  "describe": "Mutated centipede after evolving, capable of flying."
+ },
+ {
+  "name": "Flying Centipede-Large",
+  "icon": "",
+  "HP": "???",
+  "describe": "Evolved large centipede, capable of flying."
+ },
+ {
+  "name": "Flying Centipede Mutated-Large",
+  "icon": "",
+  "HP": "???",
+  "describe": "Mutated large centipede after evolving, capable of flying."
+ },
+ {
+  "name": "Disjointed Centipede",
+  "icon": "",
+  "HP": "???",
+  "describe": "A centipede with extremely strong regenerative ability which will split into two individuals when the middle part is killed."
+ },
+ {
+  "name": "Disjointed Centipede Mutated",
+  "icon": "",
+  "HP": "???",
+  "describe": "An Evolved centipede with extremely strong regenerative ability which will split into two individuals when the middle part is killed."
+ },
+ {
+  "name": "Disjointed Centipede-Large",
+  "icon": "",
+  "HP": "???",
+  "describe": "A large centipede with extremely strong regenerative ability which will split into two individuals when the middle part is killed."
+ },
+ {
+  "name": "Disjointed Centipede Mutated-Large",
+  "icon": "",
+  "HP": "???",
+  "describe": "A large evolved centipede with extremely strong regenerative ability which will split into two individuals when the middle part is killed."
+ },
+ {
+  "name": "Phantom",
+  "icon": "",
+  "HP": "130",
+  "describe": "A creature formed from human souls, harboring mere hatred towards the living."
+ },
+ {
+  "name": "Glittering Phantom",
+  "icon": "",
+  "HP": "230",
+  "describe": "Powerful phantoms capable of teleporting."
+ },
+ {
+  "name": "Shadow Phantom",
+  "icon": "",
+  "HP": "130",
+  "describe": "Resentful phantoms, capable of performing shadow evasions."
+ },
+ {
+  "name": "Shadow Glittering Phantom",
+  "icon": "",
+  "HP": "230",
+  "describe": "Resentful Glittering Phantoms, capable of performing shadow evasions."
+ },
+ {
+  "name": "Void Phantom",
+  "icon": "",
+  "HP": "130",
+  "describe": "Phantom with the power of the void, can void itself when away from enemies."
+ },
+ {
+  "name": "Void Glittering Phantom",
+  "icon": "",
+  "HP": "230",
+  "describe": "Glittering Phantom with the power of the void, can void itself when away from enemies."
+ },
+ {
+  "name": "Creepy Container",
+  "icon": "",
+  "HP": "300",
+  "describe": "Magic creature disguised as a jar. It shoots magic bullets to protect itself when being attacked."
+ },
+ {
+  "name": "Spooky Container",
+  "icon": "",
+  "HP": "450",
+  "describe": "Magic creature disguised as a jar. The interior became a dwelling place for phantoms."
+ },
+ {
+  "name": "Glittering Spooky Container",
+  "icon": "",
+  "HP": "600",
+  "describe": "Magic creature disguised as a jar. The interior became a dwelling place for Glittering Phantoms."
+ },
+ {
+  "name": "Shadow Spooky Container",
+  "icon": "",
+  "HP": "450",
+  "describe": "Magic creature disguised as a jar. The interior became a dwelling place for Shadow Phantoms."
+ },
+ {
+  "name": "Shadow Glittering Spooky Container",
+  "icon": "",
+  "HP": "450",
+  "describe": "Magic creature disguised as a jar. The interior became a dwelling place for Shadow Glittering Phantoms."
+ },
+ {
+  "name": "Void Spooky Container",
+  "icon": "",
+  "HP": "450",
+  "describe": "Magic creature disguised as a jar. The interior became a dwelling place for Void Phantoms. Itself can also use the power of void."
+ },
+ {
+  "name": "Void Glittering Spooky Container",
+  "icon": "",
+  "HP": "450",
+  "describe": "Magic creature disguised as a jar. The interior became a dwelling place for Void Glittering Phantoms. Itself can also use the power of void."
+ },
+ {
+  "name": "Blood-butterfly Octopus",
+  "icon": "",
+  "HP": "40",
+  "describe": "The juvenile stage of a plankton, drifting around searching for grounds rich in mana to take root."
+ },
+ {
+  "name": "Blood-butterfly Octopus-Large",
+  "icon": "",
+  "HP": "120",
+  "describe": "The sub-adult stage of the Blood-butterfly Octopus, which releases tracking magic butterflies when attacked."
+ },
+ {
+  "name": "Mother of Blood-butterfly",
+  "icon": "",
+  "HP": "160",
+  "describe": "The mature stage of the Blood-butterfly Octopus, found its rooted ground. Due to its ability to release a large number of magical butterflies, its flying capability has degraded."
+ },
+ {
+  "name": "Ripper",
+  "icon": "",
+  "HP": "300",
+  "describe": "A creature with a huge fissure. They move in groups along the edge of the Void."
+ },
+ {
+  "name": "Ripper Large",
+  "icon": "",
+  "HP": "500",
+  "describe": "Large Rippers that can spit out more magic bullets at once."
+ },
+ {
+  "name": "Endless Ripper",
+  "icon": "",
+  "HP": "700",
+  "describe": "Extra large Rippers that can spit out tremendous amount of magic bullets at once."
+ },
+ {
+  "name": "Bloodshot Eyeball",
+  "icon": "",
+  "HP": "300",
+  "describe": "Creatures floating around in the Void, with eye-like organs capable of shooting concentrated-energy bullets."
+ },
+ {
+  "name": "Bloodshot Eyeball-Cluster",
+  "icon": "",
+  "HP": "1200",
+  "describe": "Clustered Bloodshot Eyeballs that act independently when broken up."
+ },
+ {
+  "name": "Trail Eyeball",
+  "icon": "",
+  "HP": "300",
+  "describe": "More powerful bloodshot eyeballs, the fired bullets can generate brief trajectories to temporarily block the battlefield."
+ },
+ {
+  "name": "Trail Eyeball-Cluster",
+  "icon": "",
+  "HP": "1200",
+  "describe": "Clustered Trail Bloodshot Eyeballs that act independently when broken up."
+ },
+ {
+  "name": "Giant Skull",
+  "icon": "",
+  "HP": "1600",
+  "describe": "A gigantic skull remain capable of spewing out numerous magic bones, far too large for any human to possess."
+ },
+ {
+  "name": "King's Skull",
+  "icon": "",
+  "HP": "4500",
+  "describe": "A huge skull with a ring of spikes, possibly belonging to a king among ancient giants."
+ },
+ {
+  "name": "Screaming Bat",
+  "icon": "",
+  "HP": "350",
+  "describe": "A flying creature living in the Void, capable of emitting magic screams."
+ },
+ {
+  "name": "Screaming Bat-Male",
+  "icon": "",
+  "HP": "650",
+  "describe": "The male specimen of the Screaming Bat, larger in size and with even more piercing screams."
+ },
+ {
+  "name": "Surrounding Bat",
+  "icon": "",
+  "HP": "350",
+  "describe": "Screaming Bats that circle around their target are even more difficult to be shaken off."
+ },
+ {
+  "name": "Surrounding Bat-Male",
+  "icon": "",
+  "HP": "650",
+  "describe": "Male Screaming Bats that circle around their target are even more difficult to be shaken off."
+ },
+ {
+  "name": "Shambler",
+  "icon": "",
+  "HP": "1400",
+  "describe": "A gigantic creature made up by a mass of gathering small individuals. If not eliminated quickly, it will soon overwhelm everything in its path."
+ },
+ {
+  "name": "Mutated Shambler",
+  "icon": "",
+  "HP": "2800",
+  "describe": "A gigantic creature made up by a mass of gathering small individuals. If not eliminated quickly, it will soon overwhelm everything in its path."
+ },
+ {
+  "name": "Adhesioned Shambler",
+  "icon": "",
+  "HP": "1400",
+  "describe": "The small individuals that make up the Shambler, though weak, they compensate by large numbers."
+ },
+ {
+  "name": "Mutated Adhesioned Shambler",
+  "icon": "",
+  "HP": "2800",
+  "describe": "The small individuals that make up the Mutated Shambler, though weak, they compensate by large numbers."
+ },
+ {
+  "name": "Shambler Offspring",
+  "icon": "",
+  "HP": "70",
+  "describe": "Partly adhesioned Shambler which has a chance to produce powerful large individuals."
+ },
+ {
+  "name": "Mutated Shambler Offspring",
+  "icon": "",
+  "HP": "140",
+  "describe": "Partly adhesioned  Mutated Shambler which has a chance to produce powerful large individuals."
+ },
+ {
+  "name": "Adhesioned Shambler Offspring",
+  "icon": "",
+  "HP": "70",
+  "describe": "A relatively small type of individual produced by Adhesioned Shambler."
+ },
+ {
+  "name": "Mutated Adhesioned Shambler Offspring",
+  "icon": "",
+  "HP": "140",
+  "describe": "A relatively small type of individual produced by Mutated Adhesioned Shambler."
+ },
+ {
+  "name": "Adhesioned Shambler Offspring-Large",
+  "icon": "",
+  "HP": "350",
+  "describe": "The large individuals produced by Adhesioned Shambler which are more resilient and faster in speed."
+ },
+ {
+  "name": "Mutated Adhesioned Shambler Offspring-Large",
+  "icon": "",
+  "HP": "700",
+  "describe": "The large individuals produced by Mutated Adhesioned Shambler which are more resilient and faster in speed."
+ },
+ {
+  "name": "Shackle Jailor",
+  "icon": "",
+  "HP": "850",
+  "describe": "A magic creature capable of creating illusions to confuse targets, with each illusion linked by magical chains."
+ },
+ {
+  "name": "Shackle Abuser",
+  "icon": "",
+  "HP": "1300",
+  "describe": "A magic creature capable of creating many illusions to confuse targets, with each illusion linked by magical chains."
+ },
+ {
+  "name": "Serial Shackle Jailor",
+  "icon": "",
+  "HP": "850",
+  "describe": "Enhanced Shackle Jailors, capable of generating more shackles."
+ },
+ {
+  "name": "Serial Shackle Abuser",
+  "icon": "",
+  "HP": "1300",
+  "describe": "Enhanced Shackle Abusers, capable of generating more shackles."
+ },
+ {
+  "name": "Abyssal Eyeball",
+  "icon": "",
+  "HP": "600",
+  "describe": "Creatures living in the abyss, capable of emitting chaotic rays that disrupt the direction of enemies. Stay calm when falling into the abyss to avoid subsequent falling."
+ },
+ {
+  "name": "Abyssal Traction",
+  "icon": "",
+  "HP": "600",
+  "describe": "Creatures living in the abyss, extend their tentacles to drag prey into the depths. Stay calm when falling into the abyss to avoid subsequent falling."
+ },
+ {
+  "name": "Wriggling Bone Worm",
+  "icon": "",
+  "HP": "???",
+  "describe": "A very long skeletal creature that can shoot magic bullets from its sides."
+ },
+ {
+  "name": "Wriggling Bone Worm Mutated",
+  "icon": "",
+  "HP": "???",
+  "describe": "A very long skeletal creature that can shoot magical bones from its sides."
+ },
+ {
+  "name": "Charge Bone Worm",
+  "icon": "",
+  "HP": "???",
+  "describe": "A Bone Worm that can temporarily accelerate itself, be careful and don't ran into it."
+ },
+ {
+  "name": "Charge Bone Worm Mutated",
+  "icon": "",
+  "HP": "???",
+  "describe": "A Mutated Bone Worm that can temporarily accelerate itself, be careful and don't ran into it."
+ },
+ {
+  "name": "Disjointed Bone Worm",
+  "icon": "",
+  "HP": "???",
+  "describe": "A Bone Worm with extremely strong regenerative ability which will split into two individuals when the middle part is killed."
+ },
+ {
+  "name": "Disjointed Bone Worm Mutated",
+  "icon": "",
+  "HP": "???",
+  "describe": "A Mutated Bone Worm with extremely strong regenerative ability which will split into two individuals when the middle part is killed."
+ },
+ {
+  "name": "Heart of Blood and Flesh",
+  "icon": "",
+  "HP": "2300",
+  "describe": "The only thing this heart-like creature does is constantly emitting vitality to its surroundings. In the Void, the purpose of being alive has been distorted into such forms."
+ },
+ {
+  "name": "Heart of Mucus",
+  "icon": "",
+  "HP": "2300",
+  "describe": "A Heart of Blood and Flesh that has been infected and continuously oozes mucus.Those who step within its range will get affected by the deceleration effect."
+ },
+ {
+  "name": "Explosive Monster",
+  "icon": "",
+  "HP": "200",
+  "describe": "Be careful, this short-tempered living bomb will detonate, taking down anyone who dares to attack it with itself."
+ },
+ {
+  "name": "Shrapnel Explosive Monster",
+  "icon": "",
+  "HP": "200",
+  "describe": "This type of explosive monster can use shrapnel to spread the explosion to a farther place."
+ },
+ {
+  "name": "Bone Spine Chthonian",
+  "icon": "",
+  "HP": "3000",
+  "describe": "Worm demons that move underground, are very formidable."
+ },
+ {
+  "name": "Stinger Wasp",
+  "icon": "",
+  "HP": "1800",
+  "describe": "A swift flying creature capable of firing spiked magic bullets."
+ },
+ {
+  "name": "Rage Stinger Wasp",
+  "icon": "",
+  "HP": "3600",
+  "describe": "A large stinger wasp that fires a large number of spiked magic bullets at once."
+ },
+ {
+  "name": "Living Flywheel",
+  "icon": "",
+  "HP": "600",
+  "describe": "A flesh monster like a wheel, capable of throwing spinning energy rings."
+ },
+ {
+  "name": "Living Flywheel-Large",
+  "icon": "",
+  "HP": "1400",
+  "describe": "A large living flywheel, capable of harnessing a greater number of energy rings at once."
+ },
+ {
+  "name": "Living Flywheel-Enhanced Large",
+  "icon": "",
+  "HP": "1400",
+  "describe": "A particularly large living flywheel, capable of harnessing a greater number of energy rings at once."
+ },
+ {
+  "name": "Endless Living Flywheel",
+  "icon": "",
+  "HP": "1400",
+  "describe": "A extremely large living flywheel, capable of harnessing a greater number of energy rings at once."
+ },
+ {
+  "name": "Long-tailed Centipede",
+  "icon": "",
+  "HP": "650",
+  "describe": "A beetle-like creature with a long tail, capable of spewing out a large number of magic bullets."
+ },
+ {
+  "name": "Long-tailed Centipede-Large",
+  "icon": "",
+  "HP": "2400",
+  "describe": "A beetle-like creature with a long tail, capable of spewing out an extra large number of magic bullets."
+ },
+ {
+  "name": "Dual-headed Intestine",
+  "icon": "",
+  "HP": "3500",
+  "describe": "A peculiar creature with two heads, it's unclear which head eats."
+ },
+ {
+  "name": "Earth-shaking Dual-headed Intestine",
+  "icon": "",
+  "HP": "8500",
+  "describe": "An enormous dual-headed intestine that causes the earth to tremble as it moves."
+ },
+ {
+  "name": "Mana Absorber",
+  "icon": "",
+  "HP": "4000",
+  "describe": "A creature that feeds on the minds of wise beings, the archenemy of mages."
+ },
+ {
+  "name": "Void Creature",
+  "icon": "",
+  "HP": "1500",
+  "describe": "A creature composed of Void energy, able to submerge into the Void when there are no observers nearby."
+ },
+ {
+  "name": "Void Archer",
+  "icon": "",
+  "HP": "1500",
+  "describe": "An advanced Void creature capable of ranged attacks under the shelter of its Void form."
+ },
+ {
+  "name": "Void Lord",
+  "icon": "",
+  "HP": "4500",
+  "describe": "A top classed Void creature which masters differerent attacks of twist magic bullets."
+ },
+ {
+  "name": "Poison Sac",
+  "icon": "",
+  "HP": "???",
+  "describe": "A creature with a sturdy exoskeleton covering its entire body, with only vulnerable eyes exposed."
+ },
+ {
+  "name": "Long-tail Poison Sac",
+  "icon": "",
+  "HP": "???",
+  "describe": "A poison sac with a tail, capable of spewing poisonous spores by its tail."
+ },
+ {
+  "name": "Shadow Pillar",
+  "icon": "",
+  "HP": "8000",
+  "describe": "A totem pillar parasitized by evils, capable of providing nearby enemies with invincible shields."
+ },
+ {
+  "name": "Giant Shadow Pillar",
+  "icon": "",
+  "HP": "21000",
+  "describe": "A giant totem pillar parasitized by evils, capable of providing nearby enemies with invincible shields."
+ },
+ {
+  "name": "Ice Giant",
+  "icon": "",
+  "HP": "23000",
+  "describe": "A gigantic creature capable of spitting out ice magic bombs and casting an enlarged range of cold attacks."
+ },
+ {
+  "name": "Headless Archer",
+  "icon": "",
+  "HP": "1900",
+  "describe": "A humanoid species living in the abyss, capable of predicting the enemy's position and hurling spears accordingly."
+ },
+ {
+  "name": "Teleporting Headless Archer",
+  "icon": "",
+  "HP": "5700",
+  "describe": "The most elite among the Headless Archers, capable of utilizing spatial teleportation."
+ },
+ {
+  "name": "Headless Pursuer",
+  "icon": "",
+  "HP": "1900",
+  "describe": "A humanoid species living in the abyss, capable of closing in on opponents with leaps and following up with chopping strikes."
+ },
+ {
+  "name": "Rampaging Headless Pursuer",
+  "icon": "",
+  "HP": "5700",
+  "describe": "The most ferocious group among the Headless Pursuers, capable of continuous leaping chops."
+ },
+ {
+  "name": "Primeval Spider",
+  "icon": "",
+  "HP": "1900",
+  "describe": "A spider creature inhabiting ancient skulls, capable of launching laser balls with delayed effect."
+ },
+ {
+  "name": "Distorted Primeval Spider",
+  "icon": "",
+  "HP": "5700",
+  "describe": "A spider creature inhabiting ancient skulls, capable of launching distorted laser balls with delayed effect."
+ },
+ {
+  "name": "Hatcher-Offspring",
+  "icon": "",
+  "HP": "200",
+  "describe": "Offspring of the hatcher, best to eliminate them before they are hatched."
+ },
+ {
+  "name": "Leech",
+  "icon": "",
+  "HP": "500",
+  "describe": "The creatures formed by the tentacles of the indescribable, are numerous in number and relentlessly chase their targets."
+ },
+ {
+  "name": "Giant Leech",
+  "icon": "",
+  "HP": "2800",
+  "describe": "A larger, more resilient leech."
+ },
+ {
+  "name": "Dragging Tentacles",
+  "icon": "",
+  "HP": "500",
+  "describe": "The tentacles summoned by the indescribable, do not cause damage but can slow down movement."
+ }
+]

@@ -1,0 +1,5 @@
+<!-- title: Charge Mode | updated: 2024-05-18T13:44:08Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell InfoBox|image=Charge_Mode.png|type=Spell Passive|rarity=Rare|mana_cost1=x90%|mana_cost2=x80%|mana_cost3=x70%|misc_a_1=Hold the shoot button to accumulate spells, up to a maximum of 6 times|misc_a_2=Hold the shoot button to accumulate spells, up to a maximum of 12 times|misc_a_3=Hold the shoot button to accumulate spells, up to a maximum of 24 times}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Passive. Hold the cast button to charge up spell shots, release to fire all spells at once.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Passive]]
+[[Category:Rarity: Rare]]

@@ -1,0 +1,7 @@
+<!-- title: Slime Crystal | updated: 2024-08-01T07:58:21Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Slime_Crystal.png|type=Spell Boost|rarity=Normal|misc_a_1=The Movement Speed of targets hit x60% and the Flight Speed of spells x70% in 3 seconds|misc_a_2=The Movement Speed of targets hit x50% and the Flight Speed of spells x60% in 4 seconds|misc_a_3=The Movement Speed of targets hit x40% and the Flight Speed of spells x50% in 5 seconds}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. Slows enemies hit and the spells they cast.
+
+'''Description:''' When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

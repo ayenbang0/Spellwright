@@ -1,0 +1,2 @@
+<!-- title: Template:Hatnote | updated: 2024-01-05T20:39:19Z | cats: Category:Notice templates -->
+<includeonly>{{#invoke:Hatnote|hatnote}}</includeonly><noinclude>{{Documentation}}</noinclude>

@@ -1,0 +1,7 @@
+<!-- title: Providence Eye | updated: 2024-07-24T05:56:28Z | cats:  -->
+[[File:300801.png|left|thumb]]
+
+== Stats ==
+HP: 19000
+
+An alien creature capable of using chain magic attacks. Attacking the nodes of the chains can unlock the chain blockade.

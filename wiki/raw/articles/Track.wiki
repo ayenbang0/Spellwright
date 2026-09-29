@@ -1,0 +1,7 @@
+<!-- title: Track | updated: 2024-12-03T00:29:01Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Track.png|type=Spell Boost|rarity=Rare|spell_duration1=+1|spell_duration2=+2|spell_duration3=+4|spell_flight_speed1=+1|spell_flight_speed2=+2|spell_flight_speed3=+4|misc_a_1=Spells now track your mouse cursor|misc_a_2=Spells now track your mouse cursor|misc_a_3=Spells now track your mouse cursor}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. Affected spells now follow the player's cursor.
+
+'''Description:''' Trajectory enhancements. These enhancements will override previous projective trajectories.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Rare]]

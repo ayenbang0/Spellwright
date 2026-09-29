@@ -1,0 +1,12 @@
+<!-- title: Full Salvo | updated: 2024-02-27T08:17:29Z | cats:  -->
+==How to get Full Salvo==
+*You always have at least 1 Full Salvo
+*Full Salvo can come with [[Wands]]
+*[[Overloaded Scatter]] or [[Volley]]
+==What does Full Salvo do==
+*You amount of Full Salvo determients how many different [[Spells]] can be casted at once
+==Expample==
+[[File:Screenshot (213).png|left|256x256px]]
+[[File:Screenshot (211).png|left|256x256px]]
+The Wand has 1 Full Salvo on its own. When we add the 2 extra Full Salvo from [[Volley]] we get a total of 3 Full Salvo. As you can see in the second picture we can now cast 3 [[Spells]] at once. 
+[[Volley]] has the extra ability to reduce Mana Cost and add [[Scatter]] to these spells for every addtional shootable [[Spell]]. In our Case we are shooting 3 Spells at once and 2 of them are additional to the 1 Full Salvo you are alwys having. So Mana Cost will be multiplied with 0.8^2 and [[Scatter]] will increase by 16°.

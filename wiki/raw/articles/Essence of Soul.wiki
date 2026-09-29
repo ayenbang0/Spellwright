@@ -1,0 +1,45 @@
+<!-- title: Essence of Soul | updated: 2024-08-01T08:10:15Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Essence_of_Soul.png|type=Spell Boost|rarity=Rare|misc_a_1=Occupied Slots: 2|misc_b_1=Unlocks new abilities for summoned creatures|misc_c_1=Enhances the effects of the newly unlocked abilities for summoned creatures|misc_a_2=Occupied Slots: 2|misc_b_2=Unlocks new abilities for summoned creatures|misc_c_2=Enhances the effects of the newly unlocked abilities for summoned creatures|misc_a_3=Occupied Slots: 2|misc_b_3=Unlocks new abilities for summoned creatures|misc_c_3=Enhances the effects of the newly unlocked abilities for summoned creatures}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It changes the abilities of the summons on the wand. 
+
+'''Description:''' The actual effects can be viewed in the Enhanced Summoning Spell Information. 
+{| class="fandom-table"
+!Summon
+!Level
+!New Ability
+|-
+|Autonomous Grimoire
+| -/+/++
+|The magic book will automatically teleport to the appropriate location.
+Every 9 times the magic book is cast you can use an enhanced teleportation attack.
+|-
+| rowspan="3" |Hand of the Cthulhu
+| -
+|After every 3 attacks, the next attack will become a series of chain attacks, with attack speed +20%.
+|-
+| +
+|After every 2 attacks, the next attack will become a series of chain attacks, with attack speed +40%.
+|-
+| ++
+|
+|-
+|Pillar of Light
+| -/+/++
+|Once every 2,5 seconds, when there are enemies within the 1,5m radius, an attack will be triggered and damage will be dealt based on the Max HP.
+|-
+|Pop
+| -/+/++
+|There is a 20% chance that Pop's attack will turn into a powerful bomb attack.
+|-
+| rowspan="3" |Skull of Cthulhu
+| -
+|Cthulhu's skull grows 2 more razor sharp tendrils, making it even deadlier for crushing enemies.
+|-
+| +
+|Cthulhu's skull grows 4 more razor sharp tendrils, making it even deadlier for crushing enemies.
+|-
+| ++
+|
+|}
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Rare]]

@@ -1,0 +1,14 @@
+<!-- title: Fuse | updated: 2026-01-22T21:40:01Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Fuse.png|desc=Rune infused with the right-side spell's power|type=Spell Projectiles|rarity=Normal|mana_cost1=1|mana_cost2=2|mana_cost3=3|dmg1=3|dmg2=9|dmg3=18|misc_a_1=Upon the end, cast the first available spell on the right with x90% MP cost|misc_a_2=Upon the end, cast the first available spell on the right with x80% MP cost|misc_a_3=Upon the end, cast the first available spell on the right with x70% MP cost}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. It can be used by itself but is intended to be chained with other spells for greater effect.
+
+'''Description:''' The cornerstone for developing complex spells, don't be fooled by the innocent appearance, one never knows what kind of spells this rune will unlock.
+
+'''Notes:'''
+The actual effect of this spell: This must be loaded to the left of an attack spell. Instead of firing the attack spell from a wand as normal, the spell gets loaded into a rune which is then shot forward like a long-range bullet. When the rune strikes something or reaches its range limit, the rune triggers and fires the loaded spell at that point at a slight MP cost discount.
+
+While this would be quite useless for most spells that are already a long-range projectile or a summon, one particularly noteworthy exception would be [[Arcane Explosion]]; this transforms the short-range radial shockwave around your character into a long-range artillery cannon, and can end up MORE efficient with its MP cost if you have a lot of modifiers or a higher level Arcane Explosion with a large cost per shot so the 10% discount ends up being larger than the 1 MP additional cost of using the Rune. 
+
+Other powerful but short-range spells could also benefit from such a setup.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Normal]]

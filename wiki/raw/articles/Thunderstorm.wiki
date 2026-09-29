@@ -1,0 +1,9 @@
+<!-- title: Thunderstorm | updated: 2025-07-07T17:51:18Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Thunderstorm|type=Spell Projectiles|rarity=Normal|mana_cost1=33|mana_cost2=43|mana_cost3=56|dmg1=22 (DPS)|dmg2=44 (DPS)|dmg3=88|effect_radius1=2.8m|effect_radius2=3m|effect_radius3=3.2m|misc_a_1=Lightning Strike can conduct 3 times|misc_a_2=Lightning Strike can conduct 5 times|misc_b_2=Spell damage increases by 130% when hitting only one enemy unit|misc_a_3=Lightning Strike can conduct 7 times|misc_b_3=Spell damage increases by 160% when hitting only one enemy unit}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it paints an area around the player and lightning strikes enemies within.
+
+'''Description:''' Chooses an area where lightning strikes will attack targets within it. Enemies outside the area may also be affected.
+
+Note, this will not fire on destructible objects like trees/boxes, so it cannot be used to search such objects for gold drops or concealed chests.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Normal]]

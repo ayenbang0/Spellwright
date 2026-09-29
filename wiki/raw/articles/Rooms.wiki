@@ -1,0 +1,13 @@
+<!-- title: Rooms | updated: 2024-09-27T15:29:54Z | cats:  -->
+In a run you encouter various different rooms. Those are following:
+
+== Rooms ==
+
+* [[First Room]]
+* [[Spell Room|Spell]]
+* [[Gold Room|Gold]]
+* [[Relic Room|Relic]]
+* [[Fountain]]
+* [[Health Room|Health]]
+* [[Shop]]
+* [[Proccess]]

@@ -1,0 +1,7 @@
+<!-- title: Sword of Judgement | updated: 2024-11-08T22:25:18Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Sword_of_Judgement.png|type=Spell Projectiles|rarity=Rare|mana_cost1=6|mana_cost2=8|mana_cost3=10|dmg1=17|dmg2=34|dmg3=68|cd1=-0.1s|cd2=-0.15s|cd3=-0.2s|crit_rate1=40%|crit_rate2=40%|crit_rate3=40%}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, one or more swords orbit the player attacking any nearby threats. Each sword will only attack once and then must be recast.
+
+'''Description:''' The Sword of Judgement will surround the summoner, seeking out nearby threats and launch attack.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Rare]]

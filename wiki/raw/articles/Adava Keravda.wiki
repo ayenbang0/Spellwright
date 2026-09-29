@@ -1,0 +1,10 @@
+<!-- title: Adava Keravda | updated: 2025-05-08T11:47:42Z | cats: Category:Indiscriminate Damage, Category:Rarity: Epic, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Adava_Keravda.png|type=Spell Projectiles|rarity=Epic|mana_cost1=13|mana_cost2=17|mana_cost3=22|dmg1=52|dmg2=104|dmg3=208|effect_radius1=0.8m|effect_radius2=1.2m|effect_radius3=1.6m|misc_a_1=Indiscriminate Damage|misc_b_1=Enemy-Killing upgrade|misc_c_1=Kills required: 240|misc_d_1=Unable to craft|misc_a_2=Indiscriminate Damage|misc_b_2=Enemy-Killing upgrade|misc_c_2=Kills required: 240|misc_d_2=Unable to craft|misc_a_3=Indiscriminate Damage|misc_b_3=|misc_d_3=Unable to craft}}'''{{PAGENAME}}''' is an [[Rarity|Epic]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, a lightning-like bolt strikes instantly where the cursor is. Unlike other spells, this spell is upgraded by killing 120 enemies for + and 240 enemies for ++.
+
+'''Description:''' The power is often as strong as it is difficult to control. With increasing proficiency, a more strong Keravda will be cast.
+
+This is a reference to the Harry Potter franchise, or rather to the Unforgivable curse "Avada Kedavra"
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Epic]]
+[[Category:Indiscriminate Damage]]

@@ -1,0 +1,9 @@
+<!-- title: Floating Wisp | updated: 2026-01-22T21:45:43Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Floating_Wisp.png|desc=Long-lasting floating fireball|type=Spell Projectiles|rarity=Normal|mana_cost1=9|mana_cost2=12|mana_cost3=15|dmg1=30|dmg2=54|dmg3=98|crit_rate1=20%|crit_rate2=20%|crit_rate3=20%|scatter1=30°|scatter2=45°|scatter3=60°|misc_a_1=Attract nearby wisps upon hitting enemies|misc_a_2=Attract nearby wisps upon hitting enemies|misc_b_2=Self-replicate every 4 seconds when wisps present|misc_a_3=Attract nearby wisps upon hitting enemies|misc_b_3=Self-replicate every 3 seconds when wisps present}}The '''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, a wisp hovers out near the player.
+
+'''Description:''' A hovering fire ball made up of magical creatures, they are good at working together and gather other wisps to support them when they find their target.
+
+After upgrading, these magical creatures will multiply at a higher rate, constantly generating new wisps.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Normal]]

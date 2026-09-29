@@ -1,0 +1,17 @@
+<!-- title: Mana Absorption | updated: 2026-01-22T22:13:02Z | cats: Category:Rarity: Epic, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Mana_Absorption.png|desc=Legendary mana-absorbing spell|type=Spell Projectiles|rarity=Epic|mana_cost1=8|dmg1=24|cd1=-0.2s|crit_rate1=40%|misc_a_1=Restores the mana spent for the casting wand when hitting an enemy for the first time|misc_b_1=Unable to craft}}'''{{PAGENAME}}''' is an [[Rarity|Epic]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. While this spell doesn't do much damage or change with upgrades, it can provide a steady flow of mana to the wand casting it.
+
+'''Description:''' Returns mana to you after completing its mission gratefully, but if you can cast it with less MP, what a deal
+
+'''How to get free mana:''' Mana Absorption is not only useful for shooting itself for free; it can also be used to generate more mana than you spend, allowing you to sustain larger mana costs from other spells. The way the spell typically works is by dividing the mana returned among the amount of projectiles released. This means you can't simply put [[Split]] or [[Multi-Shot]] before it to gain free mana. Instead, you should increase the number of spells that will release Mana Absorption, or use spells that will release multiple Mana Absorptions themselves.
+
+Here are some builds that will generate free mana:
+
+* [[Arcane Nova]] + Mana Absorption 
+* [[Multi-Shot]] + any projectile spell + any [[Trigger spells|Trigger spell]] + Mana Absorption
+* [[Multi-Shot]] + [[Split]] + Mana Absorption 
+* Any projectile spell + [[Dazzling Fireworks]] + Mana Absorption
+
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Epic]]

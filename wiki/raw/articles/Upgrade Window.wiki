@@ -1,0 +1,24 @@
+<!-- title: Upgrade Window | updated: 2024-05-07T01:45:46Z | cats:  -->
+[[File:Upgrade Window.png|thumb|The Upgrade Window in the Camp]]
+[[File:Upgraded Upgrade Window.png|thumb|A partly upgraded upgrade window]]
+While in the Hermit Camp, you can talk to the blue girl to access the upgrade window. This window allows you to pay [[Crystals]] from defeated enemies in order to upgrade your stats, as well as the 'prizes' of the various rooms you encounter during the game. To upgrade everything you need 48 [[Blood of the Old Gods]] and 3051 Crystals.
+
+== Upgrade the Window ==
+The {{PAGENAME}} can be expanded using Blood of the Old Gods to expose more available upgrades.
+
+==No Upgrades==
+Without any upgrades you get access to the following upgrades:
+*Increase your Max Wand Slots by 1 per upgrade. The max is +3 and to upgrade it to the max you need 551 Crystals.
+*Increase your Max Backpack Slots by 1 per upgrade. The max is +10 and to upgrade it to the max you need 195 Crystals.
+*Increase your Initial Coins by 6 per upgrade. The max is +52 and to upgrade it to the max you need 370 Crystals.
+*Increase your Starting [[Max HP]] by 5 per upgrade. The max is +50 and to upgrade it to the max you need 425 Crystals.
+
+== First Upgrade ==
+The first upgrade unlocks following upgrades:
+*+33% increased Rarity Chance for Relics and Spells per upgrade. The max is x200% and to upgrade one of them to the max you need 95 Crystals.
+*+3 extra [[Health]] gained from completing [[Health Room|Health Rooms]]. The max is +12 and to upgrade it to the max you need 199 Crystals.
+
+== Second Upgrade ==
+The second upgrade unlocks following upgrades:
+*Increase your Max MP by 15 per upgrade. The max is +75 and to upgrade to the maximum you need 495 Crystals.
+*Increase your MP regen rate by 1 per upgrade. The max is +5 and to upgrade to the max you need 495 Crystals.

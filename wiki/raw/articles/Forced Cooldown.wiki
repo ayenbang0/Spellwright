@@ -1,0 +1,5 @@
+<!-- title: Forced Cooldown | updated: 2024-05-06T02:40:08Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell InfoBox|image=Forced_Cooldown.png|type=Spell Passive|rarity=Normal|cd1=x60%|cd2=x30%|cd3=x15%}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Passive. It lowers the wand cooldown (CD).
+[[Category:Spell]]
+[[Category:Spell Type: Spell Passive]]
+[[Category:Rarity: Normal]]

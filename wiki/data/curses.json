@@ -1,0 +1,278 @@
+[
+ {
+  "Name": "Expired Bounty",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Resources disappear if not collected within float1 sec."
+ },
+ {
+  "Name": "Enhanced Traps",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Traps deal int1% increased DMG to both yourself and your summoned units."
+ },
+ {
+  "Name": "Bloodthirsty Underlings",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Enemy movement speed boosted by int1%."
+ },
+ {
+  "Name": "Unstable Rifts",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "When taking DMG, you're teleported to a random location."
+ },
+ {
+  "Name": "Muscle Atrophy",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Reduces movement speed by float1."
+ },
+ {
+  "Name": "Timid",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Unable to cast spells for float1 sec upon entering a room."
+ },
+ {
+  "Name": "Heartburn",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Reduces spell projectile speed by int1%."
+ },
+ {
+  "Name": "Fragile",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Reduces all DMG dealt by int1%."
+ },
+ {
+  "Name": "Sluggishness",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Increases the cast interval and cooldown of wands by int1%."
+ },
+ {
+  "Name": "Thorned Entry",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Lose int1 HP upon entering each door."
+ },
+ {
+  "Name": "Complex Locks",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "All locked objects now require 2 keys to open."
+ },
+ {
+  "Name": "Tattered Pouch",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Lose int1 coins upon entering each door."
+ },
+ {
+  "Name": "Impatience",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Reduces MP Regeneration by int1%."
+ },
+ {
+  "Name": "Magic Suppression",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Reduces Max MP by int1%."
+ },
+ {
+  "Name": "Inefficient Casting",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "MP Cost xint1%"
+ },
+ {
+  "Name": "Unstable Balance",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Recoil +int1%"
+ },
+ {
+  "Name": "Profanity",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Relic option -int1"
+ },
+ {
+  "Name": "Raging Blood",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Enemy HP Regeneration +int1"
+ },
+ {
+  "Name": "Misfortune",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "A curse that changes over time."
+ },
+ {
+  "Name": "Shrinking Backpack",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Inventory slots -int1"
+ },
+ {
+  "Name": "Potion Allergy",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Decreases HP by int1 each time a potion is used."
+ },
+ {
+  "Name": "Explosive Pursuit",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "A bomb will appear nearby occasionally."
+ },
+ {
+  "Name": "Feebleness",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Max HP -int1"
+ },
+ {
+  "Name": "Grim Wager",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "When completing the levels with DMG taken, Max MP is reduced by int1.\\When completing the levels without taking DMG, Max HP is increased by int2."
+ },
+ {
+  "Name": "Antique Timepiece",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Periodically teleports back to where you were float1 sec ago."
+ },
+ {
+  "Name": "Weakness",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "CRIT Rate of all DMG types int1%."
+ },
+ {
+  "Name": "Lethargic Shop",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Items available in shops -int1"
+ },
+ {
+  "Name": "Near-Sighted",
+  "icon": "",
+  "Rarity level": "Normal",
+  "Curse description": "Scatter +int1"
+ },
+ {
+  "Name": "Gate of Mist",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "Unable to discern markings on doors."
+ },
+ {
+  "Name": "Vengeful Spirits",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "When enemies perish, there's a int1% chance they'll transform into spirits, haunting you for float1 sec."
+ },
+ {
+  "Name": "Frantic Fumble",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "Lose int1 coin(s) when taking DMG."
+ },
+ {
+  "Name": "Perpetual Harm",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "When taking DMG, there's a int1% chance of simultaneously losing Max HP."
+ },
+ {
+  "Name": "Stiffened",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "Unable to attack within float1 sec after taking DMG."
+ },
+ {
+  "Name": "Depleted Diamonds",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "All diamonds transform into coins."
+ },
+ {
+  "Name": "Savage Proliferation",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "There's a int1% chance of encountering double enemies, excluding bosses."
+ },
+ {
+  "Name": "Corroded Currency",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "There's a int1% chance of taking int2 DMG when picking up coins or diamonds."
+ },
+ {
+  "Name": "Toppling Balance",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "Spell knockback is reversed."
+ },
+ {
+  "Name": "Nocturnal Blindness",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "Your field of vision is limited."
+ },
+ {
+  "Name": "Bewilderment",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "Unable to see your current status and resources."
+ },
+ {
+  "Name": "Doom",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "A curse that changes over time."
+ },
+ {
+  "Name": "Aphasia",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "Unable to recognize text."
+ },
+ {
+  "Name": "Shackles",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "Locked by a chain ball."
+ },
+ {
+  "Name": "Vanished",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "Randomly removes a relic. The curse disappears afterward."
+ },
+ {
+  "Name": "Magic Dissipation",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "Upon entering a room, all wands have their current MP set to 0."
+ },
+ {
+  "Name": "Slovenliness",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "Summon limit ÷int1 (decimal part rounded up)."
+ },
+ {
+  "Name": "Relentless Snail",
+  "icon": "",
+  "Rarity level": "Rare",
+  "Curse description": "A slow-moving snail perpetually chases you and cannot be killed."
+ }
+]

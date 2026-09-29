@@ -1,0 +1,7 @@
+<!-- title: Multi-Shot | updated: 2025-05-03T13:36:13Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Multi-Shot.png|type=Spell Boost|rarity=Rare|misc_a_1=MP Cost: x150%|misc_b_1=Increases spell cast by 1|misc_a_2=MP Cost: x150%|misc_b_2=Increases spell cast by 2|misc_a_3=MP Cost: x150%|misc_b_3=Increases spell cast by 4}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It multiplies the projectiles cast for all affected spells.
+
+The effects of Multi-shot are separated by [[Trigger spells]], meaning that spells within a payload won’t have additional casts if Multi-shot is placed outside of it.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Rare]]

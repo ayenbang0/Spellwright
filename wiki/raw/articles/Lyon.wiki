@@ -1,0 +1,89 @@
+<!-- title: Lyon | updated: 2024-08-01T05:45:51Z | cats:  -->
+[[File:Lyon.png|center|frameless|150x150px]]
+'''By consuming Ancient Blood, he can help you obtain Encyclopedia and receive some bonuses for their adventure.'''
+{| class="fandom-table"
+|+
+!Unlockable projects
+!Unlockable times
+!Unlock effect
+!The consumption of Ancient Blood
+|-
+! colspan="1" rowspan="2" |Secret Pathway
+| colspan="1" rowspan="2" |2
+|Increases the chance of finding a
+spring in the room, allowing you to
+restore 50% HP.
+|1
+|-
+|Increases the chance of finding a
+spring in the room, allowing you to
+restore 80% HP.
+|10
+|-
+!Encyclopedia
+|1
+|Logs various encounters and discoveries
+during your journey.
+|3
+|-
+! colspan="1" rowspan="3" |Potion Bandolier
+| colspan="1" rowspan="3" |3
+|Potion Capacity +1
+|6
+|-
+|Potion Capacity +2
+|18
+|-
+|Potion Capacity +3
+|56
+|-
+! colspan="1" rowspan="4" |Shop Refill
+| colspan="1" rowspan="4" |4
+|Purchasable Item Refresh x 2
+|2
+|-
+|Purchasable Item Refresh x 4
+|7
+|-
+|Purchasable Item Refresh x 6
+|24
+|-
+|Purchasable Item Refresh x 8
+|72
+|-
+! colspan="1" rowspan="2" |Reinforcement Module
+| colspan="1" rowspan="2" |2
+|Improves the durability of the
+reforge equipment.
+|5
+|-
+|Greatly improves the durability of the
+reforge equipment.
+|15
+|-
+! colspan="1" rowspan="3" |Keychain
+| colspan="1" rowspan="3" |3
+|Allows you to carry 1 extra key(s)
+on each adventure.
+|4
+|-
+|Allows you to carry 2 extra key(s)
+on each adventure.
+|12
+|-
+|Allows you to carry 3 extra key(s)
+on each adventure.
+|48
+|-
+!Berry Bush
+|1
+|Increases the chance of finding berry bushes
+in the Relic Forest.
+|3
+|-
+!Treasure Vault
+|1
+|Increases the chance of finding treasure vaults
+in the Eternal Fortress.
+|5
+|}

@@ -1,0 +1,5 @@
+<!-- title: DMG Enhanced | updated: 2024-05-05T15:19:22Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=DMG_Enhanced.png|type=Spell Boost|rarity=Normal|misc_a_1=Spell Damage +25%|misc_a_2=Spell Damage +50%|misc_a_3=Spell Damage +100%}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It increases the damage of the spells it modifies.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

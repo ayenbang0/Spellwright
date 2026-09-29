@@ -1,0 +1,15 @@
+<!-- title: Wand Spirit | updated: 2025-07-18T16:09:47Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Passive -->
+{{Spell InfoBox|image=Wand_Spirit.png|type=Spell Passive|rarity=Rare|misc_a_1=The wand will auto-battle for you|misc_b_1=MP Regen of the wand x50%|misc_a_2=The wand will auto-battle for you|misc_b_2=MP Regen of the wand x80%|misc_a_3=The wand will auto-battle for you|misc_b_3=MP Regen of the wand x130%}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Passive. When placed in a wand, the spirit automatically attacks with the wand at a reduced MP Regen. A wand containing a {{PAGENAME}} cannot be manually fired
+
+Equipping the [[Sets|Soul Set]] force equips every wand picked up to contain a locked {{PAGENAME}}+.
+
+'''Description:''' The wand's spirit can block enemy projectiles without taking damage
+
+'''Notes:''' Due to the nature of how they work, wands under the influence of a Wand Spirit are immune to the following effects:
+
+* Stunning/Cannot Fire effects such as from the Petrification [[Potions|Potion]], the Timid and Stiffened [[Curses]]
+* Character Slowdown and Recoil On Casting effects/curses, such as the Toppling Balance and Unstable Balance curses.
+
+[[Category:Spell]]
+[[Category:Spell Type: Spell Passive]]
+[[Category:Rarity: Rare]]

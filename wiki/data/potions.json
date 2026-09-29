@@ -1,0 +1,157 @@
+[
+ {
+  "Icon": "",
+  "Name": "Serpent's Blood",
+  "Effect": "Randomly restores 1-25 HP"
+ },
+ {
+  "Icon": "",
+  "Name": "Shield Potion",
+  "Effect": "Generates a shield equivalent to lost HP, up to 50."
+ },
+ {
+  "Icon": "",
+  "Name": "Holy Water",
+  "Effect": "Randomly Removes one curse."
+ },
+ {
+  "Icon": "",
+  "Name": "Reforge Potion",
+  "Effect": "Reforges all spells in the inventory. Note, this is only spells in the Backpack, not on wands."
+ },
+ {
+  "Icon": "",
+  "Name": "Illusion Potion",
+  "Effect": "Slows down time for 12 sec."
+ },
+ {
+  "Icon": "",
+  "Name": "Awakening Potion",
+  "Effect": "Temporarily increases MP regenration for your wands by 200% for 10 sec."
+ },
+ {
+  "Icon": "",
+  "Name": "Refresh Potion",
+  "Effect": "Refreshes purchasable items and accessible doors in all rooms."
+ },
+ {
+  "Icon": "",
+  "Name": "Lockpick Potion",
+  "Effect": "Unlocks all locked objects in the current room. Note, can be used to safely open a cursed chest without receiving the curse."
+ },
+ {
+  "Icon": "",
+  "Name": "Midas Potion",
+  "Effect": "Transforms all non-boss enemies in the room into coins."
+ },
+ {
+  "Icon": "",
+  "Name": "Discount Potion",
+  "Effect": "Applies a discount to all purchasable items in the current room."
+ },
+ {
+  "Icon": "",
+  "Name": "Levitation Potion",
+  "Effect": "You're levitating!  Lasts until you enter the next door."
+ },
+ {
+  "Icon": "",
+  "Name": "Invisibility Potion",
+  "Effect": "Grants invisibility for 12 sec; attacks won't reveal you."
+ },
+ {
+  "Icon": "",
+  "Name": "Invincibility Potion",
+  "Effect": "Grants invincibility for 8 sec."
+ },
+ {
+  "Icon": "",
+  "Name": "Petrification Potion",
+  "Effect": "Petrifies yourself, granting immunity to all DMG for 30 sec but you are unable to fire wands.  Movement will end Petrification."
+ },
+ {
+  "Icon": "",
+  "Name": "Agility Potion",
+  "Effect": "Permanently increases movement speed by 0.6."
+ },
+ {
+  "Icon": "",
+  "Name": "Scale Potion",
+  "Effect": "Permanently alters your body size."
+ },
+ {
+  "Icon": "",
+  "Name": "Crystal Potion",
+  "Effect": "Permanently increases MP regenration by 1."
+ },
+ {
+  "Icon": "",
+  "Name": "Unstable Red Potion",
+  "Effect": "Permanently increases Max HP by -5 or 15."
+ },
+ {
+  "Icon": "",
+  "Name": "Unstable Blue Potion",
+  "Effect": "Permanently increases Max MP by -5 or 15."
+ },
+ {
+  "Icon": "",
+  "Name": "Purification Potion",
+  "Effect": "Removes all curses.  Lose all coins, keys, and shield."
+ },
+ {
+  "Icon": "",
+  "Name": "Wealth Potion",
+  "Effect": "Gains coins equal to 25% of the coins currently in possession."
+ },
+ {
+  "Icon": "",
+  "Name": "Tears Of the Goddess",
+  "Effect": "Removes all curses if 5 different curses are present.\nNote: counts curse symbols, not curses acquired."
+ },
+ {
+  "Icon": "",
+  "Name": "Relic Potion",
+  "Effect": "Randomly upgrades one relic.  If no relic can be upgraded, receive a common relic."
+ },
+ {
+  "Icon": "",
+  "Name": "Reset Potion",
+  "Effect": "Resets one chosen relic.\nNote: you choose the relic, not the game."
+ },
+ {
+  "Icon": "",
+  "Name": "Sacrificial Potion",
+  "Effect": "Deducts 20% of current HP to gain a corresponding amount of coins."
+ },
+ {
+  "Icon": "",
+  "Name": "Locksmith Potion",
+  "Effect": "Doubles current key count or adds 1 keys if none are owned."
+ },
+ {
+  "Icon": "",
+  "Name": "Pure Castor Oil",
+  "Effect": "Grants immunity to poison and slime in the current room.  Inflicts poison and slows enemies behind for 10 sec.\nNote: Potion will cause you to move towards the cursor for the 10 seconds of damaging enemies."
+ },
+ {
+  "Icon": "",
+  "Name": "Duplication Potion",
+  "Effect": "Duplicates all HP recovery, shield, coin, and keys from the current room."
+ },
+ {
+  "Icon": "",
+  "Name": "Treasure Potion",
+  "Effect": "Obtains a random treasure chest."
+ },
+ {
+  "Icon": "",
+  "Name": "Emergency Potion",
+  "Effect": "Grants a temporary shield equivalent to your lost HP.\nNote: The temporary shield goes away when entering the next room."
+ },
+ {
+  "Icon": "",
+  "Name": "Conversion Potion",
+  "Effect": "Deducts 40% of current HP to gain a corresponding amount of shield."
+ }
+]

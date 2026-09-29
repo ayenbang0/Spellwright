@@ -1,0 +1,5 @@
+<!-- title: Template:Dialogue | updated: 2024-01-05T20:39:19Z | cats: Category:Quote templates -->
+<includeonly><blockquote data-format="dialogue">{{#invoke:Dialogue|main}}</blockquote></includeonly><noinclude>{{Documentation}}<!--
+For a more traditional wikitext version of this template, see 
+https://templates.fandom.com/wiki/Template:Dialogue
+--></noinclude>

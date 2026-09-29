@@ -1,0 +1,1122 @@
+<!-- title: Monsters & Bosses | updated: 2025-05-16T15:51:42Z | cats:  -->
+== Bosses ==
+
+=== [[Chapter 1]] ===
+
+*[[Giant Spider]]
+*[[Wandering Worm]]
+*[[Deceiver]]
+*[[Irate Eye]]
+*[[Chaotic Wreckage]]
+*[[Venomous Spider Egg]]
+
+===[[Chapter 2]]===
+
+*[[Deceiver Typ II|Deceiver Type II]]
+*[[Hatcher]]
+*[[Psychic Master|Master of Mind]]
+*[[Cage]]
+
+=== [[Chapter 3]]===
+
+*[[Void Imp]]
+*[[Providence Eye|All-seeing eye]]
+*[[Unspeakable thing|The Indescrible]]
+
+===[[Chapter 4]]===
+
+*[[Skeletal Centaur]]
+*[[Abyssal Lord]]
+
+=== [[Chapter 4|Easter egg]](Patch 0119) ===
+*[[Author]]
+{| class="fandom-table"
+|+
+!chapter
+!name
+!icon
+!HP
+!describe
+!Information
+|-
+| colspan="1" rowspan="6" |Chapter1
+|Giant Spider
+|[[File:300101-resources.assets-3050.png|center|frameless|100x100px]]
+|650
+|An exceptionally large spider that spews webs to entangle its opponents.
+|Shoots sticky webs that slow your movement
+|-
+|Wandering Worm
+|[[File:300201.png|center|frameless|100x100px]]
+|650
+|A very aggressive giant worm that performsrapid charging attacks.
+|
+|-
+|Deceiver
+|[[File:Deceiver.png|center|frameless|100x100px]]
+|650
+|Imitates opponent's movements, and turnsinvisible after taking a certain amount of damage.
+|fires a barrage of bullets forward
+|-
+|Raging Eye
+|[[File:Raging Eye.png|center|frameless|100x100px]]
+|650
+|An incessantly bouncing eyeball. Beware ofthe tracking rock'n'ball it spits out.
+|
+|-
+|Disordered Remains
+|[[File:Disordered Remains.png|center|frameless|100x100px]]
+|1700
+|A huge fleshy orb that can powerfully charge.
+|
+|-
+|Poisonous Spider's Egg
+|[[File:Poisonous Spider's Egg.png|center|frameless|100x100px]]
+|1500
+|The eggs of a giant venomous spider,capable of using various poisonous attacks.
+|Can fire one posioning homing boulder or two thes boulders make a trail of poisson effect
+|-
+| colspan="1" rowspan="4" |Chapter2
+|Deceiver Type 2
+|[[File:300302.png|center|frameless|100x100px]]
+|3000
+|Imitates opponent's movements, and turnsinvisible after taking a certain amount of damage.
+|
+|-
+|Hatcher
+|[[File:300401.png|center|frameless|100x100px]]
+|3300
+|A gigantic magic creature constantly spawning offspring.
+|
+|-
+|Master of Mind
+|[[File:300601.png|center|frameless|100x100px]]
+|3200
+|This alien magic creature is capable of capturing opponents' bullets and using them.
+|
+|-
+|Cage
+|[[File:500301.png|center|frameless|100x100px]]
+|6000
+|A massive square cage, contains an evil spirit.
+|
+|-
+| colspan="1" rowspan="3" |Chapter3
+|Void Imp
+|[[File:300701.png|center|frameless|100x100px]]
+|17000
+|A creature capable of freely traversing the Void boundary, spitting out Void balls that contaminate the ground.
+|
+|-
+|All-Seeing Eye
+|[[File:300801.png|center|frameless|100x100px]]
+|19000
+|An alien creature capable of using chain magic attacks. Attacking the nodes of the chains can unlock the chain blockade.
+|
+|-
+|The Indescribable
+|[[File:500401.png|center|frameless|100x100px]]
+|40000
+|An evil creature growing tentacles all over its body.
+|Beware of purple attacks with a face: when hit, they will cast a curse.
+|-
+| colspan="1" rowspan="2" |Chapter4
+|Skeletal Centaur
+|[[File:300901.png|center|frameless|100x100px]]
+|150000
+|A giant skeletal creature, capable of launching swift slashes and disrupting the battlefield through various means.
+|
+|-
+|Abyssal Lord
+|[[File:500501.png|center|frameless|100x100px]]
+|290000
+|Giant sea monster mastering the power of water.
+|
+|-
+|Easter egg
+|Author
+|[[File:Author.png|center|frameless|100x100px]]
+|1000000
+|
+|
+|}
+
+
+== Monsters ==
+{| class="fandom-table"
+|+
+!name
+!icon
+!HP
+!describe
+|-
+!Spider
+![[File:100101.png|center|frameless|100x100px]]
+!50
+|Spiders commonly seen in the forest, affected by the energy of the old gods, are much larger than their counterparts in the protagonist's world.
+|-
+!Red-eyed Spider
+![[File:100102.png|center|frameless|100x100px]]
+!60
+|Red individuals mutated from spiders, capable of firing red magic bullets from their single eye.
+|-
+!Wolf Fang Spider
+![[File:100103.png|center|frameless|100x100px]]
+!200
+|Exceptionally powerful red individuals among spiders, capable of shooting a long string of red magic bullets at once.
+|-
+!Bouncing Spider
+![[File:100141.png|center|frameless|100x100px]]
+!50
+|Further affected by the old gods, the Bouncing Spiders hunt through aggressive leaps.
+|-
+!Venomous Spider
+![[File:100142.png|center|frameless|100x100px]]
+!60
+|Green individuals mutated from Bouncing Spiders, affected by venom crystals, can emit poisonous magic bullets.
+|-
+!Double-shot Wolf Fang Spider
+![[File:100143.png|center|frameless|100x100px]]
+!200
+|Wolf Fang Spiders with dual eyes due to a certain type of mutation, allowing them to spit out two rows of magic bullets at once.
+|-
+!Long Legged Spider
+![[File:100171.png|center|frameless|100x100px]]
+!50
+|Bouncing Spider with mutated long legs,which make it move faster.
+|-
+!Long Legged Venomous Spider
+![[File:100172.png|center|frameless|100x100px]]
+!60
+|Venomous Spider with mutated long legs,which make it move faster.
+|-
+!Long Legged Wolf Fang Spider
+![[File:100173.png|center|frameless|100x100px]]
+!200
+|Wolf Fang Spider with mutated long legs,which make it move faster.
+|-
+!Spider Egg
+![[File:100201.png|center|frameless|100x100px]]
+!25
+|Spider eggs about to hatch, which speed up hatching when stimulated.
+|-
+!Spider Egg-Large
+![[File:100202.png|center|frameless|100x100px]]
+!200
+|Crammed large spider eggs from which spiders continuously crowd out from the inside.
+|-
+!Red-eyed Spider Egg-Large
+![[File:100203.png|center|frameless|100x100px]]
+!300
+|Crammed large Red-eyed Spider eggs from which spiders continuously crowd out from the inside.
+|-
+!Red-eyed Spider Egg
+![[File:100204.png|center|frameless|100x100px]]
+!35
+|Red-eyed Spider eggs about to hatch, which speed up hatching when stimulated.
+|-
+!Bouncing Spider Egg
+![[File:100241.png|center|frameless|100x100px]]
+!25
+|Crammed large Bouncing Spider eggs from which spiders continuously crowd out from the inside.
+|-
+!Bouncing Spider Egg-Large
+![[File:100242.png|center|frameless|100x100px]]
+!200
+|Bouncing Spider eggs about to hatch, which speed up hatching when stimulated.
+|-
+!Venomous Spider Egg-Large
+![[File:100243.png|center|frameless|100x100px]]
+!300
+|Crammed large Venomous Spider eggs from which spiders continuously crowd out from the inside.
+|-
+!Venomous Spider Egg
+![[File:100244.png|center|frameless|100x100px]]
+!35
+|Venomous Spider eggs about to hatch, which speed up hatching when stimulated.
+|-
+!Long Legged Spider Egg
+![[File:100271.png|center|frameless|100x100px]]
+!25
+|Crammed large Long legged Spider eggs from which spiders continuously crowd out from the inside.
+|-
+!Long Legged Spider Egg-Large
+![[File:100272.png|center|frameless|100x100px]]
+!200
+|Long legged Spider eggs about to hatch, which speed up hatching when stimulated.
+|-
+!Long Legged Venomous Spider Egg-Large
+![[File:100273.png|center|frameless|100x100px]]
+!300
+|Crammed large Long legged Venomous Spider eggs from which spiders continuously crowd out from the inside.
+|-
+!Long Legged Venomous Spider Egg
+![[File:100274.png|center|frameless|100x100px]]
+!35
+|Long legged Venomous  Spider eggs from which spiders continuously crowd out from the inside.
+|-
+!Aggregated Monster
+![[File:100301.png|center|frameless|100x100px]]
+!600
+|Unstable creatures that break apart into smaller individuals, then merge back together. It's remain unknown that whether the large ones come first or the small ones.
+|-
+!Slime
+![[File:100401.png|center|frameless|100x100px]]
+!30
+|Shapeshifting creatures that are easily affected by the surroundings, leave puddles on the ground.
+|-
+!Mucus Slime
+![[File:100402.png|center|frameless|100x100px]]
+!30
+|Shapeshifting creatures that are easily affected by the surroundings, leave mucus on the ground.
+|-
+!Venom Slime
+![[File:100403.png|center|frameless|100x100px]]
+!30
+|Shapeshifting creatures that are easily affected by the surroundings, leave venom on the ground.
+|-
+!Slime-Large
+![[File:100411.png|center|frameless|100x100px]]
+!150
+|Large individuals among Slimes, reproduce by spitting out smaller ones.
+|-
+!Mucus Slime-Large
+![[File:100412.png|center|frameless|100x100px]]
+!150
+|Large individuals among Jam Slimes, reproduce by spitting out smaller ones.
+|-
+!Venom Slime-Large
+![[File:100413.png|center|frameless|100x100px]]
+!150
+|Large individuals among Venom Slimes, reproduce by spitting out smaller ones.
+|-
+!Slime King
+![[File:100441.png|center|frameless|100x100px]]
+!300
+|A rare giant Slime, reigning supreme in the slime society with its impressive size.
+|-
+!Mucus Slime King
+![[File:100442.png|center|frameless|100x100px]]
+!300
+|A rare giant Jam Slime, reigning supreme in the slime society with its impressive size.
+|-
+!Venom Slime King
+![[File:100443.png|center|frameless|100x100px]]
+!300
+|A rare giant Venom Slime, reigning supreme in the slime society with its impressive size.
+|-
+!Flame Slime
+![[File:100471.png|center|frameless|100x100px]]
+!30
+|A rare flame variety of slime that won't get stained by other elements.It will emit a flame shock wave when landing.
+|-
+!Flame Slime-Large
+![[File:100472.png|center|frameless|100x100px]]
+!150
+|Large individuals among Flame Slimes,reproduce by spitting out smaller ones.
+|-
+!Flame Slime King
+![[File:100473.png|center|frameless|100x100px]]
+!300
+|A rare giant Flame Slime,reigning supreme in the slime society with its impressive size.
+|-
+!Flesh Fly
+![[File:100501.png|center|frameless|100x100px]]
+!25
+|Timid parasitic creatures that seek shelter near other livings.
+|-
+!Evil Flesh Fly
+![[File:100502.png|center|frameless|100x100px]]
+!35
+|A flesh fly with a large mouth that can spit out magic bullets to protect itself and its host.
+|-
+!Blue Evil Flesh Fly
+![[File:100503.png|center|frameless|100x100px]]
+!90
+|Mutant flesh fly capable of spitting out two magic bullets, but unfortunately cannot ensure the accuracy.
+|-
+!Annoying Flesh Fly
+![[File:100541.png|center|frameless|100x100px]]
+!25
+|The Flesh Fly that changes its survival strategy into disrupting enemys actions by surrounding them.
+|-
+!Annoying Evil Flesh Fly
+![[File:100542.png|center|frameless|100x100px]]
+!35
+|The Evil Flesh Fly that changes its survival strategy into disrupting enemys actions by surrounding them.
+|-
+!Annoying Blue Evil Flesh Fly
+![[File:100543.png|center|frameless|100x100px]]
+!90
+|The Blue Evil Flesh Fly that changes its survival strategy into disrupting enemys actions by surrounding them.
+|-
+!Bloodsucking Larva
+![[File:100601.png|center|frameless|100x100px]]
+!30
+|Greedy evil creature that feeds on the corpses of its own kind.
+|-
+!Rampaging Phantom
+![[File:100701.png|center|frameless|100x100px]]
+!150
+|Evasive phantoms that haunt across the castle.
+|-
+!Shadow Rampaging Phantom
+![[File:100741.png|center|frameless|100x100px]]
+!150
+|Rampaging phantoms filled with resentment, are so fast that only leave shadows.
+|-
+!Void Rampaging Phantom
+![[File:100771.png|center|frameless|100x100px]]
+!150
+|Rampaging phantoms with the power of the void,can void itself when away from enemies.
+|-
+!Infectious Mushroom
+![[File:100801.png|center|frameless|100x100px]]
+!25
+|Mutated fungal hunters, they attract friends in a special way.
+|-
+!Infectious Mushroom-Large
+![[File:100802.png|center|frameless|100x100px]]
+!120
+|Abnormally large Infectious Mushroom, capable of withstanding more damage.
+|-
+!Mutated Mushroom
+![[File:100803.png|center|frameless|100x100px]]
+!60
+|Aberrations among Infectious Mushrooms, they prefer hunting by shooting magic bullets.
+|-
+!Mutated Mushroom-Large
+![[File:100804.png|center|frameless|100x100px]]
+!160
+|Giant Mutated Mushroom, shoots magic bullets more densely.
+|-
+!Spore Mushroom
+![[File:100841.png|center|frameless|100x100px]]
+!25
+|The further mutated product of Infectious Mushroom, releases healing spores to heal allies after death.
+|-
+!Spore Mushroom-Large
+![[File:100842.png|center|frameless|100x100px]]
+!120
+|Abnormally large Spore Mushroom, capable of dispersing healing spores over a wider area.
+|-
+!Mutated Spore Mushroom
+![[File:100843.png|center|frameless|100x100px]]
+!60
+|The further mutated product of Mutated Mushroom, releases healing spores to heal allies after death.
+|-
+!Mutated Spore Mushroom-Large
+![[File:100844.png|center|frameless|100x100px]]
+!160
+|Abnormally large Mutated Mushroom, capable of dispersing healing spores over a wider area.
+|-
+!Juicy Mushroom
+![[File:100871.png|center|frameless|100x100px]]
+!25
+|A particularly juicy mushroom variety, and the moist spore mist it emits lasts longer.
+|-
+!Juicy Mushroom-Large
+![[File:100872.png|center|frameless|100x100px]]
+!120
+|Large Juicy Mushroom which has wider healing range and greater heal power.
+|-
+!Mutated Mucus Mushroom
+![[File:100873.png|center|frameless|100x100px]]
+!60
+|A particularly juicy mutated mushroom variety, and the moist spore mist it emits lasts longer.
+|-
+!Mutated Juicy Mushroom-Large
+![[File:100874.png|center|frameless|100x100px]]
+!160
+|Large Mutated Juicy Mushroom which has wider healing range and greater heal power.
+|-
+!Water Lily
+![[File:100901.png|center|frameless|100x100px]]
+!50
+|Vegetative attackers capable of emitting lasers from its flowers.
+|-
+!Agile Water Lily
+![[File:100902.png|center|frameless|100x100px]]
+!140
+|Exceptionally powerful water lily capable of sensing its environment through its leaves and avoiding danger in advance.
+|-
+!Scavenger Orb
+![[File:101001.png|center|frameless|100x100px]]
+!75
+|Crawling creatures at the bottom of the food chain, feeding while excreting the magic in their food into the surrounding environment.
+|-
+!Mucus Scavenger Orb
+![[File:101002.png|center|frameless|100x100px]]
+!85
+|A Scavenger Orb that has ingested Slime Crystals, spits out magic bullets carrying slime attribute and leaves slime on the ground.
+|-
+!Venom Scavenger Orb
+![[File:101003.png|center|frameless|100x100px]]
+!95
+|A Scavenger Orb that has ingested Venom Crystals, spits out magic bullets carrying venom attribute and leaves venom on the ground.
+|-
+!Mixed Scavenger Orb
+![[File:101004.png|center|frameless|100x100px]]
+!105
+|A Scavenger Orb with a particularly complex diet, spits out multi-colored magic bullets.
+|-
+!Scavenger Orb-Growing
+![[File:101005.png|center|frameless|100x100px]]
+!75
+|A Scavenger Orb that hasn't grown legs yet, so half of the body buries underground.
+|-
+!Mucus Scavenger Orb-Growing
+![[File:101006.png|center|frameless|100x100px]]
+!85
+|A Jam Scavenger Orb that hasn't grown legs yet, so half of the body buries underground.
+|-
+!Venom Scavenger Orb-Growing
+![[File:101007.png|center|frameless|100x100px]]
+!95
+|A Venom Scavenger Orb that hasn't grown legs yet, so half of the body buries underground.
+|-
+!Long Necked Scavenger Orb
+![[File:101041.png|center|frameless|100x100px]]
+!75
+|A variant of Scavenger Orb, the magic bullet ejected from its elongated nozzle will bounce when landing.
+|-
+!Long Necked Mucus Scavenger Orb
+![[File:101042.png|center|frameless|100x100px]]
+!85
+|A variant of Mucus Scavenger Orb, the magic bullet ejected from its elongated nozzle will bounce when landing.
+|-
+!Long Necked Venom Scavenger Orb
+![[File:101043.png|center|frameless|100x100px]]
+!95
+|A variant of Venom Scavenger Orb, the magic bullet ejected from its elongated nozzle will bounce when landing.
+|-
+!Long Necked Mixed Scavenger Orb
+![[File:101044.png|center|frameless|100x100px]]
+!105
+|A variant of Mixed Scavenger Orb, the magic bullet ejected from its elongated nozzle will bounce when landing.
+|-
+!Long Necked Scavenger Orb-Growing
+![[File:101045.png|center|frameless|100x100px]]
+!75
+|A Long Necked Scavenger Orb that hasn't grown legs yet, so half of the body buries underground.
+|-
+!Long Necked Mucus Scavenger Orb-Growing
+![[File:101046.png|center|frameless|100x100px]]
+!85
+|A Long Necked Mucus Scavenger Orb that hasn't grown legs yet, so half of the body buries underground.
+|-
+!Long Necked Venom Scavenger Orb-Growing
+![[File:101047.png|center|frameless|100x100px]]
+!95
+|A Long Necked Venom Scavenger Orb that hasn't grown legs yet, so half of the body buries underground.
+|-
+!Abyssal Peeper
+![[File:101101.png|center|frameless|100x100px]]
+!???
+|An evil creature mimicking the human spine, likes to hide in the abyss and is very cunning.
+|-
+!Abyssal Collector
+![[File:101102.png|center|frameless|100x100px]]
+!???
+|The further mutated Peeper, capable of spewing continuously rebounding magic bones.
+|-
+!Replicating Sludge
+![[File:101201.png|center|frameless|100x100px]]
+!120
+|A blob of rotting mud that can't stop replicating itself, must eliminate them before being overwhelmed.
+|-
+!Road Blocker
+![[File:101301.png|center|frameless|100x100px]]
+!120
+|A magic creature that rolls along the walls of the castle, occasionally bouncing to the other side of the wall.
+|-
+!Interceptor
+![[File:101302.png|center|frameless|100x100px]]
+!200
+|A magical road blocker, capable of leaving a row of floating magic bullets when bouncing up.
+|-
+!Interceptor
+![[File:101303.png|center|frameless|100x100px]]
+!500
+|An exceptionally powerful Interceptor that constantly leaves magic bullets in its path.
+|-
+!Vines
+![[File:101401.png|center|frameless|100x100px]]
+!2100
+|A rare creature that inhabits castle armor, fond of collecting coins.
+|-
+!Jumping Ball
+![[File:101501.png|center|frameless|100x100px]]
+!130
+|A fleshy orb about to burst, it's best not to stay in the same quadrant as it.
+|-
+!Jumping Ball-Bloodsucking Larva
+![[File:101502.png|center|frameless|100x100px]]
+!180
+|A fleshy orb about to burst, its interior has been a nest for Bloodsucking Larva.
+|-
+!Jumping Ball-Mucus Ball
+![[File:101503.png|center|frameless|100x100px]]
+!180
+|A fleshy orb about to burst, leaves a puddle of slime after death.
+|-
+!Large Jumping Ball
+![[File:101541.png|center|frameless|100x100px]]
+!260
+|A large Jumping ball with a greater capacity of content and produces more dense bullets when landing.
+|-
+!Large Jumping Ball-Bloodsucking Larva
+![[File:101542.png|center|frameless|100x100px]]
+!360
+|A large Bloodsucking Larva Jumping ball with a greater capacity of content and produces more dense bullets when landing.
+|-
+!Large Jumping Ball-Mucus Ball
+![[File:101543.png|center|frameless|100x100px]]
+!360
+|A large Mucus Jumping ball with a greater capacity of content and produces more dense bullets when landing.
+|-
+!Dazing Rock
+![[File:101601.png|center|frameless|100x100px]]
+!60
+|Stone creature capable of distorting physical laws, reversing the fighting force it receives when being attacked.
+|-
+!Dazing Rock-Large
+![[File:101602.png|center|frameless|100x100px]]
+!170
+|A more powerful Dazing Rock, it further attracts attackers when being hit.
+|-
+!Critical Rock
+![[File:101641.png|center|frameless|100x100px]]
+!60
+|A Dazing Rock filled with unstable energy that can cause an explosion when it dies.
+|-
+!Critical Rock-Large
+![[File:101642.png|center|frameless|100x100px]]
+!170
+|A large Dazing Rock filled with unstable energy that can cause a huge explosion when it dies.
+|-
+!Hardshell Beetle
+![[File:101701.png|center|frameless|100x100px]]
+!90
+|A creature with a hard shell, when it closes the shell, it can block external damage.
+|-
+!Hardshell Beetle-Rebound
+![[File:101702.png|center|frameless|100x100px]]
+!130
+|Evolved Hardshell Beetle that can reflect most of the spells it takes.
+|-
+!Hardshell Beetle-Large
+![[File:101703.png|center|frameless|100x100px]]
+!200
+|Giant Hardshell Beetle that leaves a reflective shell after death.
+|-
+!Face Snake
+![[File:101801.png|center|frameless|100x100px]]
+!120
+|Snake-like creatures with creepy human faces. Best not to disturb them while resting.
+|-
+!Horned Face Snake
+![[File:101802.png|center|frameless|100x100px]]
+!120
+|Face snakes that grow horns, known for their remarkably resilient vitality.
+|-
+!Face Snake's Face
+![[File:101821.png|center|frameless|100x100px]]
+!80
+|A horned Face Snake, which continues to move even after being beheaded.
+|-
+!Evil Cluster
+![[File:101901.png|center|frameless|100x100px]]
+!80
+|Clustered ball-shaped creatures, to defeat them, you must first break them up.
+|-
+!Evil Cluster-Laser
+![[File:101902.png|center|frameless|100x100px]]
+!150
+|Evil clusters capable of emitting lasers, very tough creatures.
+|-
+!Centipede
+![[File:102021.png|center|frameless|100x100px]]
+!???
+|A crawling creature with many body segments, area attack will fit in the case.
+|-
+!Centipede Mutated
+![[File:102022.png|center|frameless|100x100px]]
+!???
+|Mutated centipede with some body segments containing magic.
+|-
+!Centipede-Large
+![[File:102023.png|center|frameless|100x100px]]
+!???
+|Giant centipede with incredibly strong vitality.
+|-
+!Centipede Mutated-Large
+![[File:102024.png|center|frameless|100x100px]]
+!???
+|Large mutated centipede with some body segments containing more magic.
+|-
+!Flying Centipede
+![[File:102061.png|center|frameless|100x100px]]
+!???
+|Evolved centipede capable of flying.
+|-
+!Flying Centipede Mutated
+![[File:102062.png|center|frameless|100x100px]]
+!???
+|Mutated centipede after evolving, capable of flying.
+|-
+!Flying Centipede-Large
+![[File:102063.png|center|frameless|100x100px]]
+!???
+|Evolved large centipede, capable of flying.
+|-
+!Flying Centipede Mutated-Large
+![[File:102064.png|center|frameless|100x100px]]
+!???
+|Mutated large centipede after evolving, capable of flying.
+|-
+!Disjointed Centipede
+![[File:102091.png|center|frameless|100x100px]]
+!???
+|A centipede with extremely strong regenerative ability which will split into two individuals when the middle part is killed.
+|-
+!Disjointed Centipede Mutated
+![[File:102092.png|center|frameless|100x100px]]
+!???
+|An Evolved centipede with extremely strong regenerative ability which will split into two individuals when the middle part is killed.
+|-
+!Disjointed Centipede-Large
+![[File:102093.png|center|frameless|100x100px]]
+!???
+|A large centipede with extremely strong regenerative ability which will split into two individuals when the middle part is killed.
+|-
+!Disjointed Centipede Mutated-Large
+![[File:102094.png|center|frameless|100x100px]]
+!???
+|A large evolved centipede with extremely strong regenerative ability which will split into two individuals when the middle part is killed.
+|-
+!Phantom
+![[File:102101.png|center|frameless|100x100px]]
+!130
+|A creature formed from human souls, harboring mere hatred towards the living.
+|-
+!Glittering Phantom
+![[File:102102.png|center|frameless|100x100px]]
+!230
+|Powerful phantoms capable of teleporting.
+|-
+!Shadow Phantom
+![[File:102141.png|center|frameless|100x100px]]
+!130
+|Resentful phantoms, capable of performing shadow evasions.
+|-
+!Shadow Glittering Phantom
+![[File:102142.png|center|frameless|100x100px]]
+!230
+|Resentful Glittering Phantoms, capable of performing shadow evasions.
+|-
+!Void Phantom
+![[File:102171.png|center|frameless|100x100px]]
+!130
+|Phantom with the power of the void, can void itself when away from enemies.
+|-
+!Void Glittering Phantom
+![[File:102172.png|center|frameless|100x100px]]
+!230
+|Glittering Phantom with the power of the void, can void itself when away from enemies.
+|-
+!Creepy Container
+![[File:102201.png|center|frameless|100x100px]]
+!300
+|Magic creature disguised as a jar. It shoots magic bullets to protect itself when being attacked.
+|-
+!Spooky Container
+![[File:102202.png|center|frameless|100x100px]]
+!450
+|Magic creature disguised as a jar. The interior became a dwelling place for phantoms.
+|-
+!Glittering Spooky Container
+![[File:102203.png|center|frameless|100x100px]]
+!600
+|Magic creature disguised as a jar. The interior became a dwelling place for Glittering Phantoms.
+|-
+!Shadow Spooky Container
+![[File:102242.png|center|frameless|100x100px]]
+!450
+|Magic creature disguised as a jar. The interior became a dwelling place for Shadow Phantoms.
+|-
+!Shadow Glittering Spooky Container
+![[File:102243.png|center|frameless|100x100px]]
+!450
+|Magic creature disguised as a jar. The interior became a dwelling place for Shadow Glittering Phantoms.
+|-
+!Void Spooky Container
+![[File:102272.png|center|frameless|100x100px]]
+!450
+|Magic creature disguised as a jar. The interior became a dwelling place for Void Phantoms. Itself can also use the power of void.
+|-
+!Void Glittering Spooky Container
+![[File:102273.png|center|frameless|100x100px]]
+!450
+|Magic creature disguised as a jar. The interior became a dwelling place for Void Glittering Phantoms. Itself can also use the power of void.
+|-
+!Blood-butterfly Octopus
+![[File:102301.png|center|frameless|100x100px]]
+!40
+|The juvenile stage of a plankton, drifting around searching for grounds rich in mana to take root.
+|-
+!Blood-butterfly Octopus-Large
+![[File:102302.png|center|frameless|100x100px]]
+!120
+|The sub-adult stage of the Blood-butterfly Octopus, which releases tracking magic butterflies when attacked.
+|-
+!Mother of Blood-butterfly
+![[File:102303.png|center|frameless|100x100px]]
+!160
+|The mature stage of the Blood-butterfly Octopus, found its rooted ground. Due to its ability to release a large number of magical butterflies, its flying capability has degraded.
+|-
+!Ripper
+![[File:102401.png|center|frameless|100x100px]]
+!300
+|A creature with a huge fissure. They move in groups along the edge of the Void.
+|-
+!Ripper Large
+![[File:102402.png|center|frameless|100x100px]]
+!500
+|Large Rippers that can spit out more magic bullets at once.
+|-
+!Endless Ripper
+![[File:102403.png|center|frameless|100x100px]]
+!700
+|Extra large Rippers that can spit out tremendous amount of magic bullets at once.
+|-
+!Bloodshot Eyeball
+![[File:102501.png|center|frameless|100x100px]]
+!300
+|Creatures floating around in the Void, with eye-like organs capable of shooting concentrated-energy bullets.
+|-
+!Bloodshot Eyeball-Cluster
+![[File:102502.png|center|frameless|100x100px]]
+!1200
+|Clustered Bloodshot Eyeballs that act independently when broken up.
+|-
+!Trail Eyeball
+![[File:102541.png|center|frameless|100x100px]]
+!300
+|More powerful bloodshot eyeballs, the fired bullets can generate brief trajectories to temporarily block the battlefield.
+|-
+!Trail Eyeball-Cluster
+![[File:102542.png|center|frameless|100x100px]]
+!1200
+|Clustered Trail Bloodshot Eyeballs that act independently when broken up.
+|-
+!Giant Skull
+![[File:102601.png|center|frameless|100x100px]]
+!1600
+|A gigantic skull remain capable of spewing out numerous magic bones, far too large for any human to possess.
+|-
+!King's Skull
+![[File:102602.png|center|frameless|100x100px]]
+!4500
+|A huge skull with a ring of spikes, possibly belonging to a king among ancient giants.
+|-
+!Screaming Bat
+![[File:102701.png|center|frameless|100x100px]]
+!350
+|A flying creature living in the Void, capable of emitting magic screams.
+|-
+!Screaming Bat-Male
+![[File:102702.png|center|frameless|100x100px]]
+!650
+|The male specimen of the Screaming Bat, larger in size and with even more piercing screams.
+|-
+!Surrounding Bat
+![[File:102741.png|center|frameless|100x100px]]
+!350
+|Screaming Bats that circle around their target are even more difficult to be shaken off.
+|-
+!Surrounding Bat-Male
+![[File:102742.png|center|frameless|100x100px]]
+!650
+|Male Screaming Bats that circle around their target are even more difficult to be shaken off.
+|-
+!Shambler
+![[File:102801.png|center|frameless|100x100px]]
+!1400
+|A gigantic creature made up by a mass of gathering small individuals. If not eliminated quickly, it will soon overwhelm everything in its path.
+|-
+!Mutated Shambler
+![[File:102802.png|center|frameless|100x100px]]
+!2800
+|A gigantic creature made up by a mass of gathering small individuals. If not eliminated quickly, it will soon overwhelm everything in its path.
+|-
+!Adhesioned Shambler
+![[File:102841.png|center|frameless|100x100px]]
+!1400
+|The small individuals that make up the Shambler, though weak, they compensate by large numbers.
+|-
+!Mutated Adhesioned Shambler
+![[File:102842.png|center|frameless|100x100px]]
+!2800
+|The small individuals that make up the Mutated Shambler, though weak, they compensate by large numbers.
+|-
+!Shambler Offspring
+![[File:102901.png|center|frameless|100x100px]]
+!70
+|Partly adhesioned Shambler which has a chance to produce powerful large individuals.
+|-
+!Mutated Shambler Offspring
+![[File:102902.png|center|frameless|100x100px]]
+!140
+|Partly adhesioned  Mutated Shambler which has a chance to produce powerful large individuals.
+|-
+!Adhesioned Shambler Offspring
+![[File:102941.png|center|frameless|100x100px]]
+!70
+|A relatively small type of individual produced by Adhesioned Shambler.
+|-
+!Mutated Adhesioned Shambler Offspring
+![[File:102942.png|center|frameless|100x100px]]
+!140
+|A relatively small type of individual produced by Mutated Adhesioned Shambler.
+|-
+!Adhesioned Shambler Offspring-Large
+![[File:102943.png|center|frameless|100x100px]]
+!350
+|The large individuals produced by Adhesioned Shambler which are more resilient and faster in speed.
+|-
+!Mutated Adhesioned Shambler Offspring-Large
+![[File:102944.png|center|frameless|100x100px]]
+!700
+|The large individuals produced by Mutated Adhesioned Shambler which are more resilient and faster in speed.
+|-
+!Shackle Jailor
+![[File:103001.png|center|frameless|100x100px]]
+!850
+|A magic creature capable of creating illusions to confuse targets, with each illusion linked by magical chains.
+|-
+!Shackle Abuser
+![[File:103002.png|center|frameless|100x100px]]
+!1300
+|A magic creature capable of creating many illusions to confuse targets, with each illusion linked by magical chains.
+|-
+!Serial Shackle Jailor
+![[File:103041.png|center|frameless|100x100px]]
+!850
+|Enhanced Shackle Jailors, capable of generating more shackles.
+|-
+!Serial Shackle Abuser
+![[File:103042.png|center|frameless|100x100px]]
+!1300
+|Enhanced Shackle Abusers, capable of generating more shackles.
+|-
+!Abyssal Eyeball
+![[File:103101.png|center|frameless|100x100px]]
+!600
+|Creatures living in the abyss, capable of emitting chaotic rays that disrupt the direction of enemies. Stay calm when falling into the abyss to avoid subsequent falling.
+|-
+!Abyssal Traction
+![[File:103102.png|center|frameless|100x100px]]
+!600
+|Creatures living in the abyss, extend their tentacles to drag prey into the depths. Stay calm when falling into the abyss to avoid subsequent falling.
+|-
+!Wriggling Bone Worm
+![[File:103221.png|center|frameless|100x100px]]
+!???
+|A very long skeletal creature that can shoot magic bullets from its sides.
+|-
+!Wriggling Bone Worm Mutated
+![[File:103222.png|center|frameless|100x100px]]
+!???
+|A very long skeletal creature that can shoot magical bones from its sides.
+|-
+!Charge Bone Worm
+![[File:103261.png|center|frameless|100x100px]]
+!???
+|A Bone Worm that can temporarily accelerate itself, be careful and don't ran into it.
+|-
+!Charge Bone Worm Mutated
+![[File:103262.png|center|frameless|100x100px]]
+!???
+|A Mutated Bone Worm that can temporarily accelerate itself, be careful and don't ran into it.
+|-
+!Disjointed Bone Worm
+![[File:103291.png|center|frameless|100x100px]]
+!???
+|A Bone Worm with extremely strong regenerative ability which will split into two individuals when the middle part is killed.
+|-
+!Disjointed Bone Worm Mutated
+![[File:103292.png|center|frameless|100x100px]]
+!???
+|A Mutated Bone Worm with extremely strong regenerative ability which will split into two individuals when the middle part is killed.
+|-
+!Heart of Blood and Flesh
+![[File:103301.png|center|frameless|100x100px]]
+!2300
+|The only thing this heart-like creature does is constantly emitting vitality to its surroundings. In the Void, the purpose of being alive has been distorted into such forms.
+|-
+!Heart of Mucus
+![[File:103341.png|center|frameless|100x100px]]
+!2300
+|A Heart of Blood and Flesh that has been infected and continuously oozes mucus.Those who step within its range will get affected by the deceleration effect.
+|-
+!Explosive Monster
+![[File:103401.png|center|frameless|100x100px]]
+!200
+|Be careful, this short-tempered living bomb will detonate, taking down anyone who dares to attack it with itself.
+|-
+!Shrapnel Explosive Monster
+![[File:103441.png|center|frameless|100x100px]]
+!200
+|This type of explosive monster can use shrapnel to spread the explosion to a farther place.
+|-
+!Bone Spine Chthonian
+![[File:103501.png|center|frameless|100x100px]]
+!3000
+|Worm demons that move underground, are very formidable.
+|-
+!Stinger Wasp
+![[File:103601.png|center|frameless|100x100px]]
+!1800
+|A swift flying creature capable of firing spiked magic bullets.
+|-
+!Rage Stinger Wasp
+![[File:103602.png|center|frameless|100x100px]]
+!3600
+|A large stinger wasp that fires a large number of spiked magic bullets at once.
+|-
+!Living Flywheel
+![[File:103801.png|center|frameless|100x100px]]
+!600
+|A flesh monster like a wheel, capable of throwing spinning energy rings.
+|-
+!Living Flywheel-Large
+![[File:103802.png|center|frameless|100x100px]]
+!1400
+|A large living flywheel, capable of harnessing a greater number of energy rings at once.
+|-
+!Living Flywheel-Enhanced Large
+![[File:103842.png|center|frameless|100x100px]]
+!1400
+|A particularly large living flywheel, capable of harnessing a greater number of energy rings at once.
+|-
+!Endless Living Flywheel
+![[File:103872.png|center|frameless|100x100px]]
+!1400
+|A extremely large living flywheel, capable of harnessing a greater number of energy rings at once.
+|-
+!Long-tailed Centipede
+![[File:104001.png|center|frameless|100x100px]]
+!650
+|A beetle-like creature with a long tail, capable of spewing out a large number of magic bullets.
+|-
+!Long-tailed Centipede-Large
+![[File:104002.png|center|frameless|100x100px]]
+!2400
+|A beetle-like creature with a long tail, capable of spewing out an extra large number of magic bullets.
+|-
+!Dual-headed Intestine
+![[File:104201.png|center|frameless|100x100px]]
+!3500
+|A peculiar creature with two heads, it's unclear which head eats.
+|-
+!Earth-shaking Dual-headed Intestine
+![[File:104202.png|center|frameless|100x100px]]
+!8500
+|An enormous dual-headed intestine that causes the earth to tremble as it moves.
+|-
+!Mana Absorber
+![[File:104301.png|center|frameless|100x100px]]
+!4000
+|A creature that feeds on the minds of wise beings, the archenemy of mages.
+|-
+!Void Creature
+![[File:104401.png|center|frameless|100x100px]]
+!1500
+|A creature composed of Void energy, able to submerge into the Void when there are no observers nearby.
+|-
+!Void Archer
+![[File:104402.png|center|frameless|100x100px]]
+!1500
+|An advanced Void creature capable of ranged attacks under the shelter of its Void form.
+|-
+!Void Lord
+![[File:104403.png|center|frameless|100x100px]]
+!4500
+|A top classed Void creature which masters differerent attacks of twist magic bullets.
+|-
+!Poison Sac
+![[File:104501.png|center|frameless|100x100px]]
+!???
+|A creature with a sturdy exoskeleton covering its entire body, with only vulnerable eyes exposed.
+|-
+!Long-tail Poison Sac
+![[File:104601.png|center|frameless|100x100px]]
+!???
+|A poison sac with a tail, capable of spewing poisonous spores by its tail.
+|-
+!Shadow Pillar
+![[File:104801.png|center|frameless|100x100px]]
+!8000
+|A totem pillar parasitized by evils, capable of providing nearby enemies with invincible shields.
+|-
+!Giant Shadow Pillar
+![[File:104802.png|center|frameless|100x100px]]
+!21000
+|A giant totem pillar parasitized by evils, capable of providing nearby enemies with invincible shields.
+|-
+!Ice Giant
+![[File:104901.png|center|frameless|100x100px]]
+!23000
+|A gigantic creature capable of spitting out ice magic bombs and casting an enlarged range of cold attacks.
+|-
+!Headless Archer
+![[File:105101.png|center|frameless|100x100px]]
+!1900
+|A humanoid species living in the abyss, capable of predicting the enemy's position and hurling spears accordingly.
+|-
+!Teleporting Headless Archer
+![[File:105102.png|center|frameless|100x100px]]
+!5700
+|The most elite among the Headless Archers, capable of utilizing spatial teleportation.
+|-
+!Headless Pursuer
+![[File:105201.png|center|frameless|100x100px]]
+!1900
+|A humanoid species living in the abyss, capable of closing in on opponents with leaps and following up with chopping strikes.
+|-
+!Rampaging Headless Pursuer
+![[File:105202.png|center|frameless|100x100px]]
+!5700
+|The most ferocious group among the Headless Pursuers, capable of continuous leaping chops.
+|-
+!Primeval Spider
+![[File:105401.png|center|frameless|100x100px]]
+!1900
+|A spider creature inhabiting ancient skulls, capable of launching laser balls with delayed effect.
+|-
+!Distorted Primeval Spider
+![[File:105402.png|center|frameless|100x100px]]
+!5700
+|A spider creature inhabiting ancient skulls, capable of launching distorted laser balls with delayed effect.
+|-
+!Hatcher-Offspring
+![[File:300421.png|center|frameless|100x100px]]
+!200
+|Offspring of the hatcher, best to eliminate them before they are hatched.
+|-
+!Leech
+![[File:500421.png|center|frameless|100x100px]]
+!500
+|The creatures formed by the tentacles of the indescribable, are numerous in number and relentlessly chase their targets.
+|-
+!Giant Leech
+![[File:500422.png|center|frameless|100x100px]]
+!2800
+|A larger, more resilient leech.
+|-
+!Dragging Tentacles
+![[File:500425.png|center|frameless|100x100px]]
+!500
+|The tentacles summoned by the indescribable, do not cause damage but can slow down movement.
+|}

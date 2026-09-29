@@ -1,0 +1,5 @@
+<!-- title: Umbilical Cord | updated: 2024-12-03T00:40:57Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Umbilical_Cord.png|type=Spell Boost|rarity=Normal|misc_a_1=Connects summoned creatures and deal 25 damage per second against enemies along the path|misc_a_2=Connects summoned creatures and deal 50 damage per second against enemies along the path|misc_a_3=Connects summoned creatures and deal 100 damage per second against enemies along the path}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. A cord connects the summoner and summon, causing damage over time to any enemies touching it.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

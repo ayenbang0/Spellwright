@@ -1,0 +1,8 @@
+<!-- title: Hardmode | updated: 2024-02-27T07:38:30Z | cats:  -->
+== How to unlock ==
+*Defeat the [[Unspeakable Thing]] in Normal-Mode
+*You can now select Hardmode when starting a new game
+== Changes ==
+*Every [[Monsters & Bosses]] has more [[HP]]
+*Some [[Monsters & Bosses]] are having different attack patterns
+*Access to [[Chapter 4]](Abyss of the Old) and the [[Author]]

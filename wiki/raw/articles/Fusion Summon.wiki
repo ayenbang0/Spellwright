@@ -1,0 +1,11 @@
+<!-- title: Fusion Summon | updated: 2024-12-02T00:27:17Z | cats: Category:Rarity: Epic, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Fusion_Summon.png|type=Spell Boost|rarity=Epic|misc_a_1=Occupied Slots: 2|misc_b_1=Merges two identical summoned creatures into a new one|misc_c_1=The new summon gains +100% attributes|misc_d_1=Maximum merging count: 1}}'''{{PAGENAME}}''' is an [[Rarity|Epic]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It merges two identical summons into a single summon with doubled stats.
+
+'''Interactions:'''
+
+For [[Skull of the Cthulhu]] it takes damage of the original skull but increases the [[tick rate]] of the fusioned version. The first fusion receives double the tick rate, the second fusion receives triple the tick rate compared to vanilla skull, and so on.
+
+Fusioning also recalculates Skull of the Cthulhus max mp to damage multiplier based on the original skull wand, meaning each time you fusion max mana of original is checked and according damage multiplier is applied.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Epic]]

@@ -1,0 +1,7 @@
+<!-- title: Serial | updated: 2024-08-01T08:14:04Z | cats: Category:Rarity: Normal, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Serial.png|type=Spell Boost|rarity=Normal|misc_a_1=Casts the spell on the right with 70% mana cost when the spell on the left is flying|misc_a_2=Casts the spell on the right with 55% mana cost when the spell on the left is flying|misc_a_3=Casts the spell on the right with 40% mana cost when the spell on the left is flying}}'''{{PAGENAME}}''' is a [[Rarity|Normal]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. While the spell on the left is flying, it casts the spell on the right at reduced Mana Cost.
+
+'''Description:''' Casting this set of spells does not cost the MP for spells on the right
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Normal]]

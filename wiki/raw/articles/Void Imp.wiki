@@ -1,0 +1,7 @@
+<!-- title: Void Imp | updated: 2024-07-24T05:54:47Z | cats:  -->
+[[File:300701.png|left|thumb]]
+
+== Stats ==
+HP: 17,000
+
+A creature capable of freely traversing the Void boundary, spitting out Void balls that contaminate the ground.

@@ -1,0 +1,8 @@
+<!-- title: Template:Navbox | updated: 2024-01-05T20:39:19Z | cats: Category:Navbox templates -->
+{| style="width:100%; margin-top:1em; border:1px solid #999; font-size:90%; text-align:center;"
+|-
+! style="padding:0.2em 0.5em;" nowrap="nowrap" class="color1" | {{{header}}}
+|-
+| style="padding:0.2em 0.5em;" | {{{body}}}
+|}<noinclude>
+{{documentation}}</noinclude>

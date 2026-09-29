@@ -1,0 +1,9 @@
+<!-- title: Black Hole | updated: 2026-01-22T22:03:55Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Projectiles -->
+{{Spell InfoBox|image=Black_Hole.png|desc=Area spell that continuously pulls enemies|type=Spell Projectiles|rarity=Rare|mana_cost1=27|mana_cost2=36|mana_cost3=54|dmg1=22 (DPS)|dmg2=56 (DPS)|dmg3=140 (DPS)|cd1=+0.1s|cd2=+0.1s|cd3=+0.1s|effect_radius1=2.25m|effect_radius2=2.25m|effect_radius3=2.25m|misc_a_2=Effect Radius slowly increases over time|misc_a_3=Effect Radius increases over time}}The '''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Projectiles. When the default spell is cast, it fires out a single sphere that travels towards the target.
+
+'''Description:''' A dense core and a massive accretion disk form a black hole, continuously drawing nearby targets towards the center while dealing damage to them.
+
+The upgraded black hole will utilize absorbed material to increase its own size.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Projectiles]]
+[[Category:Rarity: Rare]]

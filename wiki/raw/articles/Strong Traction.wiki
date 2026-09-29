@@ -1,0 +1,5 @@
+<!-- title: Strong Traction | updated: 2024-12-03T00:27:57Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Strong_Traction.png|type=Spell Boost|rarity=Rare|crit_rate1=+5%|crit_rate2=+5%|misc_a_1=When the spell deals critical hits, randomly traction 1 other enemies within a radius of 7m and deals equal damage|misc_a_2=When the spell deals critical hits, randomly traction 2 other enemies within a radius of 8m and deals equal damage|misc_a_3=When the spell deals critical hits, randomly traction 4 other enemies within a radius of 9m and deals equal damage}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. When an affected spell critically hits, equal damage is done randomly to additional enemies within range.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Rare]]

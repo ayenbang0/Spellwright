@@ -1,0 +1,2007 @@
+[
+ {
+  "name": "Magic Bullet",
+  "rarity": "Normal",
+  "tips": "Essential skill for mages, with powerful support abilities after upgrades",
+  "levels": {
+   "1": "",
+   "2": "Damage received by Units hit +50% within 4 seconds",
+   "3": "Damage received by Units hit +100% within 8 seconds"
+  },
+  "infobox": {
+   "image": "Magic_Bullet.png",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "3",
+   "mana_cost2": "4",
+   "mana_cost3": "5",
+   "dmg1": "10",
+   "dmg2": "13",
+   "dmg3": "16",
+   "misc_a_2": "Damage received by Units hit +50% within 4 seconds",
+   "misc_a_3": "Damage received by Units hit +100% within 8 seconds"
+  },
+  "type": "Spell Projectiles",
+  "page": "Magic Bullet is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, it fires a single project towards the target. After upgrading, it boosts damage received by a target by 50% for a duration of 4 seconds. After upgrading again, it boosts damage received by a target by 100% for a duration of 8 seconds.\n\nDescription: Essential skill for mages, with powerful support abilities after upgrades."
+ },
+ {
+  "name": "Rock 'n' Ball",
+  "rarity": "Normal",
+  "tips": "Crushes the target with the power of the rock, the huge size can withstand enemy projectiles, but this is not a golf ball, do not leave it into the hole\\Will leave trails with elemental attachment on the ground",
+  "levels": {
+   "1": "the Rock'n'Ball can withstand 40 damage",
+   "2": "The Rock'n'Ball can withstand 80 damage",
+   "3": "The Rock'n'Ball can withstand 120 damage"
+  },
+  "infobox": {
+   "image": "Rock_'n'_Ball.png",
+   "desc": "Stones that dispel enemy spells",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "15",
+   "mana_cost2": "19",
+   "mana_cost3": "25",
+   "dmg1": "45",
+   "dmg2": "80",
+   "dmg3": "142",
+   "crit_rate1": "30%",
+   "crit_rate2": "50%",
+   "crit_rate3": "80%",
+   "misc_a_1": "The Rock'n'Ball can withstand 40 damage",
+   "misc_a_2": "The Rock'n'Ball can withstand 80 damage",
+   "misc_a_3": "The Rock'n'Ball can withstand 120 damage"
+  },
+  "type": "Spell Projectiles",
+  "page": "Rock 'n' Ball is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, a boulder rolls out towards the target.\n\nDescription: Crushes the target with the power of the rock, the huge size can withstand enemy projectiles, but this is not a golf ball, do not leave it into the hole.\n\nWill leave trails with elemental attachment on the ground."
+ },
+ {
+  "name": "Butterfly",
+  "rarity": "Normal",
+  "tips": "Butterflies infused with mana are attracted by the monster's scent, but their fragile body can't resist the interference from other spells",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Butterfly.png",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "8",
+   "mana_cost2": "11",
+   "mana_cost3": "15",
+   "dmg1": "10",
+   "dmg2": "18",
+   "dmg3": "34",
+   "number_of_shots1": "3",
+   "number_of_shots2": "4",
+   "number_of_shots3": "5",
+   "scatter1": "90°",
+   "scatter2": "90°",
+   "scatter3": "90°"
+  },
+  "type": "Spell Projectiles",
+  "page": "The Butterfly is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, it fires out 4 butterflies that home in on the closest target.\n\nDescription: Butterflies infused with mana are attracted by the monster's scent, but their fragile body can't resist the interference from other spells."
+ },
+ {
+  "name": "Laser",
+  "rarity": "Normal",
+  "tips": "Focuses mana at one point and casts in a straight line, the wand is also willing to cast spells faster under this neon glow\\Upgraded to gain the reflection ability",
+  "levels": {
+   "1": "",
+   "2": "Penetration +1, Penetration will turn into Reflection",
+   "3": "Penetration +2, Penetration will turn into Reflection"
+  },
+  "infobox": {
+   "image": "Laser.png",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "2",
+   "mana_cost2": "3",
+   "mana_cost3": "4",
+   "dmg1": "8",
+   "dmg2": "11",
+   "dmg3": "15",
+   "cast_interval1": "-0.05s",
+   "cast_interval2": "-0.05s",
+   "cast_interval3": "-0.05s",
+   "cd1": "-0.1s",
+   "cd2": "-0.1s",
+   "cd3": "-0.1s",
+   "crit_rate2": "25%",
+   "crit_rate3": "50%",
+   "misc_a_2": "Penetration +1, Penetration will turn into Reflection",
+   "misc_a_3": "Penetration +2, Penetration will turn into Reflection"
+  },
+  "type": "Spell Projectiles",
+  "page": "The Laser is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, fires a beam instantly at the target.\n\nDescription: Focuses mana at one point and cases in a straight line, the wand is also willing to cast spells faster under this neon glow."
+ },
+ {
+  "name": "Fuse",
+  "rarity": "Normal",
+  "tips": "The cornerstone for developing complex spells, don't be fooled by the innocent appearance, one never knows what kind of spells this rune will unlock",
+  "levels": {
+   "1": "Upon the end, performs the first shooting spell on the right\\Spells cast consume x90% mana",
+   "2": "Upon the end, performs the first shooting spell on the right\\Spells cast consume x80% mana",
+   "3": "Upon the end, performs the first shooting spell on the right\\Spells cast consume x70% mana"
+  },
+  "infobox": {
+   "image": "Fuse.png",
+   "desc": "Rune infused with the right-side spell's power",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "1",
+   "mana_cost2": "2",
+   "mana_cost3": "3",
+   "dmg1": "3",
+   "dmg2": "9",
+   "dmg3": "18",
+   "misc_a_1": "Upon the end, cast the first available spell on the right with x90% MP cost",
+   "misc_a_2": "Upon the end, cast the first available spell on the right with x80% MP cost",
+   "misc_a_3": "Upon the end, cast the first available spell on the right with x70% MP cost"
+  },
+  "type": "Spell Projectiles",
+  "page": "Fuse is a Normal Spell of Type: Spell Projectiles. It can be used by itself but is intended to be chained with other spells for greater effect.\n\nDescription: The cornerstone for developing complex spells, don't be fooled by the innocent appearance, one never knows what kind of spells this rune will unlock.\n\nNotes:\nThe actual effect of this spell: This must be loaded to the left of an attack spell. Instead of firing the attack spell from a wand as normal, the spell gets loaded into a rune which is then shot forward like a long-range bullet. When the rune strikes something or reaches its range limit, the rune triggers and fires the loaded spell at that point at a slight MP cost discount.\n\nWhile this would be quite useless for most spells that are already a long-range projectile or a summon, one particularly noteworthy exception would be Arcane Explosion; this transforms the short-range radial shockwave around your character into a long-range artillery cannon, and can end up MORE efficient with its MP cost if you have a lot of modifiers or a higher level Arcane Explosion with a large cost per shot so the 10% discount ends up being larger than the 1 MP additional cost of using the Rune. \n\nOther powerful but short-range spells could also benefit from such a setup."
+ },
+ {
+  "name": "Floating Wisp",
+  "rarity": "Normal",
+  "tips": "A hovering fire ball made up of magical creatures, they are good at working together and gather other wisps to support them when they find their target\\After Upgrading, these magical creatures will multiply at a higher rate, constantly generating new wisps",
+  "levels": {
+   "1": "Upon hitting enemies, nearby wisps are attracted",
+   "2": "Upon hitting enemies, nearby wisps are attracted\\Self-replicate every 4 seconds when wisps present",
+   "3": "Upon hitting enemies, nearby wisps are attracted\\Self-replicate every 3 seconds when wisps present"
+  },
+  "infobox": {
+   "image": "Floating_Wisp.png",
+   "desc": "Long-lasting floating fireball",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "9",
+   "mana_cost2": "12",
+   "mana_cost3": "15",
+   "dmg1": "30",
+   "dmg2": "54",
+   "dmg3": "98",
+   "crit_rate1": "20%",
+   "crit_rate2": "20%",
+   "crit_rate3": "20%",
+   "scatter1": "30°",
+   "scatter2": "45°",
+   "scatter3": "60°",
+   "misc_a_1": "Attract nearby wisps upon hitting enemies",
+   "misc_a_2": "Attract nearby wisps upon hitting enemies",
+   "misc_b_2": "Self-replicate every 4 seconds when wisps present",
+   "misc_a_3": "Attract nearby wisps upon hitting enemies",
+   "misc_b_3": "Self-replicate every 3 seconds when wisps present"
+  },
+  "type": "Spell Projectiles",
+  "page": "The Floating Wisp is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, a wisp hovers out near the player.\n\nDescription: A hovering fire ball made up of magical creatures, they are good at working together and gather other wisps to support them when they find their target.\n\nAfter upgrading, these magical creatures will multiply at a higher rate, constantly generating new wisps."
+ },
+ {
+  "name": "Black Hole",
+  "rarity": "Rare",
+  "tips": "A dense core and a massive accretion disk form a black hole, continuously drawing nearby targets towards the center while dealing damage to them\\The upgraded black hole will utilize absorbed material to increase its own size",
+  "levels": {
+   "1": "",
+   "2": "Effect Radius slowly increases over time",
+   "3": "Effect Radius increases over time"
+  },
+  "infobox": {
+   "image": "Black_Hole.png",
+   "desc": "Area spell that continuously pulls enemies",
+   "type": "Spell Projectiles",
+   "rarity": "Rare",
+   "mana_cost1": "27",
+   "mana_cost2": "36",
+   "mana_cost3": "54",
+   "dmg1": "22 (DPS)",
+   "dmg2": "56 (DPS)",
+   "dmg3": "140 (DPS)",
+   "cd1": "+0.1s",
+   "cd2": "+0.1s",
+   "cd3": "+0.1s",
+   "effect_radius1": "2.25m",
+   "effect_radius2": "2.25m",
+   "effect_radius3": "2.25m",
+   "misc_a_2": "Effect Radius slowly increases over time",
+   "misc_a_3": "Effect Radius increases over time"
+  },
+  "type": "Spell Projectiles",
+  "page": "The Black Hole is a Rare Spell of Type: Spell Projectiles. When the default spell is cast, it fires out a single sphere that travels towards the target.\n\nDescription: A dense core and a massive accretion disk form a black hole, continuously drawing nearby targets towards the center while dealing damage to them.\n\nThe upgraded black hole will utilize absorbed material to increase its own size."
+ },
+ {
+  "name": "Arcane Explosion",
+  "rarity": "Normal",
+  "tips": "It is said that it's a perfect mate to a fuse, many mages are addicted to experiencing the mana blast after gathering them to the tip of the wand",
+  "levels": {
+   "1": "",
+   "2": "Instantly generates an Arcane Explosion with radius multiplied by 0.7 when killing an enemy unit",
+   "3": "Instantly generates an Arcane Explosion when killing an enemy unit"
+  },
+  "infobox": {
+   "image": "Arcane_Explosion.png",
+   "desc": "Area spell that detonates instantly at cast point",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "9",
+   "mana_cost2": "18",
+   "mana_cost3": "60",
+   "dmg1": "15",
+   "dmg2": "45",
+   "dmg3": "135",
+   "crit_rate1": "25%",
+   "crit_rate2": "25%",
+   "crit_rate3": "25%",
+   "effect_radius1": "3m",
+   "effect_radius2": "3.2m",
+   "effect_radius3": "3.5m",
+   "misc_a_2": "Instantly generates an Arcane Explosion with radius multiplied by 0.7 when killing an enemy unit.",
+   "misc_a_3": "Instantly generates an Arcane Explosion when killing an enemy unit."
+  },
+  "type": "Spell Projectiles",
+  "page": "The Arcane Explosion is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, it explodes at the tip of the wand.\n\nDescription: It is said that it's a perfect mate to a fuse, many mages are addicted to experiencing the mana blast after gathering them to the tip of the wand."
+ },
+ {
+  "name": "Spell Absorption",
+  "rarity": "Epic",
+  "tips": "Returns mana to you after completing its mission gratefully, but if you can cast it with less MP, what a deal",
+  "levels": {
+   "1": "Restores the MP spent for the spell-casting wand when hitting an enemy for the first time"
+  }
+ },
+ {
+  "name": "Shadow Serpent",
+  "rarity": "Normal",
+  "tips": "The curved movement may be slow, but it increases the hitting chance, with a body capable of dealing damage with each body segment, the Shadow Serpent is favored by many mages",
+  "levels": {
+   "1": "Sends a Shadow Serpent with a length of 6 meters",
+   "2": "Sends a Shadow Serpent with a length of 12 meters",
+   "3": "Sends a Shadow Serpent with a length of 24 meters"
+  },
+  "infobox": {
+   "image": "Shadow_Serpent.png",
+   "desc": "Winding serpentine spell",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "11",
+   "mana_cost2": "15",
+   "mana_cost3": "19",
+   "dmg1": "30 (DPS)",
+   "dmg2": "60 (DPS)",
+   "dmg3": "120 (DPS)",
+   "misc_a_1": "Sends a Shadow Serpent with a length of 6 meters",
+   "misc_a_2": "Sends a Shadow Serpent with a length of 12 meters",
+   "misc_a_3": "Sends a Shadow Serpent with a length of 24 meters"
+  },
+  "type": "Spell Projectiles",
+  "page": "The Shadow Serpent is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, travels slowly in the direction cast, passing through all enemies and walls.\n\nDescription: The curved movement may be slow, but it increases the hitting chance, with a body capable of dealing damage with each body segment, the Shadow Serpent is favored by many mages."
+ },
+ {
+  "name": "Ray of Disintegration",
+  "rarity": "Rare",
+  "tips": "An enhanced spell of the Laser, though a vast amount of mana cannot be fully cast in an instant, it can unlimitedly penetrate targets",
+  "levels": {
+   "1\n\n\n2\n\n\n3": "Continuous casting"
+  },
+  "infobox": {
+   "image": "Ray_of_Disintegration.png",
+   "desc": "Laser beam that deals damage over time",
+   "type": "Spell Projectiles",
+   "rarity": "Rare",
+   "mana_cost1": "43",
+   "mana_cost2": "56",
+   "mana_cost3": "73",
+   "dmg1": "60 (DPS)",
+   "dmg2": "120 (DPS)",
+   "dmg3": "240 (DPS)",
+   "misc_a_1": "Continuous Casting",
+   "misc_a_2": "Continuous Casting",
+   "misc_a_3": "Continuous Casting"
+  },
+  "type": "Spell Projectiles",
+  "page": "The Ray of Disintegration is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, continuously fires the ray at the target for several seconds.\n\nDescription: An enhanced spell of the Last, though a vast amount of mana cannot be fully cast in an instance, it can unlimitedly penetrate targets."
+ },
+ {
+  "name": "Deceptive Mine",
+  "rarity": "Rare",
+  "tips": "The name itself suggests its danger. Although people suspect it was created by abyssal creatures as a weapon against human, when its powerful explosion directly destroys an entire bone worm, mages get reluctant to discard it into the reforge machine\\After landing, it stops moving. If it falls into the abyss, it disappears. When it explodes, it leaves behind elemental residues on the ground",
+  "levels": {
+   "1": "Indiscriminate Damage",
+   "2": "Indiscriminate Damage",
+   "3": "Indiscriminate Damage"
+  },
+  "infobox": {
+   "image": "Deceptive_Mine.png",
+   "type": "Spell Projectiles",
+   "rarity": "Rare",
+   "mana_cost1": "25",
+   "mana_cost2": "38",
+   "mana_cost3": "56",
+   "dmg1": "70",
+   "dmg2": "147",
+   "dmg3": "309",
+   "crit_rate1": "50%",
+   "crit_rate2": "60%",
+   "crit_rate3": "80%",
+   "effect_radius1": "1.5m",
+   "effect_radius2": "1.8m",
+   "effect_radius3": "2.2m",
+   "misc_a_1": "Indiscriminate Damage",
+   "misc_a_2": "Indiscriminate Damage",
+   "misc_a_3": "Indiscriminate Damage"
+  },
+  "type": "Spell Projectiles",
+  "page": "The Deceptive Mine is a Rare Spell of Type: Spell Projectiles. When the default spell is cast, it fires out a spiked bomb that explodes damaging nearby enemies. If the bomb strikes a target, it explodes immediately. If it does not strike a target, it comes to a stop, blinks a few times, and then explodes.\n\nDescription: The name itself suggests its danger. Although people suspect it was created by abyssal creatures as a weapon against human, when its powerful explosion directly destroys an entire bone work, mages get reluctant to discard it into the reforge machine.\n\nAfter landing, it stops moving. If it falls into the abyss, it disappears. When it explodes, it leaves attached elements on the ground."
+ },
+ {
+  "name": "Meteor",
+  "rarity": "Rare",
+  "tips": "Summon a meteor shower from the sky, a powerful and splendid spell. When weary of battles, you can always enjoy a meteor shower, but remember to bring an umbrella\\Elemental residues are left on the ground, meteors may bounce on the ground",
+  "levels": {
+   "1": "Indiscriminate Damage",
+   "2": "Additionally launches int1 small meteors\\Indiscriminate Damage",
+   "3": "Additionally launches int1 small meteors\\Indiscriminate Damage"
+  },
+  "infobox": {
+   "image": "Meteor.png",
+   "type": "Spell Projectiles",
+   "rarity": "Epic",
+   "mana_cost1": "18",
+   "mana_cost2": "24",
+   "mana_cost3": "30",
+   "dmg1": "65",
+   "dmg2": "93",
+   "dmg3": "130",
+   "effect_radius1": "1.2m",
+   "effect_radius2": "1.3m",
+   "effect_radius3": "1.4m",
+   "misc_a_1": "Indiscriminate Damage",
+   "misc_a_2": "Indiscriminate Damage",
+   "misc_b_2": "Addidtionally launches 2 small meteors (28 dmg)",
+   "misc_a_3": "Indiscriminate Damage",
+   "misc_b_3": "Addidtionally launches 5 small meteors (39 dmg)"
+  },
+  "type": "Spell Projectiles",
+  "page": "Meteor is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, a meteor falls from the sky and impacts the ground under the player's cursor.\n\nDescription: Summon a meteor shower from the sky, a powerful and splendid spell. When weary of battles, you can always enjoy a meteor shower, but remember to bring an umbrella.\n\nElemental residues are left on the ground, meteors may bounce on the ground."
+ },
+ {
+  "name": "Rainbow",
+  "rarity": "Normal",
+  "tips": "Shoots seven rainbow-colored projectiles at even angles. Possibly for distinguishing them from magic bullets, these projectiles come with 1 point of penetration",
+  "levels": {
+   "1": "Uniform Diffuse",
+   "2": "Uniform Diffuse",
+   "3": "Uniform Diffuse"
+  },
+  "infobox": {
+   "image": "Rainbow.png",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "12",
+   "mana_cost2": "15",
+   "mana_cost3": "20",
+   "dmg1": "6",
+   "dmg2": "12",
+   "dmg3": "24",
+   "number_of_shots1": "7",
+   "number_of_shots2": "7",
+   "number_of_shots3": "7",
+   "scatter1": "45°",
+   "scatter2": "45°",
+   "scatter3": "45°",
+   "misc_a_1": "Uniform Diffuse",
+   "misc_a_2": "Uniform Diffuse",
+   "misc_a_3": "Uniform Diffuse"
+  },
+  "type": "Spell Projectiles",
+  "page": "Rainbow is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, it fans out its seven projectiles in front of the player colored like a rainbow shotgun blast.\n\nDescription: Shoots seven rainbow-colored projectiles at even angles. Possibly for distinguishing them from magic bullets, these projectiles come with 1 point of penetration."
+ },
+ {
+  "name": "Arcane Nova",
+  "rarity": "Epic",
+  "tips": "A superior alternative to the fuse, this spell is rare. The shimmering stars inside and the flowing mana on the surface hint at its immense power",
+  "levels": {
+   "1": "Mana cost of the first shooting spell on the right side x500%, and the damage decreasing by 50% and scatters 20 times. (The spell on the right costs 5 times as much, deals half damage, and activates 20 times.)"
+  },
+  "infobox": {
+   "image": "Arcane_Nova.png",
+   "type": "Spell Projectiles",
+   "rarity": "Epic",
+   "mana_cost1": "10",
+   "dmg1": "30",
+   "misc_a_1": "Mana cost of the first shooting spell on the right side x500%, and the damage decreasing by 50% and scatters 20 times."
+  },
+  "type": "Spell Projectiles",
+  "page": "Arcane Nova is an Epic Spell of Type: Spell Projectiles. When the default spell is cast, it launches a spinning star. As the star travels, it repeatedly shoots the first spell to the right up to twenty times.\n\nDescription: A superior alternative to the fuse, this spell is rare. The shimmering stars inside and the flowing mana on the surface hint at its immense power."
+ },
+ {
+  "name": "Lightning Dash",
+  "rarity": "Rare",
+  "tips": "A chunk of drivable lightning, with the driver inside being protected from external harm. If it weren't for the high MP consumption, this could potentially be a transportation",
+  "levels": {
+   "1": "Invincible while casting spell",
+   "2": "Invincible while casting spell\\Upon completion, triggers an explosion with a Effect Radius multiplied by 2.5, eliminating most spells within",
+   "3": "Invincible while casting spell\\Upon completion, triggers an explosion with a Effect Radius multiplied by 3.5, eliminating most spells within"
+  },
+  "infobox": {
+   "image": "Lightning_Dash.png",
+   "type": "Spell Projectiles",
+   "rarity": "Rare",
+   "mana_cost1": "33",
+   "mana_cost2": "43",
+   "mana_cost3": "56",
+   "dmg1": "14",
+   "dmg2": "28",
+   "dmg3": "56",
+   "crit_rate1": "70%",
+   "crit_rate2": "70%",
+   "crit_rate3": "70%",
+   "effect_radius1": "1m",
+   "effect_radius2": "1m",
+   "effect_radius3": "1m",
+   "misc_a_1": "Continuous Casting",
+   "misc_b_1": "Invincible while casting spell",
+   "misc_a_2": "Continuous Casting",
+   "misc_b_2": "Invincible while casting spell",
+   "misc_c_2": "Upon completion, triggers an explosion with a Effect Radius multiplied by 2.5, eliminating most spells within",
+   "misc_a_3": "Continuous Casting",
+   "misc_b_3": "Invincible while casting spell",
+   "misc_c_3": "Upon completion, triggers an explosion with a Effect Radius multiplied by 3.5, eliminating most spells within"
+  },
+  "type": "Spell Projectiles",
+  "page": "Lightning Dash is a Rare Spell of Type: Spell Projectiles. When the default spell is cast, The player is turned into a ball of lightning following the player's cursor.\n\nDescription: A chunk of drivable lightning, with the driver inside being protected from external harm. If it weren't for the high MP consumption, this could potentially be a transportation."
+ },
+ {
+  "name": "Adava Keravda",
+  "rarity": "Epic",
+  "tips": "The power is often as strong as it is difficult to control. With increasing proficiency, a more strong Keravda will be cast",
+  "levels": {
+   "1": "Indiscriminate Damage\\Enemy-Killing upgrade",
+   "2": "Indiscriminate Damage\\Enemy-Killing upgrade",
+   "3": "Indiscriminate Damage"
+  },
+  "infobox": {
+   "image": "Adava_Keravda.png",
+   "type": "Spell Projectiles",
+   "rarity": "Epic",
+   "mana_cost1": "13",
+   "mana_cost2": "17",
+   "mana_cost3": "22",
+   "dmg1": "52",
+   "dmg2": "104",
+   "dmg3": "208",
+   "effect_radius1": "0.8m",
+   "effect_radius2": "1.2m",
+   "effect_radius3": "1.6m",
+   "misc_a_1": "Indiscriminate Damage",
+   "misc_b_1": "Enemy-Killing upgrade",
+   "misc_c_1": "Kills required: 240",
+   "misc_d_1": "Unable to craft",
+   "misc_a_2": "Indiscriminate Damage",
+   "misc_b_2": "Enemy-Killing upgrade",
+   "misc_c_2": "Kills required: 240",
+   "misc_d_2": "Unable to craft",
+   "misc_a_3": "Indiscriminate Damage",
+   "misc_d_3": "Unable to craft"
+  },
+  "type": "Spell Projectiles",
+  "page": "Adava Keravda is an Epic Spell of Type: Spell Projectiles. When the default spell is cast, a lightning-like bolt strikes instantly where the cursor is. Unlike other spells, this spell is upgraded by killing 120 enemies for + and 240 enemies for ++.\n\nDescription: The power is often as strong as it is difficult to control. With increasing proficiency, a more strong Keravda will be cast.\n\nThis is a reference to the Harry Potter franchise, or rather to the Unforgivable curse \"Avada Kedavra\""
+ },
+ {
+  "name": "Thunderstorm",
+  "rarity": "Normal",
+  "tips": "Chooses an area where lightning strikes will attack targets within it. Enemies outside the area may also be affected",
+  "levels": {
+   "1": "Lightning Strike can conduct int1 times",
+   "2": "Lightning Strike can conduct int1 times\\Spell damage increases by 130% when hitting only one enemy unit",
+   "3": "Lightning Strike can conduct int1 times\\Spell damage increases by 160% when hitting only one enemy unit"
+  },
+  "infobox": {
+   "image": "Thunderstorm",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "33",
+   "mana_cost2": "43",
+   "mana_cost3": "56",
+   "dmg1": "22 (DPS)",
+   "dmg2": "44 (DPS)",
+   "dmg3": "88",
+   "effect_radius1": "2.8m",
+   "effect_radius2": "3m",
+   "effect_radius3": "3.2m",
+   "misc_a_1": "Lightning Strike can conduct 3 times",
+   "misc_a_2": "Lightning Strike can conduct 5 times",
+   "misc_b_2": "Spell damage increases by 130% when hitting only one enemy unit",
+   "misc_a_3": "Lightning Strike can conduct 7 times",
+   "misc_b_3": "Spell damage increases by 160% when hitting only one enemy unit"
+  },
+  "type": "Spell Projectiles",
+  "page": "Thunderstorm is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, it paints an area around the player and lightning strikes enemies within.\n\nDescription: Chooses an area where lightning strikes will attack targets within it. Enemies outside the area may also be affected.\n\nNote, this will not fire on destructible objects like trees/boxes, so it cannot be used to search such objects for gold drops or concealed chests."
+ },
+ {
+  "name": "High-pressure Stream",
+  "rarity": "Normal",
+  "tips": "Don't underestimate the strength of water. Continuous attacks without interval are perfect for building combo spells of hitting. Water can also contain attached elements and leave traces on the ground",
+  "levels": {
+   "1": "60 DPS",
+   "2": "120 DPS",
+   "3": "240 DPS"
+  },
+  "infobox": {
+   "image": "High-pressure_Stream.png",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "24",
+   "mana_cost2": "31",
+   "mana_cost3": "40",
+   "dmg1": "60 (DPS)",
+   "dmg2": "120 (DPS)",
+   "dmg3": "240 (DPS)",
+   "misc_a_1": "Continuous Casting",
+   "misc_a_2": "Continuous Casting",
+   "misc_a_3": "Continuous Casting"
+  },
+  "type": "Spell Projectiles",
+  "page": "The High-pressure Stream is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, it fires a stream of water at the target.\n\nDescription: Don't underestimate the strength of water. Continuous attacks without interval are perfect for building combo spells of hitting. Water can also contain attached elements and leave traces on the ground.\n\nWARNING: If combined with a Venom Crystal it will create poison fields all over the ground where it sprays, which can also damage you and your summons."
+ },
+ {
+  "name": "Enchanting Coin",
+  "rarity": "Unique",
+  "tips": "The power of money. No coin no damage. (Remember to pick it up)",
+  "levels": {
+   "1": "Consumes and shoots out 20% of gold coins, for each coin consumed, base damage of the spell increases by 10%. Gold coins will recur upon spell completion."
+  },
+  "infobox": {
+   "image": "Enchanting_Coin.png",
+   "type": "Spell Projectiles",
+   "rarity": "Unique",
+   "mana_cost1": "20",
+   "dmg1": "60",
+   "misc_a_1": "Consumes and shoots out 20% of gold coins, for each coin consumed, base damage of the spell increases by 10%. Gold coins will recur upon spell completion.",
+   "misc_a_2": "unable to craft and reforge"
+  },
+  "type": "Spell Projectiles",
+  "page": "The Enchanting Coin is a Unique Spell of Type: Spell Projectiles. When the default spell is cast, it fires out a large gold orb. When the spell completes, it leaves a pile of gold.\n\nNOTE: The player must pick up the pile of gold before leaving the room or it will be lost.\n\nDescription: The power of money. No coin no damage. (Remember to pick it up)\n\nDropped by \"Vines\", a spider that hides in suits of armor in the Eternal Fortress. This includes those found in secret shops.\n\n\nTips: \n\n# This spell can be used to drop gold on the ground which pairs well with a Duplication Potion.\n# Can be used with Pros-pector's Vest for unlimited healing."
+ },
+ {
+  "name": "Evil Slayer Sword",
+  "rarity": "Rare",
+  "tips": "A magical sword formed from mana, fulfilling the mage's desire to exercise muscles, but a 40-meter long sword doesn't seem like something a mage would swing by hands",
+  "levels": {
+   "1": "Eliminates most enemy projectiles encountered",
+   "2": "Rebounds most enemy projectiles encountered",
+   "3": "More precisely rebounds most enemy projectiles encountered"
+  },
+  "infobox": {
+   "image": "Evil_Slayer_Sword.png",
+   "type": "Spell Projectiles",
+   "rarity": "Rare",
+   "mana_cost1": "18",
+   "mana_cost2": "22",
+   "mana_cost3": "29",
+   "dmg1": "39",
+   "dmg2": "78",
+   "dmg3": "156",
+   "effect_radius1": "2.3m",
+   "effect_radius2": "2.3m",
+   "effect_radius3": "2.3m",
+   "scatter1": "150°",
+   "scatter2": "180°",
+   "scatter3": "240°",
+   "misc_a_1": "Eliminates most enemy projectiles encountered",
+   "misc_a_2": "Rebounds most enemy projectiles encountered",
+   "misc_a_3": "More precisely rebounds most enemy projectiles encountered"
+  },
+  "type": "Spell Projectiles",
+  "page": "]]\n\n\nThe Evil Slayer Sword is a Rare Spell of Type: Spell Projectiles. When the default spell is cast, it swings a large glowing sword in front of the player, damaging targets and destroying most enemy projectiles.\n\nDescription: A magical sword formed from mana, fulfilling the mage's desire to exercise muscles, but a 40-meter long sword doesn't seem like something a mage would swing by hand.\n\nInteresting fact: the shape of the sword can be different and depends on the elemental enhancement"
+ },
+ {
+  "name": "Boomerang Blade",
+  "rarity": "Normal",
+  "tips": "Don't be frightened by the returning boomerang blades. Such blades that only attack enemies is the core spell for crafting magical saws",
+  "levels": {
+   "1": "Damage 16, crit rate 20%, penetration 5",
+   "2": "Damage 32, crit rate 20%, penetration 8",
+   "3": "Damage 64, crit rate 20%, penetration 11"
+  },
+  "infobox": {
+   "image": "Boomerang_Blade.png",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "9",
+   "mana_cost2": "11",
+   "mana_cost3": "15",
+   "dmg1": "16",
+   "dmg2": "32",
+   "dmg3": "64",
+   "crit_rate1": "20%",
+   "crit_rate2": "20%",
+   "crit_rate3": "20%",
+   "spell_penetration1": "5",
+   "spell_penetration2": "8",
+   "spell_penetration3": "12"
+  },
+  "type": "Spell Projectiles",
+  "page": "The Boomerang Blade is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, it fires out a single ring that travels to the target and returns to the player.\n\nDescription: Don't be frightened by the returning boomerang blades. Such blades that only attack enemies is the core spell for crafting magical saws."
+ },
+ {
+  "name": "Sword of Judgement",
+  "rarity": "Rare",
+  "tips": "The Sword of Judgment will surround the summoner, seeking out nearby threats and launch attacks",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Sword_of_Judgement.png",
+   "type": "Spell Projectiles",
+   "rarity": "Rare",
+   "mana_cost1": "6",
+   "mana_cost2": "8",
+   "mana_cost3": "10",
+   "dmg1": "17",
+   "dmg2": "34",
+   "dmg3": "68",
+   "cd1": "-0.1s",
+   "cd2": "-0.15s",
+   "cd3": "-0.2s",
+   "crit_rate1": "40%",
+   "crit_rate2": "40%",
+   "crit_rate3": "40%"
+  },
+  "type": "Spell Projectiles",
+  "page": "Sword of Judgement is a Rare Spell of Type: Spell Projectiles. When the default spell is cast, one or more swords orbit the player attacking any nearby threats. Each sword will only attack once and then must be recast.\n\nDescription: The Sword of Judgement will surround the summoner, seeking out nearby threats and launch attack."
+ },
+ {
+  "name": "Condensed Water Bubble",
+  "rarity": "Rare",
+  "tips": "Imitates the spell crafted by the Wave Envoy, Undine, and being enveloped within it is an incredibly comfortable experience. Although the explosion doesn't harm the caster, the powerful thrust still leaves the mind buzzing\\When it explodes, elemental residues are left on the ground, and automatically blow up when enemies approach",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Condensed_Water_Bubble.png",
+   "type": "Spell Projectiles",
+   "rarity": "Rare",
+   "mana_cost1": "35",
+   "mana_cost2": "45",
+   "mana_cost3": "59",
+   "dmg1": "100",
+   "dmg2": "170",
+   "dmg3": "290",
+   "cd1": "+0.2s",
+   "cd2": "+0.2s",
+   "cd3": "+0.2s",
+   "effect_radius1": "3m",
+   "effect_radius2": "3.2m",
+   "effect_radius3": "3.5m",
+   "misc_a_1": "Occupied Slots: 2",
+   "misc_b_1": "For every second of existence, Effect Radius increases by 10% and damage increases by 20%",
+   "misc_a_2": "Occupied Slots: 2",
+   "misc_b_2": "For every second of existence, Effect Radius increases by 12% and damage increases by 25%",
+   "misc_a_3": "Occupied Slots: 2",
+   "misc_b_3": "For every second of existence, Effect Radius increases by 15% and damage increases by 35%"
+  },
+  "type": "Spell Projectiles",
+  "page": "Condensed Water Bubble is a Rare Spell of Type: Spell Projectiles. When the default spell is cast, it places a large pulsating bubble near the player that slowly grows until it explodes, doing damage to enemies in the blast area. The player and any summons within the blast radius are knocked back but not hurt.\n\nDescription: Imitates the spell crafted by the Wave Envoy, Undine, and being enveloped within it is an incredibly comfortable experience. Although the explosion doesn't harm the caster, the powerful thrust still leaves the mind buzzing.\n\nWhen it explodes, elemental residues are left on the ground, and automatically blow up when enemies approach."
+ },
+ {
+  "name": "Fierce Dragon Breath",
+  "rarity": "Rare",
+  "tips": "Mages used to carry the fire traps from the ruins in their hands, and eventually learning this spell. When casting Blazing Breath, there is no slowdown, but it continuously generates recoil during the casting",
+  "levels": {
+   "1": "DMG 80(DPS), +30% per second\nScatter: 60°\nContinuous casting\nMP Cost: Duration x16\nDuration: 3 seconds",
+   "2": "DMG 160(DPS), +40% per second\nScatter: 60°\nContinuous casting\nMP Cost: Duration x22\nDuration: 3 seconds",
+   "3": "DMG 320(DPS), +50% per second\nScatter: 60°\nContinuous casting\nMP Cost: Duration x28\nDuration: 3 seconds"
+  },
+  "infobox": {
+   "image": "Fierce_Dragon_Breath.png",
+   "type": "Spell Projectiles",
+   "rarity": "Rare",
+   "mana_cost1": "Duration x16",
+   "mana_cost2": "Duration x22",
+   "mana_cost3": "Duration x28",
+   "dmg1": "80 (DPS), Per Second +30%",
+   "dmg2": "160 (DPS), Per Second +40%",
+   "dmg3": "320 (DPS), Per Second +50%",
+   "duration1": "3 seconds",
+   "duration2": "3 seconds",
+   "duration3": "3 seconds",
+   "scatter1": "60°",
+   "scatter2": "60°",
+   "scatter3": "60°",
+   "misc_a_1": "Continuous Casting",
+   "misc_a_2": "Continuous Casting",
+   "misc_a_3": "Continuous Casting"
+  },
+  "type": "Spell Projectiles",
+  "page": "Fierce Dragon Breath is a Rare Spell of Type: Spell Projectiles. When the default spell is cast, it breathes fire in a cone from the player continuously pushing the player back.\n\nDescription: Mages used to carry the fire traps from the ruins in their hands, and eventually learning this spell. When casting Blazing Breath, there is no slowdown, but it continuously generates recoil during the casting."
+ },
+ {
+  "name": "Shining Star Arrow",
+  "rarity": "Normal",
+  "tips": "It requires time to infuse with magic, and the purple glow symbolizes maximum mana amount. It's hard to perform a spell of higher damage than this one",
+  "levels": {
+   "1": "DMG: 78\nCharged Cast\nCRIT Rate increases by 25% per second while charging\nWhen CRIT Rate exceeds 33%, Final DMG x150%",
+   "2": "DMG: 148\nCharged Cast\nCRIT Rate increases by 25% per second while charging\nWhen CRIT Rate exceeds 66%, Final DMG x170%",
+   "3": "DMG: 281\nCharged Cast\nCRIT Rate increases by 25% per second while charging\nWhen CRIT Rate exceeds 100%, Final DMG x200%"
+  },
+  "infobox": {
+   "image": "Shining_Star_Arrow.png",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "27",
+   "mana_cost2": "35",
+   "mana_cost3": "46",
+   "dmg1": "78",
+   "dmg2": "148",
+   "dmg3": "281",
+   "misc_a_1": "Charged Casting",
+   "misc_b_1": "Critical Rate increases by 25% per second during channeling",
+   "misc_c_1": "When Critical rate exceeds 33%, final damage x150%",
+   "misc_a_2": "Charged Casting",
+   "misc_b_2": "Critical Rate increases by 25% per second during channeling",
+   "misc_c_2": "When Critical rate exceeds 66%, final damage x170%",
+   "misc_a_3": "Charged Casting",
+   "misc_b_3": "Critical Rate increases by 25% per second during channeling",
+   "misc_c_3": "When Critical rate exceeds 100%, final damage x200%"
+  },
+  "type": "Spell Projectiles",
+  "page": "Shining Star Arrow is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, it fires out a small projectile while knocking the player back slightly. This spell can be charged up for more damage by holding down the cast button. As the cast is charged, it increases in crit rate each second. Each new level of charge is accompanied by a sound and sparkle on the wand. This effect is also triggered at the start of the charge but can be delayed to the moment the spell reaches 0% crit chance if the starting crit chance is negative. The charged spell can be released at any time.\n\nDescription: It requires time to infuse with magic, and the purple glow symbolizes maximum mana amount. It's hard to perform a spell of higher damage than this one."
+ },
+ {
+  "name": "Pop",
+  "rarity": "Normal",
+  "tips": "Creatures usually living in the forest, come to help mages repel monsters after their habitat is taken up by monsters. They enjoy lying in the arms of mages called \"Bobo fan\"",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Pop.png",
+   "type": "Spell Summon",
+   "rarity": "Normal",
+   "mana_cost1": "36",
+   "mana_cost2": "48",
+   "mana_cost3": "62",
+   "dmg1": "6",
+   "dmg2": "12",
+   "dmg3": "16",
+   "hp1": "25",
+   "hp2": "40",
+   "hp3": "64",
+   "summon_limit1": "5",
+   "summon_limit2": "5",
+   "summon_limit3": "5"
+  },
+  "type": "Spell Summon",
+  "page": "The Pop is a Normal Spell of Type: Spell Summon. When the default spell is cast, a small creature appears at the players feet and quickly rolls towards and starts shooting the nearest enemy.\n\nDescription: Creatures usually living in the forest, come to help mages repel monsters after their habitat is taken up by monsters. They enjoy lying in the arms of mages called \"Pop fan\".\n\nNOTE, their attack can create effect fields on the ground where they land, such as poison fields if they are boosted with a Venom Crystal."
+ },
+ {
+  "name": "Skull of the Cthulhu",
+  "rarity": "Normal",
+  "tips": "A mysterious creature controlled by magic, it restores HP by attacking enemies",
+  "levels": {
+   "1": "Will follow the player into the next map",
+   "2": "Will follow the player into the next map\\Upon summoning, damage is increased by half of the wand's Max MP",
+   "3": "Will follow the player into the next map\\Upon summoning, gain damage increase equal to the wand's Max MP"
+  },
+  "infobox": {
+   "image": "Skull_of_the_Cthulhu.png",
+   "type": "Spell Summon",
+   "rarity": "Normal",
+   "mana_cost1": "50",
+   "mana_cost2": "80",
+   "mana_cost3": "130",
+   "dmg1": "16 (DPS)",
+   "dmg2": "20 (DPS)",
+   "dmg3": "26 (DPS)",
+   "crit_rate1": "40%",
+   "crit_rate2": "40%",
+   "crit_rate3": "40%",
+   "effect_radius1": "2.2m",
+   "effect_radius2": "2.4m",
+   "effect_radius3": "2.8m",
+   "hp1": "140",
+   "hp2": "210",
+   "hp3": "330",
+   "summon_limit1": "1",
+   "summon_limit2": "1",
+   "summon_limit3": "1",
+   "misc_a_2": "Gain DPS equal to 10% of the wand's max MP",
+   "misc_a_3": "Gain DPS equal to 20% of the wand's max MP"
+  },
+  "type": "Spell Summon",
+  "page": "Skull of the Cthulhu is a Rare Spell of Type: Spell Summon. When the default spell is cast, it summons a large spider-like creature that moves to nearby enemies and attacks, replenishing its health.\n\nDescription: Will follow the player into the next map.\n\nA mysterious creature controlled by magic, it restores HP by attacking enemies.\n\nUnique interaction: Skull has a unique interaction with Duet gaining x1.75 of its damage bonus."
+ },
+ {
+  "name": "Hand of the Cthulhu",
+  "rarity": "Normal",
+  "tips": "Though not a plant, it can be described as emerging from the soil. The hand of the Cthulhu can attack enemies regardless of distance",
+  "levels": {
+   "1": "Damage 10, Duration 20 seconds",
+   "2": "Damage 20, Duration 30 seconds",
+   "3": "Damage 40, Duration 40 seconds"
+  },
+  "infobox": {
+   "image": "Hand_of_the_Cthulhu.png",
+   "type": "Spell Summon",
+   "rarity": "Normal",
+   "mana_cost1": "30",
+   "mana_cost2": "39",
+   "mana_cost3": "47",
+   "dmg1": "10",
+   "dmg2": "20",
+   "dmg3": "40",
+   "duration1": "20 seconds",
+   "duration2": "30 seconds",
+   "duration3": "40 seconds",
+   "hp1": "19",
+   "hp2": "19",
+   "hp3": "19"
+  },
+  "type": "Spell Summon",
+  "page": "Hand of the Cthulhu is a Normal Spell of Type: Spell Summon. When the default spell is cast, a tentacle springs up near the player and attacks enemies by forcing a spike to emerge from the ground beneath the target.\n\nDescription: Though not a plant, it can be described as emerging from the soil. The hand of the Cthulhu can attack enemies regardless of distance."
+ },
+ {
+  "name": "Pillar of Light",
+  "rarity": "Normal",
+  "tips": "The divine light brings a sense of security, withstanding projectiles from enemies and applying elemental effects to surrounding enemies",
+  "levels": {
+   "1": "",
+   "2": "Deals damage to enemies encountered with equal to 40% of their maximum HP",
+   "3": "Deals damage to enemies encountered with equal to 80% of their maximum HP"
+  },
+  "infobox": {
+   "image": "Pillar_of_Light.png",
+   "type": "Spell Summon",
+   "rarity": "Normal",
+   "mana_cost1": "40",
+   "mana_cost2": "52",
+   "mana_cost3": "67",
+   "hp1": "30",
+   "hp2": "30",
+   "hp3": "30",
+   "number_of_shots1": "3",
+   "number_of_shots2": "4",
+   "number_of_shots3": "6",
+   "summon_limit1": "24",
+   "summon_limit2": "24",
+   "summon_limit3": "24",
+   "misc_a_2": "Deals damage to enemies encountered with equal to 40% of their maximum HP",
+   "misc_a_3": "Deals damage to enemies encountered with equal to 80% of their maximum HP"
+  },
+  "type": "Spell Summon",
+  "page": "Pillar of Light is a Common Spell of Type: Spell Summon. When the default spell is cast, a 3-pillar wall forms in front of the player blocking projectiles and damaging enemies that touch it.\n\nDescription: The divine light brings a sense of security, withstanding projectiles from enemies and applying elemental effects to surrounding enemies."
+ },
+ {
+  "name": "Autonomous Grimoire",
+  "rarity": "Rare",
+  "tips": "Some mages enjoy using magic to make books turn pages automatically, but obviously these books possess more powerful abilities",
+  "levels": {
+   "1": "Records and uses the first shooting spell on the right\\Grimoire grants a MP Regen speed equivalent to 50% of the summoning wand",
+   "2": "Records and uses the first shooting spell on the right\\Grimoire grants a MP Regen speed equivalent to 75% of the summoning wand",
+   "3": "Records and uses the first shooting spell on the right\\Grimoire grants a MP Regen speed equivalent to 110% of the summoning wand"
+  },
+  "infobox": {
+   "image": "Autonomous_Grimoire.png",
+   "type": "Spell Summon",
+   "rarity": "Rare",
+   "mana_cost1": "40",
+   "mana_cost2": "50",
+   "mana_cost3": "60",
+   "hp1": "40",
+   "hp2": "65",
+   "hp3": "100",
+   "summon_limit1": "3",
+   "summon_limit2": "3",
+   "summon_limit3": "3",
+   "misc_a_1": "Records and uses the first shooting spell on the right",
+   "misc_b_1": "Grimoire grants a MP Regen speed equivalent to 50% of the summoning wand",
+   "misc_a_2": "Records and uses the first shooting spell on the right",
+   "misc_b_2": "Grimoire grants a MP Regen speed equivalent to 75% of the summoning wand",
+   "misc_a_3": "Records and uses the first shooting spell on the right",
+   "misc_b_3": "Grimoire grants a MP Regen speed equivalent to 110% of the summoning wand"
+  },
+  "type": "Spell Summon",
+  "page": "The Autonomous Grimoire is a Rare Spell of Type: Spell Summon. When the default spell is cast, it summons a floating book that casts the spell in the wand to the right.\n\nThe Grimoire can cast either projectile spells or summon creatures.\n\n* If it is used to cast projectile spells, the Grimoire will automatically shoot at the nearest enemy in range.\n* If it is used to cast summons, it will begin summoning creatures. If the Grimoire dies, all summons it controlled die as well. If a Grimoire summons after reaching the summoning limit, one of the existing summons will be killed and a new one is spawned near the player. This may be useful with some builds but generally hurts DPS because the summon already in combat disappears and the newly created summon has to move into place to begin combat with enemies. This can be prevented by enabling a setting in Settings > Gameplay > Summon Limit > On. With this setting on, the Grimoire will summon until the limit is hit and then stop, only summoning a new creature if an existing creature dies.\n\nGrimoires can also summon more Grimoires, for example you could have Grimoire > Grimoire > Pop which would summon 3 parent Grimoires which would each have 3 child Grimoires which would each have 5 Pops for a total of 45 Pops. Granted, it takes a while for all of the child Grimoires and Pops to be summoned and that also assumes that none of them die in combat.\n\nDescription: Some mages enjoy using magic to make books turn pages automatically, but obviously these books possess more powerful abilities."
+ },
+ {
+  "name": "Volley",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Simultaneous Firing +2\\For each additional shooting spell sent simultaneously, mana cost x78%, scattering +10°",
+   "2": "Simultaneous Firing +3\\For each additional shooting spell sent simultaneously, mana cost x73%, scattering +15°",
+   "3": "Simultaneous Firing +4\\For each additional shooting spell sent simultaneously, mana cost x68%, scattering +20°"
+  },
+  "infobox": {
+   "image": "Volley.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "simultaneous_firing1": "+2",
+   "simultaneous_firing2": "+3",
+   "simultaneous_firing3": "+4",
+   "misc_a_1": "For each additional shooting spell sent simultaneously, mana cost x78%, scattering +10°",
+   "misc_a_2": "For each additional shooting spell sent simultaneously, mana cost x73%, scattering +15°",
+   "misc_a_3": "For each additional shooting spell sent simultaneously, mana cost x68%, scattering +20°"
+  },
+  "type": "Spell Boost",
+  "page": "Volley is a Normal Spell of Type: Spell Boost. It reduces the mana cost of simultaneously cast spells but increases Scatter."
+ },
+ {
+  "name": "Multi-Shot",
+  "rarity": "Rare",
+  "tips": "",
+  "levels": {
+   "1": "MP Cost: x150%, Increases spell cast by 1",
+   "2": "MP Cost: x150%, Increases spell cast by 2",
+   "3": "MP Cost: x150%, Increases spell cast by 4"
+  },
+  "infobox": {
+   "image": "Multi-Shot.png",
+   "type": "Spell Boost",
+   "rarity": "Rare",
+   "misc_a_1": "MP Cost: x150%",
+   "misc_b_1": "Increases spell cast by 1",
+   "misc_a_2": "MP Cost: x150%",
+   "misc_b_2": "Increases spell cast by 2",
+   "misc_a_3": "MP Cost: x150%",
+   "misc_b_3": "Increases spell cast by 4"
+  },
+  "type": "Spell Boost",
+  "page": "Multi-Shot is a Rare Spell of Type: Spell Boost. It multiplies the projectiles cast for all affected spells.\n\nThe effects of Multi-shot are separated by Trigger spells, meaning that spells within a payload won’t have additional casts if Multi-shot is placed outside of it."
+ },
+ {
+  "name": "Over Scatter",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "CD -0.15s\nScatter +60°\nSimultaneous Firing 5",
+   "2": "CD -0.25s\nScatter +90°\nSimultaneous Firing 8",
+   "3": "CD -0.40s\nScatter +150°\nSimultaneous Firing 12"
+  },
+  "infobox": {
+   "image": "Over_Scatter.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "cd1": "-0.15s",
+   "cd2": "-0.25s",
+   "cd3": "-0.4s",
+   "scatter1": "+60°",
+   "scatter2": "+90°",
+   "scatter3": "+150°",
+   "simultaneous_firing1": "5",
+   "simultaneous_firing2": "8",
+   "simultaneous_firing3": "12"
+  },
+  "type": "Spell Boost",
+  "page": "Over Scatter is a Normal Spell of Type: Spell Boost. It simultaneously fires multiple spells and lowers CD but adds Scatter."
+ },
+ {
+  "name": "Slime Crystal",
+  "rarity": "Normal",
+  "tips": "When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target",
+  "levels": {
+   "1": "The Movement Speed of targets hit x60% and the Flight Speed of spells x70% for 3 seconds",
+   "2": "The Movement Speed of targets hit x50% and the Flight Speed of spells x60% for 4 seconds",
+   "3": "The Movement Speed of targets hit x40% and the Flight Speed of spells x50% in 5 seconds"
+  },
+  "infobox": {
+   "image": "Slime_Crystal.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "misc_a_1": "The Movement Speed of targets hit x60% and the Flight Speed of spells x70% in 3 seconds",
+   "misc_a_2": "The Movement Speed of targets hit x50% and the Flight Speed of spells x60% in 4 seconds",
+   "misc_a_3": "The Movement Speed of targets hit x40% and the Flight Speed of spells x50% in 5 seconds"
+  },
+  "type": "Spell Boost",
+  "page": "Slime Crystal is a Normal Spell of Type: Spell Boost. Slows enemies hit and the spells they cast.\n\nDescription: When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target."
+ },
+ {
+  "name": "Venom Crystal",
+  "rarity": "Normal",
+  "tips": "The venom traces on the ground will inflict damage on allies\\When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target",
+  "levels": {
+   "1": "Applies 1 stacks of poison, dealing damage per stack each second for 3 seconds upon spell hit.",
+   "2": "Applies 2 stacks of poison, dealing damage per stack each second for 4 seconds upon spell hit.",
+   "3": "Applies 4 stacks of poison, dealing damage per stack each second for 5 seconds upon spell hit."
+  },
+  "infobox": {
+   "image": "Venom_Crystal.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "misc_a_1": "Applies 1 stacks of poison, dealing damage per stack each second for 3 seconds upon spell hit.",
+   "misc_a_2": "Applies 2 stacks of poison, dealing damage per stack each second for 4 seconds upon spell hit.",
+   "misc_a_3": "Applies 4 stacks of poison, dealing damage per stack each second for 5 seconds upon spell hit."
+  },
+  "type": "Spell Boost",
+  "page": "Venom Crystal is a Normal Spell of Type: Spell Boost. It adds stacking poison damage to projectiles or summons.\n\nDescription: The venom traces on the ground will inflict damage on allies.\n\nWhen there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target.\n\nNOTE: \n* Some spells boosted with a  can create poison pools on the ground which will poison the player and any summons, if touched. The examples below will create poison pools,\n** The enhanced grenade attack of a Pop boosted by  and Essence of Soul\n** A Condensed Water Bubble boosted by \n* The damage per second of the poison stacks from this are completely unaffected by all Increase Damage effects, such as the Beast Fangs relic and Final Damage modifiers on some wands, and they also cannot Critical Hit so relevant items like Precise Shot and Blade of Fury have no effect. To get the best damage out of the poison it is best to use spells that can rapidly apply hits and focus more on their firing rate instead of their damage output."
+ },
+ {
+  "name": "Penetration",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Spell Penetration +1",
+   "2": "Spell Penetration +2",
+   "3": "Spell Penetration +4"
+  },
+  "infobox": {
+   "image": "Penetration.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "spell_penetration1": "+1",
+   "spell_penetration2": "+2",
+   "spell_penetration3": "+4"
+  },
+  "type": "Spell Boost",
+  "page": "Penetration is a Normal Spell of Type: Spell Boost. It allows a spell to hit an enemy, pass through them, and potentially hit another enemy with a single cast. Higher Spell Penetration levels allow more enemies to be passed through."
+ },
+ {
+  "name": "Chain of Lightning",
+  "rarity": "Rare",
+  "tips": "",
+  "levels": {
+   "1": "Connects spells cast simultaneously and deal 9 damage to objects along the path",
+   "2": "Connects spells cast simultaneously and deal 18 damage to objects along the path",
+   "3": "Connects spells cast simultaneously and deal 36 damage to objects along the path"
+  },
+  "infobox": {
+   "image": "Chain_of_Lightning.png",
+   "type": "Spell Boost",
+   "rarity": "Rare",
+   "misc_a_1": "Connects spells cast simultaneously and deal 9 damage to objects along the path",
+   "misc_a_2": "Connects spells cast simultaneously and deal 18 damage to objects along the path",
+   "misc_a_3": "Connects spells cast simultaneously and deal 36 damage to objects along the path"
+  },
+  "type": "Spell Boost",
+  "page": "Chain of Lightning is a Rare Spell of Type: Spell Boost. It causes lightning arcs between projectiles that damage enemies."
+ },
+ {
+  "name": "Hover",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Hover in place for 2 seconds at the completion of the spell",
+   "2": "Hover in place for 3 seconds at the completion of the spell",
+   "3": "Hover in place for float1 seconds at the completion of the spell"
+  },
+  "infobox": {
+   "image": "Hover.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "misc_a_1": "Hover in place for 2 seconds at the completion of the spell",
+   "misc_a_2": "Hover in place for 3 seconds at the completion of the spell",
+   "misc_a_3": "Hover in place for 5 seconds at the completion of the spell"
+  },
+  "type": "Spell Boost",
+  "page": "Hover is a Normal Spell of Type: Spell Boost. The affected spell is cast normally but when the spell ends, it's projectile(s) hover in place for a short time.\n\n== Interactions ==\n\n* Arcane Explosion: No further damage beyond the casting of the spell.\n* Thunderstorm: Lightning strikes continue until spell disappears."
+ },
+ {
+  "name": "Orbit",
+  "rarity": "Normal",
+  "tips": "Trajectory enhancements. These enhancements will override previous projectile trajectories",
+  "levels": {
+   "1": "Spell Duration +4 sec\\Orbit Effect Radius float3m\\Spell rotates around the caster",
+   "2": "Spell Duration +7 sec\\Spell Flight Speed +5\\Orbit Effect Radius float4m\\Spell rotates around the caster",
+   "3": "Spell Duration +11 sec\\Spell Flight Speed +10\\Orbit Effect Radius float4m\\Spell rotates around the caster"
+  },
+  "infobox": {
+   "image": "Orbit.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "spell_duration1": "+4",
+   "spell_duration2": "+7",
+   "spell_duration3": "+11",
+   "spell_flight_speed2": "+5",
+   "spell_flight_speed3": "+10",
+   "misc_a_1": "Orbit Effect Radius 3m",
+   "misc_b_1": "Spell rotates around the caster",
+   "misc_a_2": "Orbit Effect Radius 4m",
+   "misc_b_2": "Spell rotates around the caster",
+   "misc_a_3": "Orbit Effect Radius 5m",
+   "misc_b_3": "Spell rotates around the caster"
+  },
+  "type": "Spell Boost",
+  "page": "Orbit is a Normal Spell of Type: Spell Boost. It causes the affected spells to orbit around the player in a counterclockwise direction, and typically does not negate spell recoil.\n\nDescription: Trajectory enhancements. These enhancements will override previous projectile trajectories.\n\n== Interactions ==\n\n* Arcane Explosion: Fires in a regular clockwise pattern, approximately 15 to 30 degrees.\n* Fierce Dragon Breath: Does not provide spell recoil during casting.\n* Thunderstorm: Places the spell next to the caster in a random location between 0 and 360 degrees."
+ },
+ {
+  "name": "Track",
+  "rarity": "Rare",
+  "tips": "Trajectory enhancements. These enhancements will override previous projectile trajectories",
+  "levels": {
+   "1": "Spell Flight Speed +1\\Spell Duration +1 sec\\Spells now track your mouse cursor",
+   "2": "Spell Flight Speed +2\\Spell Duration +2 sec\\Spells now track your mouse cursor",
+   "3": "Spell Flight Speed +4\\Spell Duration +4 sec\\Spells now track your mouse cursor"
+  },
+  "infobox": {
+   "image": "Track.png",
+   "type": "Spell Boost",
+   "rarity": "Rare",
+   "spell_duration1": "+1",
+   "spell_duration2": "+2",
+   "spell_duration3": "+4",
+   "spell_flight_speed1": "+1",
+   "spell_flight_speed2": "+2",
+   "spell_flight_speed3": "+4",
+   "misc_a_1": "Spells now track your mouse cursor",
+   "misc_a_2": "Spells now track your mouse cursor",
+   "misc_a_3": "Spells now track your mouse cursor"
+  },
+  "type": "Spell Boost",
+  "page": "Track is a Rare Spell of Type: Spell Boost. Affected spells now follow the player's cursor.\n\nDescription: Trajectory enhancements. These enhancements will override previous projective trajectories."
+ },
+ {
+  "name": "Automatic Navigate",
+  "rarity": "Rare",
+  "tips": "Trajectory enhancements. These enhancements will override previous projectile trajectories",
+  "levels": {
+   "1": "The spell tracks the target with an angular velocity of 12° per meter",
+   "2": "The spell tracks the target with an angular velocity of 22° per meter",
+   "3": "The spell tracks the target with an angular velocity of 38° per meter"
+  },
+  "infobox": {
+   "image": "Automatic_Navigate.png",
+   "type": "Spell Boost",
+   "rarity": "Rare",
+   "misc_a_1": "The spell tracks the target with an angular velocity of 12° per meter",
+   "misc_a_2": "The spell tracks the target with an angular velocity of 22° per meter",
+   "misc_a_3": "The spell tracks the target with an angular velocity of 38° per meter"
+  },
+  "type": "Spell Boost",
+  "page": "Automatic Navigate is a Rare Spell of Type: Spell Boost. It adds automatic target tracking to any projectile spell.\n\nDescription: Trajectory enhancements. These enhancements will override previous projectile trajectories."
+ },
+ {
+  "name": "Rebound",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Spell Rebound Count +2\\Duration of each rebound +1 sec",
+   "2": "Spell Rebound Count +4\\Duration of each rebound +1 sec",
+   "3": "Spell Rebound Count +8\\Duration of each rebound +1 sec"
+  },
+  "infobox": {
+   "image": "Rebound.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "spell_rebound_count1": "+2",
+   "spell_rebound_count2": "+4",
+   "spell_rebound_count3": "+8",
+   "misc_a_1": "Duration of each rebound +1",
+   "misc_a_2": "Duration of each rebound +1",
+   "misc_a_3": "Duration of each rebound +1"
+  },
+  "type": "Spell Boost",
+  "page": "Rebound is a Normal Spell of Type: Spell Boost. It increases number of times that a spell can bounce off objects and increases the Spell Duration for each bounce."
+ },
+ {
+  "name": "Split",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Splits into 3 spells upon the completion of the spell, each dealing x33% damage",
+   "2": "Splits into 5 spells upon the completion of the spell, each dealing x33% damage",
+   "3": "Splits into 8 spells upon the completion of the spell, each dealing x33% damage"
+  },
+  "infobox": {
+   "image": "Split.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "mp_cost1": "x150%",
+   "mp_cost2": "x150%",
+   "mp_cost3": "x150%",
+   "misc_a_1": "Splits into 3 spells upon the completion of the spell, each dealing 33% damage",
+   "misc_a_2": "Splits into 5 spells upon the completion of the spell, each dealing 33% damage",
+   "misc_a_3": "Splits into 8 spells upon the completion of the spell, each dealing 33% damage"
+  },
+  "type": "Spell Boost",
+  "page": "Split is a Normal Spell of Type: Spell Boost. It splits a single cast into multiple casts for a slight increase in MP Cost but a damage per spell decrease. The Mana Cost to damage ratio improves as the Spell Level increases.\n\nWhen applied to passive spells like Bi'an Flying Sword, Rune Hammer and Prism Core they be always in the split state, doing 33% of the original damage, which is especially detrimental for Bi'an Flying Sword which will not receive any extra copies.\n\n{| class=\"fandom-table\"\n|+Split Examples\n!Level\n!MP Cost\n! Projectiles\n!Projectile Damage\n!Overall Damage\n!Damage:MP Cost\n|-\n|1\n|150%\n|3\n|33%\n|200%\n|1.67\n|-\n|2\n|150%\n|5\n|33%\n|267%\n|2.11\n|-\n|3\n|150%\n| 8\n|33%\n|367%\n|2.78\n|}"
+ },
+ {
+  "name": "Frost Crystal",
+  "rarity": "Rare",
+  "tips": "When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Frost_Crystal.png",
+   "type": "Spell Boost",
+   "rarity": "Rare",
+   "misc_a_1": "Targets hit will be frozen for 1.5 seconds",
+   "misc_a_2": "Targets hit will be frozen for 3 seconds",
+   "misc_a_3": "Targets hit will be frozen for 6 seconds"
+  },
+  "type": "Spell Boost",
+  "page": "Frost Crystal is a Rare Spell of Type: Spell Boost. It causes any non-boss enemies hit to freeze for a period of time.\n\nDescription: When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target."
+ },
+ {
+  "name": "Parasite",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Parasite.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "misc_a_1": "Summoned creatures gain +30% Attack Speed and Movement Speed, losing 2 HP per second",
+   "misc_b_1": "When Summoned creatures die, 2 parasites are spawned",
+   "misc_a_2": "Summoned creatures gain +50% Attack Speed and Movement Speed, losing 4 HP per second",
+   "misc_b_2": "When Summoned creatures die, 3 parasites are spawned",
+   "misc_a_3": "Summoned creatures gain +80% Attack Speed and Movement Speed, losing 8 HP per second",
+   "misc_b_3": "When Summoned creatures die, 5 parasites are spawned"
+  },
+  "type": "Spell Boost",
+  "page": "Parasite is a Normal Spell of Type: Spell Boost. It increases the Attack Speed and Movement Spells of affected summons but causes constant HP loss. If a summon dies, parasites are spawned and attack the nearest enemy.\n\nParasites spawned do 15 damage, inherit the summons crit rate, spell damage multiplier and final damage multiplier."
+ },
+ {
+  "name": "Core of Thunder",
+  "rarity": "Rare",
+  "tips": "When applying multiple Cores of Thunder, take the highest thunder chance and add the damage. The appearance change caused by the Core of Thunder will override other elemental enhancements, but won't affect the ultimate effect",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Core_of_Thunder.png",
+   "type": "Spell Boost",
+   "rarity": "Rare",
+   "misc_a_1": "At the completion of the spell, there is a 15% chance to deal an additional 100% damage to enemies within a Effect Radius of 2.2m",
+   "misc_a_2": "At the completion of the spell, there is a 30% chance to deal an additional 150% damage to enemies within a Effect Radius of 2.4m",
+   "misc_a_3": "At the completion of the spell, there is a 40% chance to deal an additional 200% damage to enemies within a Effect Radius of 2.8m"
+  },
+  "type": "Spell Boost",
+  "page": "Core of Thunder is a Normal Spell of Type: Spell Boost. When the spell ends, it adds a chance to do additional damage in an area."
+ },
+ {
+  "name": "DMG Enhanced",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Spell Damage +25%",
+   "2": "Spell Damage +50%",
+   "3": "Spell Damage +100%"
+  },
+  "infobox": {
+   "image": "DMG_Enhanced.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "misc_a_1": "Spell Damage +25%",
+   "misc_a_2": "Spell Damage +50%",
+   "misc_a_3": "Spell Damage +100%"
+  },
+  "type": "Spell Boost",
+  "page": "DMG Enhanced is a Normal Spell of Type: Spell Boost. It increases the damage of the spells it modifies."
+ },
+ {
+  "name": "Time Duration Enhanced",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Spell Duration +2s",
+   "2": "Spell Duration +3.5s",
+   "3": "Spell Duration +6s"
+  },
+  "infobox": {
+   "image": "Time_Duration_Enhanced.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "spell_duration1": "+2s",
+   "spell_duration2": "+3.5s",
+   "spell_duration3": "+6s"
+  },
+  "type": "Spell Boost",
+  "page": "Time Duration Enhanced is a Normal Spell of Type: Spell Boost. It increases the time the affected spell lasts. It extends flight time for projectiles like Magic Bullet or Shadow Serpent and lengthens charge time for spells like Condensed Water Bubble."
+ },
+ {
+  "name": "Energy Saving Mode",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Spell Cost x60% \\Spell Duration x75% \\Spell Damage x75%",
+   "2": "Spell Cost x50% \\Spell Duration x75% \\Spell Damage x75%",
+   "3": "Spell Cost x40% \\Spell Duration x80% \\Spell Damage x80%"
+  },
+  "infobox": {
+   "image": "Energy_Saving_Mode.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "mp_cost1": "x60%",
+   "mp_cost2": "x50%",
+   "mp_cost3": "x40%",
+   "spell_damage1": "x75%",
+   "spell_damage2": "x75%",
+   "spell_damage3": "x80%",
+   "spell_duration1": "x75%",
+   "spell_duration2": "x75%",
+   "spell_duration3": "x80%"
+  },
+  "type": "Spell Boost",
+  "page": "Energy Saving Mode is a Normal Spell of Type: Spell Boost. It lowers the MP cost of spells but also lowers the Spell Damage and Spell Duration."
+ },
+ {
+  "name": "Precise Shot",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "CRIT Rate: 10%\nScatter: -30°",
+   "2": "CRIT Rate: 20%\nScatter -60°",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Precise_Shot.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "crit_rate1": "+10%",
+   "crit_rate2": "+20%",
+   "crit_rate3": "+40%",
+   "scatter1": "-30°",
+   "scatter2": "-60°",
+   "scatter3": "-100°"
+  },
+  "type": "Spell Boost",
+  "page": "Precise Shot is a Normal Spell of Type: Spell Boost. It increases the critical hit chance and reduces the scatter of the spells it modifies."
+ },
+ {
+  "name": "Accelerator",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Spell Flight Speed +float1",
+   "2": "Spell Flight Speed +float1",
+   "3": "Spell Flight Speed +float1"
+  },
+  "infobox": {
+   "image": "Accelerator.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "spell_flight_speed1": "+3",
+   "spell_flight_speed2": "+6",
+   "spell_flight_speed3": "+12"
+  },
+  "type": "Spell Boost",
+  "page": "Accelerator is a Normal Spell of Type: Spell Boost. It increases the speed of the spells it modifies."
+ },
+ {
+  "name": "Range Enhanced",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Spell Effect Radius +30%",
+   "2": "Spell Effect Radius +60%",
+   "3": "Spell Effect Radius +120%"
+  },
+  "infobox": {
+   "image": "Range_Enhanced.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "spell_effect_radius1": "+30%",
+   "spell_effect_radius2": "+60%",
+   "spell_effect_radius3": "+120%"
+  },
+  "type": "Spell Boost",
+  "page": "Range Enhanced is a Normal Spell of Type: Spell Boost. it increases the area of effect of the spells it modifies."
+ },
+ {
+  "name": "Troll Serum",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Summoned creatures have +40% HP\\Summoned creatures restore +2.5HP per second",
+   "2": "Summoned creatures have +80% HP\\Summoned creatures restore +5 HP per second",
+   "3": "Summoned creatures have +160% HP\\Summoned creatures restore +10HP per second"
+  },
+  "infobox": {
+   "image": "Troll_Serum.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "misc_a_1": "Summoned creatures have +40% HP",
+   "misc_b_1": "Summoned creatures restore +2.5 HP per second",
+   "misc_a_2": "Summoned creatures have +80% HP",
+   "misc_b_2": "Summoned creatures restore +5 HP per second",
+   "misc_a_3": "Summoned creatures have +160% HP",
+   "misc_b_3": "Summoned creatures restore +10 HP per second"
+  },
+  "type": "Spell Boost",
+  "page": "Troll Serum is a Normal Spell of Type: Spell Boost. It increases the HP and HP regen of affected summons."
+ },
+ {
+  "name": "Mimicry Cube",
+  "rarity": "Rare",
+  "tips": "",
+  "levels": {
+   "1": "Imitates the first spell on the right maximumly duplicating its level 1 effect",
+   "2": "Imitates the first spell on the right maximumly duplicating its level 2 effect",
+   "3": "Imitates the first spell on the right maximumly duplicating its level 3 effect"
+  },
+  "infobox": {
+   "image": "Mimicry_Cube.png",
+   "type": "Spell Boost",
+   "rarity": "Rare",
+   "misc_a_1": "Imitates the next spell, maximumly duplicating its level 1 effect",
+   "misc_a_2": "Imitates the next spell, maximumly duplicating its level 2 effect",
+   "misc_b_3": "Imitates the next spell, maximumly duplicating its level 3 effect"
+  },
+  "type": "Spell Boost",
+  "page": "Mimicry Cube is a Rare Spell of Type: Spell Boost. It copies the spell to the right. The level copied depends on the level of the  and the level of the copied spell.\n\nExamples\n\n* Mimicry Cube > Accelerator results in Accelerator > Accelerator\n* Mimicry Cube > Accelerator+ results in Accelerator > Accelerator+\n* Mimicry Cube+ > Accelerator results in Accelerator > Accelerator\n* Mimicry Cube+ > Accelerator+ results in Accelerator+ > Accelerator+"
+ },
+ {
+  "name": "Umbilical Cord",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Connects summoned creatures and deals 25 damage per second against enemies along the path",
+   "2": "Connects summoned creatures and deals 50 damage per second against enemies along the path",
+   "3": "Connects summoned creatures and deals 100 damage per second against enemies along the path"
+  },
+  "infobox": {
+   "image": "Umbilical_Cord.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "misc_a_1": "Connects summoned creatures and deal 25 damage per second against enemies along the path",
+   "misc_a_2": "Connects summoned creatures and deal 50 damage per second against enemies along the path",
+   "misc_a_3": "Connects summoned creatures and deal 100 damage per second against enemies along the path"
+  },
+  "type": "Spell Boost",
+  "page": "Umbilical Cord is a Normal Spell of Type: Spell Boost. A cord connects the summoner and summon, causing damage over time to any enemies touching it."
+ },
+ {
+  "name": "Core of Flame",
+  "rarity": "Epic",
+  "tips": "Adds flame debuff to enemies/bosses for 3 seconds",
+  "levels": {
+   "1": "Occupies 2 wand slots\n\nSpell DMG +100%\n\nDeals damage equal to 5% of the target's max HP (0.3% for bosses) per second for 3 seconds"
+  },
+  "infobox": {
+   "image": "3111.png",
+   "type": "Spell Boost",
+   "rarity": "Epic",
+   "misc_a_1": "It increases the ignition buff for projectiles or summoners, lasting for 2 seconds and dealing 220 damage per sec."
+  },
+  "type": "Spell Boost",
+  "page": "Core of Flame is a Epic Spell of Type: Spell Boost. It increases the ignition buff for projectiles or summoners, lasting for 2 seconds and dealing 220 damage per sec.\n\nDescription: When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target."
+ },
+ {
+  "name": "Strong Traction",
+  "rarity": "Rare",
+  "tips": "",
+  "levels": {
+   "1": "CRIT Rate: +5%\nWhen the spell does critical hits, randomly pulls 1 other enemy within a radius of 7m and deals equal damage",
+   "2": "CRIT Rate: +5%\nWhen the spell does critical hits, randomly pulls 2 other enemy within a radius of 8m and deals equal damage",
+   "3": "CRIT Rate: +5% (?verify)\nWhen the spell does critical hits, randomly pulls 4 other enemy within a radius of 9m and deals equal damage"
+  },
+  "infobox": {
+   "image": "Strong_Traction.png",
+   "type": "Spell Boost",
+   "rarity": "Rare",
+   "crit_rate1": "+5%",
+   "crit_rate2": "+5%",
+   "misc_a_1": "When the spell deals critical hits, randomly traction 1 other enemies within a radius of 7m and deals equal damage",
+   "misc_a_2": "When the spell deals critical hits, randomly traction 2 other enemies within a radius of 8m and deals equal damage",
+   "misc_a_3": "When the spell deals critical hits, randomly traction 4 other enemies within a radius of 9m and deals equal damage"
+  },
+  "type": "Spell Boost",
+  "page": "Strong Traction is a Rare Spell of Type: Spell Boost. When an affected spell critically hits, equal damage is done randomly to additional enemies within range."
+ },
+ {
+  "name": "Fusion Summon",
+  "rarity": "Epic",
+  "tips": "",
+  "levels": {
+   "1": ""
+  },
+  "infobox": {
+   "image": "Fusion_Summon.png",
+   "type": "Spell Boost",
+   "rarity": "Epic",
+   "misc_a_1": "Occupied Slots: 2",
+   "misc_b_1": "Merges two identical summoned creatures into a new one",
+   "misc_c_1": "The new summon gains +100% attributes",
+   "misc_d_1": "Maximum merging count: 1"
+  },
+  "type": "Spell Boost",
+  "page": "Fusion Summon is an Epic Spell of Type: Spell Boost. It merges two identical summons into a single summon with doubled stats.\n\nInteractions:\n\nFor Skull of the Cthulhu it takes damage of the original skull but increases the tick rate of the fusioned version. The first fusion receives double the tick rate, the second fusion receives triple the tick rate compared to vanilla skull, and so on.\n\nFusioning also recalculates Skull of the Cthulhus max mp to damage multiplier based on the original skull wand, meaning each time you fusion max mana of original is checked and according damage multiplier is applied."
+ },
+ {
+  "name": "Cadaver Explosion",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Cadaver_Explosion.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "misc_a_1": "Summoned creature's maximum HP x80%",
+   "misc_b_1": "Summoned creature dies instantly if HP falls below 50%",
+   "misc_c_1": "When summoned creature dies, deals damage equal to current HP x100% to enemies within a radius of 2.5m"
+  },
+  "type": "Spell Boost",
+  "page": "Cadaver Explosion is a Normal Spell of Type: Spell Boost. It lowers a summon's HP and causes it to explode if it reaches half health."
+ },
+ {
+  "name": "Essence of Soul",
+  "rarity": "Rare",
+  "tips": "The actual effects can be viewed in the Enhanced Summoning Spell Information",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Essence_of_Soul.png",
+   "type": "Spell Boost",
+   "rarity": "Rare",
+   "misc_a_1": "Occupied Slots: 2",
+   "misc_b_1": "Unlocks new abilities for summoned creatures",
+   "misc_c_1": "Enhances the effects of the newly unlocked abilities for summoned creatures",
+   "misc_a_2": "Occupied Slots: 2",
+   "misc_b_2": "Unlocks new abilities for summoned creatures",
+   "misc_c_2": "Enhances the effects of the newly unlocked abilities for summoned creatures",
+   "misc_a_3": "Occupied Slots: 2",
+   "misc_b_3": "Unlocks new abilities for summoned creatures",
+   "misc_c_3": "Enhances the effects of the newly unlocked abilities for summoned creatures"
+  },
+  "type": "Spell Boost",
+  "page": "Essence of Soul is a Rare Spell of Type: Spell Boost. It changes the abilities of the summons on the wand. \n\nDescription: The actual effects can be viewed in the Enhanced Summoning Spell Information. \n{| class=\"fandom-table\"\n!Summon\n!Level\n!New Ability\n|-\n|Autonomous Grimoire\n| -/+/++\n|The magic book will automatically teleport to the appropriate location.\nEvery 9 times the magic book is cast you can use an enhanced teleportation attack.\n|-\n| rowspan=\"3\" |Hand of the Cthulhu\n| -\n|After every 3 attacks, the next attack will become a series of chain attacks, with attack speed +20%.\n|-\n| +\n|After every 2 attacks, the next attack will become a series of chain attacks, with attack speed +40%.\n|-\n| ++\n|\n|-\n|Pillar of Light\n| -/+/++\n|Once every 2,5 seconds, when there are enemies within the 1,5m radius, an attack will be triggered and damage will be dealt based on the Max HP.\n|-\n|Pop\n| -/+/++\n|There is a 20% chance that Pop's attack will turn into a powerful bomb attack.\n|-\n| rowspan=\"3\" |Skull of Cthulhu\n| -\n|Cthulhu's skull grows 2 more razor sharp tendrils, making it even deadlier for crushing enemies.\n|-\n| +\n|Cthulhu's skull grows 4 more razor sharp tendrils, making it even deadlier for crushing enemies.\n|-\n| ++\n|\n|}"
+ },
+ {
+  "name": "Reflection",
+  "rarity": "Rare",
+  "tips": "When both reflection and penetration are present, reflection takes priority",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Reflection.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "spell_damage1": "x80%",
+   "spell_damage2": "x85%",
+   "spell_damage3": "x90%",
+   "misc_a_1": "When hitting the enemy, the spell will bounce to the nearest enemy 2 times",
+   "misc_a_2": "When hitting the enemy, the spell will bounce to the nearest enemy 3 times",
+   "misc_a_3": "When hitting the enemy, the spell will bounce to the nearest enemy 5 times"
+  },
+  "type": "Spell Boost",
+  "page": "Reflection is a Normal Spell of Type: Spell Boost. It allows a spell to hit an enemy, bounce off them, and potentially hit another enemy with a single cast. Higher Spell Reflection levels allow more enemies to be bounced off.\n\nDescription: When both refelction and penetration are present, reflection takes priority"
+ },
+ {
+  "name": "Indomitability",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Indomitability.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "misc_a_1": "Summoned creatures continue to fight for 2 seconds upon death",
+   "misc_a_2": "Summoned creatures continue to fight for 4 seconds upon death",
+   "misc_a_3": "Summoned creatures continue to fight for 8 seconds upon death"
+  },
+  "type": "Spell Boost",
+  "page": "Indomitability is a Normal Spell of Type: Spell Boost. After an affected summon dies, it continues for fight for a few seconds."
+ },
+ {
+  "name": "Duet",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "Casts the spell on the right at the completion of the spell on the left\\The spell on the right inherits 30% of the damage from the spell on the left",
+   "2": "Casts the spell on the right at the completion of the spell on the left\\The spell on the right inherits 60% of the damage from the spell on the left",
+   "3": "Casts the spell on the right at the completion of the spell on the left\\The spell on the right inherits 120% of the damage from the spell on the left"
+  },
+  "infobox": {
+   "image": "Duet.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "misc_a_1": "Casts the spell on the right at the completion of the spell on the left",
+   "misc_b_1": "The spell on the right inherits 30% of the damage from the spell on the left",
+   "misc_a_2": "Casts the spell on the right at the completion of the spell on the left",
+   "misc_b_2": "The spell on the right inherits 60% of the damage from the spell on the left",
+   "misc_a_3": "Casts the spell on the right at the completion of the spell on the left",
+   "misc_b_3": "The spell on the right inherits 120% of the damage from the spell on the left"
+  },
+  "type": "Spell Boost",
+  "page": "Duet is a Normal Spell of Type: Spell Boost. The right spell becomes more powerful based on the damage of the left spell.\n\nEven though the spell description does not mention it, the damage bonus from Duet applies to all spells inside the payload of duet, except those separated by another Trigger spell. \n\nExample 1:\n\nWand with simultaneous casting 1\n\nMeteor + Duet + Volley + Magic Bullet + Laser\n\nThe duet damage bonus will apply to both the magic bullet and the laser. \n\nExample 2:\n\nWand with simultaneous casting 2\n\nMeteor + Duet + Magic Bullet + Dazzling Fireworks + Laser + Butterfly + Rainbow\n\nThe duet damage bonus is applied to the magic bullet and rainbow but not to laser and butterfly, because those are inside of trigger spell payload.\n\nDPS spells and Duet: When applying the duet damage to spells that do damage over time (those that have \"DPS\" in brackets) the Duet damage bonus is added to the overall damage per second. This means you will be hitting the enemy for dps divided by the Tick rate of the spell for each tick. \n\nException to this rule is Skull of the Cthulhu which gains x1.75 Duet damage on all its ticks.\n\nLightning dash does damage multiple times but does not have a DPS tag, so it benefits normally from the duet damage boost.\n\nHere is table of how Duet will affect various spells:\n{| class=\"fandom-table\"\n|+\n!Spell\n!Duet damage will be \nmultiplied by this number\n|-\n|Any spell without (dps) tag\n|1\n|-\n|Boomerang Blade\n|1\n|-\n|Lightning Dash\n|1\n|-\n|Skull of the Cthulhu\n|1.7\n|-\n|Thunderstorm, Black Hole, Shadow Serpent\n|0.25\n|-\n|Ray of Disintegration\n|0.05\n|-\n|Fierce Dragon Breath\n|0.045\n|-\n|High-pressure Stream\n|0.033\n|}\n\n\nYou can find more about how damage bonus from Duet is calculated here: Damage Calculation"
+ },
+ {
+  "name": "Dazzling Fireworks",
+  "rarity": "Rare",
+  "tips": "Because spells on the right will be cast four times, casting more spells on the right side will consume quadruple the mana",
+  "levels": {
+   "1": "Casts 4 spells on the right at the completion of the spell on the left\\The damage of spells cast x35%",
+   "2": "Casts 4 spells on the right at the completion of the spell on the left\\The damage of spells cast x45%",
+   "3": "Casts 4 spells on the right at the completion of the spell on the left\\The damage of spells cast 60%"
+  },
+  "infobox": {
+   "image": "Dazzling_Fireworks.png",
+   "type": "Spell Boost",
+   "rarity": "Rare",
+   "misc_a_1": "At the end of the left spell, release the right spell 4 times",
+   "misc_b_1": "The damage of the released spell x35%",
+   "misc_a_2": "At the end of the left spell, release the right spell 4 times",
+   "misc_b_2": "The damage of the released spell x45%",
+   "misc_a_3": "At the end of the left spell, release the right spell 4 times",
+   "misc_b_3": "The damage of the released spell x60%"
+  },
+  "type": "Spell Boost",
+  "page": "Dazzling Fireworks is a Rare Spell of Type: Spell Boost. When the left spell ends, it casts the spell to the right four times at a reduced damage.\n\nDescription: Because spells on the right will be cast four times, casting more spells on the right side will consume quadruple the mana."
+ },
+ {
+  "name": "Serial",
+  "rarity": "Normal",
+  "tips": "Casting this set of spells does not cost the MP for spells on the right",
+  "levels": {
+   "1": "Casts the spell on the right with 70% mana cost when the spell on the left is flying",
+   "2": "Quickly casts the spell on the right with 55% mana cost when the spell on the left is flying",
+   "3": "Promptly casts the spell on the right with 40% mana cost when the spell on the left is flying"
+  },
+  "infobox": {
+   "image": "Serial.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "misc_a_1": "Casts the spell on the right with 70% mana cost when the spell on the left is flying",
+   "misc_a_2": "Casts the spell on the right with 55% mana cost when the spell on the left is flying",
+   "misc_a_3": "Casts the spell on the right with 40% mana cost when the spell on the left is flying"
+  },
+  "type": "Spell Boost",
+  "page": "Serial is a Normal Spell of Type: Spell Boost. While the spell on the left is flying, it casts the spell on the right at reduced Mana Cost.\n\nDescription: Casting this set of spells does not cost the MP for spells on the right"
+ },
+ {
+  "name": "Echo",
+  "rarity": "Rare",
+  "tips": "Casting this set of spells does not cost the MP for spells on the right",
+  "levels": {
+   "1": "When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 80%, with a shortest interval of 0.3 seconds",
+   "2": "When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 65%, with a shortest interval of 0.2 seconds",
+   "3": "When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 50%, with a shortest interval of 0.1 seconds"
+  },
+  "infobox": {
+   "image": "Echo.png",
+   "type": "Spell Boost",
+   "rarity": "Rare",
+   "misc_a_1": "When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 80%, with a shortest interval of 0.3 seconds",
+   "misc_a_2": "When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 65%, with a shortest interval of 0.2 seconds",
+   "misc_a_3": "When the spell on the left hits the enemy, casts the spell on the right at the mana cost of 50%, with a shortest interval of 0.1 seconds"
+  },
+  "type": "Spell Boost",
+  "page": "Echo is a Rare Spell of Type: Spell Boost. If the spell on the left hits an enemy, it fires the spell on the right at a reduced mana cost.\n\nDescription: Casting this set of spells does not code the MP for spells on the right."
+ },
+ {
+  "name": "Magic Reservoir",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Magic_Reservoir.png",
+   "type": "Spell Passive",
+   "rarity": "Normal",
+   "misc_a_1": "Max MP of the wand +40%",
+   "misc_a_2": "Max MP of the wand +80%",
+   "misc_a_3": "Max MP of the wand +160%"
+  },
+  "type": "Spell Passive",
+  "page": "Magic Reservoir is a Normal Spell of Type: Spell Passive. When placed in wand, it increases the maximum mana (MP) of the wand."
+ },
+ {
+  "name": "Tranquil Bloom",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Tranquil_Bloom.png",
+   "type": "Spell Passive",
+   "rarity": "Normal",
+   "misc_a_1": "MP Regen of the wand +3/s",
+   "misc_a_2": "MP Regen of the wand +6/s",
+   "misc_a_3": "MP Regen of the wand +12/s"
+  },
+  "type": "Spell Passive",
+  "page": "Tranquil Bloom is a Normal Spell of Type: Spell Passive. When placed in wand, it increases the wand's mana regen."
+ },
+ {
+  "name": "Charge Mode",
+  "rarity": "Rare",
+  "tips": "",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Charge_Mode.png",
+   "type": "Spell Passive",
+   "rarity": "Rare",
+   "mana_cost1": "x90%",
+   "mana_cost2": "x80%",
+   "mana_cost3": "x70%",
+   "misc_a_1": "Hold the shoot button to accumulate spells, up to a maximum of 6 times",
+   "misc_a_2": "Hold the shoot button to accumulate spells, up to a maximum of 12 times",
+   "misc_a_3": "Hold the shoot button to accumulate spells, up to a maximum of 24 times"
+  },
+  "type": "Spell Passive",
+  "page": "Charge Mode is a Rare Spell of Type: Spell Passive. Hold the cast button to charge up spell shots, release to fire all spells at once."
+ },
+ {
+  "name": "Wand Spirit",
+  "rarity": "Rare",
+  "tips": "The wand's spirit can block enemy projectiles without taking damage",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Wand_Spirit.png",
+   "type": "Spell Passive",
+   "rarity": "Rare",
+   "misc_a_1": "The wand will auto-battle for you",
+   "misc_b_1": "MP Regen of the wand x50%",
+   "misc_a_2": "The wand will auto-battle for you",
+   "misc_b_2": "MP Regen of the wand x80%",
+   "misc_a_3": "The wand will auto-battle for you",
+   "misc_b_3": "MP Regen of the wand x130%"
+  },
+  "type": "Spell Passive",
+  "page": "Wand Spirit is a Rare Spell of Type: Spell Passive. When placed in a wand, the spirit automatically attacks with the wand at a reduced MP Regen. A wand containing a  cannot be manually fired\n\nEquipping the Soul Set force equips every wand picked up to contain a locked +.\n\nDescription: The wand's spirit can block enemy projectiles without taking damage\n\nNotes: Due to the nature of how they work, wands under the influence of a Wand Spirit are immune to the following effects:\n\n* Stunning/Cannot Fire effects such as from the Petrification Potion, the Timid and Stiffened Curses\n* Character Slowdown and Recoil On Casting effects/curses, such as the Toppling Balance and Unstable Balance curses."
+ },
+ {
+  "name": "Forced Cooldown",
+  "rarity": "Normal",
+  "tips": "",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Forced_Cooldown.png",
+   "type": "Spell Passive",
+   "rarity": "Normal",
+   "cd1": "x60%",
+   "cd2": "x30%",
+   "cd3": "x15%"
+  },
+  "type": "Spell Passive",
+  "page": "Forced Cooldown is a Normal Spell of Type: Spell Passive. It lowers the wand cooldown (CD)."
+ },
+ {
+  "name": "Capacity Expansion Stone",
+  "rarity": "Rare",
+  "tips": "",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Capacity_Expansion_Stone.png",
+   "type": "Spell Passive",
+   "rarity": "Rare",
+   "spell_damage1": "x75%",
+   "spell_damage2": "x80%",
+   "spell_damage3": "x85%",
+   "spell_slots1": "+3",
+   "spell_slots2": "+4",
+   "spell_slots3": "+6"
+  },
+  "type": "Spell Passive",
+  "page": "Capacity Expansion Stone is a Rare Spell of Type: Spell Passive. When placed in wand, it adds spell slots but reduces overall damage."
+ },
+ {
+  "name": "Resonance Rune",
+  "rarity": "Normal",
+  "tips": "Resonance casting cannot trigger another wand's resonance",
+  "levels": {
+   "1": "",
+   "2": "",
+   "3": ""
+  },
+  "infobox": {
+   "image": "Resonance_Rune.png",
+   "type": "Spell Passive",
+   "rarity": "Normal",
+   "misc_a_1": "There is a 25% chance of auto-casting when using other wands, and a 20% chance of not consuming MP when using auto-casting.",
+   "misc_a_2": "There is a 50% chance of auto-casting when using other wands, and a 30% chance of not consuming MP when using auto-casting.",
+   "misc_a_3": "There is a 100% chance of auto-casting when using other wands, and a 40% chance of not consuming MP when using auto-casting."
+  },
+  "type": "Spell Passive",
+  "page": "Resonance Rune is a Normal Spell of Type: Spell Passive. When placed in wand, it adds a chance that the current wand will cast when using another wand and an additional chance to not use any mana.\n\nDescription: Resonance casting cannot trigger another wand's resonance"
+ },
+ {
+  "name": "Arcane Barrier",
+  "rarity": "Epic",
+  "tips": "The barrier is only created when the wand is fully charged with MP, and disappears when the wand runs out of MP\\Multiple wands equip the passive skill Arcane Barrier simultaneously, and they share the MP and the effect",
+  "levels": {
+   "1": ""
+  },
+  "infobox": {
+   "image": "Arcane_Barrier.png",
+   "type": "Spell Passive",
+   "rarity": "Epic",
+   "misc_a_1": "Occupied Slots: 3",
+   "misc_b_1": "Max MP of the wand +120",
+   "misc_c_1": "Arcane Barrier consumes 1 point of damage with 3% of Max MP and inflicts 4 times the MP cost on targets within a radius of 4m"
+  },
+  "type": "Spell Passive",
+  "page": "Arcane Barrier is an Epic Spell of Type: Spell Passive. Damage to the player gets redirected to the Mana of the wand.\n\nDescription: The barrier is only created when the wand is fully charged with MP, and disappears when the wand runs out of MP.\n\nMultiple wands equip the passive skill Arcane barrier simultaneously, and the share the MP and the effect."
+ },
+ {
+  "name": "Bing's Arrow",
+  "levels": {},
+  "infobox": {
+   "title": "Bing's Arrow",
+   "image": "Bing's_Arrow.png",
+   "desc": "Pulling arrows from the Bing's Bow, after a few shots, a bunch of arrows mysteriously fall out. So magical!",
+   "type": "Spell Projectiles",
+   "rarity": "Normal",
+   "mana_cost1": "4",
+   "mana_cost2": "5",
+   "mana_cost3": "7",
+   "dmg1": "11",
+   "dmg2": "20",
+   "dmg3": "36",
+   "misc_a_1": "After 50 casts, the next cast fires 4 big arrows",
+   "misc_a_2": "After 50 casts, the next cast fires 6 big arrows",
+   "misc_a_3": "After 50 casts, the next cast fires 10 big arrows"
+  },
+  "rarity": "Normal",
+  "type": "Spell Projectiles",
+  "page": "Bing's Arrow is a Normal Spell of Type: Spell Projectiles. When the default spell is cast, it fires a single project towards the target. After 50 casts, the next cast fires multiple big arrows, increasing with the level of the spell.\n\nNote, you will typically only ever see this if you wear the Bing Set.\n\nDescription: Pulling arrows from the Bing's Bow, after a few shots, a bunch of arrows mysteriously fall out. So magical!"
+ },
+ {
+  "name": "Bi'an Flying Sword",
+  "levels": {},
+  "infobox": {
+   "image": "Bi'an Flying Sword.png",
+   "type": "Spell Passive",
+   "rarity": "Unique",
+   "dmg1": "42",
+   "crit_rate1": "20%",
+   "spell_slots1": "+1"
+  },
+  "rarity": "Unique",
+  "type": "Spell Passive",
+  "page": "Bi'an Flying Sword is an Unique Spell of Type: Spell Passive. When casting with the wand, it automatically launches flying swords.\n\nFor every 25 Max MP on the wand, the flying sword limit is increased by 1.\n\nSwords can only be recalled using the Bi'an relic."
+ },
+ {
+  "name": "Area Boost",
+  "levels": {},
+  "infobox": {
+   "image": "Area_Boost.png",
+   "type": "Spell Passive",
+   "rarity": "Rare",
+   "misc_a_1": "Copies Level 1",
+   "misc_a_2": "Copies Level 2",
+   "misc_a_3": "Copies Level 3"
+  },
+  "rarity": "Rare",
+  "type": "Spell Passive",
+  "page": "Area Boost is a Rare Spell of Type: Spell Passive. It effectively is a rather advanced variant of the Mimicry Cube.\n\n takes up 4 slots to equip into a wand, then the first spell that is placed to the right of it will be duplicated into every other wand you are holding, in the leftmost position, including the \"host\" wand using . This will not consume a slot in those wands, the effect is created in a new, free, locked slot; correspondingly, copying a spell that needs something else to the left of it to work such as Echo or Duet is not recommended, unless you use  twice to load a triggering spell and then one of those two.\n\n* Note, the copied spell is put to the left of any already existing locked slots on a wand, such as the Soul Set's natural Wand Spirits.\n* If  is fit twice into two separate wands, the copied spell in the higher slot will go first (i.e. a copied spell set in wand 2 will take effect first before a copied spell in wand 3)\n\nLike with Mimicry Cube, the level of  determines up to what level of the copied spell it will duplicate, and a high level  cannot create a higher level copy of a low level spell.\n\nSPECIAL INTERACTIONS\n* Magic Vine: Is never considered to have the stacking effect from empty slots to the right of it, so will always be one single iteration of the buff.\n* Multi-slot spells like Arcane Barrier or Core of Flame: Do not take up their extra slots, they only show 1 single slot at the beginning of the wand but the effects are still at full strength.\n* Capacity Expansion Stone: Extra slots are still added to the far right end of the wands as normal."
+ },
+ {
+  "name": "Mana Absorption",
+  "levels": {},
+  "infobox": {
+   "image": "Mana_Absorption.png",
+   "desc": "Legendary mana-absorbing spell",
+   "type": "Spell Projectiles",
+   "rarity": "Epic",
+   "mana_cost1": "8",
+   "dmg1": "24",
+   "cd1": "-0.2s",
+   "crit_rate1": "40%",
+   "misc_a_1": "Restores the mana spent for the casting wand when hitting an enemy for the first time",
+   "misc_b_1": "Unable to craft"
+  },
+  "rarity": "Epic",
+  "type": "Spell Projectiles",
+  "page": "Mana Absorption is an Epic Spell of Type: Spell Projectiles. While this spell doesn't do much damage or change with upgrades, it can provide a steady flow of mana to the wand casting it.\n\nDescription: Returns mana to you after completing its mission gratefully, but if you can cast it with less MP, what a deal\n\nHow to get free mana: Mana Absorption is not only useful for shooting itself for free; it can also be used to generate more mana than you spend, allowing you to sustain larger mana costs from other spells. The way the spell typically works is by dividing the mana returned among the amount of projectiles released. This means you can't simply put Split or Multi-Shot before it to gain free mana. Instead, you should increase the number of spells that will release Mana Absorption, or use spells that will release multiple Mana Absorptions themselves.\n\nHere are some builds that will generate free mana:\n\n* Arcane Nova + Mana Absorption \n* Multi-Shot + any projectile spell + any Trigger spell + Mana Absorption\n* Multi-Shot + Split + Mana Absorption \n* Any projectile spell + Dazzling Fireworks + Mana Absorption"
+ },
+ {
+  "name": "Magic Upgrade",
+  "levels": {},
+  "infobox": {
+   "title": "Magic Upgrade",
+   "desc": "Boosts the first spell on both sides by 1 level, without exceeding the level cap",
+   "type": "Spell Boost",
+   "rarity": "Epic"
+  },
+  "rarity": "Epic",
+  "type": "Spell Boost",
+  "page": ""
+ },
+ {
+  "name": "Enlarge Spell",
+  "levels": {},
+  "infobox": {
+   "image": "Enlarge Spell.png",
+   "type": "Spell Boost",
+   "rarity": "Unique",
+   "spell_slots1": "+1",
+   "misc_a_1": "spell size +150 (does not apply for area affect spells)"
+  },
+  "rarity": "Unique",
+  "type": "Spell Boost",
+  "page": "Enlarge spell is a Unique spell of type:  obtained by feeding the Carrion Eater in Chapter 3. It increases the size of projectiles."
+ },
+ {
+  "name": "Fall",
+  "levels": {},
+  "infobox": {
+   "image": "Blank.png",
+   "type": "Spell Boost",
+   "rarity": "Normal",
+   "effect_radius1": "1m",
+   "effect_radius2": "???",
+   "effect_radius3": "2.3m"
+  },
+  "rarity": "Normal",
+  "type": "Spell Boost",
+  "page": "Fall is a Normal Spell of Type: Spell Boost. It drops spells from the sky and causes damage in an area where they hit the ground.\n\n== Interactions ==\n\n* Black Hole: Creates a large explosion area on the location of impact.\n* Evil Slayer Sword: Drops the sword in a large area, with a minor offset impact location closer to the caster, based on the cursor location. Precise Shot reduces this scatter effect, but does not eliminate it.\n* Dimension Walker: Lands on the caster, repeating the impact to the right of the initial impact point, repeating until the spell runs out."
+ },
+ {
+  "name": "Magic Vine",
+  "levels": {},
+  "infobox": {
+   "image": "Magic_Vine.png",
+   "type": "Spell Passive",
+   "rarity": "Rare",
+   "misc_a_1": "MP Regen of the wand +20%",
+   "misc_a_2": "MP Regen of the wand +35%",
+   "misc_a_3": "MP Regen of the wand +TBD",
+   "misc_b_1": "Max MP of the wand +10%",
+   "misc_b_2": "Max MP of the wand +20%",
+   "misc_b_3": "Max MP of the wand +TBD"
+  },
+  "rarity": "Rare",
+  "type": "Spell Passive",
+  "page": "Magic Vine is a Rare Spell of Type: Spell Passive. When placed in a wand, it increases the wand's mana regen and mana capacity, with a stacking effect depending on how many wand slots to the right of it are empty.\n\n* The benefit stacks additively for each empty wand slot to the right of , so 2 empty slots would double it, 3 empty slots would triple it, etc...the slot that  itself is in also counts as one iteration.\n* The slots to the right of  are not locked; other spells can be placed in them as normal.\n* The benefit effect will not pass over an equipped spell to fill other empty slots to the right of it; it will only work in the first unbroken chain of empty slots immediately to the right of ."
+ },
+ {
+  "name": "Spell Prototype",
+  "levels": {},
+  "infobox": {
+   "image": "Spell_Prototype.png",
+   "type": "Spell Passive",
+   "rarity": "Rare",
+   "misc_a_1": "Mimic Level 1",
+   "misc_a_2": "Mimic Level 2",
+   "misc_a_3": "Does not exist"
+  },
+  "rarity": "Rare",
+  "type": "Spell Passive",
+  "page": "Spell Prototype is a Rare Spell of Type: Spell Passive. It has no effect while in a wand, but it can be used as a \"wildcard\" during Fusion to upgrade another spell, like the Mimicry Cube being able to duplicate a spell's effect while equipped in a wand.\n\nWhile it is a Rare,  can be used as a wildcard for both Normal and Rare spells. The upgrade level of the  must match the level of the spell being upgraded (i.e. a Level+  can only be used for fusing a Level+ spell into Level++, and cannot work on a base level spell).\n\n cannot be fused up to a Level++ version as that would make no sense since no spell can be upgraded further than ++."
+ }
+]

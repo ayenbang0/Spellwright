@@ -1,0 +1,7 @@
+<!-- title: Frost Crystal | updated: 2024-08-01T08:06:05Z | cats: Category:Rarity: Rare, Category:Spell, Category:Spell Type: Spell Boost -->
+{{Spell InfoBox|image=Frost_Crystal.png|type=Spell Boost|rarity=Rare|misc_a_1=Targets hit will be frozen for 1.5 seconds|misc_a_2=Targets hit will be frozen for 3 seconds|misc_a_3=Targets hit will be frozen for 6 seconds}}'''{{PAGENAME}}''' is a [[Rarity|Rare]] [[Spells|Spell]] of [[Spell Types|Type]]: Spell Boost. It causes any non-boss enemies hit to freeze for a period of time.
+
+'''Description:''' When there are multiple elemental enhancements, it randomly selects one color for appearance, but still produces the effects of all elemental enhancements when hitting a target.
+[[Category:Spell]]
+[[Category:Spell Type: Spell Boost]]
+[[Category:Rarity: Rare]]

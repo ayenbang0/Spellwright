@@ -1,0 +1,39 @@
+<!-- title: Template:Collapsible | updated: 2024-02-22T20:52:05Z | cats:  -->
+<onlyinclude><div align="{{{align|center}}}"><div class="mw-customtoggle-{{{2|CollapsibleA}}}" style="cursor:pointer; position:relative; height:{{{height|50%}}}; width:{{{width|50%}}}; border: 1px solid #a13efe; background: linear-gradient(#a13efe, 1%, #00000000, 97%, #a13efe); display:inline-block; padding:2px 2px; margin:2px; line-height:{{#if:{{{icone|}}}|90px|20px}}; font-size:13px;border-radius: 3px;"><span style="position:absolute;left:5px;">&#9662;{{#if:{{{icone|}}}|    [[File:{{{icone}}}.png|frameless|75px]]|}}</span>{{#if:{{{notlist|}}}||View}} {{{1|example}}} {{#if:{{{notlist|}}}||List}}<span style="position:absolute;right:5px;">&#9662;</span></div></div>
+<div id="mw-customcollapsible-{{{2|CollapsibleA}}}" class="mw-collapsible {{#if:{{{expand|}}}||mw-collapsed}}" style="display:flow-root;"></onlyinclude>
+exemple collapsed text.
+</div>
+<pre>
+{{Collapsible|"stuff"|IDToMakeThatEachCollapsIndividualyNeedToBeWithoutSpace|notlist=true to remove "View" and "List"|width=95%}}
+Example collapsed text.
+{{Collapsible/End}}
+</pre>
+
+{{Collapsible|"stuff"|IDToMakeThatEachCollapsIndividualyNeedToBeWithoutSpace|notlist=true|width=95%}}
+Example collapsed text.
+{{Collapsible/End}}
+
+<pre>
+{{Collapsible|somthing|ID2}}
+2nd example collapsed text.
+{{Collapsible/End}}
+
+
+</pre>
+{{Collapsible|somthing|ID2}}
+2nd example collapsed text.
+{{Collapsible/End}}
+
+
+<pre>
+{{Collapsible|Main Character|mc|notlist=true|icone=MainCharacter}}
+things <br> that <br> take <br> too <br> mush <br> place <br>
+{{Collapsible/End}}
+</pre>
+{{Collapsible|Main Character|mc|notlist=true|icone=MainCharacter}}
+things <br> that <br> take <br> too <br> mush <br> place <br>
+{{Collapsible/End}}
+
+
+
+Use with {{t|Collapsible/End}}.

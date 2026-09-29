@@ -62,6 +62,10 @@ export class Player extends Actor {
   private readonly fxFrame: WandFxFrame = { tipX: 0, tipY: 0, mp: 0, recharging: false, pips: 0, pipsMax: 0, swords: 0, channel: null, channelT: 0, charge: 0 };
   /** Area Boost copies sit at the head of the deck: true while the next group starts with one (visual glint only). */
   private headCopies = 0;
+  /** Walking-speed factor from casting, eased so the on/off flicker between casts does not read as stop-and-go. */
+  private castSlow = 1;
+  /** Refreshed while casting: holding fire through the recharge gap between casts keeps the slowdown on. */
+  private castHold = 0;
   private wandView: Sprite | null = null;
   private root: Container | null = null;
   private body: AnimSprite | null = null;
@@ -290,7 +294,10 @@ export class Player extends Actor {
     if (run.relics.some((r) => r.id === 'crimson_anklet')) speed *= this.noHitT > 8 ? 1.4 : 0.7;
     const wandDef = this.activeWand ? w.content.wand[this.activeWand.defId] : null;
     speed *= wandDef?.moveSpeedMult ?? 1;
-    if (this.casting > 0 && !st.noCastSlow) speed *= 0.65;
+    this.castHold = this.casting > 0 ? 0.75 : Math.max(0, this.castHold - dt);
+    const slowed = (this.casting > 0 || (this.intent.fire && this.castHold > 0)) && !st.noCastSlow;
+    this.castSlow += ((slowed ? 0.65 : 1) - this.castSlow) * Math.min(1, dt * 10);
+    speed *= this.castSlow;
     if (this.sprintT > 0) {
       this.sprintT -= dt;
       speed *= 3.2;
@@ -303,7 +310,20 @@ export class Player extends Actor {
     this.recoilY *= Math.pow(0.001, dt);
     const bx = this.x;
     const by = this.y;
-    w.moveActor(this, (mx * speed + this.recoilX) * dt, (my * speed + this.recoilY) * dt);
+    // Recoil shoves the caster, but it may only cancel a quarter of the walking speed: uncapped, firing along the walking
+    // direction stalled the character between casts (stop, crawl, lurch on the recharge) and read as broken movement.
+    let rx = this.recoilX;
+    let ry = this.recoilY;
+    if (moving) {
+      const len = Math.hypot(mx, my);
+      const along = (rx * mx + ry * my) / len;
+      const floor = -0.25 * speed;
+      if (along < floor) {
+        rx += ((floor - along) * mx) / len;
+        ry += ((floor - along) * my) / len;
+      }
+    }
+    w.moveActor(this, (mx * speed + rx) * dt, (my * speed + ry) * dt);
     if (moving) this.walkT += dt;
     const walked = Math.hypot(this.x - bx, this.y - by) / M;
     if (walked > 0) this.onMoved(walked);

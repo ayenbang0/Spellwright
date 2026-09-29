@@ -3,7 +3,11 @@ import { describe, expect, it } from 'vitest';
 import { duetMirror, spellDamage } from '../src/game/damage';
 import { applyMerge, mergeCandidates } from '../src/game/loot';
 import { areaBoostCopies, deckOf, newWand, planGroup, previewCasts } from '../src/game/wand';
-import { content } from '../scripts/sim-builds';
+import { content, makeRun } from '../scripts/sim-builds';
+import { M } from '../src/core/math';
+import { genRoom } from '../src/game/rooms';
+import { computeStats } from '../src/game/stats';
+import { World } from '../src/game/world';
 
 const parts = (over: Partial<Parameters<typeof spellDamage>[0]> = {}) => ({ base: 10, baseInc: 0, dmgAdd: 0, dmgMult: 1, mirrored: 0, finalMult: 1, condFinal: 1, bubble: 0, ...over });
 
@@ -144,5 +148,35 @@ describe('deck rewriting boosts', () => {
     const wand = newWand(content.wand.old_wand, [inst('area_boost', 0), null as never, null as never, null as never, inst('laser', 2)].filter(Boolean) as never);
     wand.slots = [inst('area_boost', 0), null, null, null, inst('laser', 2), null];
     expect(areaBoostCopies([wand], content)).toEqual([{ id: 'laser', lv: 0 }]);
+  });
+});
+
+describe('walking while firing', () => {
+  it('firing along the walking direction slows the caster steadily instead of stalling it between casts', () => {
+    const run = makeRun();
+    const wand = newWand(content.wand.damaged_excaliwood_wand, [{ id: 'magic_bullet', lv: 0 }, { id: 'magic_bullet', lv: 0 }]);
+    run.wands.push(wand);
+    const w = new World(content, run, null, null, 7, computeStats(run, content, { maxHp: 0, maxMp: 0, regen: 0 }));
+    w.loadRoom(genRoom('camp', 'camp', 1, []));
+    w.player.x = 30;
+    w.player.y = 100;
+    w.player.hp = w.stats.maxHp = 1e9;
+    w.player.invalidateWands();
+    w.player.intent.mx = 1;
+    w.player.intent.aimX = 400;
+    w.player.intent.aimY = 100;
+    const walk = w.stats.speed * M;
+    const speeds: number[] = [];
+    let last = w.player.x;
+    for (let t = 0; t < 180; t++) {
+      w.player.intent.fire = true;
+      wand.mp = 999;
+      w.update(1 / 60);
+      if (t >= 30) speeds.push((w.player.x - last) * 60);
+      last = w.player.x;
+    }
+    const slowest = Math.min(...speeds);
+    expect(slowest).toBeGreaterThan(0.45 * walk);
+    expect(Math.max(...speeds) / slowest).toBeLessThan(1.6);
   });
 });

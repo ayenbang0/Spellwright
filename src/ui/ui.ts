@@ -8,6 +8,7 @@ import type { PropInfo } from '../game/world';
 import type { SpellInst } from '../game/wand';
 import { clear, fmtNum, h, icon, mount } from './dom';
 import { openDepart, openEnd, openForge, openInventory, openNpc, openPause, openRelicReset, openTitle } from './panels';
+import { openTestPanel } from './testpanel';
 
 export type ToastKind = 'info' | 'good' | 'bad' | 'gold' | 'purple';
 
@@ -33,6 +34,7 @@ export class Ui {
   private readonly hud: HTMLElement;
   private readonly toasts: HTMLElement;
   private readonly tipEl: HTMLElement;
+  private readonly testBadge: HTMLElement;
   private readonly stack: ModalEntry[] = [];
   private refs!: {
     hp: HTMLElement; shield: HTMLElement; shieldPill: HTMLElement; coin: HTMLElement; key: HTMLElement; crystal: HTMLElement;
@@ -51,8 +53,9 @@ export class Ui {
     this.hud = h('div', { class: 'hud' });
     this.toasts = h('div', { class: 'toasts' });
     this.tipEl = h('div', { class: 'tip hidden' });
+    this.testBadge = h('button', { class: 'test-badge hidden', title: 'Test Mode: progress is not saved. Click or press F2 for the panel.', on: { click: () => this.toggleTestPanel() } }, 'TEST MODE (F2)');
     this.buildHud();
-    root.append(this.hud, this.toasts, this.tipEl);
+    root.append(this.hud, this.toasts, this.tipEl, this.testBadge);
     window.addEventListener('pointermove', (e) => this.moveTip(e));
   }
 
@@ -411,5 +414,16 @@ export class Ui {
   }
   chooseRelicReset() {
     openRelicReset(this, this.game);
+  }
+  setTestBadge(on: boolean) {
+    this.testBadge.classList.toggle('hidden', !on);
+    document.body.classList.toggle('test-mode', on);
+  }
+  /** F2 / badge: open the Test Mode panel, or close it if it is already on top. */
+  toggleTestPanel() {
+    if (this.stack[this.stack.length - 1]?.id === 'testpanel') return this.closeTop();
+    if (!this.game.testMode) return;
+    if (this.title) return this.toast('Start playing first, then press F2.', 'info');
+    if (!this.stack.length && this.game.mode !== 'ended') openTestPanel(this, this.game);
   }
 }

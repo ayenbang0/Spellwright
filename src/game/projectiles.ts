@@ -6,6 +6,7 @@ import type { CastCtx } from './spells';
 import type { CastItem, ElementMod } from './wand';
 import type { HitInfo, World } from './world';
 import { AnimSprite } from './visuals';
+import { boostLook, GLYPH_SLOTS, GLYPH_TAGS, hoverPop, ProjFx } from './boostfx';
 
 export interface ProjOpts {
   faction: Faction;
@@ -66,6 +67,13 @@ export class Proj {
   indiscriminate: boolean;
   wallPierce: boolean;
   dead = false;
+  /** Where this projectile was spawned (muzzle / release point); used by tethers. */
+  ox: number;
+  oy: number;
+  /** Seconds between trail puffs. */
+  trailGap = 0.035;
+  /** Dynamic boost decoration (hover ring, orbit radius, steering…); only for boosted projectiles. */
+  private fx: ProjFx | null = null;
   ended = false;
   hovered = false;
   /** Knockback strength on hit. */
@@ -101,6 +109,8 @@ export class Proj {
   constructor(private readonly w: World, o: ProjOpts) {
     this.faction = o.faction;
     this.x = o.x;
+    this.ox = o.x;
+    this.oy = o.y;
     this.y = o.y;
     this.speed = o.speed;
     this.vx = Math.cos(o.angle) * o.speed;
@@ -122,7 +132,7 @@ export class Proj {
     this.wallPierce = o.wallPierce ?? false;
     this.artBase = o.art ?? (o.faction === 'enemy' ? 'projectiles/enemy_bullet' : 'projectiles/magic_bullet');
     this.rotateView = o.rotate ?? true;
-    this.tags = o.tags ?? [];
+    this.tags = o.tags ?? o.item?.mods.tags ?? [];
     this.trail = o.trail === undefined ? (o.faction === 'player' ? 'effects/trail_cyan' : null) : o.trail;
     this.scale = o.scale ?? 1;
     this.tint = o.tint;
@@ -145,25 +155,46 @@ export class Proj {
     if (!vis) return;
     const art = vis.art;
     const root = new Container();
+    const look = this.faction === 'player' ? boostLook(this.tags) : null;
+    if (look && art.has('effects/boost_aura.png')) {
+      const aura = new Sprite(art.tex('effects/boost_aura.png'));
+      aura.anchor.set(0.5);
+      aura.tint = look.aura;
+      aura.alpha = 0.8;
+      aura.scale.set(this.scale * look.scale);
+      root.addChild(aura);
+    }
     if (art.hasAnim(this.artBase)) {
       this.base = vis.sprite(this.artBase);
-      this.base.scale.set(this.scale);
-      if (this.tint !== undefined) this.base.tint = this.tint;
+      this.base.scale.set(this.scale * (look?.scale ?? 1));
+      const tint = this.tint ?? look?.tint;
+      if (tint !== undefined) this.base.tint = tint;
       root.addChild(this.base);
     }
-    // Visual stacking: base → element → behaviour → count pips (manifest.visualStacking).
+    // Visual stacking: base → element → behaviour → count pips (manifest.visualStacking). Glyph overlays are compact
+    // icons that take a slot around the sprite so several boosts stay readable.
+    let glyphs = 0;
+    const spread = Math.max(1, this.scale * 0.8);
     for (const tag of this.tags) {
-      const p = `overlays/ov_${tag === 'slime' ? 'frost' : tag === 'twine' ? 'duet' : tag}.png`;
+      const p = `overlays/ov_${tag}.png`;
       if (!art.has(p)) continue;
       const o = new Sprite(art.tex(p));
       o.anchor.set(0.5);
       o.scale.set(Math.min(1, this.scale));
-      if (tag === 'slime') o.tint = 0xbef264;
+      if (tag in GLYPH_TAGS) {
+        const slot = GLYPH_SLOTS[glyphs++];
+        if (!slot) continue;
+        o.position.set(slot[0] * spread, slot[1] * spread);
+      }
       root.addChild(o);
     }
     root.position.set(this.x, this.y);
     vis.projectiles.addChild(root);
     this.view = root;
+    if (this.faction === 'player' && ProjFx.wants(this.tags)) {
+      this.fx = new ProjFx(this, root, this.tags, this.w);
+      this.trailGap = this.fx.trailGap;
+    }
   }
 
   sync(dt: number) {
@@ -176,12 +207,13 @@ export class Proj {
     if (this.trail && this.speed > 20) {
       this.trailT -= dt;
       if (this.trailT <= 0) {
-        this.trailT = 0.035;
+        this.trailT = this.trailGap;
         const vis = this.w.vis!;
         const path = `${this.trail}.png`;
-        if (vis.art.has(path)) vis.trail(path, this.x, this.y, Math.max(0.6, this.scale * 0.8));
+        if (vis.art.has(path)) vis.trail(path, this.x, this.y, Math.max(0.6, this.scale * 0.8) * (this.tags.length ? 1.25 : 1));
       }
     }
+    this.fx?.sync();
   }
 
   destroyView() {
@@ -215,6 +247,7 @@ export class Proj {
       if (!this.wallPierce && w.inWall(nx, ny)) {
         if (this.rebound > 0) {
           this.rebound--;
+          this.w.vis?.ring(this.x, this.y, 3, { color: 0x4ade80, width: 1, life: 0.25, scaleTo: 3 });
           this.life += 1;
           if (w.inWall(nx, this.y)) this.vx = -this.vx;
           if (w.inWall(this.x, ny)) this.vy = -this.vy;
@@ -296,12 +329,15 @@ export class Proj {
         const next = w.nearestEnemy(this.x, this.y, 8 * M, new Set([e, ...this.hits.keys()] as Enemy[]));
         if (next) {
           this.setAngle(angleTo(this.x, this.y, next.x, next.y));
+          w.vis?.beam(e.x, e.y, next.x, next.y, { color: 0x3b82f6, core: 0xffffff, jitter: 2, life: 0.2 });
           this.life = Math.max(this.life, this.age + 0.8);
           continue;
         }
       }
-      if (this.pierce > 0) this.pierce--;
-      else if (this.pierce === 0) {
+      if (this.pierce > 0) {
+        this.pierce--;
+        if (w.vis && this.tags.includes('pierce')) w.vis.burst(this.x, this.y, { color: 0xffffff, rays: 4, r0: 1, r1: 5, life: 0.15 });
+      } else if (this.pierce === 0) {
         this.end();
         return;
       }
@@ -329,8 +365,11 @@ export class Proj {
       const others = w.enemies.filter((o) => o !== e && !o.dead && !o.boss && dist2(o.x, o.y, e.x, e.y) < tr.radius ** 2);
       w.rng.shuffle(others);
       for (const o of others.slice(0, tr.count)) {
+        const fx = o.x;
+        const fy = o.y;
         o.x += (e.x - o.x) * 0.6;
         o.y += (e.y - o.y) * 0.6;
+        w.vis?.beam(fx, fy, e.x, e.y, { color: 0x94a3b8, core: 0xffffff, jitter: 0, life: 0.2 });
         w.damageEnemy(o, h.dmg, { crit: true, spellId: this.spellId });
       }
     }
@@ -388,6 +427,7 @@ export class Proj {
     this.ended = true;
     this.dead = true;
     this.onEnd?.(this);
+    if (this.hovered && this.w.vis) hoverPop(this.w.vis, this.x, this.y);
     if (this.faction === 'player') this.w.onProjectileEnd?.(this);
     else this.w.vis?.oneShot('effects/impact_small', this.x, this.y, { scale: 0.6, tint: 0xf03cb4 });
   }

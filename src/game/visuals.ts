@@ -48,6 +48,10 @@ interface Fx {
   fade: boolean;
   anim?: AnimSprite;
   rise?: number;
+  /** Final scale multiplier reached at end of life (linear from 1); undefined = no scaling. */
+  scaleTo?: number;
+  /** Child scaled from 0 to 1 over the life (growing fill of a warning zone). */
+  grow?: Container;
 }
 
 /**
@@ -142,6 +146,113 @@ export class Visuals {
     return s;
   }
 
+  /**
+   * Jagged energy bolt between two world points (lightning, chain arcs, tethers). Straight when `jitter` is 0.
+   * Drawn as a coloured outline stroke under a bright core stroke; fades over `life`.
+   */
+  beam(x1: number, y1: number, x2: number, y2: number, opts: { color?: number; core?: number; width?: number; life?: number; jitter?: number; layer?: Container } = {}) {
+    const dx = x2 - x1;
+    const dy = y2 - y1;
+    const len = Math.hypot(dx, dy) || 1;
+    const nx = -dy / len;
+    const ny = dx / len;
+    const jitter = opts.jitter ?? 3;
+    const segs = jitter > 0 ? Math.max(2, Math.round(len / 8)) : 1;
+    const pts: number[] = [x1, y1];
+    for (let i = 1; i < segs; i++) {
+      const t = i / segs;
+      const o = (Math.random() * 2 - 1) * jitter;
+      pts.push(x1 + dx * t + nx * o, y1 + dy * t + ny * o);
+    }
+    pts.push(x2, y2);
+    const g = new Graphics();
+    const stroke = (width: number, color: number) => {
+      g.moveTo(pts[0], pts[1]);
+      for (let i = 2; i < pts.length; i += 2) g.lineTo(pts[i], pts[i + 1]);
+      g.stroke({ width, color, cap: 'butt', join: 'miter' });
+    };
+    const width = opts.width ?? 1;
+    stroke(width + 1, opts.color ?? 0x22d3ee);
+    stroke(width, opts.core ?? 0xffffff);
+    (opts.layer ?? this.fx).addChild(g);
+    this.fxList.push({ view: g, life: opts.life ?? 0.12, age: 0, vx: 0, vy: 0, fade: true });
+    return g;
+  }
+
+  /** Circle outline (optionally filled) centred on a world point; grows to `scaleTo`x its radius while fading. */
+  ring(x: number, y: number, r: number, opts: { color?: number; width?: number; life?: number; scaleTo?: number; fill?: number; layer?: Container } = {}) {
+    const color = opts.color ?? 0x22d3ee;
+    const g = new Graphics();
+    if (opts.fill) g.circle(0, 0, r).fill({ color, alpha: opts.fill });
+    g.circle(0, 0, r).stroke({ width: opts.width ?? 1, color });
+    g.position.set(x, y);
+    (opts.layer ?? this.fx).addChild(g);
+    this.fxList.push({ view: g, life: opts.life ?? 0.3, age: 0, vx: 0, vy: 0, fade: true, scaleTo: opts.scaleTo });
+    return g;
+  }
+
+  /**
+   * Warning zone at a true damage radius: a steady outline whose fill grows from the centre over `life`
+   * (telegraphs for delayed area spells).
+   */
+  zone(x: number, y: number, r: number, opts: { color?: number; life?: number; layer?: Container } = {}) {
+    const color = opts.color ?? 0x22d3ee;
+    const root = new Container();
+    root.position.set(x, y);
+    const edge = new Graphics();
+    edge.circle(0, 0, r).stroke({ width: 1, color });
+    const fill = new Graphics();
+    fill.circle(0, 0, r).fill({ color, alpha: 0.28 });
+    fill.scale.set(0.05);
+    root.addChild(edge, fill);
+    (opts.layer ?? this.shadows).addChild(root);
+    this.fxList.push({ view: root, life: opts.life ?? 0.3, age: 0, vx: 0, vy: 0, fade: false, grow: fill });
+    return root;
+  }
+
+  /** Radial spark lines around a world point, flying outward (`r0` → `r1`, then scaled up) while fading. */
+  burst(x: number, y: number, opts: { color?: number; rays?: number; r0?: number; r1?: number; width?: number; life?: number; scaleTo?: number; layer?: Container } = {}) {
+    const rays = opts.rays ?? 8;
+    const r0 = opts.r0 ?? 2;
+    const r1 = opts.r1 ?? 6;
+    const phase = Math.random() * Math.PI * 2;
+    const g = new Graphics();
+    for (let i = 0; i < rays; i++) {
+      const a = phase + (i / rays) * Math.PI * 2;
+      g.moveTo(Math.cos(a) * r0, Math.sin(a) * r0).lineTo(Math.cos(a) * r1, Math.sin(a) * r1);
+    }
+    g.stroke({ width: opts.width ?? 1, color: opts.color ?? 0xffffff });
+    g.position.set(x, y);
+    (opts.layer ?? this.fx).addChild(g);
+    this.fxList.push({ view: g, life: opts.life ?? 0.25, age: 0, vx: 0, vy: 0, fade: true, scaleTo: opts.scaleTo ?? 1.8 });
+    return g;
+  }
+
+  /** Spark lines from a world point along explicit angles (fans, cones), `r0` → `r1`, fading. */
+  rays(x: number, y: number, angles: number[], opts: { color?: number; r0?: number; r1?: number; width?: number; life?: number; scaleTo?: number; layer?: Container } = {}) {
+    const r0 = opts.r0 ?? 3;
+    const r1 = opts.r1 ?? 14;
+    const g = new Graphics();
+    for (const a of angles) g.moveTo(Math.cos(a) * r0, Math.sin(a) * r0).lineTo(Math.cos(a) * r1, Math.sin(a) * r1);
+    g.stroke({ width: opts.width ?? 1, color: opts.color ?? 0xffffff });
+    g.position.set(x, y);
+    (opts.layer ?? this.fx).addChild(g);
+    this.fxList.push({ view: g, life: opts.life ?? 0.2, age: 0, vx: 0, vy: 0, fade: true, scaleTo: opts.scaleTo ?? 1.3 });
+    return g;
+  }
+
+  /** A row of `n` small dots centred on a world point that drifts upward while fading (counts / copies). */
+  pips(x: number, y: number, n: number, opts: { color?: number; gap?: number; life?: number; vy?: number; layer?: Container } = {}) {
+    const gap = opts.gap ?? 3;
+    const color = opts.color ?? 0xffffff;
+    const g = new Graphics();
+    for (let i = 0; i < n; i++) g.rect(Math.round((i - (n - 1) / 2) * gap) - 1, -1, 2, 2).fill({ color });
+    g.position.set(x, y);
+    (opts.layer ?? this.fx).addChild(g);
+    this.fxList.push({ view: g, life: opts.life ?? 0.35, age: 0, vx: 0, vy: opts.vy ?? -14, fade: true });
+    return g;
+  }
+
   /** A short fading puff behind a projectile. Skipped once this frame's budget is spent. */
   trail(path: string, x: number, y: number, scale = 1) {
     if (this.trailBudget <= 0) return;
@@ -198,6 +309,8 @@ export class Visuals {
       f.view.y += f.vy * dt;
       if (f.anim) f.anim.step(dt);
       if (f.fade) f.view.alpha = Math.max(0, 1 - f.age / f.life);
+      if (f.scaleTo !== undefined) f.view.scale.set(1 + (f.scaleTo - 1) * Math.min(1, f.age / f.life));
+      if (f.grow) f.grow.scale.set(Math.min(1, f.age / f.life));
     }
     this.fxList = this.fxList.filter((f) => {
       const over = f.anim ? f.anim.done || f.age >= f.life : f.age >= f.life;

@@ -584,9 +584,14 @@ export class World {
         st.burnT = Math.max(st.burnT, el.duration);
         break;
       case 'thunder': {
-        const r = 2.4 * TILE * this.stats.radiusMult;
+        const r = el.radius * TILE * this.stats.radiusMult;
         const extra = Math.round(hitDmg * el.extra);
-        for (const o of this.enemies) if (!o.dead && dist2(o.x, o.y, e.x, e.y) < r * r) this.damageEnemy(o, extra, { raw: true, noNumber: o !== e });
+        for (const o of this.enemies) {
+          if (o.dead || dist2(o.x, o.y, e.x, e.y) >= r * r) continue;
+          this.damageEnemy(o, extra, { raw: true, noNumber: o !== e });
+          if (o !== e) this.vis?.beam(e.x, e.y, o.x, o.y, { color: 0xfacc15, core: 0xffffff, jitter: 3, life: 0.22 });
+        }
+        this.vis?.ring(e.x, e.y, r, { color: 0xfacc15, width: 1, life: 0.3, scaleTo: 1.05, fill: 0.12 });
         this.vis?.oneShot('effects/impact_medium', e.x, e.y, { tint: 0xfacc15 });
         break;
       }

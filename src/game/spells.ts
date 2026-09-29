@@ -8,6 +8,7 @@ import { duetMirror, spellDamage, type DamageParts } from './damage';
 import type { Enemy } from './enemies';
 import { Proj } from './projectiles';
 import { Summon } from './summons';
+import { areaRing, channelSpray, CYAN, FIRE, fusionFlash, GREEN, ICE, rayEndSpark, RingAura, spellImpact, summonSpawn, VOID, YELLOW } from './spellfx';
 import type { CastGroup, CastItem, ElementMod, WandInst, WandStats } from './wand';
 import type { World } from './world';
 
@@ -49,10 +50,10 @@ const ART: Record<string, string> = {
 const TRAIL_BY_ELEMENT: Record<string, string> = { fire: 'effects/trail_fire', venom: 'effects/trail_venom' };
 
 const CLOAK_ELEMENTS: ElementMod[] = [
-  { element: 'fire', power: 10, duration: 2, chance: 1, extra: 0 },
-  { element: 'frost', power: 1.5, duration: 1.5, chance: 1, extra: 0 },
-  { element: 'venom', power: 1, duration: 3, chance: 1, extra: 0 },
-  { element: 'thunder', power: 1, duration: 0, chance: 0.15, extra: 1 },
+  { element: 'fire', power: 10, duration: 2, chance: 1, extra: 0, radius: 0 },
+  { element: 'frost', power: 1.5, duration: 1.5, chance: 1, extra: 0, radius: 0 },
+  { element: 'venom', power: 1, duration: 3, chance: 1, extra: 0, radius: 0 },
+  { element: 'thunder', power: 1, duration: 0, chance: 0.15, extra: 1, radius: 2.4 },
 ];
 
 // ------------------------------------------------------------------ numbers
@@ -90,6 +91,12 @@ function radiusOf(w: World, it: CastItem): number {
 function trailOf(it: CastItem): string {
   for (const e of it.mods.elements) if (TRAIL_BY_ELEMENT[e.element]) return TRAIL_BY_ELEMENT[e.element];
   return 'effects/trail_cyan';
+}
+
+/** A spell's own trail sprite unless a boost already picked an elemental one. */
+function ownTrail(it: CastItem, path: string): string {
+  const t = trailOf(it);
+  return t === 'effects/trail_cyan' ? path : t;
 }
 
 /** Standard projectile from a cast item. */
@@ -139,11 +146,13 @@ function bullet(w: World, it: CastItem, ctx: CastCtx, x: number, y: number, a: n
 export function castGroup(w: World, group: CastGroup, x: number, y: number, angle: number, ctx: CastCtx) {
   if (ctx.depth > 8) return;
   const absorbCount = group.items.reduce((n, it) => n + (it.spell.id === 'mana_absorption' ? it.copies * Math.max(1, it.mods.split || 1) : 0), 0);
+  if (w.vis && ctx.depth <= 2) castCues(w, group, x, y, angle, ctx);
   for (const it of group.items) {
     for (let c = 0; c < it.copies; c++) {
       const spread = (ctx.scatter + (it.spell.scatter[it.lv] ?? 0) * 0 + it.mods.scatter) * DEG;
       const a = angle + (ctx.reverse ? Math.PI : 0) + (w.rng.next() - 0.5) * Math.max(0, spread);
       const refund = absorbCount ? ctx.refund / absorbCount : 0;
+      if (w.vis && it.mods.tags.includes('precise')) w.vis.beam(x, y, x + Math.cos(a) * 5 * M, y + Math.sin(a) * 5 * M, { color: 0x22d3ee, core: 0xffffff, jitter: 0, life: 0.14 });
       spawnSpell(w, it, x, y, a, { ...ctx, refund });
     }
     // Chain of Lightning links spells cast together.
@@ -151,14 +160,57 @@ export function castGroup(w: World, group: CastGroup, x: number, y: number, angl
   }
 }
 
+/**
+ * Muzzle cues (visual only): every distinct boost icon the group carries rises from the muzzle, Deck-rewriter glints,
+ * Multi-Shot pips and the Volley / Over Scatter fans (cast-time only, so payload releases stay quiet).
+ */
+function castCues(w: World, group: CastGroup, x: number, y: number, angle: number, ctx: CastCtx) {
+  const vis = w.vis!;
+  const tags: string[] = [];
+  for (const it of group.items) for (const t of it.mods.tags) if (!tags.includes(t)) tags.push(t);
+  for (let i = 0; i < tags.length; i++) {
+    const path = `overlays/ov_${tags[i]}.png`;
+    if (vis.art.has(path)) vis.timed(path, x + (i - (tags.length - 1) / 2) * 12, y - 8, 0.4, { vy: -24, scale: 1.5 });
+  }
+  for (const it of group.items) {
+    if (it.via === 'upgrade') vis.oneShot('effects/level_up', x, y - 4, { scale: 0.8 });
+    else if (it.via === 'mimic') {
+      vis.ring(x, y, 3, { color: 0xc084fc, width: 1, life: 0.25, scaleTo: 3.5 });
+      vis.burst(x, y, { color: 0xe9d5ff, rays: 6, r0: 2, r1: 9, life: 0.25 });
+    }
+  }
+  if (tags.includes('enlarge')) vis.ring(x, y, 3, { color: 0xffffff, width: 1, life: 0.22, scaleTo: 4, fill: 0.25 });
+  if (ctx.depth > 0) return;
+  const n = group.items.length;
+  const copies = group.items.reduce((m, it) => (it.mods.tags.includes('multishot') ? Math.max(m, it.copies) : m), 0);
+  if (copies > 1) vis.pips(x, y + 8, copies, { color: 0xffffff });
+  const volley = group.items.find((it) => it.mods.tags.includes('volley'));
+  if (volley) {
+    const half = ((ctx.scatter + volley.mods.scatter) * DEG) / 2;
+    const angles = Array.from({ length: n }, (_, i) => angle + (n > 1 ? -half + (2 * half * i) / (n - 1) : 0));
+    vis.rays(x, y, angles, { color: 0x67e8f9, r0: 6, r1: 20, width: 1.5, life: 0.22 });
+  }
+  const spray = group.items.find((it) => it.mods.tags.includes('scatter'));
+  if (spray) {
+    const half = ((ctx.scatter + spray.mods.scatter) * DEG) / 2;
+    const angles = Array.from({ length: n }, () => angle + (Math.random() * 2 - 1) * half);
+    vis.rays(x, y, angles.filter((_, i) => i % 2 === 0), { color: 0xfacc15, r0: 4, r1: 12, life: 0.18 });
+    vis.rays(x, y, angles.filter((_, i) => i % 2 === 1), { color: 0xfacc15, r0: 8, r1: 22, life: 0.18 });
+  }
+}
+
 function chainLightning(w: World, x: number, y: number, angle: number, dmg: number) {
   const len = 6 * M;
+  w.vis?.beam(x, y, x + Math.cos(angle) * len, y + Math.sin(angle) * len, { color: 0xfacc15, core: 0xffffff, jitter: 3, life: 0.18 });
   for (const e of w.enemies) {
     if (e.dead) continue;
     const t = clamp(((e.x - x) * Math.cos(angle) + (e.y - y) * Math.sin(angle)) / len, 0, 1);
     const px = x + Math.cos(angle) * len * t;
     const py = y + Math.sin(angle) * len * t;
-    if (dist2(px, py, e.x, e.y) < (e.hr + 6) ** 2) w.damageEnemy(e, dmg, { raw: true });
+    if (dist2(px, py, e.x, e.y) < (e.hr + 6) ** 2) {
+      w.damageEnemy(e, dmg, { raw: true });
+      w.vis?.oneShot('effects/hit_spark', e.x, e.y, { tint: 0xfde047 });
+    }
   }
 }
 
@@ -190,9 +242,13 @@ export function completeProj(w: World, p: Proj) {
   const it = p.item;
   const ctx = p.ctx;
   if (!it || !ctx) return;
-  if (!p.data.noImpact) w.vis?.oneShot('effects/impact_small', p.x, p.y, { scale: 0.75 });
+  if (!p.data.noImpact) spellImpact(w, p);
+  if (w.vis && it.mods.radiusMult > 1 && it.spell.radius[it.lv] > 0) {
+    w.vis.ring(p.x, p.y, radiusOf(w, it), { color: 0x14b8a6, width: 1, life: 0.3, scaleTo: 1.12, fill: 0.12 });
+  }
   if (it.mods.split > 0 && !p.data.isSplit && ctx.depth < 6) {
     const n = it.mods.split;
+    w.vis?.burst(p.x, p.y, { color: 0x60a5fa, rays: n, r0: 2, r1: 11, life: 0.25 });
     for (let i = 0; i < n; i++) {
       const a = p.angle + ((i - (n - 1) / 2) / Math.max(1, n - 1)) * 120 * DEG;
       const child = bullet(w, it, { ...ctx, dmgScale: ctx.dmgScale * it.mods.splitDmg, depth: ctx.depth + 1 }, p.x, p.y, a);
@@ -207,10 +263,19 @@ export function completeProj(w: World, p: Proj) {
   if (after.kind === 'duet' || after.kind === 'twine') {
     const inherit = after.kind === 'duet' ? m?.dmgMult ?? [0.3, 0.6, 1.2][after.lv] : 0;
     const mirrored = inherit ? duetMirror(parts(w, it, ctx), inherit, 1) : 0;
+    if (w.vis) {
+      w.vis.beam(p.ox, p.oy, p.x, p.y, { color: 0x94a3b8, core: 0xffffff, jitter: 0, life: 0.3 });
+      w.vis.ring(p.x, p.y, 4, { color: 0xcbd5e1, width: 1, life: 0.3, scaleTo: 3 });
+    }
     release(w, after.payload, p.x, p.y, p.angle, ctx, { mirrored });
   } else if (after.kind === 'fireworks') {
     const scale = m?.dmgMult ?? [0.35, 0.45, 0.6][after.lv];
-    for (let i = 0; i < 4; i++) release(w, after.payload, p.x, p.y, p.angle + (i * Math.PI) / 2 + Math.PI / 4, ctx, { dmgScale: scale });
+    if (w.vis) w.vis.burst(p.x, p.y, { color: 0xfbbf24, rays: 10, r0: 2, r1: 10, life: 0.3 });
+    for (let i = 0; i < 4; i++) {
+      const a = p.angle + (i * Math.PI) / 2 + Math.PI / 4;
+      w.vis?.beam(p.x, p.y, p.x + Math.cos(a) * 2 * M, p.y + Math.sin(a) * 2 * M, { color: 0xfbbf24, core: 0xffffff, jitter: 0, life: 0.25 });
+      release(w, after.payload, p.x, p.y, a, ctx, { dmgScale: scale });
+    }
   }
 }
 
@@ -233,6 +298,10 @@ function wireEchoSerial(w: World, p: Proj, it: CastItem, ctx: CastCtx) {
       prevHit?.(pp, e);
       if (w.time - (pp.data.lastEcho ?? -9) < minGap || !pay()) return;
       pp.data.lastEcho = w.time;
+      if (w.vis) {
+        w.vis.ring(e.x, e.y, 5, { color: 0x22d3ee, width: 1, life: 0.25, scaleTo: 2.5 });
+        w.vis.beam(e.x, e.y, pp.ox, pp.oy, { color: 0x22d3ee, core: 0xffffff, jitter: 2, life: 0.15 });
+      }
       // aim at the closest foe to the hit (which may be the one just hit: the payload then lands on it immediately)
       const next = w.nearestEnemy(e.x, e.y, 8 * M);
       const a = next && next !== e ? angleTo(e.x, e.y, next.x, next.y) : w.rng.range(0, Math.PI * 2);
@@ -245,18 +314,20 @@ function wireEchoSerial(w: World, p: Proj, it: CastItem, ctx: CastCtx) {
       prevUpdate?.(pp, dt);
       if (pp.data.serialDone || pp.age < delay) return;
       pp.data.serialDone = 1;
-      if (pay()) release(w, after.payload, pp.x, pp.y, pp.angle, ctx);
+      if (pay()) {
+        w.vis?.ring(pp.x, pp.y, 5, { color: 0x22d3ee, width: 1, life: 0.25, scaleTo: 2.5 });
+        w.vis?.beam(pp.x, pp.y, pp.ox, pp.oy, { color: 0x22d3ee, core: 0xffffff, jitter: 2, life: 0.2 });
+        release(w, after.payload, pp.x, pp.y, pp.angle, ctx);
+      }
     };
   }
 }
 
 // ------------------------------------------------------------------ helpers
 
+/** Warning zone at the true damage radius (outline + growing fill) until the blast lands. */
 function telegraph(w: World, x: number, y: number, r: number, t: number, color = 0x22d3ee) {
-  const vis = w.vis;
-  if (!vis) return;
-  const s = vis.timed('effects/telegraph_circle.png', x, y, t, { scale: (r * 2) / 32, tint: color, fade: false, layer: vis.shadows });
-  s.alpha = 0.8;
+  w.vis?.zone(x, y, r, { life: t, color });
 }
 
 function aimPoint(w: World, x: number, y: number, a: number, maxRange: number): { x: number; y: number } {
@@ -282,7 +353,7 @@ function summon(w: World, it: CastItem, ctx: CastCtx, x: number, y: number, a: n
     const partner = same.find((x) => !x.merged && !x.dead);
     if (partner) {
       partner.merge();
-      w.vis?.oneShot('effects/level_up', partner.x, partner.y);
+      fusionFlash(w, { x, y }, partner);
       return;
     }
   }
@@ -291,7 +362,7 @@ function summon(w: World, it: CastItem, ctx: CastCtx, x: number, y: number, a: n
   s.dmg = spellDamage(parts(w, it, ctx));
   s.crit = critOf(w, it, ctx);
   w.addSummon(s);
-  w.vis?.oneShot('effects/level_up', s.x, s.y);
+  summonSpawn(w, kind, s.x, s.y);
 }
 
 /** Fall boost: the spell arrives from above at the cursor (telegraph circle, then a blast). */
@@ -302,9 +373,14 @@ function fall(w: World, it: CastItem, ctx: CastCtx, angle: number) {
   const dmg = spellDamage(parts(w, it, ctx));
   const crit = critOf(w, it, ctx);
   telegraph(w, t.x, t.y, r, 0.3);
+  w.vis?.timed('overlays/ov_fall.png', t.x, t.y - 70, 0.35, { vy: 200, scale: 1.5, fade: false });
   w.after(0.35, () => {
     w.explode(t.x, t.y, r, dmg, crit, { elements: it.mods.elements, spellId: it.spell.id, indiscriminate: it.spell.indiscriminate });
-    w.vis?.shake(1.5, 0.1);
+    if (w.vis) {
+      w.vis.beam(t.x, t.y - 40, t.x, t.y, { color: 0x94a3b8, core: 0xffffff, width: 3, jitter: 0, life: 0.2 });
+      w.vis.ring(t.x, t.y, r, { color: it.mods.radiusMult > 1 ? 0x14b8a6 : 0x94a3b8, width: 1, life: 0.3, scaleTo: 1.15, fill: 0.12 });
+      w.vis.shake(1.5, 0.1);
+    }
   });
 }
 
@@ -327,7 +403,7 @@ const SPELLS: Record<string, Handler> = {
   },
 
   rock_n_ball(w, it, ctx, x, y, a) {
-    const p = bullet(w, it, ctx, x, y, a, { r: 6, rotate: false, pierce: -1 });
+    const p = bullet(w, it, ctx, x, y, a, { r: 6, rotate: false, pierce: -1, trail: ownTrail(it, 'effects/sx_trail_stone') });
     p.rebound += 3;
     p.blockHp = [40, 80, 120][it.lv];
     p.knock = 90;
@@ -341,7 +417,7 @@ const SPELLS: Record<string, Handler> = {
     const n = it.spell.shots[it.lv] || 3;
     for (let i = 0; i < n; i++) {
       const aa = a + ((i - (n - 1) / 2) / Math.max(1, n - 1)) * (it.spell.scatter[it.lv] || 90) * DEG;
-      const p = bullet(w, it, ctx, x, y, aa, { rotate: false });
+      const p = bullet(w, it, ctx, x, y, aa, { rotate: false, trail: ownTrail(it, 'effects/sx_trail_pink') });
       p.homingDeg = p.homingDeg || 40;
       p.data.phase = w.rng.range(0, 6);
       p.onUpdate = (pp) => {
@@ -353,7 +429,7 @@ const SPELLS: Record<string, Handler> = {
   },
 
   laser(w, it, ctx, x, y, a) {
-    const p = bullet(w, it, ctx, x, y, a, { r: 3 });
+    const p = bullet(w, it, ctx, x, y, a, { r: 3, trail: ownTrail(it, 'effects/sx_trail_white') });
     // Upgraded Laser: penetration turns into reflection.
     if (it.lv > 0) {
       p.reflect += it.lv;
@@ -368,12 +444,15 @@ const SPELLS: Record<string, Handler> = {
     const tints = [0xff6b6b, 0xffa94d, 0xffe066, 0x69db7c, 0x4dabf7, 0x748ffc, 0xda77f2];
     for (let i = 0; i < n; i++) {
       const aa = a - spread / 2 + (spread * i) / Math.max(1, n - 1);
-      w.addProj(bullet(w, it, ctx, x, y, aa, { pierce: 1 + it.mods.pierce, tint: tints[i % tints.length] }));
+      const tint = tints[i % tints.length];
+      const p = bullet(w, it, ctx, x, y, aa, { pierce: 1 + it.mods.pierce, tint, trail: ownTrail(it, 'effects/sx_trail_white') });
+      p.data.tint = tint;
+      w.addProj(p);
     }
   },
 
   fuse(w, it, ctx, x, y, a) {
-    const p = bullet(w, it, ctx, x, y, a, { r: 2 });
+    const p = bullet(w, it, ctx, x, y, a, { r: 2, trail: ownTrail(it, 'effects/sx_trail_yellow') });
     p.onEnd = (pp) => {
       if (it.payload) release(w, it.payload, pp.x, pp.y, pp.angle, ctx);
     };
@@ -392,6 +471,7 @@ const SPELLS: Record<string, Handler> = {
         const foe = w.nearestEnemy(pp.x, pp.y, 10 * M);
         const ra = foe ? angleTo(pp.x, pp.y, foe.x, foe.y) + w.rng.range(-0.25, 0.25) : pp.angle + w.rng.range(-0.6, 0.6);
         release(w, it.payload, pp.x, pp.y, ra, ctx, { dmgScale: 0.5, refund: it.payload.mp });
+        w.vis?.ring(pp.x, pp.y, 5, { color: 0x22d3ee, width: 1, life: 0.25, scaleTo: 2.6 });
       }
     };
     w.addProj(p);
@@ -406,12 +486,13 @@ const SPELLS: Record<string, Handler> = {
       if (ctx.refundSink) ctx.refundSink(refund);
       else if (ctx.wand) ctx.wand.mp = Math.min(ctx.wandStats?.maxMp ?? 9999, ctx.wand.mp + refund);
       w.vis?.number(pp.x, pp.y - 8, `+${Math.round(refund)}mp`, 0x22d3ee);
+      w.vis?.beam(pp.x, pp.y, w.player.x, w.player.y - 6, { color: 0x22d3ee, jitter: 2, life: 0.22 });
     };
     w.addProj(p);
   },
 
   floating_wisp(w, it, ctx, x, y, a) {
-    const p = bullet(w, it, ctx, x, y, a, { rotate: false, pierce: -1 });
+    const p = bullet(w, it, ctx, x, y, a, { rotate: false, pierce: -1, trail: ownTrail(it, 'effects/sx_trail_teal') });
     p.homingDeg = 30;
     p.trajectory = p.trajectory ?? 'homing';
     p.data.rep = 0;
@@ -425,7 +506,7 @@ const SPELLS: Record<string, Handler> = {
       if (!repEvery) return;
       if (pp.age - pp.data.rep >= repEvery && w.projs.filter((o) => o.spellId === 'floating_wisp').length < 16) {
         pp.data.rep = pp.age;
-        const c = bullet(w, it, ctx, pp.x, pp.y, pp.angle + Math.PI / 2, { rotate: false, pierce: -1 });
+        const c = bullet(w, it, ctx, pp.x, pp.y, pp.angle + Math.PI / 2, { rotate: false, pierce: -1, trail: ownTrail(it, 'effects/sx_trail_teal') });
         c.homingDeg = 30;
         c.life = pp.life - pp.age;
         w.addProj(c);
@@ -437,11 +518,23 @@ const SPELLS: Record<string, Handler> = {
   black_hole(w, it, ctx, x, y, a) {
     const p = bullet(w, it, ctx, x, y, a, { r: radiusOf(w, it) * 0.5, rotate: false, pierce: -1, dps: true, tickRate: 4, trail: null });
     const pull = radiusOf(w, it) * 1.6;
+    // dashed ring = pull range, solid inner ring = damage radius
+    const pullRing = new RingAura(w, VOID, 18);
+    const coreRing = new RingAura(w, 0xe9d5ff, 10);
     p.onUpdate = (pp, dt) => {
       pp.vx *= 0.992;
       pp.vy *= 0.992;
       if (it.lv > 0) pp.r += dt * (it.lv === 1 ? 2 : 4);
-      if (pp.view) pp.view.scale.set(Math.max(1, (pp.r * 2) / 16));
+      if (pp.view) {
+        pp.view.scale.set(Math.max(1, (pp.r * 2) / 16));
+        pp.view.rotation += dt * 2.5;
+      }
+      pullRing.update(pp.x, pp.y, pull, dt, 0.55);
+      coreRing.update(pp.x, pp.y, pp.r, -dt * 1.4, 0.8);
+      if (w.vis && Math.random() < 0.5) {
+        const ang = Math.random() * Math.PI * 2;
+        w.vis.timed('effects/sx_trail_void.png', pp.x + Math.cos(ang) * pull, pp.y + Math.sin(ang) * pull, 0.4, { scale: 0.8, vx: -Math.cos(ang) * pull * 2.2, vy: -Math.sin(ang) * pull * 2.2 });
+      }
       for (const e of w.enemies) {
         if (e.dead || e.boss) continue;
         const d = dist(pp.x, pp.y, e.x, e.y);
@@ -450,6 +543,10 @@ const SPELLS: Record<string, Handler> = {
           e.y += ((pp.y - e.y) / d) * 40 * dt;
         }
       }
+    };
+    p.onEnd = () => {
+      pullRing.destroy();
+      coreRing.destroy();
     };
     w.addProj(p);
   },
@@ -461,6 +558,7 @@ const SPELLS: Record<string, Handler> = {
     const blast = (bx: number, by: number, radius: number, depth: number) => {
       const before = new Set(w.enemies.filter((e) => !e.dead));
       w.explode(bx, by, radius, dmg, crit, { elements: it.mods.elements, spellId: it.spell.id, fx: 'effects/arcane_ring' });
+      areaRing(w, bx, by, radius, CYAN);
       if (it.lv === 0 || depth > 3) return;
       for (const e of before) if (e.dead) w.after(0.05, () => blast(e.x, e.y, radius * (it.lv === 1 ? 0.7 : 1), depth + 1));
     };
@@ -485,6 +583,7 @@ const SPELLS: Record<string, Handler> = {
       for (let i = 0; i < segs; i++) {
         const b = new Sprite(w.vis.art.tex(w.vis.art.pick('projectiles/serpent_body_f0.png', 'projectiles/serpent_body.png')));
         b.anchor.set(0.5);
+        b.tint = 0x9aa8ff;
         b.position.set(x, y);
         w.vis.projectiles.addChild(b);
         body.push(b);
@@ -499,6 +598,7 @@ const SPELLS: Record<string, Handler> = {
       for (let i = 0; i < body.length; i++) {
         const h = hist[Math.min(hist.length - 1, (i + 1) * 3)];
         body[i].position.set(Math.round(h.x), Math.round(h.y));
+        body[i].alpha = 0.65 + 0.35 * Math.sin(pp.age * 9 - i * 0.5);
       }
       for (const e of w.enemies) {
         if (e.dead || e.untargetable || w.time - (last.get(e) ?? -9) < 0.25) continue;
@@ -520,15 +620,21 @@ const SPELLS: Record<string, Handler> = {
   deceptive_mine(w, it, ctx, x, y, a) {
     const p = bullet(w, it, ctx, x, y, a, { rotate: false, pierce: 0, trail: null });
     const r = radiusOf(w, it);
+    const armed = new RingAura(w, YELLOW, 16);
+    p.data.noImpact = 1;
     p.onUpdate = (pp, dt) => {
       pp.vx *= Math.pow(0.05, dt);
       pp.vy *= Math.pow(0.05, dt);
       pp.speed = Math.hypot(pp.vx, pp.vy);
       if (pp.view && pp.speed < 10) pp.view.alpha = Math.floor(pp.age * 8) % 2 ? 0.5 : 1;
+      // the blast radius shows once the mine has come to rest
+      armed.update(pp.x, pp.y, r, dt, pp.speed < 10 ? 0.4 + 0.3 * Math.sin(pp.age * 8) : 0);
     };
     p.onEnd = (pp) => {
+      armed.destroy();
       if (w.isPit(pp.x, pp.y)) return;
-      w.explode(pp.x, pp.y, r, pp.dmg, pp.crit, { elements: it.mods.elements, indiscriminate: true, spellId: it.spell.id });
+      w.explode(pp.x, pp.y, r, pp.dmg, pp.crit, { elements: it.mods.elements, indiscriminate: true, spellId: it.spell.id, fx: 'effects/sx_blast' });
+      areaRing(w, pp.x, pp.y, r, YELLOW);
     };
     w.addProj(p);
   },
@@ -541,7 +647,7 @@ const SPELLS: Record<string, Handler> = {
     const drop = (tx: number, ty: number, rr: number, d: number, small: boolean) => {
       telegraph(w, tx, ty, rr, 0.3);
       if (w.vis) {
-        const m = w.vis.sprite(small ? 'projectiles/meteor' : 'projectiles/meteor');
+        const m = w.vis.sprite('projectiles/meteor');
         m.position.set(tx - 30, ty - 90);
         m.scale.set(small ? 0.7 : 1.3);
         w.vis.overhead.addChild(m);
@@ -549,6 +655,7 @@ const SPELLS: Record<string, Handler> = {
         const fall = () => {
           const k = Math.min(1, (w.time - start) / 0.35);
           m.position.set(tx - 30 * (1 - k), ty - 90 * (1 - k));
+          w.vis?.trail('effects/trail_fire.png', m.x, m.y, small ? 1 : 1.5);
           m.step(1 / 60);
           if (k < 1 && !m.destroyed) w.after(1 / 60, fall);
           else m.destroy();
@@ -556,7 +663,8 @@ const SPELLS: Record<string, Handler> = {
         fall();
       }
       w.after(0.35, () => {
-        w.explode(tx, ty, rr, d, crit, { elements: it.mods.elements, indiscriminate: true, spellId: it.spell.id });
+        w.explode(tx, ty, rr, d, crit, { elements: it.mods.elements, indiscriminate: true, spellId: it.spell.id, fx: 'effects/sx_flame' });
+        areaRing(w, tx, ty, rr, FIRE);
         w.vis?.shake(small ? 1 : 3, 0.15);
       });
     };
@@ -576,15 +684,18 @@ const SPELLS: Record<string, Handler> = {
 
   adava_keravda(w, it, ctx, x, y, a) {
     const t = aimPoint(w, x, y, a, 10 * M);
-    const r = radiusOf(w, it);
     // level from kills (120 → +, 240 → ++), not crafting
     const kills = w.run.spellKills.adava_keravda ?? 0;
     const lv = kills >= 240 ? 2 : kills >= 120 ? 1 : 0;
     const item = lv !== it.lv ? { ...it, lv } : it;
     const dmg = spellDamage(parts(w, item, ctx));
-    w.vis?.oneShot('projectiles/adava_bolt', t.x, t.y - 16);
-    w.explode(t.x, t.y, (it.spell.radius[lv] || 1) * M * it.mods.radiusMult, dmg, critOf(w, item, ctx), { elements: it.mods.elements, indiscriminate: true, spellId: 'adava_keravda' });
-    void r;
+    const rr = (it.spell.radius[lv] || 1) * M * it.mods.radiusMult;
+    if (w.vis) {
+      w.vis.beam(t.x - 4, t.y - 110, t.x, t.y, { color: GREEN, core: 0xffffff, width: 3, jitter: 4, life: 0.3 });
+      w.vis.oneShot('projectiles/adava_bolt', t.x, t.y - 16);
+    }
+    w.explode(t.x, t.y, rr, dmg, critOf(w, item, ctx), { elements: it.mods.elements, indiscriminate: true, spellId: 'adava_keravda', fx: 'effects/sx_bolt_green' });
+    areaRing(w, t.x, t.y, rr, GREEN, 0.5);
     const p = new Proj(w, { faction: 'player', x: t.x, y: t.y, angle: a, speed: 0, life: 0.01, r: 1, dmg: 0, item: it, trail: null });
     p.ctx = ctx;
     p.data.noImpact = 1;
@@ -599,11 +710,21 @@ const SPELLS: Record<string, Handler> = {
     const p = new Proj(w, { faction: 'player', x: t.x, y: t.y, angle: a, speed: 0, life: lifeOf(it), r: 1, dmg: spellDamage(parts(w, it, ctx)), crit: critOf(w, it, ctx), item: it, trail: null, art: 'effects/telegraph_circle', rotate: false });
     p.ctx = ctx;
     p.stopOnWall = false;
+    p.data.noImpact = 1;
+    const zone = new RingAura(w, YELLOW, 22);
     p.onUpdate = (pp, dt) => {
       if (pp.view) {
         pp.view.scale.set((r * 2) / 32);
-        pp.view.alpha = 0.5;
+        pp.view.alpha = 0.22;
         pp.view.tint = 0xfacc15;
+      }
+      zone.update(pp.x, pp.y, r, dt, 0.85);
+      if (w.vis && Math.random() < 0.07) {
+        const ang = Math.random() * Math.PI * 2;
+        const d = Math.sqrt(Math.random()) * r;
+        const sx = pp.x + Math.cos(ang) * d;
+        const sy = pp.y + Math.sin(ang) * d;
+        w.vis.beam(sx + 4, sy - 34, sx, sy, { color: YELLOW, jitter: 3, life: 0.1 });
       }
       pp.data.t = (pp.data.t ?? 0) + dt;
       if (pp.data.t < 0.25) return;
@@ -613,18 +734,29 @@ const SPELLS: Record<string, Handler> = {
       let target = w.rng.pick(inside);
       const mult = inside.length === 1 && single ? 1 + single : 1;
       const hit = new Set<Enemy>();
+      let prev: Enemy | null = null;
       for (let i = 0; i < conduct && target; i++) {
         hit.add(target);
         pp.applyHit(target, (pp.dmg / 4) * mult * (i === 0 ? 1 : 0.6));
-        w.vis?.oneShot('projectiles/thunder_bolt', target.x, target.y - 10);
+        if (w.vis) {
+          w.vis.oneShot('projectiles/thunder_bolt', target.x, target.y - 10);
+          if (prev) w.vis.beam(prev.x, prev.y - 4, target.x, target.y - 4, { color: YELLOW, jitter: 3, width: 1, life: 0.16 });
+          else w.vis.beam(target.x + 5, target.y - 70, target.x, target.y - 4, { color: YELLOW, jitter: 4, width: 2, life: 0.18 });
+        }
+        prev = target;
         target = w.nearestEnemy(target.x, target.y, 3 * M, hit) as Enemy;
       }
     };
+    p.onEnd = () => zone.destroy();
     w.addProj(p);
   },
 
   high_pressure_stream(w, it, ctx) {
     channel(w, it, ctx, (dt, ang, st) => {
+      if (w.vis) {
+        const tp = w.player.tip();
+        channelSpray(w, it.spell.id, tp.x, tp.y, ang, st.t);
+      }
       st.acc += dt;
       while (st.acc >= 0.05) {
         st.acc -= 0.05;
@@ -640,6 +772,10 @@ const SPELLS: Record<string, Handler> = {
   fierce_dragon_breath(w, it, ctx) {
     const ramp = [0.3, 0.4, 0.5][it.lv];
     channel(w, it, ctx, (dt, ang, st) => {
+      if (w.vis) {
+        const tp = w.player.tip();
+        channelSpray(w, it.spell.id, tp.x, tp.y, ang, st.t);
+      }
       st.acc += dt;
       st.t += dt;
       while (st.acc >= 0.045) {
@@ -669,6 +805,10 @@ const SPELLS: Record<string, Handler> = {
         let len = 0;
         const step = 4;
         while (len < 14 * M && !w.inWall(tip.x + Math.cos(ang) * len, tip.y + Math.sin(ang) * len)) len += step;
+        if (w.vis) {
+          channelSpray(w, it.spell.id, tip.x, tip.y, ang, st.t);
+          if (len < 14 * M) rayEndSpark(w, tip.x + Math.cos(ang) * len, tip.y + Math.sin(ang) * len);
+        }
         st.acc += dt;
         const tickEvery = 1 / (it.spell.tickRate || 20);
         const dmg = spellDamage(parts(w, it, ctx));
@@ -697,6 +837,7 @@ const SPELLS: Record<string, Handler> = {
             s.texture = w.vis!.art.tex(w.vis!.art.pick(`projectiles/ray_f${frame}.png`, 'projectiles/laser_f0.png'));
             s.position.set(tip.x + Math.cos(ang) * i * 32, tip.y + Math.sin(ang) * i * 32);
             s.rotation = ang;
+            s.scale.y = 0.85 + 0.2 * Math.sin(w.time * 40 + i);
           });
         }
       },
@@ -707,7 +848,7 @@ const SPELLS: Record<string, Handler> = {
   lightning_dash(w, it, ctx, x, y, a) {
     if (!ctx.channel) {
       // cast from a payload (Fuse, Echo, a Grimoire…): an independent lightning ball that chases the cursor
-      const ball = bullet(w, it, ctx, x, y, a, { dps: false, pierce: -1, rotate: false, life: Math.max(1, lifeOf(it) + 1) });
+      const ball = bullet(w, it, ctx, x, y, a, { dps: false, pierce: -1, rotate: false, life: Math.max(1, lifeOf(it) + 1), trail: ownTrail(it, 'effects/sx_trail_yellow') });
       ball.eraser = true;
       ball.trajectory = ball.trajectory ?? 'track';
       ball.stopOnWall = false;
@@ -718,7 +859,7 @@ const SPELLS: Record<string, Handler> = {
       return;
     }
     const pl = w.player;
-    const p = bullet(w, it, ctx, pl.x, pl.y, pl.aim, { dps: false, pierce: -1, rotate: false, life: 99 });
+    const p = bullet(w, it, ctx, pl.x, pl.y, pl.aim, { dps: false, pierce: -1, rotate: false, life: 99, trail: ownTrail(it, 'effects/sx_trail_yellow') });
     p.eraser = true;
     p.stopOnWall = false;
     // tick rate 3/s (wiki): an enemy may be hit again while still inside after 1/3 s
@@ -730,7 +871,8 @@ const SPELLS: Record<string, Handler> = {
       w,
       it,
       ctx,
-      (dt) => {
+      (dt, _ang, st) => {
+        channelSpray(w, it.spell.id, pl.x, pl.y - 4, 0, st.t);
         pl.setInvuln = 0.1;
         const ang = angleTo(pl.x, pl.y, pl.intent.aimX, pl.intent.aimY);
         const sp = 11 * M;
@@ -743,10 +885,12 @@ const SPELLS: Record<string, Handler> = {
       () => {
         pl.hidden = false;
         p.dead = true;
+        w.vis?.oneShot('effects/sx_bolt', pl.x, pl.y, { scale: 0.8 });
         if (it.lv > 0) {
           const r = M * (it.lv === 1 ? 2.5 : 3.5);
           for (const b of w.projs) if (b.faction === 'enemy' && dist2(b.x, b.y, pl.x, pl.y) < r * r) b.kill();
-          w.explode(pl.x, pl.y, r, spellDamage(parts(w, it, ctx)) * 2, critOf(w, it, ctx), { fx: 'effects/arcane_ring' });
+          w.explode(pl.x, pl.y, r, spellDamage(parts(w, it, ctx)) * 2, critOf(w, it, ctx), { fx: 'effects/sx_bolt' });
+          areaRing(w, pl.x, pl.y, r, YELLOW, 0.4);
         }
       },
     );
@@ -756,7 +900,7 @@ const SPELLS: Record<string, Handler> = {
     const spent = Math.floor(w.run.coins * 0.2);
     w.run.coins -= spent;
     const base = it.spell.damage[it.lv];
-    const p = bullet(w, it, ctx, x, y, a, { rotate: false });
+    const p = bullet(w, it, ctx, x, y, a, { rotate: false, trail: ownTrail(it, 'effects/sx_trail_gold') });
     p.dmg = spellDamage(parts(w, it, ctx, base * 0.1 * spent));
     p.onEnd = (pp) => {
       // coins come back where the spell completes (pick them up!)
@@ -769,6 +913,7 @@ const SPELLS: Record<string, Handler> = {
     const r = radiusOf(w, it);
     const p = bullet(w, it, ctx, x, y, a, { speed: 0, life: 0.22, r, pierce: -1, rotate: true, trail: null, scale: r / 12 });
     p.eraser = true;
+    p.data.noImpact = 1;
     if (it.lv > 0) p.data.reflectShots = 1;
     p.setAngle(a, 0.001);
     const arc = ((it.spell.scatter[it.lv] || 150) * DEG) / 2;
@@ -778,12 +923,16 @@ const SPELLS: Record<string, Handler> = {
       pp.y = w.player.y - 4 + Math.sin(a) * r * 0.5;
       for (const e of w.enemies) if (!e.dead && !pp.hits.has(e) && !hitOk(e)) pp.hits.set(e, w.time);
     };
-    w.vis?.oneShot('effects/slash', x, y, { rot: a, scale: r / 16 });
+    if (w.vis) {
+      w.vis.oneShot('effects/slash', x, y, { rot: a, scale: r / 16 });
+      const angles = [-1, -0.66, -0.33, 0, 0.33, 0.66, 1].map((k) => a + k * arc);
+      w.vis.rays(w.player.x, w.player.y - 4, angles, { color: 0xffffff, r0: r * 0.8, r1: r, life: 0.22, scaleTo: 1 });
+    }
     w.addProj(p);
   },
 
   boomerang_blade(w, it, ctx, x, y, a) {
-    const p = bullet(w, it, ctx, x, y, a, { pierce: -1, rotate: false, dps: false });
+    const p = bullet(w, it, ctx, x, y, a, { pierce: -1, rotate: false, dps: false, trail: ownTrail(it, 'effects/sx_trail_white') });
     const outT = Math.max(0.35, lifeOf(it) * 0.45);
     p.life = 99;
     p.stopOnWall = false;
@@ -801,7 +950,7 @@ const SPELLS: Record<string, Handler> = {
   },
 
   sword_of_judgement(w, it, ctx, x, y) {
-    const p = bullet(w, it, ctx, x, y, 0, { pierce: 0, trail: 'effects/trail_cyan' });
+    const p = bullet(w, it, ctx, x, y, 0, { pierce: 0, trail: ownTrail(it, 'effects/sx_trail_gold') });
     const orbitA = w.rng.range(0, Math.PI * 2);
     p.orbit = { r: 14, a: orbitA, w: 3 };
     p.life = Math.max(4, lifeOf(it));
@@ -826,10 +975,14 @@ const SPELLS: Record<string, Handler> = {
     p.life = lifeOf(it);
     p.onHit = () => undefined;
     p.hits = new Map();
-    p.onUpdate = (pp) => {
+    const reach = new RingAura(w, ICE, 14);
+    p.data.noImpact = 1;
+    p.onUpdate = (pp, dt) => {
       const k = 1 + 0.1 * (it.lv + 1) * pp.age;
       pp.r = r0 * k;
       if (pp.view) pp.view.scale.set((pp.r * 2) / 16);
+      // dashed ring = where the burst will land when the bubble pops
+      reach.update(pp.x, pp.y, pp.r * 2.2, dt, 0.5);
       pp.hits.clear();
       pp.inside.clear();
     };
@@ -840,7 +993,9 @@ const SPELLS: Record<string, Handler> = {
       const pr = parts(w, it, ctx);
       pr.bubble = Math.round(pp.age * growth * base * (it.mods.dmgMult / (it.mods.dmgMult || 1)) * (1 + pr.dmgAdd));
       const dmg = spellDamage(pr);
-      w.explode(pp.x, pp.y, pp.r * 2.2, dmg, critOf(w, it, ctx), { elements: it.mods.elements, spellId: it.spell.id });
+      reach.destroy();
+      w.explode(pp.x, pp.y, pp.r * 2.2, dmg, critOf(w, it, ctx), { elements: it.mods.elements, spellId: it.spell.id, fx: 'effects/sx_splash' });
+      areaRing(w, pp.x, pp.y, pp.r * 2.2, ICE);
       const pl = w.player;
       const d = dist(pp.x, pp.y, pl.x, pl.y);
       if (d < pp.r * 2.5) {
@@ -858,19 +1013,19 @@ const SPELLS: Record<string, Handler> = {
     const crit = critOf(w, it, ctx) + critBonus;
     const pr = parts(w, it, ctx);
     if (crit > threshold) pr.condFinal = finalBonus;
-    const p = bullet(w, it, ctx, x, y, a, { crit, pierce: 1 + it.mods.pierce, dmg: spellDamage(pr) });
+    const p = bullet(w, it, ctx, x, y, a, { crit, pierce: 1 + it.mods.pierce, dmg: spellDamage(pr), scale: it.mods.sizeMult * (1 + Math.min(ctx.charge, 1.2) * 0.5), trail: ownTrail(it, 'effects/sx_trail_gold') });
     w.player.recoilX -= Math.cos(a) * 80;
     w.player.recoilY -= Math.sin(a) * 80;
     w.addProj(p);
   },
 
   bings_arrow(w, it, ctx, x, y, a) {
-    w.addProj(bullet(w, it, ctx, x, y, a));
+    w.addProj(bullet(w, it, ctx, x, y, a, { trail: ownTrail(it, 'effects/sx_trail_white') }));
     w.run.spellKills.__bing = (w.run.spellKills.__bing ?? 0) + 1;
     if (w.run.spellKills.__bing % 50 === 0) {
       const n = [4, 6, 10][it.lv];
       for (let i = 0; i < n; i++) {
-        const big = bullet(w, it, { ...ctx, dmgScale: ctx.dmgScale * 3 }, x, y, a + (i - (n - 1) / 2) * 6 * DEG, { scale: 1.6, r: 5, pierce: 3 });
+        const big = bullet(w, it, { ...ctx, dmgScale: ctx.dmgScale * 3 }, x, y, a + (i - (n - 1) / 2) * 6 * DEG, { scale: 1.6, r: 5, pierce: 3, tint: 0xfde047, trail: ownTrail(it, 'effects/sx_trail_gold') });
         w.addProj(big);
       }
     }

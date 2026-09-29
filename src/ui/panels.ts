@@ -1,7 +1,7 @@
 import { RARITY_COLOR, type EndSummary, type Game } from '../game/game';
 import { applyMerge, mergeCandidates, rerollCost, spellPool } from '../game/loot';
 import { SETS } from '../game/sets';
-import { canPlace, coveringSlot, type SpellInst, type WandInst } from '../game/wand';
+import { areaBoostCopies, canPlace, coveringSlot, deckOf, previewCasts, type SpellInst, type WandInst, type WandStats } from '../game/wand';
 import {
   ACHIEVEMENTS, DIFFICULTY_NAMES, GINA_FREE, GINA_MAX, ginaCost, level, LILIAN, LYON, VIVIAN, VIVIAN_TIERS, valueAt, type Tiered,
 } from '../meta/meta';
@@ -74,6 +74,7 @@ export function openTitle(ui: Ui, game: Game, onDone: () => void) {
       ),
     );
   const reset = () => {
+    if (game.testMode) return ui.toast('Progress cannot be reset while Test Mode is on.', 'bad');
     if (!confirm('Erase all progress?')) return;
     resetSave();
     location.reload();
@@ -261,6 +262,26 @@ export function openInventory(ui: Ui, game: Game) {
         return row;
       };
 
+      /** Which boosts reach which spells, exactly as the planner will draw the wand's repeating cast cycle. */
+      const castPlan = (wand: WandInst, st: WandStats) => {
+        const cards = deckOf(wand.slots, content, areaBoostCopies(run.wands, content));
+        const plan = previewCasts(cards, { content, baseSimul: st.simul, mpMult: st.mpMult });
+        if (!plan.casts.length) return null;
+        const chip = (s: SpellInst) => {
+          const d = content.spell[s.id];
+          return h('span', { class: d.type === 'Boost' ? 'chip boost' : 'chip' }, icon(d.icon, 16), d.name);
+        };
+        return h(
+          'div',
+          { class: 'plan' },
+          h('div', { class: 'small muted' }, 'Cast order (repeats). A boost only affects the spells in its own cast.'),
+          ...plan.casts.map((c, i) =>
+            h('div', { class: 'plan-row' }, h('span', { class: 'plan-n' }, String(i + 1)), ...c.boosts.map(chip), c.boosts.length ? '→' : null, ...c.spells.map(chip), h('span', { class: 'plan-mp' }, `${Math.round(c.mp)} MP`)),
+          ),
+          plan.idle.length ? h('div', { class: 'plan-row warn' }, 'Never applies (no spell to its right):', ...plan.idle.map(chip)) : null,
+        );
+      };
+
       const wandBlock = (wand: WandInst, wi: number) => {
         const def = content.wand[wand.defId];
         const st = game.world.player.statsOf(wand);
@@ -288,6 +309,7 @@ export function openInventory(ui: Ui, game: Game) {
             h('span', null, 'Scatter'), h('span', null, `${st.scatter}°`),
           ),
           slotRow(wi, wand.slots, false),
+          castPlan(wand, st),
           wand.post.length ? h('div', { class: 'small o' }, `Charge slots · energy ${Math.floor(wand.energy)}/100`) : null,
           wand.post.length ? slotRow(wi, wand.post, true) : null,
         );

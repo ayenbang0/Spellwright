@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { duetMirror, spellDamage } from '../src/game/damage';
 import { applyMerge, mergeCandidates } from '../src/game/loot';
-import { areaBoostCopies, deckOf, newWand, planGroup } from '../src/game/wand';
+import { areaBoostCopies, deckOf, newWand, planGroup, previewCasts } from '../src/game/wand';
 import { content } from '../scripts/sim-builds';
 
 const parts = (over: Partial<Parameters<typeof spellDamage>[0]> = {}) => ({ base: 10, baseInc: 0, dmgAdd: 0, dmgMult: 1, mirrored: 0, finalMult: 1, condFinal: 1, bubble: 0, ...over });
@@ -50,6 +50,23 @@ describe('cast planner', () => {
     const { group } = planGroup(deck(['multi_shot', 'magic_bullet']), 0, 1, ctx);
     expect(group.items[0].copies).toBe(2);
     expect(group.items[0].mp).toBeCloseTo(content.spell.magic_bullet.mana[0] * 1.5);
+  });
+
+  it('preview: a boost only joins the cast of the spell it precedes (one spell per cast)', () => {
+    const plan = previewCasts(deck(['dmg_enhanced', 'magic_bullet', 'magic_bullet']), ctx);
+    expect(plan.casts.map((c) => [c.boosts.length, c.spells.length])).toEqual([[1, 1], [0, 1]]);
+    expect(plan.idle).toEqual([]);
+  });
+
+  it('preview: boosts after the last spell never apply and are reported idle', () => {
+    const plan = previewCasts(deck(['magic_bullet', 'dmg_enhanced']), ctx);
+    expect(plan.casts.map((c) => [c.boosts.length, c.spells.length])).toEqual([[0, 1]]);
+    expect(plan.idle.map((s) => s.id)).toEqual(['dmg_enhanced']);
+  });
+
+  it('preview: simultaneous casting puts several spells under one boost', () => {
+    const plan = previewCasts(deck(['dmg_enhanced', 'magic_bullet', 'magic_bullet']), { ...ctx, baseSimul: 2 });
+    expect(plan.casts.map((c) => [c.boosts.length, c.spells.length])).toEqual([[1, 2]]);
   });
 });
 

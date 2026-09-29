@@ -48,7 +48,15 @@ export function loadSave(): Save {
   }
 }
 
+/** While locked (Test Mode) nothing reaches localStorage, so the real progress on disk cannot change. */
+let locked = false;
+
+export function setSaveLocked(v: boolean) {
+  locked = v;
+}
+
 export function writeSave(s: Save) {
+  if (locked) return;
   try {
     localStorage.setItem(KEY, JSON.stringify(s));
   } catch {
@@ -57,5 +65,6 @@ export function writeSave(s: Save) {
 }
 
 export function resetSave() {
+  if (locked) return;
   localStorage.removeItem(KEY);
 }

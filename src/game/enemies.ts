@@ -8,6 +8,14 @@ import type { AnimSprite } from './visuals';
 
 export type AiKind = 'chase' | 'keep' | 'charger' | 'hopper' | 'turret' | 'bouncer' | 'spawner' | 'phantom' | 'flyer' | 'thief' | 'dummy' | 'boss';
 
+/** Component-wise product of two RGB tints (stacking statuses on one enemy). */
+function mulTint(a: number, b: number): number {
+  const r = (((a >> 16) & 255) * ((b >> 16) & 255)) / 255;
+  const g = (((a >> 8) & 255) * ((b >> 8) & 255)) / 255;
+  const bl = ((a & 255) * (b & 255)) / 255;
+  return (Math.round(r) << 16) | (Math.round(g) << 8) | Math.round(bl);
+}
+
 export type Pattern = 'aimed' | 'spread' | 'ring' | 'burst' | 'spiral' | 'lob';
 
 export interface AttackDef {
@@ -193,6 +201,26 @@ export class Enemy extends Actor {
     vis.oneShot('effects/spawn', this.x, this.y, { layer: vis.shadows });
   }
   private root: Container | null = null;
+  /** Lazily created status icons: frozen crystals, burning flames, poison bubbles. */
+  private statusIcons: (Sprite | null)[] = [null, null, null];
+
+  private setStatusIcon(i: number, path: string, on: boolean, x: number, y: number, alpha = 1) {
+    let s = this.statusIcons[i];
+    if (!on) {
+      if (s) s.visible = false;
+      return;
+    }
+    if (!s) {
+      s = new Sprite(this.w.vis!.art.tex(path));
+      s.anchor.set(0.5);
+      this.root!.addChild(s);
+      this.statusIcons[i] = s;
+    }
+    s.visible = true;
+    s.scale.set(this.scale);
+    s.position.set(x, y);
+    s.alpha = alpha;
+  }
 
   sync(dt: number) {
     if (!this.root || !this.body) return;
@@ -202,7 +230,18 @@ export class Enemy extends Actor {
     const hitPath = `${this.artBase}_hit.png`;
     if (this.flashT > 0 && vis.art.has(hitPath)) this.body.texture = vis.art.tex(hitPath);
     else if (this.telegraphSprite && this.phase !== 'idle' && vis.art.has(this.telegraphSprite)) this.body.texture = vis.art.tex(this.telegraphSprite);
-    this.body.tint = frozen ? 0xa5f3fc : this.status.burnT > 0 ? 0xffb080 : this.status.poison.length ? 0xb6f7c1 : 0xffffff;
+    const st = this.status;
+    const burning = st.burnT > 0;
+    const poisoned = st.poison.length > 0;
+    let tint = 0xffffff;
+    if (frozen) tint = mulTint(tint, 0xa5f3fc);
+    if (burning) tint = mulTint(tint, 0xffb080);
+    if (poisoned) tint = mulTint(tint, 0xb6f7c1);
+    if (st.slowT > 0) tint = mulTint(tint, 0xd9e28a);
+    this.body.tint = tint;
+    this.setStatusIcon(0, 'effects/freeze_crystals.png', frozen, 0, 0);
+    this.setStatusIcon(1, 'effects/burn_flames.png', burning, 0, -6 * this.scale - Math.abs(Math.sin(this.t * 10)) * 1.5);
+    this.setStatusIcon(2, 'effects/poison_bubbles.png', poisoned, 3 * this.scale, -9 * this.scale - ((this.t * 5) % 1) * 3, 0.9);
     this.body.scale.x = (this.faceLeft ? -1 : 1) * this.scale;
     const bob = this.flying ? Math.sin(this.t * 5) * 2 : 0;
     this.root.position.set(Math.round(this.x), Math.round(this.y - 4 * this.scale + bob));

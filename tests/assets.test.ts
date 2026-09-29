@@ -1,6 +1,7 @@
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
+import { TAG_BY_SPELL } from '../src/game/wand';
 
 const root = new URL('../', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1');
 const files = new Set(readFileSync(join(root, 'assets/filelist.txt'), 'utf8').split(/\r?\n/).filter(Boolean));
@@ -63,5 +64,23 @@ describe('boss roster', async () => {
       for (const g of groups(id)) for (const f of [`bosses/boss_${g}_f0.png`, `bosses/boss_${g}_hit.png`, `bosses/boss_${g}_telegraph.png`]) if (!files.has(f)) missing.push(f);
     }
     expect(missing).toEqual([]);
+  });
+});
+
+describe('boost visuals', () => {
+  interface SpellRow {
+    id: string;
+    type: string;
+  }
+  const spells = JSON.parse(readFileSync(join(root, 'public/data/spells.json'), 'utf8')) as SpellRow[];
+  // Summon-only boosts show on the summon itself (Summon.decorate), not as a projectile overlay.
+  const summonOnly = ['parasite', 'troll_serum', 'umbilical_cord', 'fusion_summon', 'cadaver_explosion', 'essence_of_soul', 'indomitability'];
+  const boosts = spells.filter((s) => s.type === 'Boost' && !summonOnly.includes(s.id));
+
+  it('every projectile boost has an overlay tag of its own and the overlay art exists', () => {
+    const tags = boosts.map((s) => TAG_BY_SPELL[s.id]);
+    expect(boosts.filter((_, i) => !tags[i]).map((s) => s.id)).toEqual([]);
+    expect(tags.filter((t, i) => tags.indexOf(t) !== i)).toEqual([]);
+    expect(tags.filter((t) => !files.has(`overlays/ov_${t}.png`))).toEqual([]);
   });
 });

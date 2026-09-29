@@ -4,7 +4,7 @@ import { Audio, type Track } from '../core/audio';
 import { Input } from '../core/input';
 import { dist2, TILE } from '../core/math';
 import { ACHIEVEMENTS, bonuses, DIFFICULTY_ACH, type MetaBonuses } from '../meta/meta';
-import { loadSave, writeSave, type Save } from '../meta/save';
+import { loadSave, setSaveLocked, writeSave, type Save } from '../meta/save';
 import { Ui } from '../ui/ui';
 import { CHAPTER_BOSSES, spawnBoss } from './bosses';
 import { Content } from './content';
@@ -18,6 +18,7 @@ import { CHAPTERS, ROOMS_PER_CHAPTER, type RunState } from './run';
 import { SET_BY_ID, SOUL_UPGRADE_COST } from './sets';
 import { computeStats } from './stats';
 import { Visuals, AnimSprite } from './visuals';
+import { TestSession } from './testmode';
 import { newWand, type SpellInst } from './wand';
 import { World, type Prop, type PropInfo } from './world';
 
@@ -73,7 +74,11 @@ export class Game {
   private nearProp: Prop | null = null;
   private deathCause = '';
   private lastAutoSave = 0;
+  /** Set by the camp death timer; the world is only replaced between steps, never from inside `World.update`. */
+  private respawnCamp = false;
   end: EndSummary | null = null;
+  /** Hidden Test Mode session (cheat code); `null` while off. */
+  testMode: TestSession | null = null;
 
   private constructor(app: Application, art: Art, content: Content, canvas: HTMLCanvasElement, uiRoot: HTMLElement) {
     this.app = app;
@@ -111,6 +116,7 @@ export class Game {
     });
     fit();
     this.audio.muted = this.save.settings.muted;
+    this.input.onCheatCode = () => this.toggleTestMode();
     window.addEventListener('pointerdown', () => this.audio.unlock(), { once: true });
     window.addEventListener('keydown', () => this.audio.unlock(), { once: true });
     this.unlock('launch');
@@ -174,7 +180,7 @@ export class Game {
     w.meta.summonLimitStop = this.save.settings.summonLimitStop;
     const pack = 8 + this.meta.backpack + w.stats.backpackAdd;
     while (run.backpack.length < pack) run.backpack.push(null);
-    while (run.backpack.length > Math.max(1, pack) && run.backpack[run.backpack.length - 1] === null) run.backpack.pop();
+    while (!this.testMode && run.backpack.length > Math.max(1, pack) && run.backpack[run.backpack.length - 1] === null) run.backpack.pop();
     run.potionSlots = 1 + this.meta.potionSlots + (run.relics.find((r) => r.id === 'bird_beak_mask')?.lv ?? 0);
     for (const wand of run.wands) {
       const def = this.content.wand[wand.defId];
@@ -902,7 +908,8 @@ export class Game {
 
   giveSpell(s: SpellInst): boolean {
     const run = this.run;
-    const slot = run.backpack.findIndex((x) => !x);
+    let slot = run.backpack.findIndex((x) => !x);
+    if (slot < 0 && this.testMode) slot = run.backpack.push(null) - 1;
     if (slot < 0) {
       this.ui.toast('Backpack is full', 'bad');
       this.world.sfx('deny');
@@ -1066,8 +1073,8 @@ export class Game {
 
   private onDeath() {
     if (this.mode === 'camp') {
-      // dying in camp (own spells): respawn
-      this.world.after(1.2, () => this.enterCamp());
+      // dying in camp (own spells, or a Test Mode mob): respawn
+      this.world.after(1.2, () => (this.respawnCamp = true));
       return;
     }
     this.deathCause = this.world.player.hp <= 0 && this.world.dmgLog.length ? 'Slain' : 'Slain';
@@ -1079,6 +1086,12 @@ export class Game {
   private onBossDefeated(e: Enemy) {
     const run = this.run;
     const w = this.world;
+    if (this.testMode?.spawned.has(e)) {
+      // a panel-spawned boss: no rewards, doors or run end
+      w.clearEnemyProjectiles();
+      w.vis?.flash(0xffffff, 0.2);
+      return;
+    }
     for (const m of w.enemies) if (m.minion && !m.dead) w.killEnemy(m);
     w.clearEnemyProjectiles();
     this.addCore(1);
@@ -1222,6 +1235,34 @@ export class Game {
     }
   }
 
+  // ------------------------------------------------------------------ test mode (hidden cheat code)
+
+  /**
+   * ON: snapshot the save and lock persistence. OFF: put the snapshot back and drop the cheated run (back to a fresh camp),
+   * so nothing earned or unlocked under Test Mode can reach the real progress.
+   */
+  toggleTestMode() {
+    if (!this.testMode) {
+      this.testMode = new TestSession(this.save);
+      setSaveLocked(true);
+      this.ui.setTestBadge(true);
+      this.ui.toast('Test Mode ON: progress is not saved. F2 opens the panel.', 'purple');
+      return;
+    }
+    this.testMode.restore(this.save);
+    this.testMode = null;
+    setSaveLocked(false);
+    this.meta = bonuses(this.save);
+    this.audio.muted = this.save.settings.muted;
+    this.ui.setTestBadge(false);
+    if (this.ui.onTitle) this.refreshStats();
+    else {
+      this.ui.closeAll();
+      this.enterCamp();
+    }
+    this.ui.toast('Test Mode OFF: your real progress is back.', 'purple');
+  }
+
   // ------------------------------------------------------------------ frame
 
   private frame(dt: number) {
@@ -1243,10 +1284,15 @@ export class Game {
   }
 
   private step(dt: number) {
+    if (this.respawnCamp) {
+      this.respawnCamp = false;
+      this.enterCamp();
+    }
     const w = this.world;
     const i = this.input;
     i.poll();
     const pl = w.player;
+    if (this.testMode && !this.ui.onTitle && i.hit('F2')) this.ui.toggleTestPanel();
     const modal = this.ui.modalOpen;
     if (this.ui.onTitle) {
       w.update(dt);
@@ -1284,6 +1330,7 @@ export class Game {
     for (let k = 0; k < 4; k++) if (i.hit(`Digit${k + 1}`)) this.usePotion(k);
     if (i.hit('KeyR')) this.ui.toast(`DPS ${Math.round(w.dps())}`, 'info');
 
+    this.testMode?.tick(this);
     w.update(dt);
     this.checkInteractions();
     this.checkDoors();

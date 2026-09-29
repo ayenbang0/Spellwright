@@ -38,6 +38,8 @@ export interface ElementMod {
   duration: number;
   chance: number;
   extra: number;
+  /** Core of Thunder: shock radius in metres (SpellDef.radius at the boost's level); 0 for other elements. */
+  radius: number;
 }
 
 /** Flattened modifiers applied to one cast item. */
@@ -94,13 +96,25 @@ export function emptyMods(): ModStack {
   };
 }
 
-const TAG_BY_SPELL: Record<string, string> = {
-  track: 'homing', automatic_navigate: 'homing', rebound: 'rebound', penetration: 'pierce', reflection: 'rebound',
-  multi_shot: 'multishot', volley: 'volley', over_scatter: 'volley', split: 'multishot', orbit: 'orbit',
-  enlarge_spell: 'enlarge', fall: 'fall',
+/**
+ * Visual behaviour tag per boost id (one overlay `overlays/ov_<tag>.png` each). Every non-summon Boost has its own tag so
+ * a shot carrying it always looks different from one without; tests assert the overlay exists for every id listed here.
+ */
+export const TAG_BY_SPELL: Record<string, string> = {
+  volley: 'volley', multi_shot: 'multishot', over_scatter: 'scatter', slime_crystal: 'slime', venom_crystal: 'venom',
+  penetration: 'pierce', chain_of_lightning: 'chain', hover: 'hover', orbit: 'orbit', track: 'track',
+  automatic_navigate: 'homing', rebound: 'rebound', reflection: 'reflect', split: 'split', frost_crystal: 'frost',
+  core_of_thunder: 'thunder', core_of_flame: 'fire', dmg_enhanced: 'dmg', time_duration_enhanced: 'duration',
+  energy_saving_mode: 'saving', precise_shot: 'precise', accelerator: 'accel', range_enhanced: 'range',
+  strong_traction: 'traction', enlarge_spell: 'enlarge', fall: 'fall', magic_upgrade: 'upgrade', mimicry_cube: 'mimic',
+  duet: 'duet', dazzling_fireworks: 'fireworks', serial: 'serial', echo: 'echo',
 };
 
-function applyMods(s: ModStack, spell: SpellDef, m: SpellMods) {
+/** Deck rewriters that mark the card they touched (Magic Upgrade raised it, Mimicry Cube copied it). */
+export type CardVia = 'upgrade' | 'mimic';
+const VIA_SPELL: Record<CardVia, string> = { upgrade: 'magic_upgrade', mimic: 'mimicry_cube' };
+
+function applyMods(s: ModStack, spell: SpellDef, m: SpellMods, lv: number) {
   s.dmgAdd += m.dmgAdd ?? 0;
   s.dmgMult *= spell.trigger ? 1 : m.dmgMult ?? 1;
   s.finalMult *= m.finalMult ?? 1;
@@ -126,6 +140,7 @@ function applyMods(s: ModStack, spell: SpellDef, m: SpellMods) {
       duration: m.elementDuration ?? 3,
       chance: m.chance ?? 1,
       extra: m.thunderDmg ?? 0,
+      radius: m.element === 'thunder' ? spell.radius[lv] || 2.4 : 0,
     });
   }
   if (m.trajectory) {
@@ -148,7 +163,7 @@ function applyMods(s: ModStack, spell: SpellDef, m: SpellMods) {
   if (spell.id === 'strong_traction') s.traction = { count: m.count ?? 1, radius: (7 + ((m.count ?? 1) >= 2 ? 1 : 0) + ((m.count ?? 1) >= 4 ? 1 : 0)) * 16 };
   if (spell.id === 'fusion_summon') s.fusion = true;
   if (spell.id === 'fall') s.fall = true;
-  const tag = m.element ?? TAG_BY_SPELL[spell.id];
+  const tag = TAG_BY_SPELL[spell.id];
   if (tag && !s.tags.includes(tag)) s.tags.push(tag);
 }
 
@@ -164,6 +179,8 @@ export interface CastItem {
   after: { kind: TriggerKind; spell: SpellDef; lv: number; payload: CastGroup } | null;
   /** MP for this item alone (payloads excluded). */
   mp: number;
+  /** Set when a deck rewriter (Magic Upgrade / Mimicry Cube) produced or raised this spell. */
+  via?: CardVia;
 }
 
 export interface CastGroup {
@@ -178,6 +195,7 @@ export interface CastGroup {
 interface Card {
   inst: SpellInst;
   def: SpellDef;
+  via?: CardVia;
 }
 
 /**
@@ -185,7 +203,7 @@ interface Card {
  * cards); `extra` are leading copies injected by Area Boost from any carried wand.
  */
 export function deckOf(slots: (SpellInst | null)[], content: Content, extra: SpellInst[] = []): Card[] {
-  const insts: SpellInst[] = [...extra, ...slots.filter((s): s is SpellInst => !!s && !!content.spell[s.id])].map((s) => ({ ...s }));
+  const insts: (SpellInst & { via?: CardVia })[] = [...extra, ...slots.filter((s): s is SpellInst => !!s && !!content.spell[s.id])].map((s) => ({ ...s }));
   // Magic Upgrade: +1 level (cap ++) to the nearest spell on each side
   insts.forEach((s, i) => {
     if (s.id !== 'magic_upgrade') return;
@@ -193,6 +211,7 @@ export function deckOf(slots: (SpellInst | null)[], content: Content, extra: Spe
       for (let j = i + dir; j >= 0 && j < insts.length; j += dir) {
         if (insts[j].id === 'magic_upgrade') continue;
         insts[j].lv = Math.min(2, insts[j].lv + 1);
+        insts[j].via = 'upgrade';
         break;
       }
     }
@@ -202,9 +221,9 @@ export function deckOf(slots: (SpellInst | null)[], content: Content, extra: Spe
     if (insts[i].id !== 'mimicry_cube') continue;
     const cube = insts[i];
     const next = insts.slice(i + 1).find((x) => x.id !== 'mimicry_cube');
-    if (next) insts[i] = { id: next.id, lv: Math.min(cube.lv, next.lv) };
+    if (next) insts[i] = { id: next.id, lv: Math.min(cube.lv, next.lv), via: 'mimic' };
   }
-  return insts.filter((s) => s.id !== 'magic_upgrade').map((inst) => ({ inst, def: content.spell[inst.id] }));
+  return insts.filter((s) => s.id !== 'magic_upgrade').map((inst) => ({ inst: { id: inst.id, lv: inst.lv }, def: content.spell[inst.id], via: inst.via }));
 }
 
 /** Area Boost: the first spell right of each Area Boost, copied (up to its own level) onto every wand. */
@@ -248,7 +267,7 @@ export function planGroup(cards: Card[], start: number, draws: number, ctx: Plan
   let intervalAdd = 0;
   let cdAdd = 0;
   while (remaining > 0 && i < cards.length) {
-    const { inst, def } = cards[i++];
+    const { inst, def, via } = cards[i++];
     const m = def.mods?.[inst.lv];
     intervalAdd += def.intervalAdd[inst.lv] ?? 0;
     cdAdd += def.cdAdd[inst.lv] ?? 0;
@@ -256,8 +275,8 @@ export function planGroup(cards: Card[], start: number, draws: number, ctx: Plan
     if (def.type === 'Boost') {
       if (def.trigger) continue; // boost trigger with no spell on its left does nothing
       if (m) {
-        applyMods(stack, def, m);
-        if (!m.multicast) applyMods(inh, def, m);
+        applyMods(stack, def, m, inst.lv);
+        if (!m.multicast) applyMods(inh, def, m, inst.lv);
         if (m.simulAdd) {
           remaining += m.simulAdd;
           extraFromVolley += m.simulAdd;
@@ -268,6 +287,8 @@ export function planGroup(cards: Card[], start: number, draws: number, ctx: Plan
       continue;
     }
     const mods: ModStack = { ...stack, elements: [...stack.elements], tags: [...stack.tags] };
+    const viaTag = via ? TAG_BY_SPELL[VIA_SPELL[via]] : null;
+    if (viaTag && !mods.tags.includes(viaTag)) mods.tags.push(viaTag);
     const item: CastItem = {
       spell: def,
       lv: inst.lv,
@@ -276,6 +297,7 @@ export function planGroup(cards: Card[], start: number, draws: number, ctx: Plan
       payload: null,
       after: null,
       mp: def.mana[inst.lv] * mods.mpMult * ctx.mpMult,
+      via,
     };
     if (depth < 6 && (def.trigger === 'fuse' || def.trigger === 'nova' || def.trigger === 'grimoire')) {
       const r = planGroup(cards, i, def.trigger === 'grimoire' ? 1 : ctx.baseSimul, ctx, depth + 1, inh);
@@ -287,7 +309,8 @@ export function planGroup(cards: Card[], start: number, draws: number, ctx: Plan
       i++;
       const r = planGroup(cards, i, ctx.baseSimul, ctx, depth + 1, inh);
       item.after = { kind: nextCard.def.trigger, spell: nextCard.def, lv: nextCard.inst.lv, payload: r.group };
-      if (!mods.tags.includes(nextCard.def.trigger)) mods.tags.push(nextCard.def.trigger);
+      const trigTag = TAG_BY_SPELL[nextCard.def.id];
+      if (trigTag && !mods.tags.includes(trigTag)) mods.tags.push(trigTag);
       i = r.next;
     }
     items.push(item);
@@ -322,6 +345,38 @@ function upfrontPayloadCost(it: CastItem): number {
 export function hasCastableFrom(cards: Card[], from: number): boolean {
   for (let i = from; i < cards.length; i++) if (castable(cards[i].def)) return true;
   return false;
+}
+
+/** One wand cast as the planner will draw it: the boosts folded into it and the spells it fires (payload spells included). */
+export interface CastPreview {
+  boosts: SpellInst[];
+  spells: SpellInst[];
+  /** MP the wand pays when this cast fires. */
+  mp: number;
+}
+
+/** The wand's repeating cast cycle, plus boosts that sit after the last spell and therefore never apply. */
+export interface WandPreview {
+  casts: CastPreview[];
+  idle: SpellInst[];
+}
+
+/** Walk the deck the way `Player.nextGroup`/`advance` do, so the bag can show which boosts reach which spells. */
+export function previewCasts(cards: Card[], ctx: PlanCtx): WandPreview {
+  const casts: CastPreview[] = [];
+  let ptr = 0;
+  while (hasCastableFrom(cards, ptr)) {
+    const { group, next } = planGroup(cards, ptr, ctx.baseSimul, ctx);
+    if (next <= ptr) break;
+    const used = cards.slice(ptr, next);
+    casts.push({
+      boosts: used.filter((c) => c.def.type === 'Boost').map((c) => c.inst),
+      spells: used.filter((c) => castable(c.def)).map((c) => c.inst),
+      mp: group.mp,
+    });
+    ptr = next;
+  }
+  return { casts, idle: cards.slice(ptr).filter((c) => c.def.type === 'Boost').map((c) => c.inst) };
 }
 
 export interface WandGlobals {

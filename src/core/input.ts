@@ -1,3 +1,10 @@
+import { CheatCode } from './cheat';
+
+/** True while the user is typing into a form control (the Test Mode panel's search box). */
+function typingTarget(t: EventTarget | null): boolean {
+  return t instanceof HTMLElement && (t.isContentEditable || t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT');
+}
+
 /** Keyboard + mouse + gamepad state, sampled once per fixed step. */
 export class Input {
   private down = new Set<string>();
@@ -18,12 +25,20 @@ export class Input {
   private wheelQ = 0;
   private padDown = new Set<number>();
   gamepad: { lx: number; ly: number; rx: number; ry: number; fire: boolean } | null = null;
+  /** Fired when the hidden Test Mode code has just been typed. */
+  onCheatCode: (() => void) | null = null;
+  private readonly cheat = new CheatCode();
 
   constructor(private readonly canvas: HTMLCanvasElement) {
     window.addEventListener('keydown', (e) => {
-      if (['Tab', 'Space', 'ArrowUp', 'ArrowDown'].includes(e.code)) e.preventDefault();
+      const typing = typingTarget(e.target);
+      if (!typing && ['Tab', 'Space', 'ArrowUp', 'ArrowDown'].includes(e.code)) e.preventDefault();
       if (!this.down.has(e.code)) this.pressedQ.add(e.code);
       this.down.add(e.code);
+      if (typing || e.ctrlKey || e.metaKey || e.altKey) this.cheat.reset();
+      else if (!e.repeat && this.cheat.feed(e.key, performance.now())) this.onCheatCode?.();
+      // Deep into the code, the keys are for the cheat, not for the game: `e` would otherwise interact with whatever is near.
+      if (this.cheat.progress >= 3) this.pressedQ.delete(e.code);
     });
     window.addEventListener('keyup', (e) => this.down.delete(e.code));
     window.addEventListener('blur', () => {

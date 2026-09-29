@@ -29,6 +29,20 @@ npm run build:art  # regenerate assets/ (Python + Pillow, deterministic)
 
 WASD move · mouse aim & fire · Q / wheel swap wand · E interact · Space set skill · 1–4 potions · Tab bag · Esc menu.
 
+#### Test Mode (hidden)
+
+Type `ayenbang0` anywhere (title screen, camp, in a run, over any menu; not while a text box has focus) to toggle Test
+Mode; type it again to switch it off. A red `TEST MODE (F2)` badge shows while it is on. It is session-only: reloading the
+page turns it off.
+
+`F2` (or a click on the badge) opens the test panel: every spell (type filter, search, base / + / ++), every wand,
+every relic (inert ones are marked), every enemy and boss (1 / 5 / 10 at a time, optionally elite; Demon Lord per
+phase) plus god mode, infinite MP, healing, coins, keys and potions. Esc or F2 closes it.
+
+Nothing is saved while Test Mode is on: writes to the browser save are blocked, and the save as it was when you
+switched Test Mode on is restored when you switch it off. Switching it off also drops the current run and returns to a
+fresh camp, so nothing earned under Test Mode can be banked.
+
 ## How a run works
 
 Camp (portal, Vivian / Lyon / Lilian / Gina / Leah, training dummy) → chapter 1–3 (Hard and up add chapter 4 and a
@@ -39,6 +53,11 @@ paid for in max HP.
 The wand model: slots are read left → right; boosts change the spells to their **right**; trigger spells (Duet, Fuse,
 Echo, Serial, Fireworks, Arcane Nova, Grimoire) carry the following spells as a payload; passives affect the whole wand;
 post (charge) slots fire when energy fills. Damage follows the wiki's formula (`src/game/damage.ts`).
+
+Every boost, trigger, spell, summon boost and passive has its own visible cue (overlay icons and a tinted aura on the
+projectile, a rising icon per boost at the muzzle on each cast, and event effects such as arcs, rings and beams; see
+`assets/AI_GUIDE.md` sections 4–5). The Bag shows each wand's repeating cast order, which boosts join which cast, and
+flags boosts that never apply because no spell sits to their right.
 
 ## Layout
 

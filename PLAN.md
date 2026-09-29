@@ -411,7 +411,7 @@ interface SetDef { id: string; unlock: string; startingWands: string[]; starting
 ## 14. Implementation status (Sep 28 2026)
 
 Playable end to end: title → camp → run (chapters 1–3 on Normal; chapters 1–4 plus the Ancient Throne boss rush on Hard+;
-the Scribe secret behind chapter 4) → death/victory → camp, with saves. Verified by `npm test` (28 tests), `npm run build`,
+the Scribe secret behind chapter 4) → death/victory → camp, with saves. Verified by `npm test` (41 tests), `npm run build`,
 and browser runs (a god-mode bot walked chapter 1 into chapter 2; every boss was spawned and fought for runtime errors;
 victory, death, crimson-room, shop, forge, NPC panels and the chapter 5 rush with all three Demon Lord phases were exercised).
 
@@ -425,6 +425,9 @@ victory, death, crimson-room, shop, forge, NPC panels and the chapter 5 rush wit
 - Camp: Vivian (all 11 talents, 5 tiers), Lyon (8 researches), Lilian (8 packs, toggles — deviation: packs can be switched off), Gina (bans, 5 free), Leah (9 sets with unlock rules, Soul upgrades), training dummy + arsenal, achievements (15), difficulties Easy → Nightmare 3.
 - UI: diep-style DOM overlay (HUD, Bag with click-to-place slots and tooltips, Forge, Depart, NPC panels, Pause/Settings, End screen, Title).
 - Audio: procedural SFX and a small generative music track per chapter/boss (mutes with the Sound setting). Gamepad: sticks move/aim, RT/RB fire, A skill, X interact, Y bag, LB swap wand, Start menu.
+- Visual identity for every ability: each projectile boost and trigger has its own overlay tag (`TAG_BY_SPELL`, covered by `tests/assets.test.ts`), a tinted aura on the boosted projectile and a rising icon per boost at the muzzle; event effects (chain arcs, hover countdown ring, thunder bolts at the true radius, echo/serial/duet/fireworks links, orbit/track/lock-on guides, status tints on enemies); every spell has its own cast flash, flight look and impact; summons, summon boosts and passives have auras/cues (`boostfx.ts`, `spellfx.ts`, `wandfx.ts`, `assets/AI_GUIDE.md` §4–5). All visuals are guarded by `vis` and never touch the simulation.
+- Bag cast-order preview (`previewCasts` in `wand.ts`): shows the wand's repeating casts, which boosts join which cast, and boosts that never apply (nothing to their right). With simul 1 a boost only reaches the spell(s) of its own cast — the wiki's group rule.
+- Test Mode: type `ayenbang0` (badge + F2 panel) for every spell, wand, relic, enemy and boss, god mode/infinite MP; nothing is saved while it is on (`src/core/cheat.ts`, `src/game/testmode.ts`, `src/ui/testpanel.ts`).
 
 **Headless build check** (`npm run sim`; `STANDARD_WAND` in `scripts/sim-builds.ts` is a grid-fitted stand-in for the wiki's undocumented
 "Standardization wand": 250 MP, 25 regen/s, cast interval 0.02 s, CD 0.2 s). "Sustained" = second half of a 20 s run, "peak" = best 1 s window.

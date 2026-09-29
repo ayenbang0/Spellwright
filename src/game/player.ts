@@ -3,9 +3,11 @@ import { angleTo, DEG, dist, M } from '../core/math';
 import type { Enemy } from './enemies';
 import { Actor } from './entities';
 import { castGroup, launchFlyingSword, type CastCtx } from './spells';
+import { castFlash, GOLD, YELLOW } from './spellfx';
 import { areaBoostCopies, deckOf, hasCastableFrom, planGroup, type CastGroup, type WandInst, type WandStats, wandStats } from './wand';
 import type { World } from './world';
 import { AnimSprite } from './visuals';
+import { WandFx, type PassiveInfo, type WandFxFrame } from './wandfx';
 import { RELICS } from './relics';
 
 export interface Intent {
@@ -26,6 +28,8 @@ interface Channel {
   max: number;
   mpPerSec: number;
   onStop: () => void;
+  /** Continuous spell being held (drives the wand-tip glow). */
+  id: string;
   tick: (dt: number, angle: number) => void;
 }
 
@@ -54,6 +58,10 @@ export class Player extends Actor {
   private channel: Channel | null = null;
   private charge: { wand: WandInst; group: CastGroup; t: number } | null = null;
   private chargeQueue: { wand: WandInst; group: CastGroup }[] = [];
+  private fx: WandFx | null = null;
+  private readonly fxFrame: WandFxFrame = { tipX: 0, tipY: 0, mp: 0, recharging: false, pips: 0, pipsMax: 0, swords: 0, channel: null, channelT: 0, charge: 0 };
+  /** Area Boost copies sit at the head of the deck: true while the next group starts with one (visual glint only). */
+  private headCopies = 0;
   private wandView: Sprite | null = null;
   private root: Container | null = null;
   private body: AnimSprite | null = null;
@@ -132,6 +140,7 @@ export class Player extends Actor {
     this.wandView.anchor.set(0.15, 0.85);
     this.root.addChild(this.wandView);
     vis.actors.addChild(this.root);
+    this.fx = new WandFx(vis, this.root);
     this.updateWandView();
   }
 
@@ -139,6 +148,7 @@ export class Player extends Actor {
     const vis = this.w.vis;
     const wand = this.activeWand;
     if (!vis || !this.wandView) return;
+    this.refreshPassives();
     if (!wand) {
       this.wandView.visible = false;
       return;
@@ -147,6 +157,61 @@ export class Player extends Actor {
     const path = vis.art.has(def.sprite) ? def.sprite : 'projectiles/magic_bullet.png';
     this.wandView.texture = vis.art.tex(path);
     this.wandView.visible = true;
+  }
+
+  /** Passives carried in any wand (bright when in the wand in hand) drive the wand auras. */
+  private refreshPassives() {
+    const run = this.w.run;
+    const list: PassiveInfo[] = [];
+    run.wands.forEach((wand, wi) => {
+      const all = [...wand.slots, ...wand.post];
+      all.forEach((s, idx) => {
+        const sp = s ? this.w.content.spell[s.id] : null;
+        if (!s || !sp || sp.type !== 'Passive') return;
+        let info = list.find((i) => i.id === s.id);
+        if (!info) {
+          info = { id: s.id, active: false, stack: 0 };
+          list.push(info);
+        }
+        if (wi === run.active) info.active = true;
+        if (s.id === 'magic_vine') {
+          let n = 1;
+          for (let j = idx + sp.slots; j < all.length && !all[j]; j++) n++;
+          info.stack += n;
+        }
+      });
+    });
+    this.fx?.set(list);
+  }
+
+  private feedFx(dt: number) {
+    const fx = this.fx;
+    if (!fx) return;
+    const run = this.w.run;
+    const f = this.fxFrame;
+    let mp = 0;
+    for (const wand of run.wands) mp += wand.mp / Math.max(1, this.statsOf(wand).maxMp);
+    f.mp = run.wands.length ? mp / run.wands.length : 0;
+    const wand = this.activeWand;
+    const s = wand ? this.statsOf(wand) : null;
+    f.recharging = !!wand && wand.wait > 0.35;
+    f.pips = this.chargeQueue.length;
+    f.pipsMax = s?.chargeMode?.max ?? 0;
+    f.swords = 0;
+    if (s?.flyingSwords) {
+      let live = 0;
+      for (const p of this.w.projs) if (p.spellId === 'bian_flying_sword' && !p.dead) live++;
+      f.swords = Math.max(0, s.flyingSwords - live);
+    }
+    f.channel = this.channel?.id ?? null;
+    f.channelT = this.channel?.t ?? 0;
+    f.charge = this.charge?.t ?? 0;
+    if (f.charge > 0 || f.channel || f.pips > 0) {
+      const tip = this.tip();
+      f.tipX = tip.x - this.x;
+      f.tipY = tip.y - (this.y - 6);
+    }
+    fx.update(dt, f);
   }
 
   sync(dt: number) {
@@ -176,6 +241,7 @@ export class Player extends Actor {
       this.wandView.position.set(Math.cos(this.aim) * 4, 2 + Math.sin(this.aim) * 3);
       this.wandView.zIndex = Math.sin(this.aim) < 0 ? -1 : 1;
     }
+    this.feedFx(dt);
     if (this.shadow) this.shadow.position.set(Math.round(this.x), Math.round(this.y + 5));
   }
 
@@ -314,6 +380,11 @@ export class Player extends Actor {
     if (s.chargeMode && this.chargeQueue.length && (!this.intent.fire || this.chargeQueue.length >= s.chargeMode.max)) {
       const q = this.chargeQueue;
       this.chargeQueue = [];
+      if (w.vis) {
+        const tip = this.tip();
+        w.vis.burst(tip.x, tip.y, { color: YELLOW, rays: Math.min(16, q.length * 2 + 4), r0: 3, r1: 14, life: 0.25 });
+        w.vis.ring(tip.x, tip.y, 4, { color: YELLOW, width: 2, life: 0.3, scaleTo: 3.5 });
+      }
       for (const it of q) this.fireGroup(it.wand, s, it.group, 0);
       return;
     }
@@ -348,10 +419,12 @@ export class Player extends Actor {
 
   /** Plan the group at the wand pointer. */
   nextGroup(wand: WandInst, s: WandStats): { group: CastGroup; end: number } | null {
-    const cards = deckOf(wand.slots, this.w.content, areaBoostCopies(this.w.run.wands, this.w.content));
+    const copies = areaBoostCopies(this.w.run.wands, this.w.content);
+    const cards = deckOf(wand.slots, this.w.content, copies);
     if (!hasCastableFrom(cards, 0)) return null;
     let ptr = wand.ptr;
     if (!hasCastableFrom(cards, ptr)) ptr = 0;
+    this.headCopies = ptr === 0 ? copies.length : 0;
     const { group, next } = planGroup(cards, ptr, s.simul, { content: this.w.content, baseSimul: s.simul, mpMult: s.mpMult });
     return { group, end: next };
   }
@@ -361,6 +434,11 @@ export class Player extends Actor {
     const intervalMult = this.w.stats.intervalMult * (this.focusMult());
     if (!hasCastableFrom(cards, end)) {
       wand.ptr = 0;
+      // Forced Cooldown: an orange flick at the tip when the wand starts a (shortened) recharge
+      if (this.w.vis && wand === this.activeWand && s.cd < this.w.content.wand[wand.defId].cd) {
+        const tip = this.tip();
+        this.w.vis.burst(tip.x, tip.y, { color: 0xf97316, rays: 4, r0: 3, r1: 9, life: 0.22 });
+      }
       wand.wait = Math.max(0.05, (s.cd + group.cdAdd) * intervalMult) + Math.max(0, s.interval + group.intervalAdd) * 0;
     } else {
       wand.ptr = end;
@@ -388,7 +466,7 @@ export class Player extends Actor {
       scatter: s.scatter + group.scatter + w.stats.scatterAdd * (this.focusMult() < 1 ? 0.4 : 1),
       reverse: def.flags.includes('reverse') || this.w.run.curses.includes('rebellion'),
       channel: (c) => {
-        this.channel = { wand, group, t: 0, max: c.max, mpPerSec: c.mpPerSec, onStop: c.onStop, tick: c.tick };
+        this.channel = { wand, group, t: 0, max: c.max, mpPerSec: c.mpPerSec, onStop: c.onStop, tick: c.tick, id: group.items.find((i) => i.spell.castMode === 'continuous')?.spell.id ?? '' };
       },
     };
     const dirs = def.flags.includes('quad') ? [0, 90, 180, 270] : [0];
@@ -396,7 +474,12 @@ export class Player extends Actor {
     this.casting = 0.25;
     this.lastCastT = w.time;
     this.noHitT = this.noHitT;
-    if (w.vis) w.vis.oneShot('effects/muzzle', tip.x, tip.y, { rot: angle });
+    castFlash(w, group, tip.x, tip.y, angle, chargeT);
+    if (this.headCopies > 0) {
+      this.headCopies = 0;
+      this.fx?.pulse('area');
+      w.vis?.burst(tip.x, tip.y, { color: GOLD, rays: 6, r0: 3, r1: 10, life: 0.25 });
+    }
     // recoil
     const recoil = 30 * w.stats.recoilMult * (def.flags.includes('reverseRecoil') ? -1 : 1) * (def.flags.includes('noRecoilStill') && this.stillT > 0 ? 0 : 1);
     this.recoilX -= Math.cos(angle) * recoil;
@@ -416,6 +499,13 @@ export class Player extends Actor {
       if (!free && other.mp < next.group.mp) return;
       if (!free) other.mp -= next.group.mp;
       this.advance(other, os, next.group, next.end);
+      // the rune links the two wands: a violet arc to the echoing wand, a white-gold ring when the echo is free
+      this.fx?.pulse('rune');
+      if (w.vis) {
+        w.vis.beam(this.x - 11, this.y - 15, tip.x, tip.y, { color: free ? GOLD : 0xa78bfa, jitter: 2, life: 0.22 });
+        if (free) w.vis.ring(tip.x, tip.y, 4, { color: 0xffffff, width: 2, life: 0.3, scaleTo: 3.5 });
+        else w.vis.burst(tip.x, tip.y, { color: 0xa78bfa, rays: 6, r0: 3, r1: 10, life: 0.22 });
+      }
       this.fireGroup(other, os, next.group, 0, angle);
     });
   }
@@ -431,6 +521,8 @@ export class Player extends Actor {
     wand.mp -= next.group.mp;
     this.advance(wand, s, next.group, next.end);
     const a = angleTo(this.x, this.y - 6, target.x, target.y);
+    this.fx?.aimSpirit(a);
+    this.fx?.pulse('spirit');
     this.fireGroup(wand, s, next.group, 0, a, { x: this.x + Math.cos(a) * 8, y: this.y - 6 + Math.sin(a) * 8 });
   }
 
@@ -505,6 +597,8 @@ export class Player extends Actor {
         wand.mp -= cost;
         this.w.explode(this.x, this.y, 4 * M, Math.round(cost * 4), 0, { fx: 'effects/arcane_ring' });
         this.invuln = 0.5;
+        this.fx?.pulse('barrier');
+        this.w.vis?.ring(this.x, this.y - 4, 4 * M, { color: 0x22d3ee, width: 2, life: 0.4, fill: 0.1 });
         return true;
       }
     }

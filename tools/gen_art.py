@@ -22,7 +22,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import art_core  # noqa: E402
-import art_chars, art_bosses, art_world, art_fx, art_ui, art_icons, art_items  # noqa: E402,E401
+import art_chars, art_bosses, art_world, art_fx, art_boost_fx, art_spell_fx, art_ui, art_icons, art_items  # noqa: E402,E401
 
 ROOT = art_core.ROOT
 
@@ -59,6 +59,27 @@ def manifest():
                 "orbit": "ov_orbit+dashed ring",
                 "duet": "ov_duet+chain",
                 "echo": "ov_echo+faded copy",
+                "enlarge": "ov_enlarge+swell ring at cast",
+                "fall": "ov_fall+falling arrow+landing ring",
+                "slime": "ov_slime+olive tint on foes",
+                "scatter": "ov_scatter+ragged spray at cast",
+                "chain": "ov_chain+tether to muzzle+bolt along damage segment",
+                "hover": "ov_hover+countdown ring+end pop",
+                "track": "ov_track+cursor line",
+                "reflect": "ov_reflect+beam to next foe",
+                "split": "ov_split+fan burst",
+                "dmg": "ov_dmg+red aura",
+                "duration": "ov_duration+dashed life ring",
+                "saving": "ov_saving+green aura",
+                "precise": "ov_precise+aim line at cast",
+                "accel": "ov_accel+streaks+dense trail",
+                "range": "ov_range+teal ring on impact",
+                "traction": "ov_traction+beam to yanked foes",
+                "upgrade": "ov_upgrade+level-up glint",
+                "mimic": "ov_mimic+prism ring",
+                "serial": "ov_serial+relay ring+beam",
+                "fireworks": "ov_fireworks+radial burst",
+                "aura": "effects/boost_aura tinted by family colour under every boosted shot",
             },
         },
         "attackTiming": {"telegraph": 0.3, "windup": 0.1, "impactFrames": 3},
@@ -86,7 +107,7 @@ def filelist():
 def main():
     os.makedirs(ROOT, exist_ok=True)
     wipe_pngs()
-    for mod in (art_chars, art_bosses, art_world, art_fx, art_ui, art_icons, art_items):
+    for mod in (art_chars, art_bosses, art_world, art_fx, art_boost_fx, art_spell_fx, art_ui, art_icons, art_items):
         mod.build()
     manifest()
     files = filelist()

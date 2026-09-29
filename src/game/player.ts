@@ -74,6 +74,9 @@ export class Player extends Actor {
   recoilX = 0;
   recoilY = 0;
   lastCastT = 0;
+  /** Position at the start of the latest simulation step; the view is drawn between this and the current position. */
+  prevX = 0;
+  prevY = 0;
 
   constructor(private readonly w: World) {
     super();
@@ -267,9 +270,18 @@ export class Player extends Actor {
     this.w.vis?.shake(4, 0.4);
   }
 
+  /** Draw the player (and shadow) at a render-time position, snapped to whole screen pixels of scale `s`. */
+  placeView(x: number, y: number, s: number) {
+    if (!this.root) return;
+    this.root.position.set(Math.round(x * s) / s, Math.round((y - 6) * s) / s);
+    this.shadow?.position.set(Math.round(x * s) / s, Math.round((y + 5) * s) / s);
+  }
+
   // ---------------------------------------------------------------- update
 
   update(dt: number) {
+    this.prevX = this.x;
+    this.prevY = this.y;
     const w = this.w;
     const run = w.run;
     const st = w.stats;

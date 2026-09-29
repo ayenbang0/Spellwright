@@ -323,7 +323,7 @@ export class Visuals {
     if (this.flashT > 0) this.flashG.rect(0, 0, this.screenW, this.screenH).fill({ color: this.flashColor, alpha: Math.min(0.22, this.flashT * 2) });
   }
 
-  /** Position the camera (world px) with shake; snaps to whole source pixels. */
+  /** Position the camera (world px) with shake; snaps to whole screen pixels (sub-pixel scrolling stays smooth). */
   camera(x: number, y: number) {
     let sx = 0;
     let sy = 0;
@@ -334,7 +334,7 @@ export class Visuals {
     this.camX = x;
     this.camY = y;
     const s = this.root.scale.x;
-    this.root.position.set(Math.round(-x + this.viewW / 2 + sx) * s, Math.round(-y + this.viewH / 2 + sy) * s);
+    this.root.position.set(Math.round((-x + this.viewW / 2 + sx) * s), Math.round((-y + this.viewH / 2 + sy) * s));
   }
 
   clearAll() {

@@ -333,14 +333,31 @@ export class World {
       if (p.view instanceof AnimSprite) p.view.step(dt);
     }
     vis.step(dt);
+  }
+
+  /**
+   * Called once per rendered frame. The simulation steps at a fixed 60 Hz but frames do not line up with steps (vsync
+   * jitter, 120/144 Hz displays), so a frame sees 0, 1 or 2 new steps: drawn at the step position, the player froze for
+   * a frame and then lurched. Instead the player and the camera are placed between the last two step positions
+   * (`alpha` = how far the current frame is into the next step), snapped to whole screen pixels rather than source pixels.
+   */
+  renderFrame(alpha: number) {
+    const vis = this.vis;
+    if (!vis) return;
+    const pl = this.player;
+    const s = vis.root.scale.x;
+    const a = this.paused ? 1 : Math.max(0, Math.min(1, alpha));
+    // teleports (room changes, curses) are not interpolated
+    const jump = Math.abs(pl.x - pl.prevX) > 24 || Math.abs(pl.y - pl.prevY) > 24;
+    const x = jump ? pl.x : pl.prevX + (pl.x - pl.prevX) * a;
+    const y = jump ? pl.y : pl.prevY + (pl.y - pl.prevY) * a;
+    pl.placeView(x, y, s);
     const r = this.room;
     const halfW = vis.viewW / 2;
     const halfH = vis.viewH / 2;
     const rw = r.w * TILE;
     const rh = r.h * TILE;
-    const cx = rw <= vis.viewW ? rw / 2 : clamp(this.player.x, halfW, rw - halfW);
-    const cy = rh <= vis.viewH ? rh / 2 : clamp(this.player.y, halfH, rh - halfH);
-    vis.camera(cx, cy);
+    vis.camera(rw <= vis.viewW ? rw / 2 : clamp(x, halfW, rw - halfW), rh <= vis.viewH ? rh / 2 : clamp(y, halfH, rh - halfH));
   }
 
   // ---------------------------------------------------------------- movement

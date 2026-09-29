@@ -1274,6 +1274,7 @@ export class Game {
       steps++;
       this.step(1 / 60);
     }
+    this.world.renderFrame(this.acc * 60);
     this.ui.frame();
     const i = this.input;
     this.crosshair.visible = !this.ui.modalOpen && !this.ui.onTitle;

@@ -74,9 +74,6 @@ export class Player extends Actor {
   recoilX = 0;
   recoilY = 0;
   lastCastT = 0;
-  /** Position at the start of the latest simulation step; the view is drawn between this and the current position. */
-  prevX = 0;
-  prevY = 0;
 
   constructor(private readonly w: World) {
     super();

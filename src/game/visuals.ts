@@ -73,6 +73,17 @@ export class Visuals {
   private trailNext = 0;
   private trailBudget = 0;
   private static readonly TRAILS = 420;
+  /**
+   * Impact sparks, bursts, rings and enemy-hit numbers are cosmetic. A bullet storm lands hundreds of hits a second and
+   * building (then destroying) a display object for each costs more than the whole simulation, which drags every frame,
+   * and with it the walking, below 60 Hz. So each step may spawn only a few, and none while many are alive; the rest are
+   * invisible under them anyway. Telegraphs, zones, beams and the player's own numbers are never skipped.
+   */
+  private static readonly SPARKS_PER_STEP = 8;
+  private static readonly HIT_NUMBERS_PER_STEP = 3;
+  private static readonly FX_LIVE_MAX = 160;
+  private sparkBudget = Visuals.SPARKS_PER_STEP;
+  private hitNumberBudget = Visuals.HIT_NUMBERS_PER_STEP;
   private shakeT = 0;
   private shakeMag = 0;
   camX = 0;
@@ -123,6 +134,7 @@ export class Visuals {
 
   /** One-shot animation (impacts, puffs); removed when finished. */
   oneShot(base: string, x: number, y: number, opts: { scale?: number; tint?: number; rot?: number; layer?: Container } = {}) {
+    if (!this.spark()) return;
     const a = this.sprite(base);
     a.position.set(x, y);
     if (opts.scale) a.scale.set(opts.scale);
@@ -181,6 +193,7 @@ export class Visuals {
 
   /** Circle outline (optionally filled) centred on a world point; grows to `scaleTo`x its radius while fading. */
   ring(x: number, y: number, r: number, opts: { color?: number; width?: number; life?: number; scaleTo?: number; fill?: number; layer?: Container } = {}) {
+    if (!this.spark()) return;
     const color = opts.color ?? 0x22d3ee;
     const g = new Graphics();
     if (opts.fill) g.circle(0, 0, r).fill({ color, alpha: opts.fill });
@@ -188,7 +201,6 @@ export class Visuals {
     g.position.set(x, y);
     (opts.layer ?? this.fx).addChild(g);
     this.fxList.push({ view: g, life: opts.life ?? 0.3, age: 0, vx: 0, vy: 0, fade: true, scaleTo: opts.scaleTo });
-    return g;
   }
 
   /**
@@ -212,6 +224,7 @@ export class Visuals {
 
   /** Radial spark lines around a world point, flying outward (`r0` → `r1`, then scaled up) while fading. */
   burst(x: number, y: number, opts: { color?: number; rays?: number; r0?: number; r1?: number; width?: number; life?: number; scaleTo?: number; layer?: Container } = {}) {
+    if (!this.spark()) return;
     const rays = opts.rays ?? 8;
     const r0 = opts.r0 ?? 2;
     const r1 = opts.r1 ?? 6;
@@ -225,11 +238,11 @@ export class Visuals {
     g.position.set(x, y);
     (opts.layer ?? this.fx).addChild(g);
     this.fxList.push({ view: g, life: opts.life ?? 0.25, age: 0, vx: 0, vy: 0, fade: true, scaleTo: opts.scaleTo ?? 1.8 });
-    return g;
   }
 
   /** Spark lines from a world point along explicit angles (fans, cones), `r0` → `r1`, fading. */
   rays(x: number, y: number, angles: number[], opts: { color?: number; r0?: number; r1?: number; width?: number; life?: number; scaleTo?: number; layer?: Container } = {}) {
+    if (!this.spark()) return;
     const r0 = opts.r0 ?? 3;
     const r1 = opts.r1 ?? 14;
     const g = new Graphics();
@@ -238,11 +251,11 @@ export class Visuals {
     g.position.set(x, y);
     (opts.layer ?? this.fx).addChild(g);
     this.fxList.push({ view: g, life: opts.life ?? 0.2, age: 0, vx: 0, vy: 0, fade: true, scaleTo: opts.scaleTo ?? 1.3 });
-    return g;
   }
 
   /** A row of `n` small dots centred on a world point that drifts upward while fading (counts / copies). */
   pips(x: number, y: number, n: number, opts: { color?: number; gap?: number; life?: number; vy?: number; layer?: Container } = {}) {
+    if (!this.spark()) return;
     const gap = opts.gap ?? 3;
     const color = opts.color ?? 0xffffff;
     const g = new Graphics();
@@ -250,7 +263,6 @@ export class Visuals {
     g.position.set(x, y);
     (opts.layer ?? this.fx).addChild(g);
     this.fxList.push({ view: g, life: opts.life ?? 0.35, age: 0, vx: 0, vy: opts.vy ?? -14, fade: true });
-    return g;
   }
 
   /** A short fading puff behind a projectile. Skipped once this frame's budget is spent. */
@@ -283,6 +295,20 @@ export class Visuals {
     this.fxList.push({ view: t, life: 0.7, age: 0, vx: 0, vy: -18, fade: true, rise: 1 });
   }
 
+  /** Damage number over a hit enemy: cosmetic, so it has its own small per-step budget (see `sparkBudget`). */
+  hitNumber(x: number, y: number, text: string, tint: number) {
+    if (this.hitNumberBudget <= 0 || this.fxList.length >= Visuals.FX_LIVE_MAX) return;
+    this.hitNumberBudget--;
+    this.number(x, y, text, tint);
+  }
+
+  /** Take one unit of the cosmetic budget; false when this step is out of it (see `sparkBudget`). */
+  private spark(): boolean {
+    if (this.sparkBudget <= 0 || this.fxList.length >= Visuals.FX_LIVE_MAX) return false;
+    this.sparkBudget--;
+    return true;
+  }
+
   shake(mag: number, t = 0.15) {
     if (mag >= this.shakeMag || this.shakeT <= 0) {
       this.shakeMag = mag;
@@ -297,6 +323,8 @@ export class Visuals {
 
   step(dt: number) {
     this.trailBudget = 40;
+    this.sparkBudget = Visuals.SPARKS_PER_STEP;
+    this.hitNumberBudget = Visuals.HIT_NUMBERS_PER_STEP;
     for (const e of this.trailPool) {
       if (!e.s.visible) continue;
       e.age += dt;
@@ -312,11 +340,14 @@ export class Visuals {
       if (f.scaleTo !== undefined) f.view.scale.set(1 + (f.scaleTo - 1) * Math.min(1, f.age / f.life));
       if (f.grow) f.grow.scale.set(Math.min(1, f.age / f.life));
     }
-    this.fxList = this.fxList.filter((f) => {
+    // compact in place: this runs every step with up to hundreds of live effects
+    let live = 0;
+    for (const f of this.fxList) {
       const over = f.anim ? f.anim.done || f.age >= f.life : f.age >= f.life;
       if (over) f.view.destroy({ children: true });
-      return !over;
-    });
+      else this.fxList[live++] = f;
+    }
+    this.fxList.length = live;
     this.shakeT -= dt;
     this.flashT -= dt;
     this.flashG.clear();

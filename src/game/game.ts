@@ -1,6 +1,7 @@
 import { Application, Container, Graphics, Sprite, Texture, TilingSprite } from 'pixi.js';
 import { Art } from '../core/art';
 import { Audio, type Track } from '../core/audio';
+import { FixedStep } from '../core/fixedstep';
 import { Input } from '../core/input';
 import { dist2, TILE } from '../core/math';
 import { ACHIEVEMENTS, bonuses, DIFFICULTY_ACH, type MetaBonuses } from '../meta/meta';
@@ -62,7 +63,7 @@ export class Game {
   mode: Mode = 'camp';
   run!: RunState;
   world!: World;
-  private acc = 0;
+  private readonly clock = new FixedStep();
   private bg!: TilingSprite;
   private crosshair!: Sprite;
   private waves = 0;
@@ -1266,15 +1267,7 @@ export class Game {
   // ------------------------------------------------------------------ frame
 
   private frame(dt: number) {
-    dt = Math.min(dt, 0.1);
-    this.acc += dt;
-    let steps = 0;
-    while (this.acc >= 1 / 60 && steps < 5) {
-      this.acc -= 1 / 60;
-      steps++;
-      this.step(1 / 60);
-    }
-    this.world.renderFrame(this.acc * 60);
+    this.world.renderFrame(this.clock.advance(dt, (step) => this.step(step)));
     this.ui.frame();
     const i = this.input;
     this.crosshair.visible = !this.ui.modalOpen && !this.ui.onTitle;

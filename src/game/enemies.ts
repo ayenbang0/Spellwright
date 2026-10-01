@@ -243,16 +243,23 @@ export class Enemy extends Actor {
     this.setStatusIcon(1, 'effects/burn_flames.png', burning, 0, -6 * this.scale - Math.abs(Math.sin(this.t * 10)) * 1.5);
     this.setStatusIcon(2, 'effects/poison_bubbles.png', poisoned, 3 * this.scale, -9 * this.scale - ((this.t * 5) % 1) * 3, 0.9);
     this.body.scale.x = (this.faceLeft ? -1 : 1) * this.scale;
-    const bob = this.flying ? Math.sin(this.t * 5) * 2 : 0;
-    this.root.position.set(Math.round(this.x), Math.round(this.y - 4 * this.scale + bob));
+    this.place(this.x, this.y);
     this.root.zIndex = this.y;
     if (this.phase === 'windup') this.body.scale.set((this.faceLeft ? -1 : 1) * this.scale * 1.15, this.scale * 1.15);
-    this.shadow?.position.set(Math.round(this.x), Math.round(this.y + 4 * this.scale));
     if (this.hpBar && this.hpFill) {
       const show = this.w.stats.showHpBars > 0 || this.hp < this.maxHp;
       this.hpBar.visible = show;
       this.hpFill.width = Math.max(0, 14 * (this.hp / this.maxHp));
     }
+  }
+
+  /** Put the views at world position (x, y): the step position, or an interpolated one at render time (`World.renderFrame`). */
+  place(x: number, y: number) {
+    if (!this.root) return;
+    const w = this.w;
+    const bob = this.flying ? Math.sin(this.t * 5) * 2 : 0;
+    this.root.position.set(w.snap(x), w.snap(y - 4 * this.scale + bob));
+    this.shadow?.position.set(w.snap(x), w.snap(y + 4 * this.scale));
   }
 
   /** Switch to another sprite group (boss phases). */

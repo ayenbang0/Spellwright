@@ -25,6 +25,9 @@ export const POISON_DPS_PER_STACK = 1;
 
 export type PickupKind = 'coin' | 'heart' | 'key' | 'shield' | 'crystal' | 'blood' | 'diamond' | 'potion';
 
+/** A step that moves a body further than this (px) is a teleport or room change: it is drawn there at once, not glided to. */
+const TELEPORT_PX = 24;
+
 export interface Pickup {
   kind: PickupKind;
   x: number;
@@ -243,6 +246,18 @@ export class World {
     this.time += dt;
     this.run.time += dt;
     this.run.temp.regenT = Math.max(0, this.run.temp.regenT - dt);
+    for (const s of this.summons) {
+      s.prevX = s.x;
+      s.prevY = s.y;
+    }
+    for (const e of this.enemies) {
+      e.prevX = e.x;
+      e.prevY = e.y;
+    }
+    for (const p of this.projs) {
+      p.prevX = p.x;
+      p.prevY = p.y;
+    }
     this.player.update(dt);
     for (const s of this.summons) s.update(dt);
     for (const e of this.enemies) e.update(dt);
@@ -348,7 +363,7 @@ export class World {
     const s = vis.root.scale.x;
     const a = this.paused ? 1 : Math.max(0, Math.min(1, alpha));
     // teleports (room changes, curses) are not interpolated
-    const jump = Math.abs(pl.x - pl.prevX) > 24 || Math.abs(pl.y - pl.prevY) > 24;
+    const jump = Math.abs(pl.x - pl.prevX) > TELEPORT_PX || Math.abs(pl.y - pl.prevY) > TELEPORT_PX;
     const x = jump ? pl.x : pl.prevX + (pl.x - pl.prevX) * a;
     const y = jump ? pl.y : pl.prevY + (pl.y - pl.prevY) * a;
     pl.placeView(x, y, s);
@@ -358,6 +373,32 @@ export class World {
     const rw = r.w * TILE;
     const rh = r.h * TILE;
     vis.camera(rw <= vis.viewW ? rw / 2 : clamp(x, halfW, rw - halfW), rh <= vis.viewH ? rh / 2 : clamp(y, halfH, rh - halfH));
+    // Everything else that moves is drawn between its last two step positions too, on the same screen-pixel grid:
+    // snapped to whole art pixels instead, slow movers hopped 4 screen px at a time and stalled every few frames.
+    for (const e of this.enemies) {
+      if (e.dead) continue;
+      const dx = e.x - e.prevX;
+      const dy = e.y - e.prevY;
+      if ((dx !== 0 || dy !== 0) && Math.abs(dx) <= TELEPORT_PX && Math.abs(dy) <= TELEPORT_PX) e.place(e.prevX + dx * a, e.prevY + dy * a);
+    }
+    for (const s of this.summons) {
+      if (s.dead) continue;
+      const dx = s.x - s.prevX;
+      const dy = s.y - s.prevY;
+      if ((dx !== 0 || dy !== 0) && Math.abs(dx) <= TELEPORT_PX && Math.abs(dy) <= TELEPORT_PX) s.placeAt(s.prevX + dx * a, s.prevY + dy * a);
+    }
+    for (const p of this.projs) {
+      if (p.dead) continue;
+      const dx = p.x - p.prevX;
+      const dy = p.y - p.prevY;
+      if ((dx !== 0 || dy !== 0) && Math.abs(dx) <= TELEPORT_PX && Math.abs(dy) <= TELEPORT_PX) p.placeView(p.prevX + dx * a, p.prevY + dy * a);
+    }
+  }
+
+  /** Round a world coordinate to a whole screen pixel. Actors sit on the screen grid, not the art grid, so they glide. */
+  snap(v: number): number {
+    const s = this.vis!.root.scale.x;
+    return Math.round(v * s) / s;
   }
 
   // ---------------------------------------------------------------- movement
@@ -421,16 +462,22 @@ export class World {
 
   addProj(p: Proj) {
     this.projs.push(p);
+    p.prevX = p.x;
+    p.prevY = p.y;
     p.attachView();
   }
 
   addEnemy(e: Enemy) {
     this.enemies.push(e);
+    e.prevX = e.x;
+    e.prevY = e.y;
     e.attachView();
   }
 
   addSummon(s: Summon) {
     this.summons.push(s);
+    s.prevX = s.x;
+    s.prevY = s.y;
     s.attachView();
   }
 
@@ -566,7 +613,7 @@ export class World {
     }
     if (info.elements) for (const el of info.elements) this.applyElement(e, el, amount);
     if (!info.noNumber && this.vis && dmg > 0) {
-      this.vis.number(e.x + this.rng.range(-4, 4), e.y - e.hr - 4, info.crit ? `${dmg}!` : String(dmg), info.crit ? 0xfacc15 : 0xffffff);
+      this.vis.hitNumber(e.x + this.rng.range(-4, 4), e.y - e.hr - 4, info.crit ? `${dmg}!` : String(dmg), info.crit ? 0xfacc15 : 0xffffff);
       if (info.crit) this.vis.timed('effects/crit_star.png', e.x, e.y - 6, 0.25, { vy: -20 });
     }
     this.sfx(info.crit ? 'crit' : 'hit', 0.5);

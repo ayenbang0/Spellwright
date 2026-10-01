@@ -97,6 +97,9 @@ export class Proj {
   onEnd: ((p: Proj) => void) | null = null;
   recall: (() => void) | null = null;
   view: Container | null = null;
+  /** Position at the start of the latest simulation step: the view is drawn between this and (x, y) (`World.renderFrame`). */
+  prevX: number;
+  prevY: number;
   private base: AnimSprite | null = null;
   private rotateView: boolean;
   private trailT = 0;
@@ -112,6 +115,8 @@ export class Proj {
     this.ox = o.x;
     this.oy = o.y;
     this.y = o.y;
+    this.prevX = o.x;
+    this.prevY = o.y;
     this.speed = o.speed;
     this.vx = Math.cos(o.angle) * o.speed;
     this.vy = Math.sin(o.angle) * o.speed;
@@ -199,7 +204,7 @@ export class Proj {
 
   sync(dt: number) {
     if (!this.view) return;
-    this.view.position.set(Math.round(this.x), Math.round(this.y));
+    this.placeView(this.x, this.y);
     if (this.base) {
       this.base.step(dt);
       if (this.rotateView && this.speed > 0.01) this.base.rotation = this.angle;
@@ -214,6 +219,11 @@ export class Proj {
       }
     }
     this.fx?.sync();
+  }
+
+  /** Put the view at world position (x, y): the step position, or an interpolated one at render time. */
+  placeView(x: number, y: number) {
+    this.view?.position.set(this.w.snap(x), this.w.snap(y));
   }
 
   destroyView() {

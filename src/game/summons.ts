@@ -110,12 +110,23 @@ export class Summon extends Actor {
     if (!this.view) return;
     this.view.step(dt);
     const bob = this.flying ? Math.sin(this.age * 4) * 2 : 0;
-    const gx = Math.round(this.x);
-    const gy = Math.round(this.y - 6 + bob);
+    const gx = this.w.snap(this.x);
+    const gy = this.w.snap(this.y - 6 + bob);
     this.view.position.set(gx, gy);
     this.view.zIndex = this.y;
     this.decorate(dt, gx, gy);
-    this.shadow?.position.set(Math.round(this.x), Math.round(this.y + 3));
+    this.shadow?.position.set(this.w.snap(this.x), this.w.snap(this.y + 3));
+  }
+
+  /** Redraw at an interpolated world position (render time): the same placement as `sync`, with no animation or timer advance. */
+  placeAt(x: number, y: number) {
+    const sx = this.x;
+    const sy = this.y;
+    this.x = x;
+    this.y = y;
+    this.sync(0);
+    this.x = sx;
+    this.y = sy;
   }
 
   /** Per-kind auras and boost cues (parasite, troll, cord, fusion, cadaver, essence, indomitability). */

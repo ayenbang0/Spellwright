@@ -45,6 +45,9 @@ export class Actor {
   view: AnimSprite | null = null;
   shadow: Container | null = null;
   faceLeft = false;
+  /** Position at the start of the latest simulation step: views are drawn between this and (x, y) (`World.renderFrame`). */
+  prevX = 0;
+  prevY = 0;
 
   poisonTotal(): number {
     let n = 0;
